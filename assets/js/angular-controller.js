@@ -462,7 +462,7 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
 
     
         /* Gritter Notification
-        ------------------------- */
+        -------------------------
         setTimeout(function() {
             $.gritter.add({
                 title: 'Welcome back, Admin!',
@@ -472,7 +472,7 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
                 time: '',
                 class_name: 'my-sticky-class'
             });
-        }, 1000);
+        }, 1000);*/
     });
 });
 /* -------------------------------
