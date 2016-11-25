@@ -99,7 +99,28 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.personal.crear', {
             url: '/crear',
             data: { pageTitle: 'Crear Personal' },
-            templateUrl: 'views/personal_crear.html'
+            templateUrl: 'views/personal_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css',
+                            'assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css',
+                            'assets/plugins/gritter/css/jquery.gritter.css',
+                            'assets/plugins/bootstrap-datepicker/css/datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/datepicker3.css',
+                            'assets/plugins/morris/morris.css',
+                            'assets/plugins/morris/raphael.min.js',
+                            'assets/plugins/morris/morris.js',
+                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js',
+                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js',
+                            'assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js',
+                            'assets/plugins/gritter/js/jquery.gritter.js'
+                        ]
+                    });
+                }]
+            }
         })
         .state('app.personal.editar', {
             url: '/editar',
