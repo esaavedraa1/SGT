@@ -12,7 +12,7 @@ var colorAdminApp = angular.module('colorAdminApp', [
 ]);
 
 colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/app/dashboard/v1');
+    $urlRouterProvider.otherwise('/app/dashboard');
 
     $stateProvider
         .state('app', {
@@ -22,13 +22,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
         .state('app.dashboard', {
             url: '/dashboard',
-            template: '<div ui-view></div>',
-            abstract: true
-        })
-        .state('app.dashboard.v1', {
-            url: '/v1',
             templateUrl: 'views/index.html',
-            data: { pageTitle: 'Dashboard v1' },
+            data: { pageTitle: 'Dashboard' },
             resolve: {
                 service: ['$ocLazyLoad', function($ocLazyLoad) {
                     return $ocLazyLoad.load({
