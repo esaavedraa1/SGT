@@ -113,11 +113,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Eliminar Personal' },
             templateUrl: 'views/personal_eliminar.html'
         })
-        .state('app.personal.buscar', {
-        url: '/buscar',
-        data: { pageTitle: 'Buscar Personal' },
-        templateUrl: 'views/personal_buscar.html'
-         })
         .state('app.personal.limitaciones', {
             url: '/limitaciones',
             data: { pageTitle: 'Personal Limitaciones' },
@@ -496,7 +491,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/flot/jquery.flot.stack.min.js',
                             'assets/plugins/flot/jquery.flot.crosshair.min.js',
                             'assets/plugins/flot/jquery.flot.categories.js',
-                            'assets/plugins/flot/angular-flot.js',
+                            'assets/plugins/flot/angular-flot.js'
                         ]
                     })
                 }]
