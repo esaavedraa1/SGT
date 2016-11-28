@@ -115,7 +115,7 @@ colorAdminApp.controller('appController', ['$rootScope', '$scope', function($roo
         $rootScope.setting.layout.pageLanguageBar = false;
         $rootScope.setting.layout.pageSidebarTransparent = false;
         $rootScope.setting.layout.pageWideSidebar = false;
-        $rootScope.setting.layout.pageLightSidebar = false;
+        $rootScope.setting.layout.pageLightSidebar = true;
         $rootScope.setting.layout.pageFooter = false;
         $rootScope.setting.layout.pageMegaMenu = false;
         $rootScope.setting.layout.pageWithoutHeader = false;
