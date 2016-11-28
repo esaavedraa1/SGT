@@ -37,31 +37,36 @@
                 </a>
                 <ul class="sub-menu">
                     <li ui-sref-active="active"><a ui-sref="app.personal.todos">Personal</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.personal.buscar">Personal Buscar</a></li>
                     <li ui-sref-active="active"><a ui-sref="app.personal.crear">Personal Crear</a></li>
                     <li ui-sref-active="active"><a ui-sref="app.personal.editar">Personal Editar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.personal.buscar">Personal Buscar</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.personal.eliminar">Personal Eliminar</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.personal.limitaciones">Limitaciones</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.personal.restricciones">Restricciones</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.licencia')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Licencia Conducir</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.licencia.todos">Licencia</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.licencia.tipo">Licencia Tipos</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.licencia.crear">Licencia Crear</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.licencia.editar">Licencia Editar</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li class="has-sub" ng-class="{active:$state.includes('app.ui')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
                     <i class="fa fa-suitcase"></i>
-                    <span>Cargo Personal</span> 
+                    <span>Contrato</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.ui.general">General</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.typography">Typography</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.tabsAccordions">Tabs & Accordions</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.unlimitedTabs">Unlimited Nav Tabs</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.modalNotification">Modal & Notification</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.widgetBoxes">Widget Boxes</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.mediaObject">Media Object</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.buttons">Buttons</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.icons">Icons</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.simpleLineIcons">Simple Line Icons</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.ionicons">Ionicons</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.tree">Tree View</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.ui.languageBarIcon">Language Bar & Icon</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contrato.todos">Contratos</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contrato.buscar">Contratos Buscar</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contrato.crear">Contratos Crear</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contrato.editar">Contratos Editar</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.contrato.eliminar">Contratos ELiminar</a></li>
+
                 </ul>
             </li>
             <li class="has-sub" ng-class="{active:$state.includes('app.form')}">

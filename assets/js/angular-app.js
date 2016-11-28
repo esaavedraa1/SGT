@@ -47,30 +47,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.dashboard.v2', {
-            url: '/v2',
-            templateUrl: 'views/index_v2.html',
-            data: { pageTitle: 'Dashboard v2' },
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css',
-                            'assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css',
-                            'assets/plugins/gritter/css/jquery.gritter.css',
-                            'assets/plugins/morris/morris.css',
-                            'assets/plugins/morris/raphael.min.js',
-                            'assets/plugins/morris/morris.js',
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js',
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js',
-                            'assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js',
-                            'assets/plugins/gritter/js/jquery.gritter.js'
-                        ] 
-                    });
-                }]
-            }
-        })
 
         .state('app.personal', {
             url: '/personal',
@@ -78,7 +54,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             abstract: true
         })
         .state('app.personal.todos', {
-        url: '/full',
+        url: '/todos',
         data: { pageTitle: 'Tabla Personal' },
             resolve: {
                 service: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -132,199 +108,87 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Buscar Personal' },
             templateUrl: 'views/personal_buscar.html'
         })
+        .state('app.personal.eliminar', {
+            url: '/eliminar',
+            data: { pageTitle: 'Eliminar Personal' },
+            templateUrl: 'views/personal_eliminar.html'
+        })
+        .state('app.personal.buscar', {
+        url: '/buscar',
+        data: { pageTitle: 'Buscar Personal' },
+        templateUrl: 'views/personal_buscar.html'
+         })
+        .state('app.personal.limitaciones', {
+            url: '/limitaciones',
+            data: { pageTitle: 'Personal Limitaciones' },
+            templateUrl: 'views/personal_limitaciones.html'
+        })
+        .state('app.personal.restricciones', {
+            url: '/restricciones',
+            data: { pageTitle: 'Personal Restricciones' },
+            templateUrl: 'views/personal_restricciones.html'
+        })
 
-        .state('app.ui', {
-            url: '/ui',
+
+        .state('app.licencia', {
+            url: '/licencia',
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.ui.general', {
-            url: '/general',
-            data: { pageTitle: 'UI General' },
-            templateUrl: 'views/ui_general.html'
+
+        .state('app.licencia.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Licencia Todos' },
+            templateUrl: 'views/licencia_todos.html'
         })
-        .state('app.ui.typography', {
-            url: '/typography',
-            data: { pageTitle: 'UI Typography' },
-            templateUrl: 'views/ui_typography.html'
+
+        .state('app.licencia.tipo', {
+            url: '/tipo',
+            data: { pageTitle: 'Licencia Tipo' },
+            templateUrl: 'views/licencia_tipo.html'
         })
-        .state('app.ui.tabsAccordions', {
-            url: '/tabs-accordions',
-            data: { pageTitle: 'UI Tabs & Accordions' },
-            templateUrl: 'views/ui_tabs_accordions.html'
+        .state('app.licencia.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Licencia Crear' },
+            templateUrl: 'views/licencia_crear.html'
         })
-        .state('app.ui.unlimitedTabs', {
-            url: '/unlimited-nav-tabs',
-            data: { pageTitle: 'UI Unlimited Nav Tabs' },
-            templateUrl: 'views/ui_unlimited_tabs.html'
+        .state('app.licencia.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Licencia Editar' },
+            templateUrl: 'views/licencia_editar.html'
         })
-        .state('app.ui.modalNotification', {
-            url: '/modal-notification',
-            data: { pageTitle: 'UI Modal & Notification' },
-            templateUrl: 'views/ui_modal_notification.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/gritter/css/jquery.gritter.css',
-                            'assets/plugins/gritter/js/jquery.gritter.js'
-                        ] 
-                    });
-                }]
-            }
-        })
-        .state('app.ui.widgetBoxes', {
-            url: '/widget-boxes',
-            data: { pageTitle: 'UI Widget Boxes' },
-            templateUrl: 'views/ui_widget_boxes.html'
-        })
-        .state('app.ui.mediaObject', {
-            url: '/media-object',
-            data: { pageTitle: 'UI Media Object' },
-            templateUrl: 'views/ui_media_object.html'
-        })
-        .state('app.ui.buttons', {
-            url: '/buttons',
-            data: { pageTitle: 'UI Buttons' },
-            templateUrl: 'views/ui_buttons.html'
-        })
-        .state('app.ui.icons', {
-            url: '/font-awesome',
-            data: { pageTitle: 'UI FontAwesome' },
-            templateUrl: 'views/ui_icons.html'
-        })
-        .state('app.ui.simpleLineIcons', {
-            url: '/simple-line-icons',
-            data: { pageTitle: 'UI Simple Line Icons' },
-            templateUrl: 'views/ui_simple_line_icons.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/simple-line-icons/simple-line-icons.css'
-                        ] 
-                    });
-                }]
-            }
-        })
-        .state('app.ui.ionicons', {
-            url: '/ionicons',
-            data: { pageTitle: 'UI Ionicons' },
-            templateUrl: 'views/ui_ionicons.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/ionicons/css/ionicons.min.css'
-                        ] 
-                    });
-                }]
-            }
-        })
-        .state('app.ui.tree', {
-            url: '/tree',
-            data: { pageTitle: 'UI Tree View' },
-            templateUrl: 'views/ui_tree.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/jstree/dist/themes/default/style.min.css',
-                            'assets/plugins/jstree/dist/jstree.min.js'
-                        ]
-                    });
-                }]
-            }
-        })
-        .state('app.ui.languageBarIcon', {
-            url: '/language-bar-icon',
-            data: { pageTitle: 'UI Language Bar Icon' },
-            templateUrl: 'views/ui_language_bar_icon.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/flag-icon/css/flag-icon.css'
-                        ]
-                    });
-                }]
-            }
-        })
-        .state('app.form', {
-            url: '/form',
+
+
+        .state('app.contrato', {
+            url: '/contrato',
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.form.elements', {
-            url: '/elements',
-            data: { pageTitle: 'Form Elements' },
-            templateUrl: 'views/form_elements.html'
+        .state('app.contrato.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Contrato Todos' },
+            templateUrl: 'views/contrato_todos.html'
         })
-        .state('app.form.plugins', {
-            url: '/plugins',
-            data: { pageTitle: 'Form Plugins' },
-            templateUrl: 'views/form_plugins.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootstrap-datepicker/css/datepicker.css',
-                            'assets/plugins/bootstrap-datepicker/css/datepicker3.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                            'assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css',
-                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                            'assets/plugins/password-indicator/css/password-indicator.css',
-                            'assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css',
-                            'assets/plugins/bootstrap-select/bootstrap-select.min.css',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css',
-                            'assets/plugins/jquery-tag-it/css/jquery.tagit.css',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css',
-                            'assets/plugins/select2/dist/css/select2.min.css',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                            'assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js',
-                            'assets/plugins/masked-input/masked-input.min.js',
-                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                            'assets/plugins/password-indicator/js/password-indicator.js',
-                            'assets/plugins/bootstrap-combobox/js/bootstrap-combobox.js',
-                            'assets/plugins/bootstrap-select/bootstrap-select.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
-                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
-                            'assets/plugins/bootstrap-daterangepicker/moment.js',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                            'assets/plugins/select2/dist/js/select2.min.js',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                        ] 
-                    });
-                }]
-            }
+        .state('app.contrato.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Contrato Crear' },
+            templateUrl: 'views/contrato_crear.html'
         })
-        .state('app.form.sliderSwitcher', {
-            url: '/slider-switcher',
-            data: { pageTitle: 'Form Slider + Switcher' },
-            templateUrl: 'views/form_slider_switcher.html',
-            resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        files: [
-                            'assets/plugins/switchery/switchery.min.css',
-                            'assets/plugins/powerange/powerange.min.css',
-                            'assets/plugins/switchery/switchery.min.js',
-                            'assets/plugins/powerange/powerange.min.js'
-                        ] 
-                    });
-                }]
-            }
+        .state('app.contrato.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Contrato Buscar' },
+            templateUrl: 'views/contrato_buscar.html'
         })
-        .state('app.form.validation', {
-            url: '/validation',
-            data: { pageTitle: 'Form Validation' },
-            templateUrl: 'views/form_validation.html'
+        .state('app.contrato.eliminar', {
+            url: '/eliminar',
+            data: { pageTitle: 'Contrato Eliminar' },
+            templateUrl: 'views/contrato_eliminar.html'
+        }).state('app.contrato.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Contrato Editar' },
+            templateUrl: 'views/contrato_editar.html'
         })
+
         .state('app.table', {
             url: '/table',
             template: '<div ui-view></div>',
