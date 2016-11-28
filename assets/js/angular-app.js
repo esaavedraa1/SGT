@@ -184,6 +184,37 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/contrato_editar.html'
         })
 
+        .state('app.flota', {
+            url: '/flota',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.flota.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Flota Todos' },
+            templateUrl: 'views/flota_todos.html'
+        })
+        .state('app.flota.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Flota Crear' },
+            templateUrl: 'views/flota_crear.html'
+        })
+        .state('app.flota.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Flota Buscar' },
+            templateUrl: 'views/flota_buscar.html'
+        })
+        .state('app.flota.eliminar', {
+            url: '/eliminar',
+            data: { pageTitle: 'Flota Eliminar' },
+            templateUrl: 'views/flota_eliminar.html'
+        }).state('app.flota.editar', {
+        url: '/editar',
+        data: { pageTitle: 'Flota Editar' },
+        templateUrl: 'views/flota_editar.html'
+        })
+
+
         .state('app.table', {
             url: '/table',
             template: '<div ui-view></div>',
