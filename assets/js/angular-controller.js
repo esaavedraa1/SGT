@@ -476,7 +476,7 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
     });
 });
 /* -------------------------------
- 100.1 CONTROLLER - Personal TABlAA
+ 100.1 CONTROLLER - Personal Tabla
  ------------------------------- */
 colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $rootScope, $state) {
     angular.element(document).ready(function () {
@@ -557,7 +557,18 @@ colorAdminApp.controller('creaPersonalController', function($scope, $rootScope, 
     }
 });
 
-
+/* -------------------------------
+ 100.3 CONTROLLER - Flota Tabla
+ ------------------------------- */
+colorAdminApp.controller('tablaFlotaDefaultController', function($scope, $rootScope, $state) {
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
 
 /* -------------------------------
    10.0 CONTROLLER - Email Inbox v1
