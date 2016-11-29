@@ -174,7 +174,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                            'assets/plugins/bootstrap-colorpicker/css/bootstrap-col ',
+                            'assets/plugins/bootstrap-colorpicker_new/css/bootstrap-col ',
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
