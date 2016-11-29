@@ -491,6 +491,10 @@ colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $roo
  100.2 CONTROLLER - Personal Crea
  ------------------------------- */
 colorAdminApp.controller('creaPersonalController', function($scope, $rootScope, $state) {
+    $('#datepicker-default').datepicker({
+        todayHighlight: true
+    });
+    $('#datetimepicker1').datetimepicker();
     $scope.today = function() {
         $scope.dt = new Date();
     };
