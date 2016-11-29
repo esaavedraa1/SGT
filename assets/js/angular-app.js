@@ -81,18 +81,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css',
-                            'assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css',
-                            'assets/plugins/gritter/css/jquery.gritter.css',
-                            'assets/plugins/bootstrap-datepicker_old/css/datepicker.css',
-                            'assets/plugins/bootstrap-datepicker_old/css/datepicker3.css',
-                            'assets/plugins/morris/morris.css',
-                            'assets/plugins/morris/raphael.min.js',
-                            'assets/plugins/morris/morris.js',
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js',
-                            'assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js',
-                            'assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js',
-                            'assets/plugins/gritter/js/jquery.gritter.js'
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js'
                         ]
                     });
                 }]
