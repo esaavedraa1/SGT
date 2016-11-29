@@ -30,8 +30,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css',
-                            'assets/plugins/bootstrap-datepicker/css/datepicker.css',
-                            'assets/plugins/bootstrap-datepicker/css/datepicker3.css',
+                            'assets/plugins/bootstrap-datepicker_old/css/datepicker.css',
+                            'assets/plugins/bootstrap-datepicker_old/css/datepicker3.css',
                             'assets/plugins/gritter/css/jquery.gritter.css',
                             'assets/plugins/gritter/js/jquery.gritter.js',
                             'assets/plugins/flot/jquery.flot.min.js',
