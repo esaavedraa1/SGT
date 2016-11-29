@@ -81,9 +81,44 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
-                            'assets/plugins/bootstrap_datepicker_new/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
                             'assets/plugins/bootstrap_colorpicker_new/css/bootstrap-colorpicker.min.css ',
-                            'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js'
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/password-indicator/css/password-indicator.css',
+                            'assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css',
+                            'assets/plugins/bootstrap-select/bootstrap-select.min.css',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css',
+                            'assets/plugins/jquery-tag-it/css/jquery.tagit.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css',
+                            'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.css',
+                            'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker-fontawesome.css',
+                            'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker-glyphicons.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js',
+                            'assets/plugins/masked-input/masked-input.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/password-indicator/js/password-indicator.js',
+                            'assets/plugins/bootstrap-combobox/js/bootstrap-combobox.js',
+                            'assets/plugins/bootstrap-select/bootstrap-select.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js',
+                            'assets/plugins/bootstrap-show-password/bootstrap-show-password.js',
+                            'assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js',
+                            'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js'
+
                         ]
                     });
                 }]
