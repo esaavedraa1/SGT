@@ -194,7 +194,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker-glyphicons.css',
                             'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
                             'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                            'assets/plugins/bootstrap-colorpicker_new/js/bootstrap-colorpicker.min.js',
+                            'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js',
                             'assets/plugins/masked-input/masked-input.min.js',
                             'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
                             'assets/plugins/password-indicator/js/password-indicator.js',
