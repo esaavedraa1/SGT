@@ -81,7 +81,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
-                            'assets/plugins/bootstrap-datepicker_new/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap_datepicker_new/css/bootstrap-datepicker.css',
                             'assets/plugins/bootstrap_colorpicker_new/css/bootstrap-colorpicker.min.css ',
                             'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js'
                         ]
