@@ -169,7 +169,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Contrato Crear' },
             templateUrl: 'views/contrato_crear.html',
             resolve: {
-                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
@@ -214,9 +214,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     });
                 }]
             }
-
-
-                .state('app.contrato.buscar', {
+        })
+        .state('app.contrato.buscar', {
             url: '/buscar',
             data: { pageTitle: 'Contrato Buscar' },
             templateUrl: 'views/contrato_buscar.html'
