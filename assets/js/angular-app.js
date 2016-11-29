@@ -174,11 +174,11 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                            'assets/plugins/bootstrap-colorpicker_new/css/bootstrap-col ',
+                            'assets/plugins/bootstrap-colorpicker_new/css/bootstrap-colorpicker.min.css ',
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                            'orpicker.min.css',
+
                             'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
                             'assets/plugins/password-indicator/css/password-indicator.css',
                             'assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css',
