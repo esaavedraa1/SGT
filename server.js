@@ -35,14 +35,22 @@ var SGT_MONEDA_TIPO_schemma = mongoose.Schema({
 });
 var SGT_MONEDA_TIPO_model = mongoose.model('SGT_MONEDA_TIPO', SGT_MONEDA_TIPO_schemma);
    /* SGT_MONEDAS_TIPO.setModel(SGT_MONEDA_TIPO_model);
-
-app.get('/SGT_MONEDAS_TIPO', SGT_MONEDAS_TIPO.index);
+*/
+app.get('/SGT_MONEDAS_TIPO',function(req, res){
+    SGT_MONEDA_TIPO.find({},function (error, SGT_MONEDAS_TIPO) {
+        if(error){
+            res.send('Error capturando monedas tipo');
+        }else{
+            res.json('SGT_MONEDAS_TIPO');
+        }
+    })
+});
 app.get('/SGT_MONEDAS_TIPO/create', SGT_MONEDAS_TIPO.create);
 app.post('/SGT_MONEDAS_TIPO', SGT_MONEDAS_TIPO.store);
 app.get('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.show);
 app.get('/SGT_MONEDAS_TIPO/:id/edit', SGT_MONEDAS_TIPO.edit);
 app.put('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.update);
-app.delete('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.destroy);*/
+app.delete('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.destroy);
 
 //Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
