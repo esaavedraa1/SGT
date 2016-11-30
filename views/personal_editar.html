@@ -1,10 +1,298 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-editar
-</body>
-</html>
+<div ng-controller="personalEditaController">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;">Form Stuff</a></li>
+        <li class="active">Form Elements</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Personal Editar <small>Formulario de Edición</small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-12 -->
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse" data-sortable-id="form-stuff-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Formulario Edición de personal</h4>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Nombre Completo</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="Juan Alejandro Gonzalez Valdevenito" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">RUN</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="14587989" />
+                            </div>
+                            <label class="col-md-1 control-label">-</label>
+                            <div class="col-md-1">
+                                <input type="text" class="form-control" placeholder="5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Sexo</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>Masculino</option>
+                                    <option>Femenino</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Fecha Nacimiento</label>
+                            <div class="col-md-5">
+                                <div class="input-group date" id="datetimepicker1">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Estado civil</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>Soltero</option>
+                                    <option>Casado</option>
+                                    <option>Viudo</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Dirección</label>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="AV. El Belloto" />
+                            </div>
+
+                            <label class="col-md-2 control-label">Numero</label>
+                            <div class="col-md-1">
+                                <input type="text" class="form-control" placeholder="16225" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Comuna</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>1 Arica</option>
+                                    <option>2 Antofagasta</option>
+                                    <option>3 Santiago</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Region</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>15 Arica y Parinacota</option>
+                                    <option>1 Tarapaca</option>
+                                    <option>2 Antofagasta</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Pais</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>1 Chile</option>
+                                    <option>2 Peru</option>
+                                    <option>3 Argentina</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Codigo Postal</label>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="7854126" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Dirección  Trabajo</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="AV. El Belloto 561" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Incorporación</label>
+                            <div class="col-md-6">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Termino</label>
+                            <div class="col-md-6">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Años Experiencia</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>0</option>
+                                    <option>1-2</option>
+                                    <option>2-5</option>
+                                    <option>5-10</option>
+                                    <option>10-20</option>
+                                    <option>+20</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Seguro Medico</label>
+                            <div class="col-md-9">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="" />
+                                        Personal
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Telefono Personal</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="+56 2 2251 1441" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Celular Personal</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="+56 9 3105 2252" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Personal Contacto</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="Maria Luisa Catalan" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Contacto Telefono</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="+56 2 5445 4445" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Personal Celular</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="+56 9 9165 4154" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Textarea</label>
+                            <div class="col-md-9">
+                                <textarea class="form-control" placeholder="Textarea" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Inline Checkbox</label>
+                            <div class="col-md-9">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="" />
+                                    Checkbox Label 1
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="" />
+                                    Checkbox Label 2
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Radio Button</label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" value="option1" checked />
+                                        Radio option 1
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" value="option2" />
+                                        Radio option 2
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Inline Radio Button</label>
+                            <div class="col-md-9">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" value="option1" checked />
+                                    Radio option 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" value="option2" />
+                                    Radio option 2
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-md-3 control-label">Input with Success</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" />
+                                <span class="fa fa-check form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group has-warning has-feedback">
+                            <label class="col-md-3 control-label">Input with Warning</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" />
+                                <span class="fa fa-warning form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group has-error has-feedback">
+                            <label class="col-md-3 control-label">Input with Error</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" />
+                                <span class="fa fa-times form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Submit</label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success">Submit Button</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end panel -->
+        </div>
+        <!-- end col-12 -->
+
+    </div>
+    <!-- end row -->
+</div>
