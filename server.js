@@ -8,8 +8,13 @@ var app         = express();
 var mongoose     = require('mongoose');
 
 // Conexión con la base de datos
-mongoose.connect('mongodb://localhost:27017/SGT');
-
+mongoose.connect('mongodb://localhost:27017/SGT', function(error){
+    if(error){
+        throw error;
+    }else{
+        console.log('Conectado a MongoDB');
+    }
+});
 // Configuración
 app.configure(function() {
     // Localización de los ficheros estaticos
@@ -22,7 +27,9 @@ app.configure(function() {
     app.use(express.methodOverride());
 });
 
-// Escucha en el puerto 8080 y corre el server
+var SGT = mongoose.model('SGT',{text : String})
+
+/* Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
     console.log('App listening on port 8080');
-});
+});*/
