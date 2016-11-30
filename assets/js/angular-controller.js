@@ -478,7 +478,29 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
 /* -------------------------------
  100.1 CONTROLLER - Personal Tabla
  ------------------------------- */
-colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $rootScope, $state) {
+colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $rootScope, $state,$http) {
+    $scope.formData = {};
+    $http.get('/SGT_MONDEDA_TIPO')
+        .success(function(data){
+            $scope.monedas = data;
+            console.log(data);
+        }).error(function (data) {
+            console.log('Error: '+ data);
+        });
+
+
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
+/* -------------------------------
+ 100.12 CONTROLLER - Personal Tabla
+ ------------------------------- */
+colorAdminApp.controller('tablaContratoDefaultController', function($scope, $rootScope, $state) {
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({

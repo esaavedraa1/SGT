@@ -27,9 +27,24 @@ app.configure(function() {
     app.use(express.methodOverride());
 });
 
-var SGT = mongoose.model('SGT',{text : String})
+var SGT_MONEDA_TIPO_schemma = mongoose.Schema({
+    monet_id: {type: Number, required: true},
+    monet_nombre: {type: String, required: true},
+    monet_codigo: {type: String, required: true},
+    monet_pais: {type: String, required: true}
+});
+var SGT_MONEDA_TIPO_model = mongoose.model('SGT_MONEDA_TIPO', SGT_MONEDA_TIPO_schemma);
+    SGT_MONEDAS_TIPO.setModel(SGT_MONEDA_TIPO_model);
 
-/* Escucha en el puerto 8080 y corre el server
+app.get('/SGT_MONEDAS_TIPO', SGT_MONEDAS_TIPO.index);
+app.get('/SGT_MONEDAS_TIPO/create', SGT_MONEDAS_TIPO.create);
+app.post('/SGT_MONEDAS_TIPO', SGT_MONEDAS_TIPO.store);
+app.get('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.show);
+app.get('/SGT_MONEDAS_TIPO/:id/edit', SGT_MONEDAS_TIPO.edit);
+app.put('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.update);
+app.delete('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.destroy);
+
+Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
     console.log('App listening on port 8080');
-});*/
+});
