@@ -45,12 +45,7 @@ app.get('/SGT_MONEDAS_TIPO',function(req, res){
         }
     })
 });
-app.get('/SGT_MONEDAS_TIPO/create', SGT_MONEDAS_TIPO.create);
-app.post('/SGT_MONEDAS_TIPO', SGT_MONEDAS_TIPO.store);
-app.get('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.show);
-app.get('/SGT_MONEDAS_TIPO/:id/edit', SGT_MONEDAS_TIPO.edit);
-app.put('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.update);
-app.delete('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.destroy);
+
 
 //Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
