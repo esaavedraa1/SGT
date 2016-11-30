@@ -777,6 +777,9 @@ colorAdminApp.controller('formPluginsController', function($scope, $rootScope, $
         $('#datepicker-default').datepicker({
             todayHighlight: true
         });
+        $('#datepicker-default2').datepicker({
+            todayHighlight: true
+        });
         $('#datepicker-inline').datepicker({
             todayHighlight: true
         });
@@ -997,9 +1000,7 @@ colorAdminApp.controller('formPluginsController', function($scope, $rootScope, $
         /* DateTimepicker
          ------------------------- */
         $('#datetimepicker1').datetimepicker();
-        $('#datetimepicker2').datetimepicker({
-            format: 'LT'
-        });
+        $('#datetimepicker2').datetimepicker();
         $('#datetimepicker3').datetimepicker();
         $('#datetimepicker4').datetimepicker();
         $("#datetimepicker3").on("dp.change", function (e) {
