@@ -13,7 +13,7 @@ mongoose.connect('mongodb://localhost:27017/SGT');
 // Configuración
 app.configure(function() {
     // Localización de los ficheros estaticos
-    app.use(express.static(__dirname + '/views'));
+    app.use(express.static(__dirname ));
     // Muestra un log de todos los request en la consola
     app.use(express.logger('dev'));
     // Permite cambiar el HTML con el método POST
