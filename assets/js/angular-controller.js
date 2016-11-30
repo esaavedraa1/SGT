@@ -497,6 +497,9 @@ colorAdminApp.controller('personalCreaController', function($scope, $rootScope, 
          ------------------------- */
         $('#datepicker-default').datepicker({
             todayHighlight: true
+        })
+        $('#datepicker-default2').datepicker({
+            todayHighlight: true
         });
         $('#datepicker-inline').datepicker({
             todayHighlight: true
@@ -1481,6 +1484,9 @@ colorAdminApp.controller('formPluginsController', function($scope, $rootScope, $
         /* Datepicker
         ------------------------- */
         $('#datepicker-default').datepicker({
+            todayHighlight: true
+        });
+        $('#datepicker-default2').datepicker({
             todayHighlight: true
         });
         $('#datepicker-inline').datepicker({
