@@ -44,7 +44,7 @@ app.get('/SGT_MONEDAS_TIPO/:id/edit', SGT_MONEDAS_TIPO.edit);
 app.put('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.update);
 app.delete('/SGT_MONEDAS_TIPO/:id', SGT_MONEDAS_TIPO.destroy);
 
-Escucha en el puerto 8080 y corre el server
+//Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
     console.log('App listening on port 8080');
 });
