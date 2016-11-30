@@ -27,26 +27,88 @@ app.configure(function() {
     app.use(express.methodOverride());
 });
 
-var SGT_MONEDA_TIPO_schemma = mongoose.Schema({
-    monet_id: {type: Number, required: true},
-    monet_nombre: {type: String, required: true},
-    monet_codigo: {type: String, required: true},
-    monet_pais: {type: String, required: true}
-});
-var SGT_MONEDA_TIPO_model = mongoose.model('SGT_MONEDA_TIPO', SGT_MONEDA_TIPO_schemma);
-   /* SGT_MONEDAS_TIPO.setModel(SGT_MONEDA_TIPO_model);
-*/
-app.get('/SGT_MONEDAS_TIPO',function(req, res){
-    SGT_MONEDA_TIPO.find({},function (error, SGT_MONEDAS_TIPO) {
+var Sgt_moneda_tipoSchema = mongoose.Schema({
+    monet_id : Number,
+    monet_nombre : String,
+    monet_codigo: String,
+    monet_pais: String
+})
+var Sgt_moneda_tipo = mongoose.model('Sgt_moneda_tipo',Sgt_moneda_tipoSchema)
+
+
+app.get('/listar', function(req, res){
+    Sgt_moneda_tipo.find({}, function(error, clientes){
         if(error){
-            res.send('Error capturando monedas tipo');
+            res.send('Error.');
         }else{
-            res.json('SGT_MONEDAS_TIPO');
+            res.send(clientes);
         }
     })
 });
 
+app.get('/recuperar', function(req, res){
+    Sgt_moneda_tipo.findById(req.query._id, function(error, documento){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send(documento);
+        }
+    });
+});
 
+app.post('/guardar', function(req, res){
+    if(req.query._id == null){
+        //Inserta
+        var sgt_moneda_tipo = new Sgt_moneda_tipo({
+            monet_id: req.query.monet_id,
+            monet_nombre: req.query.monet_nombre,
+            monet_codigo: req.query.monet_codigo,
+            monet_pais: req.query.monet_pais
+        });
+        cliente.save(function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(documento);
+            }
+        });
+    }else{
+        //Modifica
+        Sgt_moneda_tipo.findById(req.query._id, function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                var cliente = documento;
+                sgt_moneda_tipo.monet_id = req.query.monet_id,
+                    sgt_moneda_tipo.monet_nombre = req.query.monet_nombre,
+                    sgt_moneda_tipo.monet_codigo = req.query.monet_codigo,
+                    sgt_moneda_tipo.monet_pais = req.query.monet_pais
+                sgt_moneda_tipo.save(function(error, documento){
+                    if(error){
+                        res.send('Error.');
+                    }else{
+                        res.send(documento);
+                    }
+                });
+            }
+        });
+    }
+});
+
+app.post('/eliminar', function(req, res){
+    Sgt_moneda_tipo.remove({_id: req.query._id}, function(error){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send('Ok');
+        }
+    });
+});
+
+
+app.get('/', function(req, res){
+    res.sendfile('index.html');
+});
 //Escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
     console.log('App listening on port 8080');
