@@ -162,6 +162,26 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Moneda Tipo Todos' },
             templateUrl: 'views/moneda_tipo_todos.html'
         })
+        .state('app.moneda_tipo.crear', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Tipo Crear' },
+            templateUrl: 'views/moneda_tipo_crear.html'
+        })
+        .state('app.moneda_tipo.buscar', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Tipo Buscar' },
+            templateUrl: 'views/moneda_tipo_buscar.html'
+        })
+        .state('app.moneda_tipo.editar', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Tipo Editar' },
+            templateUrl: 'views/moneda_tipo_editar.html'
+        })
+        .state('app.moneda_tipo.eliminar', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Tipo Eliminar' },
+            templateUrl: 'views/moneda_tipo_Eliminar.html'
+        })
         .state('app.licencia', {
             url: '/licencia',
             template: '<div ui-view></div>',
