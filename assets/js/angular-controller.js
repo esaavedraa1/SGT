@@ -609,6 +609,114 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     });
 });
 /* -------------------------------
+ 100.14 CONTROLLER - Moneda Tipo Crear
+ ------------------------------- */
+colorAdminApp.controller('MonedaTipoCrearController', function($scope, $rootScope, $state, $http) {
+    $scope._id = null;
+    $scope.monet_id = '';
+    $scope.monet_nombre = ''
+    $scope.monet_codigo = '';
+    $scope.monet_pais= '';
+    $scope.sgt_monedas_tipo = [];
+    $scope.cargarMonedas_Tipo = function(){
+        $http({
+            method: 'GET', url: '/Monedas_Tipo/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_monedas_tipo = data;
+                console.log(sgt_monedas_tipo);
+            }else{
+                alert('Error al intentar recuperar las Monedas Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Monedas Tipo.');
+        });
+    };
+    $scope.guardarMoneda_Tipo = function() {
+        $http({
+            method: 'POST',
+            url: '/Monedas_Tipo/guardar',
+            params: {
+                monet_id: $scope.monet_id,
+                monet_nombre: $scope.monet_nombre,
+                monet_codigo: $scope.monet_codigo,
+                monet_pais: $scope.monet_pais,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                $scope.cargarMonedas_Tipo();
+            }else{
+                alert('Error al intentar guardar la Moneda Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar la Moneda Tipo.');
+        });
+    }
+    $scope.recuperarMoneda_Tipo = function(indice) {
+        $http({
+            method: 'GET',
+            url: '/Monedas_Tipo/recuperar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope._id = data._id;
+                $scope.monet_id = data.monet_id;
+                $scope.monet_nombre = data.monet_nombre;
+                $scope.monet_codigo = data.monet_codigo;
+                $scope.monet_pais = data.monet_pais;
+            }else{
+                alert('Error al intentar recuperar la moneda tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar la moneda tipo.');
+        });
+    };
+    $scope.eliminarMoneda_Tipo = function(indice) {
+        $http({
+            method: 'POST',
+            url: '/Monedas_Tipo/eliminar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(data == 'Ok'){
+                $scope.limpiarDatos();
+                $scope.cargarMonedas_Tipo();
+            }else{
+                alert('Error al intentar eliminar la Moneda Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar eliminar la Moneda Tipo.');
+        });
+    };
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.monet_id = '';
+        $scope.monet_nombre = ''
+        $scope.monet_codigo = '';
+        $scope.monet_pais= '';
+    };
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
+/* -------------------------------
  100.2 CONTROLLER - Personal Crea
  ------------------------------- */
 
