@@ -611,7 +611,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 /* -------------------------------
  100.14 CONTROLLER - Moneda Tipo Crear
  ------------------------------- */
-colorAdminApp.controller('MonedaTipoCrearController',[function($scope, $rootScope, $state, $http) {
+colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope, $state, $http) {
     $scope._id = null;
     $scope.monet_id = '';
     $scope.monet_nombre = ''
@@ -652,7 +652,7 @@ colorAdminApp.controller('MonedaTipoCrearController',[function($scope, $rootScop
         $scope.monet_pais= '';
     };
 
-}]);
+});
 /* -------------------------------
  100.2 CONTROLLER - Personal Crea
  ------------------------------- */
