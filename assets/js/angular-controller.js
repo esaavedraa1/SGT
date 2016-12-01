@@ -600,7 +600,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         $scope.monet_codigo = '';
         $scope.monet_pais= '';
     };
-    angular.element(sgt_monedas_tipo).ready(function () {
+    angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
                 responsive: true
