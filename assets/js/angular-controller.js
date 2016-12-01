@@ -512,7 +512,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.sgt_monedas_tipo = [];
     $scope.cargarMonedas_Tipo = function(){
         $http({
-            method: 'GET', url: '127.0.0.1:8081/Monedas_Tipo/listar'
+            method: 'GET', url: 'http://127.0.0.1:8081/Monedas_Tipo/listar'
         }).
         success(function(data) {
             if(typeof(data) == 'object'){
@@ -528,7 +528,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.guardarMoneda_Tipo = function() {
         $http({
             method: 'POST',
-            url: '127.0.0.1:8081/Monedas_Tipo/guardar',
+            url: 'http://127.0.0.1:8081/Monedas_Tipo/guardar',
             params: {
                 monet_id: $scope.monet_id,
                 monet_nombre: $scope.monet_nombre,
@@ -552,7 +552,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.recuperarMoneda_Tipo = function(indice) {
         $http({
             method: 'GET',
-            url: '/127.0.0.1:8081/Monedas_Tipo/recuperar',
+            url: 'http://127.0.0.1:8081/Monedas_Tipo/recuperar',
             params: {
                 _id: indice
             }
@@ -575,7 +575,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.eliminarMoneda_Tipo = function(indice) {
         $http({
             method: 'POST',
-            url: '/127.0.0.1:8081/Monedas_Tipo/eliminar',
+            url: 'http://127.0.0.1:8081/Monedas_Tipo/eliminar',
             params: {
                 _id: indice
             }
