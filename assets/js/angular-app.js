@@ -151,6 +151,17 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
 
 
+        .state('app.moneda_tipo', {
+            url: '/moneda_tipo',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+
+        .state('app.moneda_tipo.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Tipo Todos' },
+            templateUrl: 'views/moneda_tipo_todos.html'
+        })
         .state('app.licencia', {
             url: '/licencia',
             template: '<div ui-view></div>',

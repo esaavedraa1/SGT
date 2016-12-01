@@ -479,15 +479,6 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
  100.1 CONTROLLER - Personal Tabla
  ------------------------------- */
 colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $rootScope, $state,$http) {
-    $scope.formData = {};
-    $http.get('/SGT_MONDEDA_TIPO')
-        .success(function(data){
-            $scope.monedas = data;
-            console.log(data);
-        }).error(function (data) {
-            console.log('Error: '+ data);
-        });
-
 
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
@@ -498,9 +489,43 @@ colorAdminApp.controller('tablaPersonalDefaultController', function($scope, $roo
     });
 });
 /* -------------------------------
- 100.12 CONTROLLER - Personal Tabla
+ 100.12 CONTROLLER - Contrato Tabla
  ------------------------------- */
 colorAdminApp.controller('tablaContratoDefaultController', function($scope, $rootScope, $state) {
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
+/* -------------------------------
+ 100.13 CONTROLLER - Moneda Tipo Tabla
+ ------------------------------- */
+colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $rootScope, $state, $http) {
+    $scope._id = null;
+    $scope.monet_id =  '';
+    $scope.monet_nombre = '';
+    $scope.monet_codigo = '';
+    $scope.monet_pais = '';
+    $scope.monedas_tipo = [];
+    $scope.cargarMonedasTipo = function(){
+        $http({
+            method: 'GET', url: '/listar'
+        }).success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.monedas_tipo = data;
+            }else{
+                alert('Error al intentar recuperar las monedas');
+            }
+        }).
+            error(function() {
+                alert('Error al intentar recuperar las monedas.');
+            });
+    };
+
+
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
