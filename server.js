@@ -33,7 +33,7 @@ var Sgt_moneda_tipoSchema = mongoose.Schema({
     monet_codigo: String,
     monet_pais: String
 })
-var Sgt_moneda_tipo = mongoose.model('SGT_MONEDA_TIPO',Sgt_moneda_tipoSchema)
+var Sgt_moneda_tipo = mongoose.model('Sgt_moneda_tipo',Sgt_moneda_tipoSchema)
 
 
 app.get('/listar', function(req, res){
