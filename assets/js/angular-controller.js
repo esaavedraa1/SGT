@@ -635,7 +635,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
                 bootbox.alert("Envio Exitoso, Informacion Almacenada ");
-                $window.location.href('/');
+                $window.location.href='/';
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
             }
