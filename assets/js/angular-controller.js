@@ -611,7 +611,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 /* -------------------------------
  100.14 CONTROLLER - Moneda Tipo Crear
  ------------------------------- */
-colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope, $state, $http) {
+colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope, $state, $http,$window) {
     $scope._id = null;
     $scope.monet_id = '';
     $scope.monet_nombre = ''
@@ -635,6 +635,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
                 bootbox.alert("Envio Exitoso, Informacion Almacenada ");
+                $window.location.href('/');
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
             }
