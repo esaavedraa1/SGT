@@ -504,6 +504,7 @@ colorAdminApp.controller('tablaContratoDefaultController', function($scope, $roo
  100.13 CONTROLLER - Moneda Tipo Tabla
  ------------------------------- */
 colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $rootScope, $state, $http) {
+    Console.log("BIEN");
     $scope._id = null;
     $scope.monet_id =  '';
     $scope.monet_nombre = '';
@@ -517,11 +518,11 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
             if(typeof(data) == 'object'){
                 $scope.monedas_tipo = data;
             }else{
-                console.log('Error al intentar recuperar las monedas');
+                Console.log('Error al intentar recuperar las monedas');
             }
         }).
             error(function() {
-                console.log('Error al intentar recuperar las monedas.');
+                Console.log('Error al intentar recuperar las monedas.');
             });
     };
 
