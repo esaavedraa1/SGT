@@ -163,22 +163,22 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/moneda_tipo_todos.html'
         })
         .state('app.moneda_tipo.crear', {
-            url: '/todos',
+            url: '/crear',
             data: { pageTitle: 'Moneda Tipo Crear' },
             templateUrl: 'views/moneda_tipo_crear.html'
         })
         .state('app.moneda_tipo.buscar', {
-            url: '/todos',
+            url: '/buscar',
             data: { pageTitle: 'Moneda Tipo Buscar' },
             templateUrl: 'views/moneda_tipo_buscar.html'
         })
         .state('app.moneda_tipo.editar', {
-            url: '/todos',
+            url: '/editar',
             data: { pageTitle: 'Moneda Tipo Editar' },
             templateUrl: 'views/moneda_tipo_editar.html'
         })
         .state('app.moneda_tipo.eliminar', {
-            url: '/todos',
+            url: '/eliminar',
             data: { pageTitle: 'Moneda Tipo Eliminar' },
             templateUrl: 'views/moneda_tipo_Eliminar.html'
         })
