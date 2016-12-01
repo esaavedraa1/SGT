@@ -1,34 +1,30 @@
-<div ng-controller="tablamonedatipodefaultcontroller" ng-init="cargarMonedas_Tipo()">
-    <!-- begin breadcrumb -->
+
+<div class="container" ng-controller="tablaMonedaTipoDefaultController" ng-init="cargarMonedas_Tipo()">
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">Personal</a></li>
-        <li class="active">Tabla Personal</li>
+        <li><a href="javascript:;">Tables</a></li>
+        <li class="active">Basic Tables</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Tabla Personal <small>Servicio de Transporte</small></h1>
+    <h1 class="page-header">Basic Tables <small>header small text goes here...</small></h1>
     <!-- end page-header -->
-
-    <!-- begin row -->
     <div class="row">
         <!-- begin col-6 -->
         <div class="col-md-12">
             <!-- begin panel -->
-            <div class="col-md-12">
-                <!-- begin panel -->
-                <div class="panel panel-inverse" data-sortable-id="table-basic-4">
-                    <div class="panel-heading">
-                        <div class="panel-heading-btn">
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                        </div>
-                        <h4 class="panel-title">Table Striped</h4>
+            <div class="panel panel-inverse" data-sortable-id="table-basic-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <div class="panel-body">
-                        <table class="table table-striped">
+                    <h4 class="panel-title">Default Table</h4>
+                </div>
+                <div class="panel-body">
+                    <table class="table">
                         <thead>
                         <tr>
                             <th> ID </th>
@@ -48,13 +44,10 @@
                             <td> <a href="javascript:void(0);" class="btn btn-info" ng-click="recuperarMoneda_Tipo(item._id)"> Editar </a> </td>
                             <td> <a href="javascript:void(0);" class="btn btn-danger" ng-click="eliminarMoneda_Tipo(item._id)"> Eliminar </a> </td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
             </div>
-            <!-- end panel -->
         </div>
     </div>
-    <!-- end row -->
 </div>
