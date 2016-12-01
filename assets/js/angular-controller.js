@@ -517,11 +517,11 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
             if(typeof(data) == 'object'){
                 $scope.monedas_tipo = data;
             }else{
-                alert('Error al intentar recuperar las monedas');
+                console.log('Error al intentar recuperar las monedas');
             }
         }).
             error(function() {
-                alert('Error al intentar recuperar las monedas.');
+                console.log('Error al intentar recuperar las monedas.');
             });
     };
 
