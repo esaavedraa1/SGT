@@ -141,7 +141,7 @@ var ClienteSchema = mongoose.Schema({
 var Cliente = mongoose.model('Cliente', ClienteSchema);
 
 app.get('/', function(req, res){
-    res.sendfile('./public/index.html');
+    res.sendfile('./index.html');
 });
 
 app.get('/listar', function(req, res){
