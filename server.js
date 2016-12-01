@@ -43,7 +43,7 @@ app.get('/listar', function(req, res){
             console.log('error 877');
         }else{
             res.json(monedas_tipo);
-            console.log('ok');
+            console.log(monedas_tipo);
 
         }
     })
