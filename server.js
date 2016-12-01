@@ -37,11 +37,14 @@ var Sgt_moneda_tipo = mongoose.model('SGT_MONEDA_TIPO',Sgt_moneda_tipoSchema)
 
 
 app.get('/listar', function(req, res){
-    Sgt_moneda_tipo.find({}, function(error, clientes){
+    Sgt_moneda_tipo.find({}, function(error, monedas_tipo){
         if(error){
             res.send('Error.');
+            console.log('error 877');
         }else{
-            res.send(clientes);
+            res.send(monedas_tipo);
+            console.log('ok');
+
         }
     })
 });

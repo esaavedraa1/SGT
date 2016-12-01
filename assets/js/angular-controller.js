@@ -511,8 +511,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.monet_codigo = '';
     $scope.monet_pais = '';
     $scope.monedas_tipo = [];
-    $scope.cargarMonedasTipo = function(){
-        $http({
+    $scope.cargarMonedasTipo = function(){$http({
             method: 'GET', url: '/listar'
         }).success(function(data) {
             if(typeof(data) == 'object'){
