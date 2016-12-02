@@ -186,7 +186,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.moneda_tipo.editar', {
             url: '/editar/:id',
             data: { pageTitle: 'Moneda Tipo Editar' },
-            templateUrl: 'views/moneda_tipo_editar.html'
+            templateUrl: 'views/moneda_tipo_editar.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
