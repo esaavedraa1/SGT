@@ -683,13 +683,13 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
  100.15 CONTROLLER - Moneda Tipo Editar
  ------------------------------- */
 colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
-    $scope._id = $location.path().substr(15);
+    $scope._id = $location.path().substr(25);
     $scope.monet_id = '';
     $scope.monet_nombre = ''
     $scope.monet_codigo = '';
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
-    bootbox.alert($location.path().substr(15));
+    bootbox.alert($location.path().substr(25));
 
     $scope.verificarMoneda_Tipo = function () {
         $scope.valido = 1;
