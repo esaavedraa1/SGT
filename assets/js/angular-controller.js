@@ -646,8 +646,25 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         });
     }
     $scope.verificarMoneda_Tipo = function () {
+        $scope.valido = 1;
         if($scope.monet_id == ""){
             bootbox.alert('Moneda ID Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_nombre == ""){
+            bootbox.alert('Moneda Nombre Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_codigo == ""){
+            bootbox.alert('Moneda Codigo Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_pais == ""){
+            bootbox.alert('Moneda Pais Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.valido==1){
+            $scope.guardarMoneda_Tipo();
         }
     }
 
