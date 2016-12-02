@@ -652,7 +652,10 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         $scope.monet_codigo = '';
         $scope.monet_pais= '';
     };
-
+    angular.element(document).ready(function () {
+        $("#masked-input-id").mask("999");
+        $("#masked-input-code").mask("AAA");
+    });
 });
 /* -------------------------------
  100.2 CONTROLLER - Personal Crea
