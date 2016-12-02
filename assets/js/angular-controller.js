@@ -639,7 +639,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
                 bootbox.alert("Envio Exitoso, Informacion Almacenada ");
-                $window.location.href='#/Moneda_Tipo/todos';
+                $window.location.href='#/app/moneda_tipo/todos';
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
             }
@@ -689,7 +689,6 @@ colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScop
     $scope.monet_codigo = '';
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
-    bootbox.alert($location.path().substr(24));
 
     $scope.recuperarMoneda_Tipo = function() {
         $http({
@@ -733,10 +732,37 @@ colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScop
             $scope.valido = 0;
         }
         if($scope.valido==1){
-            // $scope.guardarMoneda_Tipo();
-        }
-    };
+            bootbox.confirm("Esta Seguro de la Modificación",function (result){
+                $scope.guardarMoneda_Tipo();
+            });
 
+    };
+    $scope.guardarMoneda_Tipo = function() {
+
+        $http({
+            method: 'POST',
+            url: '/Monedas_Tipo/guardar',
+            params: {
+                monet_id: $scope.monet_id,
+                monet_nombre: $scope.monet_nombre,
+                monet_codigo: $scope.monet_codigo,
+                monet_pais: $scope.monet_pais,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                bootbox.alert("Envio Exitoso, Informacion Almacenada ");
+                $window.location.href='#/app/moneda_tipo/todos';
+            }else{
+                alert('Error al intentar guardar la Moneda Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar la Moneda Tipo.');
+        });
+    };
     $scope.limpiarDatos = function() {
         $scope._id = null;
         $scope.monet_id = '';
