@@ -653,7 +653,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         $scope.monet_pais= '';
     };
     angular.element(document).ready(function () {
-        $("#masked-input-id").mask("***");
+        $("#masked-input-id").mask("999");
         $("#masked-input-code").mask("aaa");
     });
 });
