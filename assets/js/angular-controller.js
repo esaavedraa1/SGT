@@ -601,7 +601,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         $scope.monet_pais= '';
     };
     $scope.editarMoneda = function () {
-        $window.location.href = "#/Monedas_Tipo/editar/"+$scope.id;
+        $window.location.href = "#/app/moneda_Tipo/editar/"+$scope.id;
     }
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
@@ -682,7 +682,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
 /* -------------------------------
  100.15 CONTROLLER - Moneda Tipo Editar
  ------------------------------- */
-colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScope, $state, $http,$window) {
+colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScope, $state, $http,$window,$routeParams) {
     $scope._id = null;
     $scope.monet_id = '';
     $scope.monet_nombre = ''
