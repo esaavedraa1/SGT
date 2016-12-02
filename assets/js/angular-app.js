@@ -184,9 +184,20 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/moneda_tipo_buscar.html'
         })
         .state('app.moneda_tipo.editar', {
-            url: '/editar',
+            url: '/editar/:id',
             data: { pageTitle: 'Moneda Tipo Editar' },
             templateUrl: 'views/moneda_tipo_editar.html'
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/masked-input/masked-input.min.js'
+                        ]
+                    });
+                }]
+            }
         })
         .state('app.moneda_tipo.eliminar', {
             url: '/eliminar',

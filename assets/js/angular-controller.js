@@ -600,6 +600,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         $scope.monet_codigo = '';
         $scope.monet_pais= '';
     };
+    $scope.editarMoneda = function () {
+        $windows.location.href = "#/Monedas_Tipo/editar/"+$scope.id;
+    }
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
@@ -636,7 +639,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
                 bootbox.alert("Envio Exitoso, Informacion Almacenada ");
-                $window.location.href='/#/Moneda_Tipo/todos';
+                $window.location.href='#/Moneda_Tipo/todos';
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
             }
@@ -665,6 +668,49 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         }
         if($scope.valido==1){
             $scope.guardarMoneda_Tipo();
+        }
+    }
+
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.monet_id = '';
+        $scope.monet_nombre = '';
+        $scope.monet_codigo = '';
+        $scope.monet_pais= '';
+    };
+});
+/* -------------------------------
+ 100.15 CONTROLLER - Moneda Tipo Crear
+ ------------------------------- */
+colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScope, $state, $http,$window,$routeParams) {
+    $scope._id = null;
+    $scope.monet_id = '';
+    $scope.monet_nombre = ''
+    $scope.monet_codigo = '';
+    $scope.monet_pais= '';
+    $scope.sgt_monedas_tipo = [];
+    bootbox.alert($routeParams.id);
+
+    $scope.verificarMoneda_Tipo = function () {
+        $scope.valido = 1;
+        if($scope.monet_id == ""){
+            bootbox.alert('Moneda ID Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_nombre == ""){
+            bootbox.alert('Moneda Nombre Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_codigo == ""){
+            bootbox.alert('Moneda Codigo Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.monet_pais == ""){
+            bootbox.alert('Moneda Pais Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.valido==1){
+           // $scope.guardarMoneda_Tipo();
         }
     }
 
