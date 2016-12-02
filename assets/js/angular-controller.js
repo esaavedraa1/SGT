@@ -722,8 +722,8 @@ colorAdminApp.controller('personalCreaController', function($scope, $rootScope, 
         $("#masked-input-phone").mask("(999) 999-9999");
         $("#masked-input-tid").mask("99-9999999");
         $("#masked-input-ssn").mask("999-99-9999");
-        $("#masked-input-pno").mask("aaa-9999-a");
-        $("#masked-input-pkey").mask("a*-999-a999");
+        $("#masked-input-id").mask("999");
+        $("#masked-input-code").mask("AAA");
 
 
         /* Colorpicker
