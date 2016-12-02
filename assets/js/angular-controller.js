@@ -645,6 +645,11 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             alert('Error al intentar guardar la Moneda Tipo.');
         });
     }
+    $scope.verificarMoneda_Tipo = function () {
+        if($scope.monet_id == ""){
+            bootbox.alert('Moneda ID Requerido');
+        }
+    }
 
     $scope.limpiarDatos = function() {
         $scope._id = null;
@@ -653,10 +658,6 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         $scope.monet_codigo = '';
         $scope.monet_pais= '';
     };
-    angular.element(document).ready(function () {
-        $("#masked-input-id").mask("999");
-        $("#masked-input-code").mask("aaa");
-    });
 });
 /* -------------------------------
  100.2 CONTROLLER - Personal Crea
