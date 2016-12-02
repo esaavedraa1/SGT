@@ -731,11 +731,11 @@ colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScop
             bootbox.alert('Moneda Pais Requerido');
             $scope.valido = 0;
         }
-        if($scope.valido==1){
-            bootbox.confirm("Esta Seguro de la Modificación",function (result){
+        if($scope.valido==1) {
+            bootbox.confirm("Esta Seguro de la Modificación", function (result) {
                 $scope.guardarMoneda_Tipo();
             });
-
+        }
     };
     $scope.guardarMoneda_Tipo = function() {
 
