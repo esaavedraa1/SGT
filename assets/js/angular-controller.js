@@ -654,7 +654,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
     };
     angular.element(document).ready(function () {
         $("#masked-input-id").mask("999");
-        $("#masked-input-code").mask("AAA");
+        $("#masked-input-code").mask("aaa");
     });
 });
 /* -------------------------------
