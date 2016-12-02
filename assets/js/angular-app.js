@@ -171,7 +171,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
-                            'assets/plugins/bootbox/bootbox.min.js'
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/masked-input/masked-input.min.js'
                         ]
                     });
                 }]
