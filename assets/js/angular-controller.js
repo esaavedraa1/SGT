@@ -620,6 +620,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
     $scope.sgt_monedas_tipo = [];
 
     $scope.guardarMoneda_Tipo = function() {
+
         $http({
             method: 'POST',
             url: '/Monedas_Tipo/guardar',
@@ -635,7 +636,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
                 bootbox.alert("Envio Exitoso, Informacion Almacenada ");
-                $window.location.href='../todos';
+                $window.location.href='/#/Moneda_Tipo/todos';
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
             }
