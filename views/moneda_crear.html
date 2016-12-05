@@ -7,7 +7,7 @@
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Moneda<small>Formulario de Ingreso</small></h1>
+    <h1 class="page-header">Moneda<small>Formulario de Ingreso{{5+5}}</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -33,7 +33,7 @@
                                 <select class="form-control selectpicker" data-size="10" data-live-search="true" data-style="btn-danger">
                                     <option value="" selected>Select a Country</option>
                                     <option value="AF">Afghanistan</option>
-                                    <option ng-repeat="item in sgt_monedas_tipo" value="item.monet._id">{{item.monet_codigo }} - {{item.monet_nombre}}</option>
+                                    <option ng-repeat="item in sgt_monedas_tipo" >{{item.monet_codigo }} - {{item.monet_nombre}}</option>
                                 </select>
                             </div>
                         </div>
