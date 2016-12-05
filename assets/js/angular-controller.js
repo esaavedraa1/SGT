@@ -802,8 +802,8 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
             url: '/Monedas/guardar',
             params: {
                 monet_id: $scope.monet_id,
-                monet_fecha: $scope.monet_fecha,
-                monet_valor: $scope.monet_valor,
+                mone_fecha: $scope.mone_fecha,
+                mone_valor: $scope.mone_valor,
                 _id: $scope._id
             }
         }).
