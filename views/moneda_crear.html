@@ -41,7 +41,7 @@
                             <label class="col-md-3 control-label">Moneda Tipo</label>
                             <div class="col-md-9">
                                 <select class="form-control">
-
+                                    <option ng-repeat="item in sgt_monedas_tipo" >{{item.monet_codigo }} - {{item.monet_nombre}}</option>
                                     <option>Otro</option>
                                 </select>
                             </div>
