@@ -826,10 +826,6 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
             bootbox.alert('Moneda ID Requerido');
             $scope.valido = 0;
         }
-        if($scope.mone_fecha == ""){
-            bootbox.alert('Moneda Nombre Requerido');
-            $scope.valido = 0;
-        }
         if($scope.mone_valor == ""){
             bootbox.alert('Moneda Codigo Requerido');
             $scope.valido = 0;
