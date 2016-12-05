@@ -826,12 +826,18 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
             bootbox.alert('Moneda ID Requerido');
             $scope.valido = 0;
         }
+        if($scope.mone_fecha == ""){
+            bootbox.alert('Moneda ID Requerido');
+            $scope.valido = 0;
+        }
+
         if($scope.mone_valor == ""){
-            bootbox.alert('Moneda Codigo Requerido');
+            bootbox.alert('Moneda Valor');
             $scope.valido = 0;
         }
 
         if($scope.valido==1){
+            bootbox.alert($scope.sgt_monedas);
             $scope.guardarMoneda();
         }
     };
