@@ -822,10 +822,22 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
     }
     $scope.verificarMoneda = function () {
         $scope.valido = 1;
+        if($scope.monet_id == ""){
+            bootbox.alert('Moneda ID Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.mone_valor == ""){
+            bootbox.alert('Moneda valor Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.mone_fecha == ""){
+            bootbox.alert('Moneda fecha Requerido');
+            $scope.valido = 0;
+        }
 
         if($scope.valido==1){
             bootbox.alert("ERROR" + $scope.mone_fecha);
-            $scope.guardarMoneda();
+          // $scope.guardarMoneda();
         }
     };
 
