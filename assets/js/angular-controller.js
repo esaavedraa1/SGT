@@ -794,7 +794,23 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
     $scope.mone_fecha = ''
     $scope.mone_valor = '';
     $scope.sgt_monedas = [];
+    $scope.sgt_monedas_tipo = [];
+    $scope.cargarMonedas_Tipo = function(){
+        $http({
+            method: 'GET', url: '/Monedas_Tipo/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_monedas_tipo = data;
 
+            }else{
+                alert('Error al intentar recuperar las Monedas Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Monedas Tipo.');
+        });
+    };
     $scope.guardarMoneda = function() {
 
         $http({
