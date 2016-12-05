@@ -517,7 +517,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
-                console.log(sgt_monedas_tipo);
+
             }else{
                 alert('Error al intentar recuperar las Monedas Tipo.');
             }
@@ -626,7 +626,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas = data;
-                console.log(sgt_monedas);
+
             }else{
                 alert('Error al intentar recuperar las Monedas .');
             }
