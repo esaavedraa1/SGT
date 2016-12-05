@@ -863,20 +863,7 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
         $scope.mone_fecha = '';
         $scope.mone_valor = '';
     };
-    angular.element(document).ready(function () {
-        /* Datepicker
-         ------------------------- */
-        $('#datepicker-default').datepicker({
-            todayHighlight: true
-        })
 
-        $('.selectpicker').selectpicker('render');
-
-        /* DateTimepicker
-         ------------------------- */
-        $('#datetimepicker1').datetimepicker();
-
-    });
 });
 /* -------------------------------
  100.16 CONTROLLER - Moneda Tipo Editar
