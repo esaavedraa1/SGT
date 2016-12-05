@@ -171,6 +171,7 @@ app.get('/Monedas/recuperar', function(req, res){
 app.post('/Monedas/guardar', function(req, res){
     if(req.query._id == null){
         //Inserta
+        console.log("Error"+req.query.mone_fecha)
         var sgt_moneda = new Sgt_moneda({
             monet_id: req.query.monet_id,
             mone_fecha: req.query.mone_fecha,
