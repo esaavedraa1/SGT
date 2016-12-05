@@ -784,6 +784,69 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
         $scope.monet_pais= '';
     };
 });
+
+/* -------------------------------
+ 100.15 CONTROLLER - Moneda Tipo Crear
+ ------------------------------- */
+colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $state, $http,$window) {
+    $scope._id = null;
+    $scope.monet_id = '';
+    $scope.mone_fecha = ''
+    $scope.mone_valor = '';
+    $scope.sgt_monedas = [];
+
+    $scope.guardarMoneda = function() {
+
+        $http({
+            method: 'POST',
+            url: '/Monedas/guardar',
+            params: {
+                monet_id: $scope.monet_id,
+                monet_fecha: $scope.monet_fecha,
+                monet_valor: $scope.monet_valor,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                bootbox.alert("Envio Exitoso, Informacion Almacenada ");
+                $window.location.href='#/app/moneda/todos';
+            }else{
+                alert('Error al intentar guardar la Moneda Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar la Moneda Tipo.');
+        });
+    }
+    $scope.verificarMoneda = function () {
+        $scope.valido = 1;
+        if($scope.monet_id == ""){
+            bootbox.alert('Moneda ID Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.mone_fecha == ""){
+            bootbox.alert('Moneda Nombre Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.mone_valor == ""){
+            bootbox.alert('Moneda Codigo Requerido');
+            $scope.valido = 0;
+        }
+
+        if($scope.valido==1){
+            $scope.guardarMoneda();
+        }
+    };
+
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.monet_id = '';
+        $scope.mone_fecha = '';
+        $scope.mone_valor = '';
+    };
+});
 /* -------------------------------
  100.16 CONTROLLER - Moneda Tipo Editar
  ------------------------------- */

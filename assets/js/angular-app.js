@@ -173,7 +173,9 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/bootbox/bootbox.min.js',
-                            'assets/plugins/masked-input/masked-input.min.js'
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
                         ]
                     });
                 }]
@@ -221,7 +223,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/bootbox/bootbox.min.js',
-                            'assets/plugins/masked-input/masked-input.min.js'
+                            'assets/plugins/masked-input/masked-input.min.js',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js'
                         ]
                     });
                 }]
