@@ -870,6 +870,8 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
             todayHighlight: true
         })
 
+        $('.selectpicker').selectpicker('render');
+
         /* DateTimepicker
          ------------------------- */
         $('#datetimepicker1').datetimepicker();
