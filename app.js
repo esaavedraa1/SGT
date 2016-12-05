@@ -50,6 +50,7 @@ var Sgt_moneda_tipoSchema = mongoose.Schema({
     monet_nombre: String,
     monet_codigo: String,
     monet_pais: String
+
 });
 var Sgt_moneda_tipo = mongoose.model('Sgt_moneda_tipo', Sgt_moneda_tipoSchema);
 //-----------------------------------------------
@@ -57,7 +58,8 @@ var Sgt_moneda_tipo = mongoose.model('Sgt_moneda_tipo', Sgt_moneda_tipoSchema);
 var Sgt_monedaSchema = mongoose.Schema({
     monet_id: {type: Schema.ObjectId, ref:"Sgt_moneda_tipo"},
     mone_fecha: { type : Date, default: Date.now},
-    monet_valor: String
+    mone_valor: String
+
 });
 var Sgt_moneda = mongoose.model('Sgt_moneda', Sgt_monedaSchema);
 
@@ -173,7 +175,7 @@ app.post('/Monedas/guardar', function(req, res){
         var sgt_moneda = new Sgt_moneda({
             monet_id: req.query.monet_id,
             mone_fecha: req.query.mone_fecha,
-            mone_valor: req.query.mone_valor
+            mone_valor: req.query.mone_valor,
         });
         sgt_moneda.save(function(error, documento){
             if(error){
@@ -188,10 +190,10 @@ app.post('/Monedas/guardar', function(req, res){
             if(error){
                 res.send('Error.');
             }else{
-                var sgt_moneda = documento;
-                    sgt_moneda.monet_id= req.query.monet_id,
+                var sgt_moneda_tipo = documento;
+                    sgt_moneda.monet_id = req.query.monet_id,
                     sgt_moneda.mone_fecha= req.query.mone_fecha,
-                    sgt_moneda.mone_valor= req.query.mone_valor
+                    sgt_moneda.mone_valor= req.query.mone_valor,
                 sgt_moneda.save(function(error, documento){
                     if(error){
                         res.send('Error.');
