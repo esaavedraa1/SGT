@@ -32,18 +32,18 @@
                             <label class="col-md-3 control-label">Moneda Tipo</label>
                             <div class="col-md-5">
                                 <select class="form-control">
-                                    <option ng-repeat="item in sgt_monedas_tipo" value="item.monet._id">{{item.monet_codigo }} - {{item.monet_nombre}}</option>
+                                    <option ng-repeat="item in sgt_monedas_tipo" value="item.monet._id" ng-model="monet_id">{{item.monet_codigo }} - {{item.monet_nombre}}</option>
 
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group">
+                 <!--       <div class="form-group">
                             <label class="col-md-3 control-label">ID MONEDA TIPO</label>
                             <div class="col-md-5">
                                 <input type="text" class="form-control" placeholder="" ng-model="monet_id" />
                             </div>
                         </div>
-                       <!-- <div class="form-group">
+                       <div class="form-group">
                             <label class="control-label col-md-3">Fecha Actualización</label>
                             <div class="col-md-5">
                                 <div class="input-group date" id="datetimepicker1">
