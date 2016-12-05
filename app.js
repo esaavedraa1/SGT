@@ -33,6 +33,7 @@ if ('development' == app.get('env')) {
 //Conexión a Mongoose.
 var mongoose = require('mongoose');
 require('mongoose-double')(mongoose);
+var SchemaTypes = mongoose.Schema.Types;
 mongoose.connect('mongodb://localhost/SGTDB', function(error){
     if(error){
         throw error;
