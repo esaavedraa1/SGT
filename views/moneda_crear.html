@@ -31,8 +31,8 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label">Moneda Tipo</label>
                             <div class="col-md-5">
-                                <select class="form-control">
-                                    <option ng-options="item in sgt_monedas_tipo"  ng-model="monet_id">{{item.monet_codigo }} - {{item.monet_nombre}}</option>
+                                <select class="form-control" ng-model="monet_id">
+                                    <option ng-repeat="item in sgt_monedas_tipo" value="item.monet._id" >{{item.monet_codigo }} - {{item.monet_nombre}}</option>
 
                                 </select>
                             </div>
