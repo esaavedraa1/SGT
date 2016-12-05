@@ -837,7 +837,7 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
 
         if($scope.valido==1){
             bootbox.alert("ERROR" + $scope.mone_fecha);
-          // $scope.guardarMoneda();
+            $scope.guardarMoneda();
         }
     };
 
