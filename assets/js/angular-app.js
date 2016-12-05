@@ -197,8 +197,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/bootstrap_colorpicker_new/js/bootstrap-colorpicker.min.js',
                             'assets/plugins/masked-input/masked-input.min.js',
                             'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                            'assets/plugins/password-indicator/js/password-indicator.js',
-                            'assets/plugins/bootstrap-combobox/js/bootstrap-combobox.js',
+
                             'assets/plugins/bootstrap-select/bootstrap-select.min.js',
                             'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
                             'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
@@ -206,10 +205,9 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/bootstrap-daterangepicker/moment.js',
                             'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
                             'assets/plugins/select2/dist/js/select2.min.js',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js',
-                            'assets/plugins/bootstrap-show-password/bootstrap-show-password.js',
-                            'assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js',
-                            'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js'
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+
+
                         ]
                     });
                 }]
