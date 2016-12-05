@@ -151,6 +151,34 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
 
 
+        .state('app.moneda', {
+            url: '/moneda',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+
+        .state('app.moneda.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Moneda Todos' },
+            templateUrl: 'views/moneda_todos.html'
+        })
+
+        .state('app.moneda.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Moneda Crear' },
+            templateUrl: 'views/moneda_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/masked-input/masked-input.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
         .state('app.moneda_tipo', {
             url: '/moneda_tipo',
             template: '<div ui-view></div>',
