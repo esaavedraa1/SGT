@@ -7,12 +7,11 @@
  */
 
 var express = require('express');
-//var routes = require('./routes');
-//var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 
 var app = express();
+
 
 // all environments
 app.configure(function() {
@@ -33,6 +32,7 @@ if ('development' == app.get('env')) {
 
 //Conexión a Mongoose.
 var mongoose = require('mongoose');
+require('mongoose-double')(mongoose);
 mongoose.connect('mongodb://localhost/SGTDB', function(error){
     if(error){
         throw error;
@@ -47,9 +47,20 @@ var Sgt_moneda_tipoSchema = mongoose.Schema({
     monet_id: Number,
     monet_nombre: String,
     monet_codigo: String,
-    monet_pais: String,
+    monet_pais: String
 });
 var Sgt_moneda_tipo = mongoose.model('Sgt_moneda_tipo', Sgt_moneda_tipoSchema);
+//-----------------------------------------------
+
+var Sgt_monedaSchema = mongoose.Schema({
+    mone_id: Number,
+    monet_id: Number,
+    mone_fecha: { type : Date, default: Date.now},
+    monet_valor: SchemaTypes.Double
+});
+var Sgt_moneda = mongoose.model('Sgt_moneda', Sgt_monedaSchema);
+
+
 
 app.get('/Monedas_Tipo', function(req, res){
     res.sendfile('./public/index2.html');
@@ -129,91 +140,6 @@ app.post('/Monedas_Tipo/eliminar', function(req, res){
 
 
 
-
-//Documentos
-var ClienteSchema = mongoose.Schema({
-    nombre: String,
-    apellido: String,
-    domicilio: String,
-    telefono: String,
-    email: String
-});
-var Cliente = mongoose.model('Cliente', ClienteSchema);
-
-app.get('/', function(req, res){
-    res.sendfile('./index.html');
-});
-
-app.get('/listar', function(req, res){
-    Cliente.find({}, function(error, clientes){
-        if(error){
-            res.send('Error.');
-        }else{
-            res.send(clientes);
-        }
-    })
-});
-
-app.get('/recuperar', function(req, res){
-    Cliente.findById(req.query._id, function(error, documento){
-        if(error){
-            res.send('Error.');
-        }else{
-            res.send(documento);
-        }
-    });
-});
-
-app.post('/guardar', function(req, res){
-    if(req.query._id == null){
-        //Inserta
-        var cliente = new Cliente({
-            nombre: req.query.nombre,
-            apellido: req.query.apellido,
-            domicilio: req.query.domicilio,
-            telefono: req.query.telefono,
-            email: req.query.email
-        });
-        cliente.save(function(error, documento){
-            if(error){
-                res.send('Error.');
-            }else{
-                res.send(documento);
-            }
-        });
-    }else{
-        //Modifica
-        Cliente.findById(req.query._id, function(error, documento){
-            if(error){
-                res.send('Error.');
-            }else{
-                var cliente = documento;
-                cliente.nombre = req.query.nombre,
-                    cliente.apellido = req.query.apellido,
-                    cliente.domicilio = req.query.domicilio,
-                    cliente.telefono = req.query.telefono,
-                    cliente.email = req.query.email
-                cliente.save(function(error, documento){
-                    if(error){
-                        res.send('Error.');
-                    }else{
-                        res.send(documento);
-                    }
-                });
-            }
-        });
-    }
-});
-
-app.post('/eliminar', function(req, res){
-    Cliente.remove({_id: req.query._id}, function(error){
-        if(error){
-            res.send('Error.');
-        }else{
-            res.send('Ok');
-        }
-    });
-});
 
 app.listen(8080, function() {
     console.log('App listening on port 8080');
