@@ -32,6 +32,7 @@
                     <table class="table table-striped table-bordered" >
                         <thead>
                         <tr>
+                            <th> Pais</th>
                             <th> Codigo </th>
                             <th> Fecha</th>
                             <th> Valor </th>
@@ -41,7 +42,8 @@
                         </thead>
                         <tbody>
                         <tr ng-repeat="item in sgt_monedas">
-                            <td> {{item.monet_id}} </td>
+                            <td> {{item.monet_id.monet_pais}}</td>
+                            <td> {{item.monet_id.monet_codigo}} </td>
                             <td> {{item.mone_fecha}} </td>
                             <td> {{item.mone_valor}} </td>
                             <td> <a href="/#/app/moneda/editar/{{item._id}}" class="btn btn-info" > Editar </a> </td>
