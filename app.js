@@ -172,7 +172,6 @@ app.post('/Monedas/guardar', function(req, res){
     if(req.query._id == null){
         //Inserta
         var sgt_moneda = new Sgt_moneda({
-            mone_id: req.query.mone_id,
             monet_id: req.query.monet_id,
             mone_fecha: req.query.mone_fecha,
             mone_valor: req.query.mone_valor
@@ -191,7 +190,6 @@ app.post('/Monedas/guardar', function(req, res){
                 res.send('Error.');
             }else{
                 var sgt_moneda = documento;
-                    sgt_moneda.mone_id = req.query.mone_id,
                     sgt_moneda.monet_id= req.query.monet_id,
                     sgt_moneda.mone_fecha= req.query.mone_fecha,
                     sgt_moneda.mone_valor= req.query.mone_valor
