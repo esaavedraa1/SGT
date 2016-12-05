@@ -58,7 +58,7 @@ var Sgt_monedaSchema = mongoose.Schema({
     mone_id: Number,
     monet_id: {type: Schema.ObjectId, ref:"Sgt_moneda_tipo"},
     mone_fecha: { type : Date, default: Date.now},
-    monet_valor: SchemaTypes.Double
+    monet_valor: NumberDouble
 });
 var Sgt_moneda = mongoose.model('Sgt_moneda', Sgt_monedaSchema);
 
