@@ -615,10 +615,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
  ------------------------------- */
 colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window) {
     $scope._id = null;
-    $scope.mone_id = '';
     $scope.monet_id = ''
-    $scope.monet_fecha = '';
-    $scope.monet_valor = '';
+    $scope.mone_fecha = '';
+    $scope.mone_valor = '';
     $scope.sgt_monedas = [];
     $scope.cargarMonedas = function(){
         $http({
@@ -641,7 +640,6 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
             method: 'POST',
             url: '/Monedas/guardar',
             params: {
-                mone_id: $scope.mone_id,
                 monet_id: $scope.monet_id,
                 mone_fecha: $scope.mone_fecha,
                 mone_valor: $scope.mone_valor,
@@ -672,7 +670,6 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
             if(typeof(data) == 'object'){
                 $scope._id = data._id;
                 $scope.monet_id = data.monet_id;
-                $scope.mone_id = data.mone_id;
                 $scope.mone_fecha = data.mone_fecha;
                 $scope.mone_valor = data.mone_valor;
             }else{
@@ -706,13 +703,10 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
     $scope.limpiarDatos = function() {
         $scope._id = null;
         $scope.monet_id = '';
-        $scope.mone_id = ''
         $scope.mone_fecha = '';
         $scope.mone_valor= '';
     };
-    $scope.editarMoneda = function () {
-        $window.location.href = "#/app/moneda/editar/"+$scope.id;
-    }
+
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
