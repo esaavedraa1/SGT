@@ -139,6 +139,83 @@ app.post('/Monedas_Tipo/eliminar', function(req, res){
     });
 });
 
+//--------------------------------------------------------
+
+//--------------------------------------------------------
+app.get('/Monedas', function(req, res){
+    res.sendfile('./public/index2.html');
+});
+
+app.get('/Monedas/listar', function(req, res){
+    Sgt_moneda.find({}, function(error, sgt_monedas){
+        if(error){
+            res.send('Error en listar las Monedas');
+        }else{
+            res.send(sgt_monedas);
+        }
+    })
+});
+
+app.get('/Monedas/recuperar', function(req, res){
+    Sgt_moneda.findById(req.query._id, function(error, sgt_monedas){
+        if(error){
+            res.send('Error.');
+            console.log("Error en la recuperacion")
+        }else{
+            res.send(sgt_monedas);
+            console.log(sgt_monedas)
+        }
+    });
+});
+
+app.post('/Monedas/guardar', function(req, res){
+    if(req.query._id == null){
+        //Inserta
+        var sgt_moneda = new Sgt_moneda({
+            mone_id: req.query.mone_id,
+            monet_id: req.query.monet_id,
+            mone_fecha: req.query.mone_fecha,
+            mone_valor: req.query.mone_valor
+        });
+        sgt_moneda.save(function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(documento);
+            }
+        });
+    }else{
+        //Modifica
+        Sgt_moneda.findById(req.query._id, function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                var sgt_moneda = documento;
+                    sgt_moneda.mone_id = req.query.mone_id,
+                    sgt_moneda.monet_id= req.query.monet_id,
+                    sgt_moneda.mone_fecha= req.query.mone_fecha,
+                    sgt_moneda.mone_valor= req.query.mone_valor
+                sgt_moneda.save(function(error, documento){
+                    if(error){
+                        res.send('Error.');
+                    }else{
+                        res.send(documento);
+                    }
+                });
+            }
+        });
+    }
+});
+
+app.post('/Monedas/eliminar', function(req, res){
+    Sgt_moneda.remove({_id: req.query._id}, function(error){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send('Ok');
+        }
+    });
+});
 
 
 

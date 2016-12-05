@@ -600,8 +600,118 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         $scope.monet_codigo = '';
         $scope.monet_pais= '';
     };
+
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
+
+/* -------------------------------
+ 100.14 CONTROLLER - Moneda Tipo Tabla
+ ------------------------------- */
+colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window) {
+    $scope._id = null;
+    $scope.mone_id = '';
+    $scope.monet_id = ''
+    $scope.monet_fecha = '';
+    $scope.monet_valor = '';
+    $scope.sgt_monedas = [];
+    $scope.cargarMonedas = function(){
+        $http({
+            method: 'GET', url: '/Monedas/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_monedas = data;
+                console.log(sgt_monedas);
+            }else{
+                alert('Error al intentar recuperar las Monedas .');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Monedas.');
+        });
+    };
+    $scope.guardarMoneda = function() {
+        $http({
+            method: 'POST',
+            url: '/Monedas/guardar',
+            params: {
+                mone_id: $scope.mone_id,
+                monet_id: $scope.monet_id,
+                mone_fecha: $scope.mone_fecha,
+                mone_valor: $scope.mone_valor,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                $scope.cargarMonedas();
+            }else{
+                alert('Error al intentar guardar la Moneda.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar la Moneda.');
+        });
+    }
+    $scope.recuperarMoneda = function(indice) {
+        $http({
+            method: 'GET',
+            url: '/Monedas/recuperar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope._id = data._id;
+                $scope.monet_id = data.monet_id;
+                $scope.mone_id = data.mone_id;
+                $scope.mone_fecha = data.mone_fecha;
+                $scope.mone_valor = data.mone_valor;
+            }else{
+                alert('Error al intentar recuperar la moneda.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar la moneda.');
+        });
+    };
+    $scope.eliminarMoneda = function(indice) {
+        $http({
+            method: 'POST',
+            url: '/Monedas/eliminar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(data == 'Ok'){
+                $scope.limpiarDatos();
+                $scope.cargarMonedas();
+            }else{
+                alert('Error al intentar eliminar la Moneda');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar eliminar la Moneda');
+        });
+    };
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.monet_id = '';
+        $scope.mone_id = ''
+        $scope.mone_fecha = '';
+        $scope.mone_valor= '';
+    };
     $scope.editarMoneda = function () {
-        $window.location.href = "#/app/moneda_Tipo/editar/"+$scope.id;
+        $window.location.href = "#/app/moneda/editar/"+$scope.id;
     }
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
@@ -611,8 +721,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         }
     });
 });
+
 /* -------------------------------
- 100.14 CONTROLLER - Moneda Tipo Crear
+ 100.15 CONTROLLER - Moneda Tipo Crear
  ------------------------------- */
 colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope, $state, $http,$window) {
     $scope._id = null;
@@ -680,7 +791,7 @@ colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope
     };
 });
 /* -------------------------------
- 100.15 CONTROLLER - Moneda Tipo Editar
+ 100.16 CONTROLLER - Moneda Tipo Editar
  ------------------------------- */
 colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
     $scope._id = $location.path().substr(24);
@@ -774,7 +885,6 @@ colorAdminApp.controller('MonedaTipoEditarController',function($scope, $rootScop
 /* -------------------------------
  100.2 CONTROLLER - Personal Crea
  ------------------------------- */
-
 colorAdminApp.controller('personalCreaController', function($scope, $rootScope, $state) {
     angular.element(document).ready(function () {
         /* Datepicker
@@ -1038,8 +1148,6 @@ colorAdminApp.controller('personalCreaController', function($scope, $rootScope, 
         $('select[name="colorpicker-picker-longlist"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
     });
 });
-
-
 
 /* -------------------------------
  100.3 CONTROLLER - Flota Tabla
