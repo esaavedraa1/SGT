@@ -148,12 +148,14 @@ app.get('/Monedas', function(req, res){
 
 app.get('/Monedas/listar', function(req, res){
     Sgt_moneda.find({}, function(error, sgt_monedas){
-        if(error){
-            res.send('Error en listar las Monedas');
-        }else{
-            res.send(sgt_monedas);
-        }
-    })
+        Sgt_moneda_tipo.populate(sgt_monedas,{path:"monet_id"},function (error,sgt_monedas) {
+            if(error){
+                res.send('Error en listar las Monedas');
+            }else{
+                res.send(sgt_monedas);
+            }
+        });
+    });
 });
 
 app.get('/Monedas/recuperar', function(req, res){
