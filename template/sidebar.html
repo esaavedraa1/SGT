@@ -112,7 +112,19 @@
 
                 </ul>
             </li>
-           
+            <li class="has-sub" ng-class="{active:$state.includes('app.despacho')}">
+                <a href="javascript:;">
+                    <b class="caret pull-right"></b>
+                    <i class="fa fa-send"></i>
+                    <span>Despacho</span>
+                </a>
+                <ul class="sub-menu">
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.todos">Flot Chart</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.tipo">Morris Chart</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.crear">Chart JS</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.buscar">d3 Chart</a></li>
+                </ul>
+            </li>
             <li class="has-sub" ng-class="{active:$state.includes('app.chart')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
