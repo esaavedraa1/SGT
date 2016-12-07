@@ -419,7 +419,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             url: '/eliminar',
             data: { pageTitle: 'Contrato Eliminar' },
             templateUrl: 'views/contrato_eliminar.html'
-        }).state('app.contrato.editar', {
+        })
+        .state('app.contrato.editar', {
             url: '/editar',
             data: { pageTitle: 'Contrato Editar' },
             templateUrl: 'views/contrato_editar.html'
@@ -519,7 +520,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/proveedor_tipo_eliminar.html'
         })
         .state('app.proveedor.tipo.editar', {
-            url: '/editar',
+            url: '/editar/:id',
             data: { pageTitle: 'Proveedor Tipo Editar' },
             templateUrl: 'views/proveedor_tipo_editar.html'
         })
