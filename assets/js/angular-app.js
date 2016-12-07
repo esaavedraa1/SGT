@@ -490,7 +490,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Proveedor Eliminar' },
             templateUrl: 'views/proveedor_eliminar.html'
         }).state('app.proveedor.editar', {
-            url: '/editar',
+            url: '/editar/:id',
             data: { pageTitle: 'Proveedor Editar' },
             templateUrl: 'views/proveedor_editar.html'
         })
