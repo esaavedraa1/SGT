@@ -282,7 +282,7 @@ app.post('/Proveedores_Tipo/eliminar', function(req, res){
  4.0 Proveedor Controller
  ---------------------------------------------------------*/
 var Sgt_proveedorSchema = mongoose.Schema({
-    provt_id :{type:Shema.ObjectId,ref:"Sgt_proveedor_tipo"},
+    provt_id :{type:Schema.ObjectId,ref:"Sgt_proveedor_tipo"},
     prov_rut : String,
     prov_origen : String,
     prov_razon_social : String,
