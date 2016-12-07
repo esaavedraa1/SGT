@@ -773,6 +773,7 @@ colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope,
         }
     });
 });
+/*-------------------------------
 100.24 CONTROLLER - Proveedor Tipo Tabla
 ------------------------------- */
 colorAdminApp.controller('tablaProveedorDefaultController', function($scope, $rootScope, $state, $http) {
