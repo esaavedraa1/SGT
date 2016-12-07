@@ -497,6 +497,17 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             url: '/crear',
             data: { pageTitle: 'Proveedor Tipo Crear' },
             templateUrl: 'views/proveedor_tipo_crear.html'
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
         })
         .state('app.proveedor.tipo.buscar', {
             url: '/buscar',
