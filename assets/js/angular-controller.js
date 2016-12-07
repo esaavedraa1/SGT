@@ -838,7 +838,7 @@ colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootS
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope._id = data._id;
-
+                $scope.provt_tipo = data.provt_tipo;
             }else{
                 alert('Error al intentar recuperar la moneda tipo.');
             }
