@@ -822,6 +822,72 @@ colorAdminApp.controller('ProveedorTipoCrearController',function($scope, $rootSc
     };
 });
 /* -------------------------------
+ 100.20 CONTROLLER - Proveedor Tipo Crear
+ ------------------------------- */
+colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootScope, $state, $http,$window) {
+    $scope._id = null;
+    $scope.provt_tipo= '';
+    $scope.recuperarProveedor_Tipo = function(indice) {
+        $http({
+            method: 'GET',
+            url: '/Proveedores_Tipo/recuperar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope._id = data._id;
+                $scope.provt_tipo = data.provt_tipo;
+            }else{
+                alert('Error al intentar recuperar la Proveedor tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar la Proveedor tipo.');
+        });
+    };
+    $scope.guardarProveedor_Tipo = function() {
+
+        $http({
+            method: 'POST',
+            url: '/Proveedores_Tipo/guardar',
+            params: {
+                provt_tipo: $scope.provt_tipo,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                bootbox.alert("Envio Exitoso, Informacion Almacenada ");
+                $window.location.href='#/app/proveedor/proveedor_tipo/todos';
+            }else{
+                alert('Error al intentar guardar el Proveedor Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar el Proveedor Tipo.');
+        });
+    }
+    $scope.verificarProveedor_Tipo = function () {
+        $scope.valido = 1;
+        if($scope.provt_tipo == ""){
+            bootbox.alert('Proveedor Tipo Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.valido==1){
+            $scope.guardarProveedor_Tipo();
+        }
+    };
+
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.provt_tipo = '';
+
+    };
+});
+/* -------------------------------
  100.15 CONTROLLER - Moneda Tipo Crear
  ------------------------------- */
 colorAdminApp.controller('MonedaTipoCrearController',function($scope, $rootScope, $state, $http,$window) {
