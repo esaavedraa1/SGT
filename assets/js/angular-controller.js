@@ -719,7 +719,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
 /* -------------------------------
  100.20 CONTROLLER - Proveedor Tipo Tabla
  ------------------------------- */
-colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope, $rootScope, $state, $http,$window) {
+colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope, $rootScope, $state, $http) {
     $scope._id = null;
     $scope.provt_tipo= '';
     $scope.sgt_proveedor_tipo = [];
@@ -773,7 +773,44 @@ colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope,
         }
     });
 });
+/* -------------------------------
+ 100.20 CONTROLLER - Proveedor Crear
+ ------------------------------- */
+colorAdminApp.controller('ProveedorCrearController', function($scope, $rootScope, $state, $http,$window) {
+    $scope._id = null;
+    $scope.provt_tipo= '';
+    $scope.sgt_proveedor_tipo = [];
+    $scope.cargarProveedor_Tipo = function(){
+        $http({
+            method: 'GET', url: '/Proveedores_Tipo/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_proveedor_tipo = data;
 
+            }else{
+                alert('Error al intentar recuperar las Proveedores Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Proveedores Tipo.');
+        });
+    };
+
+
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.provt_tipo= '';
+    };
+
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
 /* -------------------------------
  100.21 CONTROLLER - Proveedor Tipo Crear
  ------------------------------- */

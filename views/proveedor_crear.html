@@ -1,10 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div ng-controller="ProveedorCrearController" ng-init="cargarProveedorTipo()">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;">Proveedor</a></li>
+        <li class="active">Creación</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Proveedor <small>Formulario de Ingreso</small></h1>
+    <!-- end page-header -->
 
-</body>
-</html>
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-12 -->
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse" data-sortable-id="form-stuff-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Formulario Creación de Proveedor</h4>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Proveedor Tipo</label>
+                            <div class="col-md-5">
+                                <select class="form-control" ng-model="provt_id">
+                                    <option ng-repeat="item in sgt_proveedor_tipo" value="{{item._id}}" > {{item.provt_tipo}}</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">RUT</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="59033470" ng-model="prov_rut" />
+                            </div>
+                            <label class="col-md-3 control-label">-</label>
+                            <div class="col-md-1">
+                                <input type="text" class="form-control" placeholder="5" ng-model="prov_rut_id" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Origen</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="ESTADOS UNIDOS DE AMERICA" ng-model="prov_origen" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Razón Social</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="FEDERAL EXPRESS S.A" ng-model="prov_razon_social" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Giro</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Correo Express" ng-model="prov_giro" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Dirección</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Calle Salar de Atacama" ng-model="prov_direccion" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Numero</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="17800" ng-model="prov_numero" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Dirección Oficina - Piso </label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Piso 21 Oficina 2105" ng-model="prov_oficina" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Ranking</label>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control" placeholder="5" ng-model="prov_ranking" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Telefono</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="+56 2 23616000" ng-model="prov_telefono" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Anexo</label>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control" placeholder="1001" ng-model="prov_anexo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">e-mail</label>
+                            <div class="col-md-3">
+                                <input type="email" class="form-control" placeholder="contact@fedex.com" ng-model="prov_email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Pagína WEB</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="http://www.fedex.com/cl" ng-model="prov_web" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3  control-label">Credito</label>
+                            <div class="col-md-3">
+                                <label><input type="checkbox" value="" ng-model="prov_credito"/> Obtiene </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Credito Monto</label>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control" placeholder="5500.00" ng-model="prov_credito_monto" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Horaio Inicio</label>
+                            <div class="col-md-3">
+                                <input type="time" class="form-control" placeholder="10:00" ng-model="prov_horario_inicio" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Horario Termino</label>
+                            <div class="col-md-3">
+                                <input type="time" class="form-control" placeholder="22:00" ng-model="prov_horario_termino" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Formulario 30</label>
+                            <div class="col-md-3">
+                                <input type="time" class="form-control" placeholder="http://dropbox.com/docs/formulario30.jpg" ng-model="prov_formulario_30" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Enviar</label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success" ng-click="verificarProveedor()">Guardar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end panel -->
+        </div>
+        <!-- end col-12 -->
+    </div>
+    <!-- end row -->
+</div>
