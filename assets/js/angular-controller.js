@@ -970,8 +970,7 @@ colorAdminApp.controller('ProveedorCrearController', function($scope, $rootScope
  100.26 CONTROLLER - Proveedor Editar
  ------------------------------- */
 colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
-    $scope._id = $location.path().substr(37);
-    bootbox.alert("ERROR-"+$scope._id);
+    $scope._id = $location.path().substr(27);
     $scope.provt_id = '';
     $scope.prov_rut = '';
     $scope.prov_origen = '';
