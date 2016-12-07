@@ -774,7 +774,7 @@ colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope,
     });
 });
 /*-------------------------------
-100.24 CONTROLLER - Proveedor Tipo Tabla
+100.24 CONTROLLER - Proveedor  Tabla
 ------------------------------- */
 colorAdminApp.controller('tablaProveedorDefaultController', function($scope, $rootScope, $state, $http) {
     $scope._id = null;
@@ -864,7 +864,7 @@ colorAdminApp.controller('ProveedorCrearController', function($scope, $rootScope
     $scope.prov_ranking = '';
     $scope.prov_telefono = '';
     $scope.prov_anexo = '';
-    $scope.prov_email = ''
+    $scope.prov_email = '';
     $scope.prov_web = '';
     $scope.prov_credito = '';
     $scope.prov_credito_monto = '';
@@ -967,6 +967,156 @@ colorAdminApp.controller('ProveedorCrearController', function($scope, $rootScope
     });
 });
 /* -------------------------------
+ 100.26 CONTROLLER - Proveedor Editar
+ ------------------------------- */
+colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
+    $scope._id = $location.path().substr(37);
+    bootbox.alert("ERROR-"+$scope._id);
+    $scope.provt_id = '';
+    $scope.prov_rut = '';
+    $scope.prov_origen = '';
+    $scope.prov_razon_social = '';
+    $scope.prov_giro = '';
+    $scope.prov_direccion = '';
+    $scope.prov_numero = '';
+    $scope.prov_oficina = '';
+    $scope.prov_ranking = '';
+    $scope.prov_telefono = '';
+    $scope.prov_anexo = '';
+    $scope.prov_email = '';
+    $scope.prov_web = '';
+    $scope.prov_credito = '';
+    $scope.prov_credito_monto = '';
+    $scope.prov_horario_inicio = '';
+    $scope.prov_horario_termino = '';
+    $scope.prov_formulario_30 = '';
+    $scope.sgt_proveedor_tipo = [];
+
+    $scope.cargarProveedor_Tipo = function(){
+        $http({
+            method: 'GET', url: '/Proveedores_Tipo/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_proveedor_tipo = data;
+
+            }else{
+                alert('Error al intentar recuperar las Proveedores Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Proveedores Tipo.');
+        });
+    };
+
+
+    $scope.recuperarProveedor = function() {
+        $http({
+            method: 'GET',
+            url: '/Proveedores/recuperar',
+            params: {
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope._id = data._id;
+                $scope.provt_id = data.provt_id;
+                $scope.prov_rut = data.prov_rut;
+                $scope.prov_origen = data.prov_origen;
+                $scope.prov_razon_social = data.prov_razon_social;
+                $scope.prov_giro = data.prov_giro;
+                $scope.prov_direccion = data.prov_direccion;
+                $scope.prov_numero = data.prov_numero;
+                $scope.prov_oficina = data.prov_oficina;
+                $scope.prov_ranking = data.prov_ranking;
+                $scope.prov_telefono = data.prov_telefono;
+                $scope.prov_anexo = data.prov_anexo;
+                $scope.prov_email = data.prov_email;
+                $scope.prov_web = data.prov_web;
+                $scope.prov_credito = data.prov_credito;
+                $scope.prov_credito_monto = data.prov_credito_monto;
+                $scope.prov_horario_inicio = data.prov_horario_inicio;
+                $scope.prov_horario_termino = data.prov_horario_termino;
+                $scope.prov_formulario_30 = data.prov_formulario_30;
+            }else{
+                alert('Error al intentar recuperar lel proveedor');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar el proveedor');
+        });
+    };
+    $scope.guardarProveedor = function() {
+
+        $http({
+            method: 'POST',
+            url: '/Proveedores/guardar',
+            params: {
+                provt_id: $scope.provt_id,
+                prov_rut : $scope.prov_rut,
+                prov_origen : $scope.prov_origen,
+                prov_razon_social : $scope.prov_razon_social,
+                prov_giro : $scope.prov_giro,
+                prov_direccion : $scope.prov_direccion,
+                prov_numero : $scope.prov_numero,
+                prov_oficina : $scope.prov_oficina,
+                prov_ranking : $scope.prov_ranking,
+                prov_telefono : $scope.prov_telefono,
+                prov_anexo : $scope.prov_anexo,
+                prov_email : $scope.prov_email,
+                prov_web : $scope.prov_web,
+                prov_credito : $scope.prov_credito,
+                prov_credito_monto : $scope.prov_credito_monto,
+                prov_horario_inicio : $scope.prov_horario_inicio,
+                prov_horario_termino : $scope.prov_horario_termino,
+                prov_formulario_30 : $scope.prov_formulario_30,
+                _id: $scope._id
+            }
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.limpiarDatos();
+                bootbox.alert("Envio Exitoso, Informacion Almacenada ");
+                $window.location.href='#/app/proveedor/todos';
+            }else{
+                alert('Error al intentar guardar el Proveedor Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar guardar el Proveedor Tipo.');
+        });
+    }
+    $scope.verificarProveedor = function () {
+        $scope.valido = 1;
+        if($scope.provt_id == ""){
+            bootbox.alert('Proveedor Tipo Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.prov_rut == ""){
+            bootbox.alert('Proveedor RUT Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.prov_razon_social == ""){
+            bootbox.alert('Proveedor Razón Social Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.prov_giro == ""){
+            bootbox.alert('Proveedor Giro Requerido');
+            $scope.valido = 0;
+        }
+        if($scope.valido==1){
+            $scope.guardarProveedor();
+        }
+    };
+
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.provt = '';
+
+    };
+});
+/* -------------------------------
  100.21 CONTROLLER - Proveedor Tipo Crear
  ------------------------------- */
 colorAdminApp.controller('ProveedorTipoCrearController',function($scope, $rootScope, $state, $http,$window) {
@@ -1014,7 +1164,7 @@ colorAdminApp.controller('ProveedorTipoCrearController',function($scope, $rootSc
     };
 });
 /* -------------------------------
- 100.20 CONTROLLER - Proveedor Tipo Crear
+ 100.20 CONTROLLER - Proveedor Tipo Editar
  ------------------------------- */
 colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
     $scope._id = $location.path().substr(37);
@@ -1032,11 +1182,11 @@ colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootS
                 $scope._id = data._id;
                 $scope.provt_tipo = data.provt_tipo;
             }else{
-                alert('Error al intentar recuperar la moneda tipo.');
+                alert('Error al intentar recuperar el proveedor tipo.');
             }
         }).
         error(function() {
-            alert('Error al intentar recuperar la moneda tipo.');
+            alert('Error al intentar recuperar el proveedor tipo.');
         });
     };
     $scope.guardarProveedor_Tipo = function() {
