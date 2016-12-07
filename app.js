@@ -219,6 +219,82 @@ app.post('/Monedas/eliminar', function(req, res){
 });
 
 
+var Sgt_proveedor_tipoSchema = mongoose.Schema({
+    provt_tipo: String
+
+});
+var Sgt_proveedor_tipo = mongoose.model('Sgt_proveedor_tipo', Sgt_proveedor_tipoSchema);
+
+
+app.get('/Proveedores_Tipo', function(req, res){
+    res.sendfile('./public/index3.html');
+});
+
+app.get('/Proveedores_Tipo/listar', function(req, res){
+    Sgt_proveedor_tipo.find({}, function(error, sgt_proveedores_tipo){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send(sgt_proveedores_tipo);
+        }
+    })
+});
+
+app.get('/Proveedores_Tipo/recuperar', function(req, res){
+    Sgt_proveedor_tipo.findById(req.query._id, function(error, sgt_proveedores_tipo){
+        if(error){
+            res.send('Error.');
+            console.log("Error en la recuperacion")
+        }else{
+            res.send(sgt_proveedores_tipo);
+            console.log(sgt_proveedores_tipo)
+        }
+    });
+});
+
+app.post('/Proveedores_Tipo/guardar', function(req, res){
+    if(req.query._id == null){
+        //Inserta
+        var sgt_proveedor_tipo = new Sgt_proveedor_tipo({
+            provt_tipo: req.query.provt_tipo
+        });
+        sgt_proveedor_tipo.save(function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(documento);
+            }
+        });
+    }else{
+        //Modifica
+        Sgt_proveedor_tipo.findById(req.query._id, function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                var sgt_proveedor_tipo = documento;
+                sgt_proveedor_tipo.provt_tipo = req.query.provt_tipo
+                sgt_proveedor_tipo.save(function(error, documento){
+                    if(error){
+                        res.send('Error.');
+                    }else{
+                        res.send(documento);
+                    }
+                });
+            }
+        });
+    }
+});
+
+app.post('/Proveedores_Tipo/eliminar', function(req, res){
+    Sgt_proveedor_tipo.remove({_id: req.query._id}, function(error){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send('Ok');
+        }
+    });
+});
+
 
 
 app.listen(8080, function() {
