@@ -1046,7 +1046,7 @@ colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope
         error(function() {
             alert('Error al intentar recuperar el proveedor');
         });
-        %scope.cargarProveedor_Tipo();
+        $scope.cargarProveedor_Tipo();
     };
     $scope.guardarProveedor = function() {
 
