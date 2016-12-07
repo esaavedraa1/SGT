@@ -70,29 +70,22 @@
                 </ul>
             </li>
 
-            <li class="has-sub" ng-class="{active:$state.includes('app.table')}">
+            <li class="has-sub" ng-class="{active:$state.includes('app.proveedor')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
                     <i class="fa fa-users"></i>
                     <span>Proveedor</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.table.basic">Basic Tables</a></li>
-                    <li class="has-sub" ng-class="{active:$state.includes('app.table.manage')}">
+                    <li ui-sref-active="active"><a ui-sref="app.proveedor.todos">Proveedor</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.proveedor.crear">Proveedor Crear</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.proveedor.buscar">Proveedor Buscar</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.proveedor.tipo')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Managed Tables</a>
                         <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.default">Default</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.autofill">Autofill</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.buttons">Buttons</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.colReorder">ColReorder</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.fixedColumns">Fixed Columns</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.fixedHeader">Fixed Header</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.keyTable">KeyTable</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.responsive">Responsive</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.rowReorder">RowReorder</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.scroller">Scroller</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.select">Select</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.table.manage.combine">Extension Combination</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.proveedor.todos">Proveedor Tipo</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.proveedor.tipo.crear">Proveedor Tipo Crear</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.proveedor.tipo.buscar">Proveedor Tipo Buscar</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -119,10 +112,10 @@
                     <span>Despacho</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.todos">Flot Chart</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.tipo">Morris Chart</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.crear">Chart JS</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.buscar">d3 Chart</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.todos">Despachos</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.tipo">Despachos Tipo</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.crear">Despacho Crear</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.buscar">Despacho Buscar</a></li>
                 </ul>
             </li>
             <li class="has-sub" ng-class="{active:$state.includes('app.chart')}">

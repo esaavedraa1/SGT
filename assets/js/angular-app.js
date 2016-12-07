@@ -86,7 +86,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-
                             'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
                             'assets/plugins/password-indicator/css/password-indicator.css',
                             'assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css',
@@ -118,7 +117,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/bootstrap-show-password/bootstrap-show-password.js',
                             'assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js',
                             'assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js'
-
                         ]
                     });
                 }]
@@ -149,6 +147,95 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Personal Restricciones' },
             templateUrl: 'views/personal_restricciones.html'
         })
+
+        //Despachos
+        .state('app.despacho', {
+            url: '/despacho',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.despacho_tipo', {
+            url: '/despacho_tipo',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+
+        .state('app.despacho.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Despacho Todos' },
+            templateUrl: 'views/despacho_todos.html'
+        })
+        .state('app.despacho_tipo.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Despacho Tipo Todos' },
+            templateUrl: 'views/despacho_tipo_todos.html'
+        })
+        .state('app.despacho_tipo.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Despacho Tipo Crear' },
+            templateUrl: 'views/despacho_tipo_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho_tipo.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Despacho Tipo Editar' },
+            templateUrl: 'views/despacho_tipo_editar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+
+        .state('app.despacho.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Despacho Crear' },
+            templateUrl: 'views/despacho_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Despacho Editar' },
+            templateUrl: 'views/despacho_editar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+
 
 
         .state('app.moneda', {
@@ -367,7 +454,65 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         data: { pageTitle: 'Flota Editar' },
         templateUrl: 'views/flota_editar.html'
         })
-
+        .state('app.proveedor', {
+            url: '/proveedor',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.proveedor.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Proveedor Todos' },
+            templateUrl: 'views/proveedor_todos.html'
+        })
+        .state('app.proveedor.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Proveedor Crear' },
+            templateUrl: 'views/proveedor_crear.html'
+        })
+        .state('app.proveedor.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Proveedor Buscar' },
+            templateUrl: 'views/proveedor_buscar.html'
+        })
+        .state('app.proveedor.eliminar', {
+            url: '/eliminar',
+            data: { pageTitle: 'Proveedor Eliminar' },
+            templateUrl: 'views/proveedor_eliminar.html'
+        }).state('app.proveedor.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Proveedor Editar' },
+            templateUrl: 'views/proveedor_editar.html'
+        })
+        .state('app.proveedor.tipo', {
+            url: '/proveedor_tipo',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.proveedor.tipo.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Proveedor Tipo Todos' },
+            templateUrl: 'views/proveedor_tipo_todos.html'
+        })
+        .state('app.proveedor.tipo.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Proveedor Tipo Crear' },
+            templateUrl: 'views/proveedor_tipo_crear.html'
+        })
+        .state('app.proveedor.tipo.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Proveedor Tipo Buscar' },
+            templateUrl: 'views/proveedor_tipo_buscar.html'
+        })
+        .state('app.proveedor.tipo.eliminar', {
+            url: '/eliminar',
+            data: { pageTitle: 'Proveedor Tipo Eliminar' },
+            templateUrl: 'views/proveedor_tipo_eliminar.html'
+        })
+        .state('app.proveedor.tipo.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Proveedor Tipo Editar' },
+            templateUrl: 'views/proveedor_tipo_editar.html'
+        })
 
         .state('app.table', {
             url: '/table',
