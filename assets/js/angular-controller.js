@@ -773,6 +773,80 @@ colorAdminApp.controller('tablaProveedorTipoDefaultController', function($scope,
         }
     });
 });
+100.24 CONTROLLER - Proveedor Tipo Tabla
+------------------------------- */
+colorAdminApp.controller('tablaProveedorDefaultController', function($scope, $rootScope, $state, $http) {
+    $scope._id = null;
+    $scope.provt_id = '';
+    $scope.prov_rut = '';
+    $scope.prov_origen = '';
+    $scope.prov_razon_social = '';
+    $scope.prov_giro = '';
+    $scope.prov_direccion = '';
+    $scope.prov_numero = '';
+    $scope.prov_oficina = '';
+    $scope.prov_ranking = '';
+    $scope.prov_telefono = '';
+    $scope.prov_anexo = '';
+    $scope.prov_email = ''
+    $scope.prov_web = '';
+    $scope.prov_credito = '';
+    $scope.prov_credito_monto = '';
+    $scope.prov_horario_inicio = '';
+    $scope.prov_horario_termino = '';
+    $scope.prov_formulario_30 = '';
+    $scope.provt_tipo= '';
+    $scope.sgt_proveedor = [];
+    $scope.cargarProveedor = function(){
+        $http({
+            method: 'GET', url: '/Proveedores/listar'
+        }).
+        success(function(data) {
+            if(typeof(data) == 'object'){
+                $scope.sgt_proveedor = data;
+
+            }else{
+                alert('Error al intentar recuperar las Proveedores Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar recuperar las Proveedores Tipo.');
+        });
+    };
+
+    $scope.eliminarProveedor = function(indice) {
+        $http({
+            method: 'POST',
+            url: '/Proveedores/eliminar',
+            params: {
+                _id: indice
+            }
+        }).
+        success(function(data) {
+            if(data == 'Ok'){
+                $scope.limpiarDatos();
+                $scope.cargarProveedor();
+            }else{
+                alert('Error al intentar eliminar la Proveedor Tipo.');
+            }
+        }).
+        error(function() {
+            alert('Error al intentar eliminar la Proveedor Tipo.');
+        });
+    };
+    $scope.limpiarDatos = function() {
+        $scope._id = null;
+        $scope.provt= '';
+    };
+
+    angular.element(document).ready(function () {
+        if ($('#data-table').length !== 0) {
+            $('#data-table').DataTable({
+                responsive: true
+            });
+        }
+    });
+});
 /* -------------------------------
  100.20 CONTROLLER - Proveedor Crear
  ------------------------------- */
