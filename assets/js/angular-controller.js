@@ -827,12 +827,12 @@ colorAdminApp.controller('ProveedorTipoCrearController',function($scope, $rootSc
 colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
     $scope._id = $location.path().substr(37);
     $scope.provt_tipo= '';
-    $scope.recuperarProveedor_Tipo = function(indice) {
+    $scope.recuperarProveedor_Tipo = function() {
         $http({
             method: 'GET',
             url: '/Proveedores_Tipo/recuperar',
             params: {
-                _id: indice
+                _id: $scope._id
             }
         }).
         success(function(data) {

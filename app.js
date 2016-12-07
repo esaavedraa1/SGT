@@ -89,7 +89,6 @@ app.get('/Monedas_Tipo/recuperar', function(req, res){
         }
     });
 });
-
 app.post('/Monedas_Tipo/guardar', function(req, res){
     if(req.query._id == null){
         //Inserta
@@ -128,7 +127,6 @@ app.post('/Monedas_Tipo/guardar', function(req, res){
         });
     }
 });
-
 app.post('/Monedas_Tipo/eliminar', function(req, res){
     Sgt_moneda_tipo.remove({_id: req.query._id}, function(error){
         if(error){
@@ -138,14 +136,10 @@ app.post('/Monedas_Tipo/eliminar', function(req, res){
         }
     });
 });
-
-//--------------------------------------------------------
-
 //--------------------------------------------------------
 app.get('/Monedas', function(req, res){
     res.sendfile('./public/index2.html');
 });
-
 app.get('/Monedas/listar', function(req, res){
     Sgt_moneda.find({}, function(error, sgt_monedas){
         Sgt_moneda_tipo.populate(sgt_monedas,{path:"monet_id"},function (error,sgt_monedas) {
@@ -157,7 +151,6 @@ app.get('/Monedas/listar', function(req, res){
         });
     });
 });
-
 app.get('/Monedas/recuperar', function(req, res){
     Sgt_moneda.findById(req.query._id, function(error, sgt_monedas){
         if(error){
@@ -169,7 +162,6 @@ app.get('/Monedas/recuperar', function(req, res){
         }
     });
 });
-
 app.post('/Monedas/guardar', function(req, res){
     if(req.query._id == null){
         //Inserta
@@ -207,7 +199,6 @@ app.post('/Monedas/guardar', function(req, res){
         });
     }
 });
-
 app.post('/Monedas/eliminar', function(req, res){
     Sgt_moneda.remove({_id: req.query._id}, function(error){
         if(error){
@@ -217,19 +208,14 @@ app.post('/Monedas/eliminar', function(req, res){
         }
     });
 });
-
-
 var Sgt_proveedor_tipoSchema = mongoose.Schema({
     provt_tipo: String
 
 });
 var Sgt_proveedor_tipo = mongoose.model('Sgt_proveedor_tipo', Sgt_proveedor_tipoSchema);
-
-
 app.get('/Proveedores_Tipo', function(req, res){
     res.sendfile('./public/index3.html');
 });
-
 app.get('/Proveedores_Tipo/listar', function(req, res){
     Sgt_proveedor_tipo.find({}, function(error, sgt_proveedores_tipo){
         if(error){
