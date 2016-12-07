@@ -34,12 +34,13 @@
                         <tr>
                             <th> ID </th>
                             <th> Tipo </th>
-
+                            <th> Editar</th>
+                            <th> Eliminar</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr ng-repeat="item in sgt_proveedor_tipo">
-                            <td> {{item.provt_id}} </td>
+                            <td> {{item._id}} </td>
                             <td> {{item.provt_tipo}} </td>
                             <td> <a href="/#/app/proveedor/proveedor_tipo/editar/{{item._id}}" class="btn btn-info" > Editar </a> </td>
                             <td> <a href="javascript:void(0);" class="btn btn-danger" ng-click="eliminarProveedor_Tipo(item._id)"> Eliminar </a> </td>
