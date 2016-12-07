@@ -825,7 +825,7 @@ colorAdminApp.controller('ProveedorTipoCrearController',function($scope, $rootSc
  100.20 CONTROLLER - Proveedor Tipo Crear
  ------------------------------- */
 colorAdminApp.controller('ProveedorTipoEditarController',function($scope, $rootScope, $state, $http,$window,$location) {
-    $scope._id = $location.path().substr(34);
+    $scope._id = $location.path().substr(37);
     bootbox.alert("error "+$scope._id);
     $scope.provt_tipo= '';
     $scope.recuperarProveedor_Tipo = function(indice) {
