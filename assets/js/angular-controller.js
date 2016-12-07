@@ -830,7 +830,7 @@ colorAdminApp.controller('ProveedorCrearController', function($scope, $rootScope
                 prov_ranking : $scope.prov_ranking,
                 prov_telefono : $scope.prov_telefono,
                 prov_anexo : $scope.prov_anexo,
-                prov_email : $scope.prov_email
+                prov_email : $scope.prov_email,
                 prov_web : $scope.prov_web,
                 prov_credito : $scope.prov_credito,
                 prov_credito_monto : $scope.prov_credito_monto,
