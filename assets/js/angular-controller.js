@@ -1011,6 +1011,7 @@ colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope
 
 
     $scope.recuperarProveedor = function() {
+        bootbox.alert("ERROR-"+$scope._id);
         $http({
             method: 'GET',
             url: '/Proveedores/recuperar',
@@ -1040,7 +1041,7 @@ colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope
                 $scope.prov_horario_termino = data.prov_horario_termino;
                 $scope.prov_formulario_30 = data.prov_formulario_30;
             }else{
-                alert('Error al intentar recuperar lel proveedor');
+                alert('Error al intentar recuperar el proveedor');
             }
         }).
         error(function() {
