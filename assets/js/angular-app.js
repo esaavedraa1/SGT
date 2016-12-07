@@ -522,7 +522,17 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.proveedor.tipo.editar', {
             url: '/editar/:id',
             data: { pageTitle: 'Proveedor Tipo Editar' },
-            templateUrl: 'views/proveedor_tipo_editar.html'
+            templateUrl: 'views/proveedor_tipo_editar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
         })
 
         .state('app.table', {
