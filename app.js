@@ -402,7 +402,144 @@ app.post('/Proveedores/eliminar', function(req, res){
         }
     });
 });
-
+/*-------------------------------------------------------
+ 4.0 flota Controller
+ ---------------------------------------------------------*/
+var Sgt_flotaSchema = mongoose.Schema({
+    prov_id :{type:Schema.ObjectId,ref:"Sgt_proveedor"},
+    flot_patente : String,
+    flot_marca : String,
+    flot_modelo : String,
+    flot_numero_vin : String,
+    flot_numero_motor: String,
+    flot_inscripcion : {type :date, default Date.now},
+    flot_color : String,
+    flot_peso_real : String,
+    flot_peso_bruto : String,
+    flot_peso_tara: String,
+    flot_peso_neto : String,
+    flot_combustible : String,
+    flot_volumen : String,
+    flot_ancho : String,
+    flot_largo : String,
+    flot_alto : String,
+    flot_ruedas: Number,
+    flot_ejes : Number,
+    flot_sello : String,
+    flot_rev_tecnica : date,
+    flot_caja : String,
+    flot_puertas : Number
+});
+var Sgt_flota = mongoose.model('Sgt_flota', Sgt_flotaSchema);
+app.get('/Flota', function(req, res){
+    res.sendfile('./public/index5.html');
+});
+app.get('/Flota/listar', function(req, res){
+    Sgt_flota.find({}, function(error, sgt_flotas){
+        Sgt_flota.populate(sgt_flotas,{path:'prov_id'},function(error,sgt_flotas){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(sgt_flotas);
+            }
+        });
+    });
+});
+app.get('/Flotas/recuperar', function(req, res){
+    Sgt_flota.findById(req.query._id, function(error, sgt_flotas){
+        if(error){
+            res.send('Error.');
+            console.log("Error en la recuperacion de las flotas")
+        }else{
+            res.send(sgt_flotas);
+            console.log(sgt_flotas)
+        }
+    });
+});
+app.post('/Flotas/guardar', function(req, res){
+    if(req.query._id == null){
+        //Inserta
+        var sgt_flota = new Sgt_flota({
+            prov_id: req.query.prov_id,
+            flot_patente : req.query.flot_patente,
+            flot_marca : req.query.flot.flot_marca,
+            flot_modelo : req.query.flot_modelo,
+            flot_numero_vin : req.query.flot_numero_vin,
+            flot_numero_motor: req.query.flot_numero_motor,
+            flot_inscripcion : req.query.flot_inscripcion,
+            flot_color : req.query.flot_color,
+            flot_peso_real : req.query.flot_peso_real,
+            flot_peso_bruto : req.query.flot_peso_bruto,
+            flot_peso_tara: req.query.flot_peso_tara,
+            flot_peso_neto : req.query.flot_peso_neto,
+            flot_combustible : req.query.flot_combustible,
+            flot_volumen : req.query.flot_volumen,
+            flot_ancho : req.query.flot_ancho,
+            flot_largo : req.query.flot_largo,
+            flot_alto : req.query.flot_alto,
+            flot_ruedas: req.query.flot_ruedas,
+            flot_ejes : req.query.flot_ejes,
+            flot_sello : req.query.flot_sello,
+            flot_rev_tecnica : req.query.flot_rev_tecnica,
+            flot_caja : req.query.flot_caja,
+            flot_puertas : req.query.flot_puertas
+        });
+        sgt_flota.save(function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(documento);
+            }
+        });
+    }else{
+        //Modifica
+        Sgt_flota.findById(req.query._id, function(error, documento){
+            if(error){
+                res.send('Error.');
+            }else{
+                var sgt_flota = documento;
+                sgt.flota.flot_patente = req.query.flot_patente,
+                    sgt_flota.flot_marca = req.query.flot_marca,
+                    sgt_flota.flot_modelo = req.query.flot_modelo,
+                    sgt_flota.flot_numero_vin = req.query.flot_numero_vin,
+                    sgt_flota.flot_numero_motor= req.query.flot_numero_motor,
+                    sgt_flota.flot_inscripcion = req.query.flot_inscripcion,
+                    sgt_flota.flot_color = req.query.flot_color,
+                    sgt_flota.flot_peso_real = req.query.flot_peso_real,
+                    sgt_flota.flot_peso_bruto = req.query.flot_peso_bruto,
+                    sgt_flota.flot_peso_tara = req.query.flot_peso_tara,
+                    sgt_flota.flot_peso_neto = req.query.flot_peso_neto,
+                    sgt_flota.flot_combustible = req.query.flot_combustible,
+                    sgt_flota.flot_volumen = req.query.flot_volumen,
+                    sgt_flota.flot_ancho = req.query.flot_ancho,
+                    sgt_flota.flot_largo = req.query.flot_largo,
+                    sgt_flota.flot_alto = req.query.flot_alto,
+                    sgt_flota.flot_ruedas = req.query.flot_ruedas,
+                    sgt_flota.flot_ejes = req.query.flot_ejes,
+                    sgt_flota.flot_sello = req.query.flot_sello,
+                    sgt_flota.flot_rev_tecnica = req.query.flot_rev_tecnica,
+                    sgt_flota.flot_caja = req.query.flot_caja,
+                    sgt_flota.flot_puertas = req.query.flot_puertas
+                sgt_flota.save(function(error, documento){
+                    if(error){
+                        res.send('Error.');
+                    }else{
+                        res.send(documento);
+                    }
+                });
+            }
+        });
+    }
+});
+app.post('/Flotas/eliminar', function(req, res){
+    Sgt_flota.remove({_id: req.query._id}, function(error){
+        if(error){
+            res.send('Error.');
+        }else{
+            res.send('Ok');
+        }
+    });
+});
 app.listen(8080, function() {
     console.log('App listening on port 8080');
 });
