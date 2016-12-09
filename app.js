@@ -307,12 +307,14 @@ app.get('/Proveedores', function(req, res){
 });
 app.get('/Proveedores/listar', function(req, res){
     Sgt_proveedor.find({}, function(error, sgt_proveedores){
-        if(error){
-            res.send('Error.');
-        }else{
-            res.send(sgt_proveedores);
-        }
-    })
+        Sgt_proveedor.populate(sgt_proveedores,{path:'provt_id'},function(error,sgt_proveedores){
+            if(error){
+                res.send('Error.');
+            }else{
+                res.send(sgt_proveedores);
+            }
+        });
+    });
 });
 app.get('/Proveedores/recuperar', function(req, res){
     Sgt_proveedor.findById(req.query._id, function(error, sgt_proveedores){
