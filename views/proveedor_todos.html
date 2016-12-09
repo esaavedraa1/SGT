@@ -45,7 +45,7 @@
                         <tr ng-repeat="item in sgt_proveedor">
                             <td> {{item.prov_rut}} </td>
                             <td> {{item.prov_razon_social}}</td>
-                            <td> {{item.prov_giro}}</td>
+                            <td> {{item.provt_id.provt_tipo}}</td>
                             <td> {{item.prov_telefono}}</td>
                             <td> {{item.prov_direccion}}</td>
                             <td> <a href="/#/app/proveedor/editar/{{item._id}}" class="btn btn-info" > Editar </a> </td>
