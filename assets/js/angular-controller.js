@@ -1010,7 +1010,6 @@ colorAdminApp.controller('ProveedorEditarController',function($scope, $rootScope
 
 
     $scope.recuperarProveedor = function() {
-        bootbox.alert("ERROR-"+$scope._id);
         $http({
             method: 'GET',
             url: '/Proveedores/recuperar',
