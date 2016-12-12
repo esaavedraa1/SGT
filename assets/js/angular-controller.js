@@ -708,11 +708,10 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
     };
 
     angular.element(document).ready(function () {
-        if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
-                responsive: true
+                responsive: true,
+                "ajax": $scope.sgt_monedas
             });
-        }
     });
 });
 
