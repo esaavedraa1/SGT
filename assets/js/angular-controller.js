@@ -1338,7 +1338,6 @@ colorAdminApp.controller('MonedaCrearController',function($scope, $rootScope, $s
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.limpiarDatos();
-                bootbox.alert("Envio Exitoso, Informacion Almacenada " +$scope.mone_fecha);
                 $window.location.href='#/app/moneda/todos';
             }else{
                 alert('Error al intentar guardar la Moneda Tipo.');
