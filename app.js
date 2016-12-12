@@ -426,7 +426,7 @@ var Sgt_flotaSchema = mongoose.Schema({
     flot_ruedas: Number,
     flot_ejes : Number,
     flot_sello : String,
-    flot_rev_tecnica : date,
+    flot_rev_tecnica : Date,
     flot_caja : String,
     flot_puertas : Number
 });
