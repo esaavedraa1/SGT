@@ -412,7 +412,7 @@ var Sgt_flotaSchema = mongoose.Schema({
     flot_modelo : String,
     flot_numero_vin : String,
     flot_numero_motor: String,
-    flot_inscripcion : {type :date, default Date.now},
+    flot_inscripcion : {type :date, default: Date.now},
     flot_color : String,
     flot_peso_real : String,
     flot_peso_bruto : String,

@@ -1741,6 +1741,7 @@ colorAdminApp.controller('personalCreaController', function($scope, $rootScope, 
  100.3 CONTROLLER - Flota Tabla
  ------------------------------- */
 colorAdminApp.controller('tablaFlotaDefaultController', function($scope, $rootScope, $state) {
+
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
