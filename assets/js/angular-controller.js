@@ -706,11 +706,17 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         $scope.mone_fecha = '';
         $scope.mone_valor= '';
     };
-
+    Console.log($scope.sgt_monedas)
     angular.element(document).ready(function () {
             $('#data-table').DataTable({
                 responsive: true,
-                data : $scope.sgt_monedas
+                data : $scope.sgt_monedas,
+                columns :[
+                    { data: '_id'},
+                    { data : 'mone_fecha'},
+                    { data: 'mone_valor'},
+                    { data : 'monet_id'}
+                ]
             });
     });
 });
