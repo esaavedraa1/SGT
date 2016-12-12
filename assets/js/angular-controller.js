@@ -706,7 +706,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         $scope.mone_fecha = '';
         $scope.mone_valor= '';
     };
-    Console.log($scope.sgt_monedas)
+    bootbox.alert(" "+$scope.sgt_monedas)
     angular.element(document).ready(function () {
             $('#data-table').DataTable({
                 responsive: true,
