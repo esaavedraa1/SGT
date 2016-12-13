@@ -257,7 +257,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css',
                             'assets/plugins/DataTables/media/js/jquery.dataTables.js',
                             'assets/plugins/DataTables/media/js/dataTables.bootstrap.min.js',
-                            'assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js'
+                            'assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js',
+                            'assets/plugins/bootbox/bootbox.min.js'
                         ]
                     });
                 }]
