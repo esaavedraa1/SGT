@@ -713,7 +713,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                 responsive: true,
                 data : $scope.sgt_monedas,
                 columns :[
-                    { data: '_id'},
+                    { data : '_id'},
                     { data : 'mone_fecha'},
                     { data: 'mone_valor'},
                     { data : 'monet_id'}
