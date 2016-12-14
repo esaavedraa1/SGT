@@ -708,6 +708,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
     };
 
     angular.element(document).ready(function () {
+            $scope.cargarMonedas();
             $('#data-table').DataTable({
                 responsive: true,
                 data : $scope.sgt_monedas,
