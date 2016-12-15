@@ -708,18 +708,13 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
     };
 
     angular.element(document).ready(function () {
-            $scope.cargarMonedas();
+        if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
-                responsive: true,
-                data : $scope.sgt_monedas,
-                columns :[
-                    { data : '_id'},
-                    { data : 'mone_fecha'},
-                    { data: 'mone_valor'},
-                    { data : 'monet_id'}
-                ]
+                responsive: true
             });
+        }
     });
+
 });
 
 /* -------------------------------
