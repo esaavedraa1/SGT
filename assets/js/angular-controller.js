@@ -706,10 +706,20 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         $scope.mone_fecha = '';
         $scope.mone_valor= '';
     };
+    var data = [
+        [
+            "CHILE",
+            "CLP",
+            "12-12-1200:00:00Z",
+            "23.36",
+            " <a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda(item._id)'> Eliminar </a>"
 
+        ]
+    ]
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
+                data : data,
                 responsive: true
             });
         }
