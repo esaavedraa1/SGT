@@ -632,10 +632,10 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                         $('#data-table').DataTable({
                             data : data,
                             columns:[
-                                {data: "_id"}    ,
+                                {data: "monet_id.monet_pais"},
+                                {data : "monet_id.monet_codigo"},
                                 {data: "mone_fecha"} ,
                                 {data: "mone_valor"} ,
-                                {data: "monet_id.monet_pais"}
                             ],
                             responsive: true
                         });
