@@ -636,6 +636,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                                 {data : "monet_id.monet_codigo"},
                                 {data: "mone_fecha"} ,
                                 {data: "mone_valor"} ,
+                                {data : "<p> hola <p>"}
                             ],
                             responsive: true
                         });
