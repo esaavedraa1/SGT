@@ -630,7 +630,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                 for (i = 0; i <= Object.keys(data).length;i++)
                 {
                     var eliminar = " <a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda(data[i]._id)'> Eliminar </a>";
-                    data[i]= eliminar;
+                    data[i]["eliminar"]= eliminar;
                 }
                 console.log(data);
                 angular.element(document).ready(function () {
