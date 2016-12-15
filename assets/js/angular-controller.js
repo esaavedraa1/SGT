@@ -626,7 +626,8 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas = data;
-
+                var data = $scope.sgt_monedas;
+                console.log(data);
             }else{
                 alert('Error al intentar recuperar las Monedas .');
             }
@@ -719,8 +720,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         ]
     ]*/
     $scope.cargarMonedas();
-    var data = $scope.sgt_monedas;
-    console.log(data);
+
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
