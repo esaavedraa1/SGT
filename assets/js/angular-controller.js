@@ -626,8 +626,15 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas = data;
-                var data = $scope.sgt_monedas;
                 console.log(data);
+                angular.element(document).ready(function () {
+                    if ($('#data-table').length !== 0) {
+                        $('#data-table').DataTable({
+                            data : data,
+                            responsive: true
+                        });
+                    }
+                });
             }else{
                 alert('Error al intentar recuperar las Monedas .');
             }
@@ -709,26 +716,8 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
     };
 
 
-    /*var data = [
-        [
-            "CHILE",
-            "CLP",
-            "12-12-1200:00:00Z",
-            "23.36",
-            " <a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda(item._id)'> Eliminar </a>"
 
-        ]
-    ]*/
-    $scope.cargarMonedas();
 
-    angular.element(document).ready(function () {
-        if ($('#data-table').length !== 0) {
-            $('#data-table').DataTable({
-                data : data,
-                responsive: true
-            });
-        }
-    });
 
 });
 
