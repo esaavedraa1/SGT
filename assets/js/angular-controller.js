@@ -613,7 +613,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 /* -------------------------------
  100.14 CONTROLLER - Moneda Tipo Tabla
  ------------------------------- */
-colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window) {
+colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window,console) {
     $scope._id = null;
     $scope.monet_id = ''
     $scope.mone_fecha = '';
@@ -706,7 +706,9 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         $scope.mone_fecha = '';
         $scope.mone_valor= '';
     };
-    var data = [
+
+
+    /*var data = [
         [
             "CHILE",
             "CLP",
@@ -715,7 +717,9 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
             " <a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda(item._id)'> Eliminar </a>"
 
         ]
-    ]
+    ]*/
+    var data = $scope.sgt_monedas;
+    console.log(data);
     angular.element(document).ready(function () {
         if ($('#data-table').length !== 0) {
             $('#data-table').DataTable({
