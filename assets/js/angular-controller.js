@@ -613,7 +613,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 /* -------------------------------
  100.14 CONTROLLER - Moneda Tipo Tabla
  ------------------------------- */
-colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window,console) {
+colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootScope, $state, $http,$window) {
     $scope._id = null;
     $scope.monet_id = ''
     $scope.mone_fecha = '';
