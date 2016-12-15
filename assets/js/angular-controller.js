@@ -626,13 +626,7 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas = data;
-                var i;
-                for (i = 0; i <= Object.keys(data).length;i++)
-                {
-                    var eliminar = " <a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda(data[i]._id)'> Eliminar </a>";
-                    data[i].["eliminar"]= eliminar;
-                }
-                console.log(data);
+
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         $('#data-table').DataTable({
@@ -642,7 +636,6 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                                 {data : "monet_id.monet_codigo"},
                                 {data: "mone_fecha"} ,
                                 {data: "mone_valor"} ,
-                                {data: "eliminar"}
                             ],
                             responsive: true
                         });
