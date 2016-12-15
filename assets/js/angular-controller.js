@@ -631,6 +631,12 @@ colorAdminApp.controller('tablaMonedaDefaultController', function($scope, $rootS
                     if ($('#data-table').length !== 0) {
                         $('#data-table').DataTable({
                             data : data,
+                            columns:[
+                                {data: "_id"}    ,
+                                {data: "mone_fecha"} ,
+                                {data: "mone_valor"} ,
+                                {data: "monet_id"}
+                            ],
                             responsive: true
                         });
                     }
