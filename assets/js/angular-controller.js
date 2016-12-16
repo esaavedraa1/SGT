@@ -534,7 +534,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                             responsive: true,
 
                         });
-                        var count = table.rows( { selected: true } ).data();
+                        var count = table.rows( { selected: true } ).id();
                         $scope.editar = function () {
 
                             console.log(count + "celdas seleccionadas");
