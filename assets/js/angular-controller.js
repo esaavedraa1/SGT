@@ -528,10 +528,22 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                                 {data: "monet_codigo"} ,
                                 {data: "monet_pais"} ,
                             ],
-                            responsive: true
+                            select : true,
+                            responsive: true,
+                            buttons : [
+                                {
+                                    text : "Editar",
+                                    action : function () {
+                                        var row = $('#data-table').rows({selected : true});
+                                        console.log(row);
+                                    }
+                                }
+                            ]
                         });
                     }
+
                 });
+
             }else{
                 alert('Error al intentar recuperar las Monedas Tipo.');
             }
