@@ -290,7 +290,22 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.moneda_tipo.todos', {
             url: '/todos',
             data: { pageTitle: 'Moneda Tipo Todos' },
-            templateUrl: 'views/moneda_tipo_todos.html'
+            templateUrl: 'views/moneda_tipo_todos.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/DataTables/media/css/dataTables.bootstrap.min.css',
+                            'assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css',
+                            'assets/plugins/DataTables/media/js/jquery.dataTables.js',
+                            'assets/plugins/DataTables/media/js/dataTables.bootstrap.min.js',
+                            'assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js',
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
         })
         .state('app.moneda_tipo.crear', {
             url: '/crear',
