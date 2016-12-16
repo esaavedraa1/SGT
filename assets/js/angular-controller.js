@@ -511,8 +511,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
     $scope.editar = function () {
-        var count = $('#data-table').rows( { selected: true } ).count();
-        console.log(count + "celdas seleccionadas");
+      /*  var count = $('#data-table').rows( { selected: true } ).count();
+        console.log(count + "celdas seleccionadas");*/
+      var count = 0;
         bootbox.alert(count + "celdas seleccionadas");
     }
     $scope.cargarMonedas_Tipo = function(){
