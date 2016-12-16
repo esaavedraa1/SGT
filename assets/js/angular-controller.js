@@ -526,7 +526,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
-                        $('#data-table').DataTable({
+                        var table = $('#data-table').DataTable({
                             data : data,
                             columns:[
                                 {data: "monet_id"},
@@ -538,7 +538,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                             responsive: true,
 
                         });
-                        var count = $('#data-table').rows( { selected: true } ).count();
+                        var count = table.rows( { selected: true } ).count();
                     }
                 });
 
