@@ -518,6 +518,20 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
 
+                angular.element(document).ready(function () {
+                    if ($('#data-table').length !== 0) {
+                        $('#data-table').DataTable({
+                            data : data,
+                            columns:[
+                                {data: "monet_id"},
+                                {data : "monet_nombre"},
+                                {data: "monet_codigo"} ,
+                                {data: "monet_pais"} ,
+                            ],
+                            responsive: true
+                        });
+                    }
+                });
             }else{
                 alert('Error al intentar recuperar las Monedas Tipo.');
             }
@@ -601,13 +615,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         $scope.monet_pais= '';
     };
 
-    angular.element(document).ready(function () {
-        if ($('#data-table').length !== 0) {
-            $('#data-table').DataTable({
-                responsive: true
-            });
-        }
-    });
+
 });
 
 /* -------------------------------
