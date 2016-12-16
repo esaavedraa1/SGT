@@ -513,6 +513,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.editar = function () {
         var count = $('#data-table').rows( { selected: true } ).count();
         console.log(count + "celdas seleccionadas");
+        bootbox.alert(count + "celdas seleccionadas");
     }
     $scope.cargarMonedas_Tipo = function(){
         $http({
