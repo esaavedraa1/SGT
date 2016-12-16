@@ -511,7 +511,10 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
     $scope.editar = function () {
-        alert('Error al intentar guardar la Moneda Tipo.');
+       var count = $('#data-table').rows( { selected: true } ).count();
+        console.log(count + "celdas seleccionadas");
+
+        bootbox.alert(count + "celdas seleccionadas");
     };
     $scope.cargarMonedas_Tipo = function(){
         $http({
