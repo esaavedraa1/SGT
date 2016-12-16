@@ -510,7 +510,12 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.monet_codigo = '';
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
+    $scope.editar = function () {
 
+        console.log(count + "celdas seleccionadas");
+
+        bootbox.alert(count + "celdas seleccionadas");
+    };
     $scope.cargarMonedas_Tipo = function(){
         $http({
             method: 'GET', url: '/Monedas_Tipo/listar'
@@ -533,14 +538,8 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                             responsive: true,
 
                         });
-                    }
-                    $scope.editar = function () {
                         var count = $('#data-table').rows( { selected: true } ).count();
-                        console.log(count + "celdas seleccionadas");
-
-                        bootbox.alert(count + "celdas seleccionadas");
-                    };
-                    
+                    }
                 });
 
             }else{
