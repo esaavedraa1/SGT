@@ -258,7 +258,16 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/DataTables/media/js/jquery.dataTables.js',
                             'assets/plugins/DataTables/media/js/dataTables.bootstrap.min.js',
                             'assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js',
-                            'assets/plugins/bootbox/bootbox.min.js'
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/css/buttons.bootstrap.min.css',
+                            'assets/plugins/DataTables/extensions/Buttons/js/dataTables.buttons.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/buttons.bootstrap.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/buttons.flash.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/jszip.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/pdfmake.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/vfs_fonts.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/buttons.html5.min.js',
+                            'assets/plugins/DataTables/extensions/Buttons/js/buttons.print.min.js',
                         ]
                     });
                 }]
