@@ -522,8 +522,8 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
                 for (var i = 0;i<data.length;i++){
-                    data[i].editar = "<a href='/#/app/moneda_tipo/editar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-edit'></i> </a>";
-                    data[i].eliminar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='editar("+data[i]._id+")'> <i class='fa  fa-eraser'></i> </a>";
+                    data[i].editar = "<a href='/#/app/moneda/tipo/editar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-edit'></i> </a>";
+                    data[i].eliminar = "<a href='/#/app/moneda/tipo/eliminar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-eraser'></i> </a>";
                 }
 
                 angular.element(document).ready(function () {
@@ -536,11 +536,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                                 {data : "monet_codigo"} ,
                                 {data : "monet_pais"} ,
                                 {data : "editar"},
-                                {data : "eliminar"},
+                                {data : "eliminar"}
                             ],
-                            select : true,
-                            responsive: true,
-
+                            responsive: true
                         });
 
                     }

@@ -137,16 +137,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Eliminar Personal' },
             templateUrl: 'views/personal_eliminar.html'
         })
-        .state('app.personal.limitaciones', {
-            url: '/limitaciones',
-            data: { pageTitle: 'Personal Limitaciones' },
-            templateUrl: 'views/personal_limitaciones.html'
-        })
-        .state('app.personal.restricciones', {
-            url: '/restricciones',
-            data: { pageTitle: 'Personal Restricciones' },
-            templateUrl: 'views/personal_restricciones.html'
-        })
+
 
         //Despachos
         .state('app.despacho', {
@@ -291,13 +282,13 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.moneda_tipo', {
-            url: '/moneda_tipo',
+        .state('app.moneda.tipo', {
+            url: '/tipo',
             template: '<div ui-view></div>',
             abstract: true
         })
 
-        .state('app.moneda_tipo.todos', {
+        .state('app.moneda.tipo.todos', {
             url: '/todos',
             data: { pageTitle: 'Moneda Tipo Todos' },
             templateUrl: 'views/moneda_tipo_todos.html',
@@ -319,7 +310,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.moneda_tipo.crear', {
+        .state('app.moneda.tipo.crear', {
             url: '/crear',
             data: { pageTitle: 'Moneda Tipo Crear' },
             templateUrl: 'views/moneda_tipo_crear.html',
@@ -335,12 +326,12 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.moneda_tipo.buscar', {
+        .state('app.moneda.tipo.buscar', {
             url: '/buscar',
             data: { pageTitle: 'Moneda Tipo Buscar' },
             templateUrl: 'views/moneda_tipo_buscar.html'
         })
-        .state('app.moneda_tipo.editar', {
+        .state('app.moneda.tipo.editar', {
             url: '/editar/:id',
             data: { pageTitle: 'Moneda Tipo Editar' },
             templateUrl: 'views/moneda_tipo_editar.html',
@@ -357,10 +348,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.moneda_tipo.eliminar', {
+        .state('app.moneda.tipo.eliminar', {
             url: '/eliminar',
             data: { pageTitle: 'Moneda Tipo Eliminar' },
-            templateUrl: 'views/moneda_tipo_Eliminar.html'
+            templateUrl: 'views/moneda_tipo_eliminar.html'
         })
         .state('app.licencia', {
             url: '/licencia',
