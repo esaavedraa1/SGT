@@ -511,7 +511,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
     $scope.monet_codigo = '';
     $scope.monet_pais= '';
     $scope.sgt_monedas_tipo = [];
-
+    $scope.editar = function (indice) {
+       bootbox.alert("error"+ indice);
+    }
     $scope.cargarMonedas_Tipo = function(){
         $http({
             method: 'GET', url: '/Monedas_Tipo/listar'
@@ -521,10 +523,9 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                 $scope.sgt_monedas_tipo = data;
                 for (var i = 0;i<data.length;i++){
                     data[i].editar = "<a href='/#/app/moneda_tipo/editar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-edit'></i> </a>";
-                    data[i].eliminar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda_Tipo("+data[i]._id+")'> <i class='fa  fa-eraser'></i> </a>";
+                    data[i].eliminar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='editar("+data[i]._id+")'> <i class='fa  fa-eraser'></i> </a>";
                 }
 
-                console.log(data);
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         var table = $('#data-table').DataTable({
