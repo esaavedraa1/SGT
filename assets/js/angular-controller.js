@@ -519,6 +519,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
+                data[0].editar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda_Tipo("+data[0]._id+")'> Eliminar </a>";
                 console.log(data[0]);
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
