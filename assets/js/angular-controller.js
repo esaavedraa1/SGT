@@ -523,7 +523,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                 $scope.sgt_monedas_tipo = data;
                 for (var i = 0;i<data.length;i++){
                     data[i].editar = "<a href='/#/app/moneda/tipo/editar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-edit'></i> </a>";
-                    data[i].eliminar = "<a href='/#/app/moneda/tipo/eliminar/"+data[i]._id+"' class='btn btn-info' > <i class='fa  fa-eraser'></i> </a>";
+                    data[i].eliminar = "<a href='/#/app/moneda/tipo/eliminar/"+data[i]._id+"' class='btn btn-danger' > <i class='fa  fa-eraser'></i> </a>";
                 }
 
                 angular.element(document).ready(function () {

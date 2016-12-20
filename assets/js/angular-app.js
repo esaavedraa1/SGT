@@ -349,7 +349,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             }
         })
         .state('app.moneda.tipo.eliminar', {
-            url: '/eliminar',
+            url: '/eliminar/:id',
             data: { pageTitle: 'Moneda Tipo Eliminar' },
             templateUrl: 'views/moneda_tipo_eliminar.html'
         })
