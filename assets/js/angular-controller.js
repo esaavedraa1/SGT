@@ -535,7 +535,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
 
                         });
                         $('#data-table tbody').on( 'click', 'tr', function () {
-                            var d = table.row( this ).data();
+                            var d = table.row( this ).id();
                             bootbox.alert(d + "celdas seleccionadas");
                             d.counter++;
                             table
