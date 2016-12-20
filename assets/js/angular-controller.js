@@ -518,8 +518,8 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         }).
         success(function(data) {
             if(typeof(data) == 'object'){
-                $scope.sgt_monedas_tipo = data[0];
-                console.log(data);
+                $scope.sgt_monedas_tipo = data;
+                console.log(data[0]);
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         var table = $('#data-table').DataTable({
