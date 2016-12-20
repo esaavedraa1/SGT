@@ -268,6 +268,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/DataTables/extensions/Buttons/js/vfs_fonts.min.js',
                             'assets/plugins/DataTables/extensions/Buttons/js/buttons.html5.min.js',
                             'assets/plugins/DataTables/extensions/Buttons/js/buttons.print.min.js',
+
                         ]
                     });
                 }]
