@@ -519,7 +519,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
-
+                console.log(data);
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         var table = $('#data-table').DataTable({
@@ -534,21 +534,7 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                             responsive: true,
 
                         });
-                        $('#data-table tbody').on( 'click', 'tr', function () {
-                            var d = table.row( this ).id();
-                            bootbox.alert(d + "celdas seleccionadas");
-                            d.counter++;
-                            table
-                                .row( this )
-                                .data( d )
-                                .draw();
-                        } );
-                        $scope.editar = function () {
 
-                            console.log(d + "celdas seleccionadas");
-
-
-                        };
                     }
                 });
 
