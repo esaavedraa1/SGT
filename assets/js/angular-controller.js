@@ -519,8 +519,12 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
         success(function(data) {
             if(typeof(data) == 'object'){
                 $scope.sgt_monedas_tipo = data;
-                data[0].editar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda_Tipo("+data[0]._id+")'> Eliminar </a>";
-                console.log(data.length);
+                for (var i = 0;i<data.length;i++){
+                    data[i].editar = "<a href='/#/app/moneda_tipo/editar/{{"+data[i]._id+"}}' class='btn btn-info' > <i class='fa fa-2x fa-edit'></i> </a>";
+                    data[i].eliminar = "<a href='javascript:void(0);' class='btn btn-danger' ng-click='eliminarMoneda_Tipo("+data[i]._id+")'> <i class='fa fa-2x fa-eraser'></i> </a>";
+                }
+
+                console.log(data);
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         var table = $('#data-table').DataTable({
@@ -528,8 +532,10 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                             columns:[
                                 {data: "monet_id"},
                                 {data : "monet_nombre"},
-                                {data: "monet_codigo"} ,
-                                {data: "monet_pais"} ,
+                                {data : "monet_codigo"} ,
+                                {data : "monet_pais"} ,
+                                {data : "editar"},
+                                {data : "eliminar"},
                             ],
                             select : true,
                             responsive: true,
