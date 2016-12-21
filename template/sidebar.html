@@ -113,8 +113,17 @@
                 </a>
                 <ul class="sub-menu">
                     <li ui-sref-active="active"><a ui-sref="app.despacho.todos">Despachos</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.programada">Solicitud Programada</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.despacho.express">Solicitud Express</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.despacho.tipo')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Moneda Tipos</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.despacho.tipo.todos">Moneda Tipos</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.despacho.tipo.crear">Moneda Crear</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.despacho.editar">Moneda Buscar</a></li>
+                        </ul>
+                    </li>
                     <li ui-sref-active="active"><a ui-sref="app.despacho.tipo">Despachos Tipo</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.crear">Despacho Crear</a></li>
                     <li ui-sref-active="active"><a ui-sref="app.despacho.buscar">Despacho Buscar</a></li>
                 </ul>
             </li>
