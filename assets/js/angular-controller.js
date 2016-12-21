@@ -529,6 +529,14 @@ colorAdminApp.controller('tablaMonedaTipoDefaultController', function($scope, $r
                 angular.element(document).ready(function () {
                     if ($('#data-table').length !== 0) {
                         var table = $('#data-table').DataTable({
+                            dom: 'Bfrtip',
+                            buttons: [
+                                { extend: 'copy', className: 'btn-sm' },
+                                { extend: 'csv', className: 'btn-sm' },
+                                { extend: 'excel', className: 'btn-sm' },
+                                { extend: 'pdf', className: 'btn-sm' },
+                                { extend: 'print', className: 'btn-sm' }
+                            ],
                             data : data,
                             columns:[
                                 {data: "monet_id"},
