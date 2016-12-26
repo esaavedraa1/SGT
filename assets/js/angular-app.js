@@ -138,7 +138,30 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/personal_eliminar.html'
         })
 
-
+        .state('app.carga', {
+            url: '/carga',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.carga.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Tabla Manifiestos de Craga' },
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/DataTables/media/css/dataTables.bootstrap.min.css',
+                            'assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css',
+                            'assets/plugins/DataTables/media/js/jquery.dataTables.js',
+                            'assets/plugins/DataTables/media/js/dataTables.bootstrap.min.js',
+                            'assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js'
+                        ]
+                    });
+                }]
+            },
+            templateUrl: 'views/carga_todos.html'
+        })
         //Despachos
         .state('app.despacho', {
             url: '/despacho',
