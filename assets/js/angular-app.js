@@ -174,10 +174,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             abstract: true
         })
 
-        .state('app.despacho.todos', {
-            url: '/todos',
-            data: { pageTitle: 'Despacho Todos' },
-            templateUrl: 'views/despacho_todos.html'
+        .state('app.despacho.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Despacho Buscar' },
+            templateUrl: 'views/despacho_buscar.html'
         })
         .state('app.despacho.tipo.todos', {
             url: '/todos',
