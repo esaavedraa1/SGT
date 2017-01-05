@@ -164,10 +164,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
         //Despachos
         .state('app.despacho', {
-            url: '/despacho',
-            template: '<div ui-view></div>',
-            abstract: true
-        })
+        url: '/despacho',
+        template: '<div ui-view></div>',
+        abstract: true
+    })
         .state('app.despacho.tipo', {
             url: '/tipo',
             template: '<div ui-view></div>',
@@ -200,7 +200,12 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.despacho.programada', {
+        .state('app.solicitud', {
+            url: '/solicitud',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.solicitud.programada', {
             url: '/programada',
             data: { pageTitle: 'Solicitud Programada' },
             templateUrl: 'views/despacho_programada.html',
@@ -216,10 +221,26 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.despacho.express', {
+        .state('app.solicitud.express', {
             url: '/express',
             data: { pageTitle: 'Solicitud Express' },
             templateUrl: 'views/despacho_express.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.solicitud.buscar', {
+            url: '/buscar',
+            data: { pageTitle: 'Solicitud Buscar' },
+            templateUrl: 'views/solicitud_buscar.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
