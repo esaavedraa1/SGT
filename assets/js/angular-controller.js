@@ -1800,7 +1800,7 @@ colorAdminApp.controller('tablaFlotaDefaultController', function($scope, $rootSc
 /* -------------------------------
  17.0 CONTROLLER - Form Plugins
  ------------------------------- */
-colorAdminApp.controller('formPluginsController', function($scope, $rootScope, $state) {
+colorAdminApp.controller('tablaManifiestoDefaultController', function($scope, $rootScope, $state) {
     angular.element(document).ready(function () {
         /* Datepicker
          ------------------------- */
