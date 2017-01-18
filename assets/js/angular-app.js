@@ -748,15 +748,15 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             }
         })
 
-        .state('app.table', {
-            url: '/table',
+        .state('app.b2b', {
+            url: '/b2b',
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.table.basic', {
-            url: '/basic',
-            data: { pageTitle: 'Basic Table' },
-            templateUrl: 'views/table_basic.html'
+        .state('app.b2b.publicar', {
+            url: '/publicar',
+            data: { pageTitle: 'Solicitudes Publicadas' },
+            templateUrl: 'views/b2b_publicar.html'
         })
         .state('app.table.manage', {
             url: '/manage',
