@@ -225,7 +225,19 @@
                     <li ui-sref-active="active"><a ui-sref="app.usuario.buscar">Usuarios Buscar</a></li>
                 </ul>
             </li>
-         
+            <li class="has-sub" ng-class="{active:$state.includes('app.b2b')}">
+                <a href="javascript:;">
+                    <b class="caret pull-right"></b>
+                    <i class="fa fa-suitcase"></i>
+                    <span>B2B</span>
+                </a>
+                <ul class="sub-menu">
+                    <li ui-sref-active="active"><a ui-sref="app.b2b.publicar">Solicitudes Publicadas</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.b2b.despachos">Despachos</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.b2b.oc">Ordenes de Facturación</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.b2b.facturas">Facturas</a></li>
+                </ul>
+            </li>
             <!-- begin sidebar minify button -->
             <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
             <!-- end sidebar minify button -->
