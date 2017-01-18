@@ -242,9 +242,24 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
-
-        .state('app.solicitud.publicar', {
+        .state('app.solicitud.programada', {
             url: '/programada',
+            data: { pageTitle: 'Solicitud Programada' },
+            templateUrl: 'views/solicitud_programada.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.solicitud.publicar', {
+            url: '/publicar',
             data: { pageTitle: 'Solicitud Publicar' },
             templateUrl: 'views/solicitud_publicar.html',
             resolve: {
@@ -262,7 +277,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.solicitud.express', {
             url: '/express',
             data: { pageTitle: 'Solicitud Express' },
-            templateUrl: 'views/despacho_express.html',
+            templateUrl: 'views/solicitud_express.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
