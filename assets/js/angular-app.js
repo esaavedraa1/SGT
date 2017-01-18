@@ -503,6 +503,30 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/licencia_editar.html'
         })
 
+        .state('app.control', {
+            url: '/control',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.control.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Licencia Todos' },
+            templateUrl: 'views/control_todos.html'
+        })
+
+        .state('app.control.ingreso', {
+            url: '/ingreso',
+            data: { pageTitle: 'Control de Ingreso' },
+            templateUrl: 'views/control_ingreso.html'
+        })
+        .state('app.control.salida', {
+            url: '/salida',
+            data: { pageTitle: 'Control de Salida' },
+            templateUrl: 'views/control_salida.html'
+        })
+
+
+
 
         .state('app.contrato', {
             url: '/contrato',
