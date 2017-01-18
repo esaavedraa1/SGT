@@ -242,10 +242,11 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.solicitud.programada', {
+
+        .state('app.solicitud.publicar', {
             url: '/programada',
-            data: { pageTitle: 'Solicitud Programada' },
-            templateUrl: 'views/despacho_programada.html',
+            data: { pageTitle: 'Solicitud Publicar' },
+            templateUrl: 'views/solicitud_publicar.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
@@ -753,10 +754,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.b2b.publicar', {
-            url: '/publicar',
+        .state('app.b2b.aceptar', {
+            url: '/aceptar',
             data: { pageTitle: 'Solicitudes Publicadas' },
-            templateUrl: 'views/b2b_publicar.html'
+            templateUrl: 'views/b2b_aceptar.html'
         })
         .state('app.table.manage', {
             url: '/manage',
