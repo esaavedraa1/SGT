@@ -201,20 +201,51 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
         //Despachos
         .state('app.despacho', {
-        url: '/despacho',
-        template: '<div ui-view></div>',
-        abstract: true
-    })
-        .state('app.despacho.tipo', {
-            url: '/tipo',
+            url: '/despacho',
             template: '<div ui-view></div>',
             abstract: true
         })
-
         .state('app.despacho.buscar', {
             url: '/buscar',
             data: { pageTitle: 'Despacho Buscar' },
             templateUrl: 'views/despacho_buscar.html'
+        })
+        .state('app.despacho.todos', {
+            url: '/todos',
+            data: { pageTitle: 'Despachos Registrados' },
+            templateUrl: 'views/despacho_todos.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho.validar', {
+            url: '/validar',
+            data: { pageTitle: 'Validaciones de Salida' },
+            templateUrl: 'views/despacho_validar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho.tipo', {
+            url: '/tipo',
+            template: '<div ui-view></div>',
+            abstract: true
         })
         .state('app.despacho.tipo.todos', {
             url: '/todos',
@@ -230,8 +261,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     return $ocLazyLoad.load({
                         serie: true,
                         files: [
-
-
+                            'assets/plugins/bootbox/bootbox.min.js'
                         ]
                     });
                 }]
@@ -252,7 +282,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         serie: true,
                         files: [
                             'assets/plugins/bootbox/bootbox.min.js'
-
                         ]
                     });
                 }]
@@ -277,7 +306,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
                             'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-
                             'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
                             'assets/plugins/password-indicator/css/password-indicator.css',
                             'assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css',
