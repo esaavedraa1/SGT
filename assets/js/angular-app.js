@@ -616,9 +616,9 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             abstract: true
         })
         .state('app.sello.todos', {
-            url: '/crear',
+            url: '/todos',
             data: { pageTitle: 'Sello todos' },
-            templateUrl: 'views/moneda_crear.html',
+            templateUrl: 'views/sello_todos.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
