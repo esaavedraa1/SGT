@@ -610,8 +610,43 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             templateUrl: 'views/control_salida.html'
         })
 
+        .state('app.sello', {
+            url: '/sello',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.sello.todos', {
+            url: '/crear',
+            data: { pageTitle: 'Sello todos' },
+            templateUrl: 'views/moneda_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
 
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.sello.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Sello Asignar' },
+            templateUrl: 'views/sello_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
 
+                        ]
+                    });
+                }]
+            }
+        })
 
         .state('app.contrato', {
             url: '/contrato',
