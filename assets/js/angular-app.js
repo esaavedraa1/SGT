@@ -242,6 +242,56 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        .state('app.despacho.crear', {
+            url: '/crear',
+            data: { pageTitle: 'Despacho Crear' },
+            templateUrl: 'views/despacho_crear.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Despacho Editar' },
+            templateUrl: 'views/despacho_editar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.despacho.anular', {
+            url: '/editar',
+            data: { pageTitle: 'Despacho Anular' },
+            templateUrl: 'views/despacho_anular.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+        //Despacho Tipo
+
         .state('app.despacho.tipo', {
             url: '/tipo',
             template: '<div ui-view></div>',
@@ -267,6 +317,26 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        .state('app.despacho.tipo.editar', {
+            url: '/editar',
+            data: { pageTitle: 'Despacho Tipo Editar' },
+            templateUrl: 'views/despacho_tipo_editar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+
+                        ]
+                    });
+                }]
+            }
+        })
+
+
+
+
         .state('app.solicitud', {
             url: '/solicitud',
             template: '<div ui-view></div>',
@@ -375,55 +445,9 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.despacho.tipo.editar', {
-            url: '/editar',
-            data: { pageTitle: 'Despacho Tipo Editar' },
-            templateUrl: 'views/despacho_tipo_editar.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js'
 
-                        ]
-                    });
-                }]
-            }
-        })
 
-        .state('app.despacho.crear', {
-            url: '/crear',
-            data: { pageTitle: 'Despacho Crear' },
-            templateUrl: 'views/despacho_crear.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js'
 
-                        ]
-                    });
-                }]
-            }
-        })
-        .state('app.despacho.editar', {
-            url: '/editar',
-            data: { pageTitle: 'Despacho Editar' },
-            templateUrl: 'views/despacho_editar.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js'
-
-                        ]
-                    });
-                }]
-            }
-        })
 
 
 
