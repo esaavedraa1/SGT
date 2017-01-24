@@ -275,7 +275,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             }
         })
         .state('app.despacho.anular', {
-            url: '/editar',
+            url: '/anular',
             data: { pageTitle: 'Despacho Anular' },
             templateUrl: 'views/despacho_anular.html',
             resolve: {
