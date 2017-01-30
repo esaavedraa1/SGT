@@ -579,10 +579,12 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
             var stackedAreaChartData = [{
                 'key' : 'Despacho Cliente',
                 'color' : red,
-                'values' : [ [ 1438683600000 , 13.356778764352]] }, {
+                'values' : [ [ 1438683600000 , 13.356778764352]] },
+                {
                 'key' : 'Ultima Milla',
                 'color' : orange,
-                'values' : [ [ 1438683600000 , 14.214410956029] ] {
+                'values' : [ [ 1438683600000 , 14.214410956029] ] },
+                {
                 'key' : 'Troncal',
                 'color' : dark,
                 'values' : [ [ 1438683600000 , 13.242301508051]] }];
