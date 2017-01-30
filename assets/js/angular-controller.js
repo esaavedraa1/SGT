@@ -579,15 +579,15 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
             var stackedAreaChartData = [{
                 'key' : 'Despacho Cliente',
                 'color' : red,
-                'values' : [ [ 1488683600000 , 13.356778764352],[ 1488783600000 , 9.356778764352]] },
+                'values' : [ [ 1468683600000 , 13.356778764352],[ 1468783600000 , 9.356778764352],[ 1469783600000 , 7.356778764352]] },
                 {
                 'key' : 'Ultima Milla',
                 'color' : orange,
-                'values' : [ [ 1488683600000 , 14.214410956029],[ 1488783600000 , 10.356778764352] ] },
+                'values' : [ [ 1468683600000 , 14.214410956029],[ 1468783600000 , 10.356778764352],[ 1469783600000 , 12.356778764352] ] },
                 {
                 'key' : 'Troncal',
                 'color' : dark,
-                'values' : [ [ 1488683600000 , 13.242301508051],[ 1488783600000 , 14.356778764352]] }];
+                'values' : [ [ 1468683600000 , 13.242301508051],[ 1468783600000 , 14.356778764352],[ 1469783600000 , 18.356778764352]] }];
 
             var stackedAreaChart = nv.models.stackedAreaChart()
                 .useInteractiveGuideline(true)
