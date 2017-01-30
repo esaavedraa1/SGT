@@ -41,7 +41,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                             'assets/plugins/sparkline/jquery.sparkline.js',
                             'assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js',
                             'assets/plugins/jquery-jvectormap/jquery-jvectormap-world-mill-en.js',
-                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js'
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/nvd3/build/nv.d3.css',
+                            'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js',
+                            'assets/plugins/nvd3/build/nv.d3.js'
                         ] 
                     });
                 }]
