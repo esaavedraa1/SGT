@@ -4066,7 +4066,7 @@ colorAdminApp.controller('chartD3Controller', function($scope, $rootScope, $stat
             generate: function() {
                 var stackedBarChart = nv.models.multiBarChart()
                     .stacked(true)
-                    .showControls(false);
+                    .showControls(true);
             
                 var svg = d3.select('#nv-stacked-bar-chart').append('svg').datum(stackedBarChartData);
                 svg.transition().duration(0).call(stackedBarChart);
