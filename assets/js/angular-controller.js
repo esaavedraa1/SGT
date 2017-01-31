@@ -673,7 +673,7 @@ colorAdminApp.controller('dashboardController', function($scope, $rootScope, $st
  ------------------------------- */
 colorAdminApp.controller('expressDespachoController', function($scope, $rootScope, $state,$http) {
 
-       bootbox.alert("El Numero de Solicitud Creado es : 10025");
+       bootbox.alert("El Numero de Solicitud Creado es : 10025 y El Numero de Despacho Creado es el 200120");
 });
 /* -------------------------------
  100.1 CONTROLLER - Personal Tabla
