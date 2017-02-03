@@ -1,0 +1,220 @@
+<div ng-controller="ProveedoresController" ng-init="cargarProveedor_Tipo()">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;"> Mantenedor </a></li>
+        <li class="active"> Proveedores </li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header"> Proveedores <small>  </small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-custom">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a-->
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a-->
+                    </div>
+                    <h4 class="panel-title">Filtros de Búsqueda </h4>
+                </div>
+
+                <div class="panel-body">
+                    <form class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-md-1"></div>
+
+                            <label class="col-md-1 control-label"> Rut </label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control form-control-rut" placeholder="" ng-model="prov_rut" />
+                                <label class="col-md-1 control-label control-label-rut">-</label>
+                                <input type="text" class="form-control form-control-dv" placeholder="" ng-model="prov_rut_id"  />
+                            </div>
+
+                            <div class="col-md-1"></div>
+
+                            <label class="col-md-1 control-label"> Nombre Fantasía </label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="" />
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <div class="col-md-1"></div>
+
+                            <label class="col-md-1 control-label"> Tipo </label>
+                            <div class="col-md-3">
+                                <select class="form-control" ng-model="prov_tipo_id" >
+                                    <option ng-repeat="item in sgt_proveedor_tipos" value="{{item.id}}" ng-selected="{{item.id == 0}}"> 
+                                        {{item.nombre}}
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-1"></div>
+
+                            <label class="col-md-1 control-label"> Estado </label>
+                            <div class="col-md-3">
+                                <select class="form-control" ng-model="prov_estado_id" >
+                                    <option ng-repeat="item in sgt_proveedor_estados" value="{{item.id}}"  ng-selected="{{item.id == 0}}" > 
+                                        {{item.nombre}}
+                                    </option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="form-group">
+                            <div class="col-md-5"></div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-sm btn-success"> Consultar </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <!-- end panel -->
+        </div>
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-custom">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a-->
+                    </div>
+                    <h4 class="panel-title"> Listado </h4>
+                </div>
+
+                <div class="panel-body">
+
+                    <form class="form-horizontal">
+                        <div class="form-group" >
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                
+                                <a ui-sref="app.proveedores.agregar" class="btn btn-sm btn-primary right" > Crear Ficha de Proveedor </a>
+
+                            </div>
+                        </div>
+                    </form>
+
+                    <table id="data-table" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th> Rut </th>
+                            <th> Razón Social </th>
+                            <th> Nonbre de Fantasía </th>
+                            <th> Contrato </th>
+                            <th> Fecha Término </th>
+                            <th> Tipo </th>
+                            <th> Estado </th>
+                            <th> Modificar </th>
+                            <th> Eliminar </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr class="odd gradeX">
+                            <td> <i class="fa fa-lg fa-eye"></i> <a class="right" ui-sref="app.proveedores.detalle"  > 96.345.344-2 </a>  </td>
+                            <td> TransPacifico</td>
+                            <td> Trasportes del Pacifico </td>
+                            <td> 1 </td>
+
+                            <td> 23/12/2017 </td>
+                            <td> Proveedor </td>
+                            <td> Habilitado </td>
+
+                            <td class="center">                                  
+                                <a ui-sref="app.proveedores.editar" ><i class="fa fa-lg fa-edit"></i></a>
+                            </td>
+                            <td class="center">
+                                <a ui-sref="app.proveedores.eliminar" > <i class="fa fa-lg fa-ban"></i></a>
+                            </td>
+
+                        </tr>
+
+
+                        <tr class="odd gradeX">
+                            <td> <i class="fa fa-lg fa-eye"></i> <a class="right" ui-sref="app.proveedores.detalle"  >  87.351.300-1  </a>  </td>
+                            <td> TCar </td>
+                            <td> Trasportes Car </td>
+                            <td> 2 </td>
+                            <td> 01/01/2017 </td>
+                            <td> Servicios </td>
+                            <td> Suspendido </td>
+
+                            <td class="center">                                  
+                                <a ui-sref="app.proveedores.editar" ><i class="fa fa-lg fa-edit"></i></a>
+                            </td>
+                            <td class="center">
+                                <a ui-sref="app.proveedores.eliminar" > <i class="fa fa-lg fa-ban"></i></a>
+                            </td>
+
+                        </tr>
+
+
+                        <tr class="odd gradeX">
+                            <td>  <i class="fa fa-lg fa-eye"></i> <a class="right" ui-sref="app.proveedores.detalle"  > 88.371.394-8 </a>  </td>
+                            <td> Pumas </td>
+                            <td> Trasportes Pumas </td>
+                            <td> 3 </td>
+                            <td> 31/12/2018 </td>
+                            <td> Transportista </td>
+                            <td> Vencido </td>
+
+                            <td class="center">                                  
+                                <a ui-sref="app.proveedores.editar" ><i class="fa fa-lg fa-edit"></i></a>
+                            </td>
+                            <td class="center">
+                                <a ui-sref="app.proveedores.eliminar" > <i class="fa fa-lg fa-ban"></i></a>
+                            </td>
+
+                        </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+                    <form class="form-horizontal">
+                        <div class="form-group" >
+                            <div class="col-md-5"></div>
+                            <div class="col-md-2">
+                                
+                                <a ui-sref="app.proveedores.exportar" class="btn btn-sm btn-primary" > 
+                                    <i class="fa fa-lg fa-file-excel-o"></i>
+                                    Exportar a Excel </a>
+
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- end panel -->
+        </div>
+    </div>
+    <!-- end row -->
+</div>

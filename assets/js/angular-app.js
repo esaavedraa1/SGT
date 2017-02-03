@@ -1554,6 +1554,95 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Predefined CSS Classes' },
             templateUrl: 'views/helper_css.html'
         })
+
+        // PROVEEDORES ...
+            .state('app.proveedores', {
+                url: '/proveedores',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+
+            .state('app.proveedores.listado', {
+                url: '/listado',
+                data: { pageTitle: 'Mantenedor de Proveedores' },
+                templateUrl: 'views/Mantenedores/Proveedores/listado.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+
+            .state('app.proveedores.agregar', {
+                url: '/agregar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Agregar' },
+                templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+
+            .state('app.proveedores.detalle', {
+                url: '/detalle',
+                data: { pageTitle: 'Mantenedor de Proveedores - Ver Detalle' },
+                templateUrl: 'views/Mantenedores/Proveedores/detalle.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+
+            .state('app.proveedores.editar', {
+                url: '/editar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Editar' },
+                templateUrl: 'views/Mantenedores/Proveedores/editar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+            .state('app.proveedores.eliminar', {
+                url: '/eliminar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Eliminar' },
+                templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+
+
+        // ... PROVEEDORES
 }]);
 
 colorAdminApp.run(['$rootScope', '$state', 'setting', function($rootScope, $state, setting) {

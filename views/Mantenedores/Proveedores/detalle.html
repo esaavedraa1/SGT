@@ -1,0 +1,370 @@
+<div  ng-controller="ProveedoresController" ng-init="cargarProveedor_Tipo()">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;"> Mantenedor </a></li>
+        <li class="active"> Proveedores </li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Proveedores <small>  </small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-12 -->
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-custom" data-sortable-id="form-stuff-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a-->
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a-->
+                        <!--a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a-->
+                    </div>
+                    <h4 class="panel-title"> Ficha de Proveedor </h4>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+
+                        <fieldset>  <legend> Empresa </legend>
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> RUT </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control form-control-rut" placeholder=""  value="96.345.344" disabled="disabled"/>
+                                    <label class="col-md-1 control-label control-label-rut">-</label>
+                                    <input type="text" class="form-control form-control-dv" placeholder=""  value="2" disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Razón Social </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" Value="TransPacifico" disabled="disabled" />
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Nombre Fantasía </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder=""  value="Trasportes del Pacifico " disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Giro </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder=""  value="Transporte" disabled="disabled"/>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Tipo </label>
+                                <div class="col-md-3">
+                                    <select class="form-control" ng-model="prov_tipo_id"  disabled="disabled">
+                                        <option ng-repeat="item in sgt_proveedor_tipos" value="{{item.id}}" > 
+                                            {{item.nombre}}
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">Estado</label>
+                                <div class="col-md-3">
+                                    <select class="form-control" ng-model="prov_estado_id"  disabled="disabled">
+                                        <option ng-repeat="item in sgt_proveedor_estados" value="{{item.id}}" > 
+                                            {{item.nombre}}
+                                        </option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                         </fieldset>
+
+                        <fieldset>  <legend> Dirección  </legend>
+
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">Dirección</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="Calle"  value="Avenida Siempre Viva " disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">Número</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" value="742" disabled="disabled" />
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Otro </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="Piso / Oficina" disabled="disabled" />
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">Comuna</label>
+                                <div class="col-md-3">
+                                    <select class="form-control" ng-model="prov_comuna"  disabled="disabled">
+                                        <option ng-repeat="item in sgt_comunas" value="{{item.id}}" > 
+                                            {{item.nombre}}
+                                        </option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">Teléfono</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="Ej: +56 2 23616000"  value="+56 2 23616000" disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+                                <label class="col-md-1 control-label">Anexo</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" ng-model="prov_anexo" disabled="disabled"/>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+                                <label class="col-md-1 control-label"> Correo </label>
+                                <div class="col-md-3">
+                                    <input type="email" class="form-control" placeholder=""  value="correo@trx.cl" disabled="disabled" />
+                                </div>
+                            </div>
+
+                         </fieldset>
+
+                        <fieldset>   <legend> Representante Legal </legend>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">RUT</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control form-control-rut" placeholder=""  value="11.371.394" disabled="disabled" />
+                                    <label class="col-md-1 control-label control-label-rut">-</label>
+                                    <input type="text" class="form-control form-control-dv" placeholder=""  value="8" disabled="disabled" />
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Nombre </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" Value="Homero Simpson" disabled="disabled"/>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Teléfono </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder=""  value="+56 2 23616000" disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Celular </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" disabled="disabled" />
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Correo </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder=""  value="homero@trx.cl" disabled="disabled"/>
+
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Cargo </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder=""  value="Control de Planta" disabled="disabled"/>
+                                </div>
+
+                            </div>
+
+
+
+
+
+                         </fieldset>
+
+
+                        <fieldset>   <legend> Contacto </legend>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label">RUT</label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control form-control-rut" placeholder="" value="11.715.480" disabled="disabled"/>
+                                    <label class="col-md-1 control-label control-label-rut">-</label>
+                                    <input type="text" class="form-control form-control-dv" placeholder="" value="K" disabled="disabled" />
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Nombre </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" value="Marge Simpson" disabled="disabled" />
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Teléfono </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" value="+56 2 23616000" disabled="disabled" />
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Celular </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" disabled="disabled" />
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Correo </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" value="marge@trx.cl" disabled="disabled"/>
+
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Cargo </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" value="Control del Control de Planta" disabled="disabled"/>
+                                </div>
+
+                            </div>
+
+
+
+
+
+                         </fieldset>
+
+                        <fieldset>   <legend> Contrato Vigente </legend>
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Desde </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" ng-model="prov_celular" disabled="disabled"/>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Vencimiento </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" ng-model="prov_celular" disabled="disabled"/>
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-1"></div>
+
+                                <label class="col-md-1 control-label"> Aseguradora </label>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="" ng-model="prov_celular" disabled="disabled"/>
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+                         </fieldset>
+
+                        <fieldset>   <legend> </legend>
+                            <div class="form-group">
+
+                                <div class="col-md-5"> </div>
+                                <div class="col-md-2">
+                                    <a ui-sref="app.proveedores.listado" class="btn btn-sm btn-success" > 
+                                        Volver al Listado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+            <!-- end panel -->
+        </div>
+        <!-- end col-12 -->
+    </div>
+    <!-- end row -->
+</div>
