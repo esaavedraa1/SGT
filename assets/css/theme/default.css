@@ -87,3 +87,49 @@ Website: http://www.seantheme.com/color-admin-v2.0/admin/angularjs/
 .top-menu .nav > li.active > a:hover {
     background: #ff5b57;
 }
+.panel-custom > .panel-heading {
+    background-color: #6d7983 ;
+}
+.panel-custom > .panel-heading h4 {
+    color: #fff ;
+    font-size: 14px;
+}
+
+.right {
+    float: right;
+}
+
+td.center {
+    text-align: center;
+}
+
+legend {
+    font-size: 16px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+
+.form-control-rut,
+.form-control-dv ,
+.control-label-rut {
+    float: left ;
+    display: inline-block;
+}
+.form-control-rut {
+    width: 70%;
+}
+.form-control-dv {
+    width: 15%;
+}
+.control-label-rut {
+    width: 5%;
+}
+
+.form-group {
+    clear: both;
+}
+
+.form-control[disabled], .form-control[readonly] {
+    background-color: #f0f0f0 ;
+}
