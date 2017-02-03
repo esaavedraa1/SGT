@@ -150,6 +150,26 @@ colorAdminApp.controller('appController', ['$rootScope', '$scope', function($roo
    2.0 CONTROLLER - Sidebar
 ------------------------------- */
 colorAdminApp.controller('sidebarController', function($scope, $rootScope, $state) {
+    $scope.isActive = function(destination) {
+
+        var ret = false;
+
+        var str = $location.path() ;
+
+        var arr = destination.split(',');
+
+        $.each(arr, function(index, value){
+
+            var n = str.indexOf( value );
+            if( ! ret &&  n == 0 )
+                ret = true ;
+
+        });
+
+        return ret ;
+
+    }
+
     App.initSidebar();
 });
 
@@ -3477,7 +3497,7 @@ colorAdminApp.controller('chartFlotController', function($scope, $rootScope, $st
     this.donutChartOptions = donutChartOptions;
 
 
-    /* Interactive Chart
+    /* Interactive Char
     ------------------------- */
     var interactiveChartOptions = {
         xaxis: {  tickColor: '#ddd',tickSize: 2 },

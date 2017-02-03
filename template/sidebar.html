@@ -164,7 +164,27 @@
                     </li>
                 </ul>
             </li>
+            <li class="has-sub" ng-class="{active: isActive( '/app/mantenedor,/app/proveedores' )}">
+                <a href="javascript:;">
+                    <b class="caret pull-right"></b>
+                    <i class="fa fa-gear"></i>
+                    <span> Mantenedores </span>
+                </a>
+                <ul class="sub-menu">
 
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.personal"> Personal </a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.personal.aprobacion"> Aprobación Personal </a></li>
+
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.flota"> Flota </a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.flota.aprobacion"> Aprobación Flota </a></li>
+
+                    <li  ng-class="{active: isActive( '/app/proveedores' )}"> <a ui-sref="app.proveedores.listado"> Proveedores </a></li>
+
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.factor_estiba" >  Factor de Estiba </a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.tarifa_troncal"> Tarifa Troncal </a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.zona_despacho" > Zona de Despacho </a></li>
+                </ul>
+            </li>
             <li class="has-sub" ng-class="{active:$state.includes('app.contrato')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
