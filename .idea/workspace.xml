@@ -70,8 +70,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="961" column="54" selection-start-line="961" selection-start-column="54" selection-end-line="961" selection-end-column="54" />
+            <state relative-caret-position="556">
+              <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -581,14 +581,7 @@
       <workItem from="1485370869193" duration="594000" />
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
-      <workItem from="1486390087715" duration="3143000" />
-    </task>
-    <task id="LOCAL-00371" summary="despacho buscar">
-      <created>1483455361768</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1483455361768</updated>
+      <workItem from="1486390087715" duration="3242000" />
     </task>
     <task id="LOCAL-00372" summary="new sidebar menu">
       <created>1483539232206</created>
@@ -926,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486393154689</updated>
     </task>
-    <option name="localTasksCounter" value="420" />
+    <task id="LOCAL-00420" summary="NUEVO ROUTER">
+      <created>1486393256156</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1486393256156</updated>
+    </task>
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186587000" />
+    <option name="totallyTimeSpent" value="186686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -1384,8 +1384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="961" column="54" selection-start-line="961" selection-start-column="54" selection-end-line="961" selection-end-column="54" />
+        <state relative-caret-position="556">
+          <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />

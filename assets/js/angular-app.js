@@ -1140,7 +1140,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }
             })
             //B2B-TRAN-DES
-            .state('app.b2b.trasnportista.despacho', {
+            .state('app.b2b.transportista.despacho', {
                 url: '/despacho',
                 data: { pageTitle: 'Despachos Realizados' },
                 templateUrl: 'views/b2b_despacho.html',
@@ -1191,7 +1191,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }
             })
             //B2B-TRAN-OCF
-            .state('app.b2b.trasnportista.oc', {
+            .state('app.b2b.transportista.oc', {
                 url: '/oc',
                 data: { pageTitle: 'Ordenes de Compra' },
                 templateUrl: 'views/b2b_oc.html',
@@ -1242,7 +1242,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }
             })
             //B2B-TAN-FAC
-            .state('app.b2b.trsnsportista.factura', {
+            .state('app.b2b.transportista.factura', {
                 url: '/factura',
                 data: { pageTitle: 'Facturas Emitidas' },
                 templateUrl: 'views/b2b_factura.html',
