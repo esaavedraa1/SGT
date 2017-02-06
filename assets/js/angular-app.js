@@ -1092,7 +1092,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             .state('app.b2b.transportista.aceptar', {
                 url: '/aceptar',
                 data: { pageTitle: 'Aceptar Publicaciones' },
-                templateUrl: 'views/b2b_aceptar.html',
+                templateUrl: 'views/B2B/Transportista/b2b_aceptar.html',
                 resolve: {
                     service: ['$ocLazyLoad', function ($ocLazyLoad) {
                         return $ocLazyLoad.load({
@@ -1143,7 +1143,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             .state('app.b2b.transportista.despacho', {
                 url: '/despacho',
                 data: { pageTitle: 'Despachos Realizados' },
-                templateUrl: 'views/b2b_despacho.html',
+                templateUrl: 'views/B2B/Transportista/b2b_despacho.html',
                 resolve: {
                     service: ['$ocLazyLoad', function ($ocLazyLoad) {
                         return $ocLazyLoad.load({
@@ -1194,7 +1194,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             .state('app.b2b.transportista.oc', {
                 url: '/oc',
                 data: { pageTitle: 'Ordenes de Compra' },
-                templateUrl: 'views/b2b_oc.html',
+                templateUrl: 'views/B2B/Transportista/b2b_oc.html',
                 resolve: {
                     service: ['$ocLazyLoad', function ($ocLazyLoad) {
                         return $ocLazyLoad.load({
@@ -1245,7 +1245,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             .state('app.b2b.transportista.factura', {
                 url: '/factura',
                 data: { pageTitle: 'Facturas Emitidas' },
-                templateUrl: 'views/b2b_factura.html',
+                templateUrl: 'views/B2B/Transportista/b2b_factura.html',
                 resolve: {
                     service: ['$ocLazyLoad', function ($ocLazyLoad) {
                         return $ocLazyLoad.load({

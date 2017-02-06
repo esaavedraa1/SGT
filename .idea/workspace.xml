@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/b2b_despacho.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/b2b_aceptar.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/b2b_aceptar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/b2b_despacho.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/b2b_factura.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/b2b_factura.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/b2b_oc.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/b2b_oc.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="172" column="21" selection-start-line="172" selection-start-column="21" selection-end-line="172" selection-end-column="21" />
+            <state relative-caret-position="411">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
+            <state relative-caret-position="31">
+              <caret line="1247" column="54" selection-start-line="1247" selection-start-column="54" selection-end-line="1247" selection-end-column="54" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -154,11 +159,9 @@
                 <element signature="e#51034#51689#0" expanded="false" />
                 <element signature="e#51780#52428#0" expanded="false" />
                 <element signature="e#52521#53174#0" expanded="false" />
-                <element signature="e#53731#53849#0" expanded="false" />
-                <element signature="e#53930#57980#0" expanded="false" />
-                <element signature="e#58062#62113#0" expanded="false" />
-                <element signature="e#62189#66225#0" expanded="false" />
-                <element signature="e#66305#70351#0" expanded="false" />
+                <element signature="e#53930#57998#0" expanded="false" />
+                <element signature="e#58080#62149#0" expanded="false" />
+                <element signature="e#62225#66279#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -275,8 +278,8 @@
         <option value="$PROJECT_DIR$/views/solicitud_programada.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/aprueba.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/responder.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
       </list>
     </option>
   </component>
@@ -358,6 +361,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B2B" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transportista" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -409,6 +434,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Core i3\Documents\SGT\views\B2B\Transportista" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\Facturacion\Objeciones" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\Facturacion" />
     </key>
@@ -516,14 +542,7 @@
       <workItem from="1485370869193" duration="594000" />
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
-      <workItem from="1486390087715" duration="3407000" />
-    </task>
-    <task id="LOCAL-00373" summary="new sidebar menu">
-      <created>1483539609878</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1483539609878</updated>
+      <workItem from="1486390087715" duration="3908000" />
     </task>
     <task id="LOCAL-00374" summary="filter manifiestos de carga">
       <created>1483637573508</created>
@@ -861,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486393356479</updated>
     </task>
-    <option name="localTasksCounter" value="422" />
+    <task id="LOCAL-00422" summary="NUEVO ROUTER">
+      <created>1486393521883</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1486393521883</updated>
+    </task>
+    <option name="localTasksCounter" value="423" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186851000" />
+    <option name="totallyTimeSpent" value="187352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -953,7 +979,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1309,10 +1335,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
+        <state relative-caret-position="31">
+          <caret line="1247" column="54" selection-start-line="1247" selection-start-column="54" selection-end-line="1247" selection-end-column="54" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />
@@ -1395,20 +1429,10 @@
             <element signature="e#51034#51689#0" expanded="false" />
             <element signature="e#51780#52428#0" expanded="false" />
             <element signature="e#52521#53174#0" expanded="false" />
-            <element signature="e#53731#53849#0" expanded="false" />
-            <element signature="e#53930#57980#0" expanded="false" />
-            <element signature="e#58062#62113#0" expanded="false" />
-            <element signature="e#62189#66225#0" expanded="false" />
-            <element signature="e#66305#70351#0" expanded="false" />
+            <element signature="e#53930#57998#0" expanded="false" />
+            <element signature="e#58080#62149#0" expanded="false" />
+            <element signature="e#62225#66279#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="172" column="21" selection-start-line="172" selection-start-column="21" selection-end-line="172" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
