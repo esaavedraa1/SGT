@@ -103,139 +103,50 @@
 
                 </ul>
             </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.personal')}">
+
+            <li class="has-sub" ng-class="{active:$state.includes('app.facturacion')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
-                    <i class="fa fa-user"></i>
-                    <span>Personal</span>
+                    <i class="fa fa-bank"></i>
+                    <span>Facturacion</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.personal.todos">Personal</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.personal.buscar">Personal Buscar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.personal.crear">Personal Crear</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.personal.editar">Personal Editar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.personal.eliminar">Personal Eliminar</a></li>
-                    <li class="has-sub" ng-class="{active:$state.includes('app.personal.licencia')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b> Licencia Conducir</a>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.aprobacion')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Aprobacion OF</a>
                         <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.personal.licencia.todos">Licencia</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.personal.licencia.tipo">Licencia Tipos</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.personal.licencia.crear">Licencia Crear</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.personal.licencia.editar">Licencia Editar</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.flota')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-truck"></i>
-                    <span>Flota </span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.flota.todos">Flota</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.flota.buscar">Flota Buscar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.flota.crear">Flota Crear</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.flota.editar">Flota Editar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.flota.eliminar">Flota Eliminar</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.aprueba">Listar Proveedor</a></li>
 
-                </ul>
-            </li>
-
-
-
-            <li class="has-sub" ng-class="{active:$state.includes('app.proveedor')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-users"></i>
-                    <span>Proveedor</span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.proveedor.todos">Proveedor</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.proveedor.crear">Proveedor Crear</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.proveedor.buscar">Proveedor Buscar</a></li>
-                    <li class="has-sub" ng-class="{active:$state.includes('app.proveedor.tipo')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b> Proveedor Tipo</a>
-                        <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.proveedor.tipo.todos">Proveedor Tipo</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.proveedor.tipo.crear">Proveedor Tipo Crear</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.proveedor.tipo.buscar">Proveedor Tipo Buscar</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active: isActive( '/app/mantenedor,/app/proveedores' )}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-gear"></i>
-                    <span> Mantenedores </span>
-                </a>
-                <ul class="sub-menu">
-
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.personal"> Personal </a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.personal.aprobacion"> Aprobación Personal </a></li>
-
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.flota"> Flota </a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.flota.aprobacion"> Aprobación Flota </a></li>
-
-                    <li  ng-class="{active: isActive( '/app/proveedores' )}"> <a ui-sref="app.proveedores.listado"> Proveedores </a></li>
-
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.factor_estiba" >  Factor de Estiba </a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.tarifa_troncal"> Tarifa Troncal </a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.mantenedor.zona_despacho" > Zona de Despacho </a></li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.contrato')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-suitcase"></i>
-                    <span>Contrato</span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.contrato.todos">Contratos</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.contrato.buscar">Contratos Buscar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.contrato.crear">Contratos Crear</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.contrato.editar">Contratos Editar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.contrato.eliminar">Contratos Eliminar</a></li>
-
-                </ul>
-            </li>
-
-
-
-            <li class="has-sub" ng-class="{active:$state.includes('app.moneda')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-euro"></i>
-                    <span>Tarifas</span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.moneda.todos">Moneda</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.moneda.crear">Moneda Actualizar</a></li>
-                    <li class="has-sub" ng-class="{active:$state.includes('app.moneda.tipo')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b> Moneda Tipos</a>
-                        <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.moneda.tipo.todos">Moneda Tipos</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.moneda.tipo.crear">Moneda Crear</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.moneda.tipo.buscar">Moneda Buscar</a></li>
                         </ul>
                     </li>
 
                 </ul>
             </li>
 
-            <li class="has-sub" ng-class="{active:$state.includes('app.usuario')}">
+
+
+            <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
-                    <i class="fa fa-database"></i>
-                    <span>Usuarios</span>
+                    <i class="fa fa-exchange"></i>
+                    <span>B2B</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.usuario.todos">Usuarios</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.usuario.crear">Usuarios Crear</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.usuario.buscar">Usuarios Buscar</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores.proveedores')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Proveedor</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.listado">Listar Proveedor</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.agregar">Crear Proveedor</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.editar">Editar Proveedor</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.detalle">Detalle Proveedor</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </li>
+
+
+
+
             <li class="has-sub" ng-class="{active:$state.includes('app.b2b')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
@@ -243,10 +154,16 @@
                     <span>B2B</span>
                 </a>
                 <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.b2b.aceptar">Solicitudes Publicadas</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.b2b.despacho">Despachos</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.b2b.oc">Ordenes de Facturación</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.b2b.factura">Facturas</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Transportista</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.aceptar">Solicitudes Publicadas</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.b2b.trasnportista.despacho">Despachos</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.b2b.trasnportista.oc">Ordenes de Facturación</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.b2b.trsnsportista.factura">Facturas</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </li>
             <!-- begin sidebar minify button -->

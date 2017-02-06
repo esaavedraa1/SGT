@@ -920,6 +920,43 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
 
 
+
+        //FAC MANTENEDORES
+        .state('app.facturacion', {
+            url: '/facturacion',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //----------------------------------------------------------------------------------------------------------
+        //FAC-AOF MANTENDORES DE PROVEEDORES
+        //----------------------------------------------------------------------------------------------------------
+        .state('app.facturacion.aprobacion', {
+            url: '/aprobacion',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //FAC-APRU
+        .state('app.facturacion.aprobacion.aprueba', {
+            url: '/aprueba',
+            data: { pageTitle: 'Facturación - Aprobacion OF ' },
+            templateUrl: 'views/Facturacion/Aprobacion/aprueba.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
+
+
+
+
+
         //MAN MANTENEDORES
         .state('app.mantenedores', {
             url: '/mantenedores',
