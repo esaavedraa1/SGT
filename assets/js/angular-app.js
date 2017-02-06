@@ -959,7 +959,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.facturacion.objeciones.responder', {
             url: '/responder',
             data: { pageTitle: 'Facturación - Responder Objecion B2B ' },
-            templateUrl: 'views/Facturacion/Aprobacion/responder.html',
+            templateUrl: 'views/Facturacion/Objeciones/responder.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({

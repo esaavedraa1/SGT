@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="953" column="46" selection-start-line="953" selection-start-column="46" selection-end-line="953" selection-end-column="46" />
+            <state relative-caret-position="658">
+              <caret line="961" column="54" selection-start-line="961" selection-start-column="54" selection-end-line="961" selection-end-column="54" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -165,7 +163,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responder.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -276,8 +274,8 @@
         <option value="$PROJECT_DIR$/views/solicitud_programada.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/aprueba.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/responder.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
       </list>
     </option>
   </component>
@@ -583,14 +581,7 @@
       <workItem from="1485370869193" duration="594000" />
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
-      <workItem from="1486390087715" duration="3042000" />
-    </task>
-    <task id="LOCAL-00370" summary="despacho buscar">
-      <created>1483455265177</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1483455265177</updated>
+      <workItem from="1486390087715" duration="3143000" />
     </task>
     <task id="LOCAL-00371" summary="despacho buscar">
       <created>1483455361768</created>
@@ -928,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486392667511</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <task id="LOCAL-00419" summary="NUEVO ROUTER">
+      <created>1486393154689</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1486393154689</updated>
+    </task>
+    <option name="localTasksCounter" value="420" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186486000" />
+    <option name="totallyTimeSpent" value="186587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -1368,10 +1366,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="953" column="46" selection-start-line="953" selection-start-column="46" selection-end-line="953" selection-end-column="46" />
+        <state relative-caret-position="658">
+          <caret line="961" column="54" selection-start-line="961" selection-start-column="54" selection-end-line="961" selection-end-column="54" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />
@@ -1459,22 +1473,6 @@
             <element signature="e#62189#66225#0" expanded="false" />
             <element signature="e#66305#70351#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
