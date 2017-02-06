@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-controller.js" afterPath="$PROJECT_DIR$/assets/js/angular-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" afterPath="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,18 +51,28 @@
       <file leaf-file-name="responder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+            <state relative-caret-position="-2261">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="4706" column="3" selection-start-line="4706" selection-start-column="3" selection-end-line="4706" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="985" column="119" selection-start-line="985" selection-start-column="119" selection-end-line="985" selection-end-column="119" />
+            <state relative-caret-position="658">
+              <caret line="990" column="10" selection-start-line="990" selection-start-column="10" selection-end-line="990" selection-end-column="10" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -210,7 +221,6 @@
         <option value="$PROJECT_DIR$/views/despacho_express.html" />
         <option value="$PROJECT_DIR$/views/despacho_buscar.html" />
         <option value="$PROJECT_DIR$/views/carga_todos.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
         <option value="$PROJECT_DIR$/views/form_plugins.html" />
         <option value="$PROJECT_DIR$/views/despacho_programada.html" />
         <option value="$PROJECT_DIR$/views/solicitud_publicar.html" />
@@ -224,8 +234,9 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/aprueba.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/responder.html" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
       </list>
     </option>
   </component>
@@ -528,14 +539,7 @@
       <workItem from="1485370869193" duration="594000" />
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
-      <workItem from="1486390087715" duration="5211000" />
-    </task>
-    <task id="LOCAL-00376" summary="filter manifiestos de carga">
-      <created>1483638738854</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1483638738854</updated>
+      <workItem from="1486390087715" duration="5618000" />
     </task>
     <task id="LOCAL-00377" summary="filter manifiestos de carga">
       <created>1483638888702</created>
@@ -873,11 +877,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486402761973</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <task id="LOCAL-00425" summary="PANTALLA RESPONDE OBJECION">
+      <created>1486402938656</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1486402938658</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188655000" />
+    <option name="totallyTimeSpent" value="189062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -1238,13 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2066" column="0" selection-start-line="2065" selection-start-column="0" selection-end-line="2066" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
@@ -1322,18 +1326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="985" column="119" selection-start-line="985" selection-start-column="119" selection-end-line="985" selection-end-column="119" />
+        <state relative-caret-position="658">
+          <caret line="990" column="10" selection-start-line="990" selection-start-column="10" selection-end-line="990" selection-end-column="10" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />
@@ -1421,6 +1417,22 @@
             <element signature="e#63926#67980#0" expanded="false" />
             <element signature="e#68060#72124#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2261">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="4706" column="3" selection-start-line="4706" selection-start-column="3" selection-end-line="4706" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
