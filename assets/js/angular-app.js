@@ -951,6 +951,26 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        .state('app.facturacion.objeciones', {
+            url: '/objeciones',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.facturacion.objeciones.responder', {
+            url: '/responder',
+            data: { pageTitle: 'Facturación - Responder Objecion B2B ' },
+            templateUrl: 'views/Facturacion/Aprobacion/responder.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
 
 
 

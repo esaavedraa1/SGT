@@ -114,11 +114,17 @@
                     <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.aprobacion')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Aprobacion OF</a>
                         <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.aprueba">Listar Proveedor</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.aprueba">Aprobar OF</a></li>
 
                         </ul>
                     </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.objeciones')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Objeciones  de Viajes</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.objeciones.responder">Responder Objeción</a></li>
 
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
