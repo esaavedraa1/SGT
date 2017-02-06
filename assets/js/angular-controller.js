@@ -4694,14 +4694,15 @@ colorAdminApp.controller('registerV3Controller', function($scope, $rootScope, $s
         $state.go('app.dashboard.v2');
     };
 
-    colorAdminApp.controller('B2B_Fact_Obje_Resp_Controller', function($scope, $rootScope, $state) {
-        $scope.PRO_ACEP_OBJ=function()
-        {
-            bootbox.alert("Ingrese Nueva Tarifa : ");
-        }
-        $scope.PRO_RECH_OBJ=function()
-        {
-            bootbox.alert("Viaje vuelve a Estado CERRADO");
-        }
-    });
+});
+
+colorAdminApp.controller('B2B_Fact_Obje_Resp_Controller', function($scope, $rootScope, $state) {
+    $scope.PRO_ACEP_OBJ=function()
+    {
+        bootbox.alert("Ingrese Nueva Tarifa : ");
+    }
+    $scope.PRO_RECH_OBJ=function()
+    {
+        bootbox.alert("Viaje vuelve a Estado CERRADO");
+    }
 });
