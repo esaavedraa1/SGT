@@ -60,8 +60,8 @@
       <file leaf-file-name="angular-controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="746">
+              <caret line="4704" column="5" selection-start-line="4704" selection-start-column="5" selection-end-line="4704" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -538,14 +538,7 @@
       <workItem from="1485370869193" duration="594000" />
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
-      <workItem from="1486390087715" duration="5660000" />
-    </task>
-    <task id="LOCAL-00378" summary="filter manifiestos de carga">
-      <created>1483638994811</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1483638994811</updated>
+      <workItem from="1486390087715" duration="5940000" />
     </task>
     <task id="LOCAL-00379" summary="filter manifiestos de carga">
       <created>1483639120009</created>
@@ -883,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486403346668</updated>
     </task>
-    <option name="localTasksCounter" value="427" />
+    <task id="LOCAL-00427" summary="PANTALLA RESPONDE OBJECION">
+      <created>1486403389426</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1486403389426</updated>
+    </task>
+    <option name="localTasksCounter" value="428" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189104000" />
+    <option name="totallyTimeSpent" value="189384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -1429,8 +1429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="746">
+          <caret line="4704" column="5" selection-start-line="4704" selection-start-column="5" selection-end-line="4704" selection-end-column="5" />
           <folding />
         </state>
       </provider>

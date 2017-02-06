@@ -4699,7 +4699,9 @@ colorAdminApp.controller('registerV3Controller', function($scope, $rootScope, $s
 colorAdminApp.controller('B2B_Fact_Obje_Resp_Controller', function($scope, $rootScope, $state) {
     $scope.PRO_ACEP_OBJ=function()
     {
-        bootbox.alert("Ingrese Nueva Tarifa : ");
+        bootbox.prompt("Ingrese Nueva Tarifa",function (result) {
+            console.log(result);
+        });
     }
     $scope.PRO_RECH_OBJ=function()
     {
