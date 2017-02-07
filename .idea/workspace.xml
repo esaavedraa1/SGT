@@ -70,8 +70,8 @@
       <file leaf-file-name="sello_crear.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/sello_crear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+            <state relative-caret-position="153">
+              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -549,14 +549,7 @@
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
-      <workItem from="1486477872169" duration="238000" />
-    </task>
-    <task id="LOCAL-00380" summary="filter manifiestos de carga">
-      <created>1483639219404</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1483639219404</updated>
+      <workItem from="1486477872169" duration="705000" />
     </task>
     <task id="LOCAL-00381" summary="filter manifiestos de carga">
       <created>1483639331148</created>
@@ -894,11 +887,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486403678360</updated>
     </task>
-    <option name="localTasksCounter" value="429" />
+    <task id="LOCAL-00429" summary="pantalla ingresa Sellos">
+      <created>1486478132596</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1486478132596</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190069000" />
+    <option name="totallyTimeSpent" value="190536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -957,7 +957,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="monet tipo to datatable" />
     <MESSAGE value="change route of moneda tipo" />
     <MESSAGE value="change route of moneda tipo to moneda todos $location" />
     <MESSAGE value="change placeholder to Cargando in moneda_tipo_editar" />
@@ -982,7 +981,8 @@
     <MESSAGE value="despacho anular pantalla" />
     <MESSAGE value="NUEVO ROUTER" />
     <MESSAGE value="PANTALLA RESPONDE OBJECION" />
-    <option name="LAST_COMMIT_MESSAGE" value="PANTALLA RESPONDE OBJECION" />
+    <MESSAGE value="pantalla ingresa Sellos" />
+    <option name="LAST_COMMIT_MESSAGE" value="pantalla ingresa Sellos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1435,8 +1435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/sello_crear.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+        <state relative-caret-position="153">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
           <folding />
         </state>
       </provider>
