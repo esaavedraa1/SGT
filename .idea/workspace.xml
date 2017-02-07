@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sello_crear.html" afterPath="$PROJECT_DIR$/views/sello_crear.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/despacho_validar.html" afterPath="$PROJECT_DIR$/views/despacho_validar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sello_crear.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sello_crear.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/sello_crear.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="despacho_validar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -233,7 +243,6 @@
         <option value="$PROJECT_DIR$/views/despacho_programada.html" />
         <option value="$PROJECT_DIR$/views/solicitud_publicar.html" />
         <option value="$PROJECT_DIR$/views/despacho_todos.html" />
-        <option value="$PROJECT_DIR$/views/despacho_validar.html" />
         <option value="$PROJECT_DIR$/views/control_ingreso.html" />
         <option value="$PROJECT_DIR$/views/control_salida.html" />
         <option value="$PROJECT_DIR$/views/despacho_anular.html" />
@@ -246,6 +255,7 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
         <option value="$PROJECT_DIR$/views/sello_crear.html" />
+        <option value="$PROJECT_DIR$/views/despacho_validar.html" />
       </list>
     </option>
   </component>
@@ -549,14 +559,7 @@
       <workItem from="1485376038682" duration="18000" />
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
-      <workItem from="1486477872169" duration="705000" />
-    </task>
-    <task id="LOCAL-00381" summary="filter manifiestos de carga">
-      <created>1483639331148</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1483639331148</updated>
+      <workItem from="1486477872169" duration="1551000" />
     </task>
     <task id="LOCAL-00382" summary="filter manifiestos de carga">
       <created>1483639649148</created>
@@ -894,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486478132596</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="pantalla ingresa Sellos">
+      <created>1486478585492</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1486478585492</updated>
+    </task>
+    <option name="localTasksCounter" value="431" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190536000" />
+    <option name="totallyTimeSpent" value="191382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1921" height="1050" extended-state="0" />
@@ -1252,13 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/control_ingreso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -1437,6 +1440,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
           <folding />
         </state>
       </provider>
