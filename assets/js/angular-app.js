@@ -1819,6 +1819,80 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
+        //30100 : MENU PLANIFICACION
+        .state('app.gestion.planificacion', {
+            url: '/planificacion',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+            //30101: PANTALLA PLANIFICACION HISTORICA F-24
+            .state('app.gestion.planificacion.historica', {
+                url: '/historica',
+                data: { pageTitle: 'Planificacion Historica' },
+                templateUrl: 'views/Gestion/Planificacion/historica.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/select2/dist/css/select2.min.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/select2/dist/js/select2.min.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+            //30102: PANTALLA PLANIFICACION PREDICTIVA
+            .state('app.gestion.planificacion.predictiva', {
+                url: '/predictiva',
+                data: { pageTitle: 'Planificacion Predictiva : Carga Diaria' },
+                templateUrl: 'views/Gestion/Planificacion/predictiva.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/select2/dist/css/select2.min.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/select2/dist/js/select2.min.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
         //30200 : MENU SOLICITUDES
             .state('app.gestion.solicitud', {
                 url: '/solicitud',
@@ -1859,7 +1933,40 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
-                    
+            //30202: PANTALLA CREAR SOLICITUD PROGRAMADA F-03
+            .state('app.gestion.solicitud.express', {
+                url: '/express',
+                data: { pageTitle: 'Solicitud express - Crear ' },
+                templateUrl: 'views/Gestion/Solicitud/express.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/select2/dist/css/select2.min.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/select2/dist/js/select2.min.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
         //MAN MANTENEDORES
         .state('app.mantenedores', {
             url: '/mantenedores',
