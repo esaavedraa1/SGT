@@ -93,7 +93,13 @@
                         <a href="javascript:;"><b class="caret pull-right"></b> Objeciones  de Viajes</a>
                         <ul class="sub-menu">
                             <li ui-sref-active="active"><a ui-sref="app.facturacion.objeciones.responder">Responder Objeción</a></li>
-
+                        </ul>
+                    </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.consulta')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Consulta Facturación</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.consulta.troncal">Facturación Troncal</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.consulta.umilla">Facturación Ult. Milla</a></li>
                         </ul>
                     </li>
                 </ul>

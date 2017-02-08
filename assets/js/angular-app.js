@@ -1457,7 +1457,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         }]
                     }
                 })
-                //20200 : MENU APROBACION ORDEN DE FACTURACION
+            //20200 : MENU APROBACION ORDEN DE FACTURACION
             .state('app.facturacion.validacion', {
                 url: '/validacion',
                 template: '<div ui-view></div>',
@@ -1550,13 +1550,14 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                         }]
                     }
             })
-
+            //20300 : MENU OBJECIONES
             .state('app.facturacion.objeciones', {
                 url: '/objeciones',
                 template: '<div ui-view></div>',
                 abstract: true
             })
-            .state('app.facturacion.objeciones.responder', {
+            //20301: PANTALLA DE RESPUESTA DE OBJECIONES F-15
+                .state('app.facturacion.objeciones.responder', {
                 url: '/responder',
                 data: { pageTitle: 'Facturación - Responder Objecion B2B ' },
                 templateUrl: 'views/Facturacion/Objeciones/responder.html',
@@ -1589,8 +1590,80 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
-
-
+            //20400 : MENU CONSULTA FACTURACION
+            .state('app.facturacion.consulta', {
+                url: '/consulta',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //20401: PANTALLA consulta facturacion troncal
+                .state('app.facturacion.consulta.troncal', {
+                    url: '/troncal',
+                    data: { pageTitle: 'Consulta Facturacion Troncal ' },
+                    templateUrl: 'views/Facturacion/Consulta/troncal.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/select2/dist/css/select2.min.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                    'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/select2/dist/js/select2.min.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //20402: PANTALLA consulta facturacion umilla
+                .state('app.facturacion.consulta.umilla', {
+                url: '/umilla',
+                data: { pageTitle: 'Consulta Facturacion Ult. Milla DDC ' },
+                templateUrl: 'views/Facturacion/Consulta/umilla.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/select2/dist/css/select2.min.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/select2/dist/js/select2.min.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
 
 
