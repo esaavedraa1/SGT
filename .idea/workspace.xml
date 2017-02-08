@@ -6,13 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="facturacion consulta 20500">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Interna/crear.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/ns.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="714">
+              <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -222,7 +218,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crear.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crear.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Interna/crear.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -299,12 +295,12 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Consulta/umilla.html" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/ns.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Interna/crear.html" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
       </list>
     </option>
   </component>
@@ -554,14 +550,7 @@
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
-      <workItem from="1486563890880" duration="10912000" />
-    </task>
-    <task id="LOCAL-00395" summary="3 VER PUBLICAR SOLICITUD">
-      <created>1484765897243</created>
-      <option name="number" value="00395" />
-      <option name="presentableId" value="LOCAL-00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1484765897243</updated>
+      <workItem from="1486563890880" duration="11135000" />
     </task>
     <task id="LOCAL-00396" summary="3 VER PUBLICAR SOLICITUD">
       <created>1484765944769</created>
@@ -899,11 +888,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486578550618</updated>
     </task>
-    <option name="localTasksCounter" value="444" />
+    <task id="LOCAL-00444" summary="20500 y 20600">
+      <created>1486580186611</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1486580186611</updated>
+    </task>
+    <option name="localTasksCounter" value="445" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202677000" />
+    <option name="totallyTimeSpent" value="202900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -962,7 +958,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="html solicitud express" />
     <MESSAGE value="new menu manifistesto de carga" />
     <MESSAGE value="manifiesto de carga new button cerrar" />
     <MESSAGE value="despacho buscar" />
@@ -987,7 +982,8 @@
     <MESSAGE value="menu consulta reporteria" />
     <MESSAGE value="menu validacion facturacion" />
     <MESSAGE value="facturacion consulta 20500" />
-    <option name="LAST_COMMIT_MESSAGE" value="facturacion consulta 20500" />
+    <MESSAGE value="20500 y 20600" />
+    <option name="LAST_COMMIT_MESSAGE" value="20500 y 20600" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1339,14 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -1514,6 +1502,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
           <folding />
         </state>
       </provider>
