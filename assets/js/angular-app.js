@@ -1596,7 +1596,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 template: '<div ui-view></div>',
                 abstract: true
             })
-                //20401: PANTALLA consulta facturacion troncal
+                //20401: PANTALLA consulta facturacion troncal F-17
                 .state('app.facturacion.consulta.troncal', {
                     url: '/troncal',
                     data: { pageTitle: 'Consulta Facturacion Troncal ' },
@@ -1664,9 +1664,154 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
-
-
-
+            //20500 : MENU MODIFICAR VALOR VIAJE
+            .state('app.facturacion.modifica', {
+                url: '/modifica',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //20501: PANTALLA MODIFICA VALOR VIAJE F-16
+                .state('app.facturacion.modifica.viaje', {
+                url: '/viaje',
+                data: { pageTitle: 'Modifica Valor Viaje ' },
+                templateUrl: 'views/Facturacion/Modifica/viaje.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/select2/dist/css/select2.min.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/select2/dist/js/select2.min.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+                //20502: PANTALLA consulta facturacion troncal
+                .state('app.facturacion.modifica.ns', {
+                    url: '/ns',
+                    data: { pageTitle: 'Modifica Valor NS ' },
+                    templateUrl: 'views/Facturacion/Modifica/ns.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/select2/dist/css/select2.min.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                    'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/select2/dist/js/select2.min.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //20503: PANTALLA consulta facturacion troncal
+                .state('app.facturacion.modifica.boleta', {
+                    url: '/boleta',
+                    data: { pageTitle: 'Modifica Valor Viaje Boleta ' },
+                    templateUrl: 'views/Facturacion/Modifica/boleta.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/select2/dist/css/select2.min.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                    'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/select2/dist/js/select2.min.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //20600 : MENU SOLICITUD INTERNAS
+            .state('app.facturacion.interna', {
+                url: '/interna',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //20501: PANTALLA CREAR SOLICITUD INTERNA
+                .state('app.facturacion.interna.crear', {
+                    url: '/crear',
+                    data: { pageTitle: 'Solicitud Interna - Crear ' },
+                    templateUrl: 'views/Facturacion/Interna/crear.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/select2/dist/css/select2.min.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                                    'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                                    'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/select2/dist/js/select2.min.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
         //MAN MANTENEDORES
         .state('app.mantenedores', {
             url: '/mantenedores',
