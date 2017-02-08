@@ -921,7 +921,43 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
 
 
 
-        //FAC MANTENEDORES
+        .state('app.consulta', {
+            url: '/consulta',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //Pantalla CON-01: CONSULTA DE DESPACHOS PARCIALES
+        .state('app.consulta.parciales', {
+            url: '/parciales',
+            data: { pageTitle: 'Consulta- Despachos Parciales ' },
+            templateUrl: 'views/Consulta/parciales.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
+
+        //FAC FACTURACION
         .state('app.facturacion', {
             url: '/facturacion',
             template: '<div ui-view></div>',
@@ -989,7 +1025,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
 
 
 
@@ -1091,6 +1126,10 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 })
             // FIN MAN-PROV
         //FIN MAN
+
+
+
+
 
         //B2B BUSINESS TO BUSINESS
         .state('app.b2b', {
