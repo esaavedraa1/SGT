@@ -955,232 +955,383 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
-        //10200: MENU  VIAJES
-        .state('app.consulta.viaje', {
-            url: '/viaje',
+            //10102: DASHBOARD LOGISTICA
+            .state('app.consulta.dashboard', {
+            url: '/dashboard',
+            data: { pageTitle: 'Dashboard Transportes ' },
+            templateUrl: 'views/Consulta/dashboard.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+            //10200: MENU  VIAJES
+            .state('app.consulta.viaje', {
+                url: '/viaje',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //10201: CONSULTA VIAJE TRONCAL
+                .state('app.consulta.viaje.troncal', {
+                    url: '/troncal',
+                    data: { pageTitle: 'Viajes- Despachos TRN' },
+                    templateUrl: 'views/Consulta/Viajes/troncal.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //10202: CONSULTA VIAJE ULTIMA MILLA DESPACHO DIRECTO CLIENTE
+                .state('app.consulta.viaje.umilla', {
+                    url: '/um',
+                    data: { pageTitle: 'Viajes- Despachos UM/DDC ' },
+                    templateUrl: 'views/Consulta/Viajes/umilla.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+            //10300: Menu SUPERVISOR
+            .state('app.consulta.supervisor', {
+                url: '/supervisor',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //10301: CONSULTA SUPERVISOR ANULAR VIAJE
+                .state('app.consulta.supervisor.anular', {
+                    url: '/anular',
+                    data: { pageTitle: 'Supervisor- Anular Viaje' },
+                    templateUrl: 'views/Consulta/Supervisor/anular.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //10302: VIAJES TRONCAL
+                .state('app.consulta.supervisor.troncal', {
+                    url: '/troncal',
+                    data: { pageTitle: 'Supervisor-Viaje Troncal' },
+                    templateUrl: 'views/Consulta/Supervisor/troncal.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //10303: VIAJES ULTIMA MILLA / DDC
+                .state('app.consulta.supervisor.umilla', {
+                    url: '/umilla',
+                    data: { pageTitle: 'Supervisor-Viaje Ulm, Milla /DDC' },
+                    templateUrl: 'views/Consulta/Supervisor/umilla.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+            //10400: Menu TARIFAS
+            .state('app.consulta.tarifa', {
+                url: '/tarifa',
+                template: '<div ui-view></div>',
+                abstract: true
+            })
+                //10401: TARIFA TRONCAL
+                .state('app.consulta.tarifa.troncal', {
+                    url: '/troncal',
+                    data: { pageTitle: 'Tarifa-Viaje Troncal' },
+                    templateUrl: 'views/Consulta/Tarifa/troncal.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //10402: TARIFA ULTIMA MILLA DDC
+                .state('app.consulta.tarifa.umilla', {
+                    url: '/umilla',
+                    data: { pageTitle: 'Tarifa-Viaje Ulm, Milla /DDC' },
+                    templateUrl: 'views/Consulta/Tarifa/umilla.html',
+                    resolve: {
+                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load({
+                                serie: true,
+                                files: [
+                                    'assets/plugins/bootbox/bootbox.min.js',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                    'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                    'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                    'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                    'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                    'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                    'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                    'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                    'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                    'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                                ]
+                            });
+                        }]
+                    }
+                })
+                //10403: TARIFA FACTURACION ULTIMA MILLA DDC
+                .state('app.consulta.tarifa.factura', {
+                url: '/factura',
+                data: { pageTitle: 'Tarifa-Facturación UM/DDC' },
+                templateUrl: 'views/Consulta/Tarifa/factura.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                                'assets/plugins/bootstrap-daterangepicker/moment.js',
+                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
+            //10500: Menu REPORTERIA
+            .state('app.consulta.reporteria', {
+            url: '/reporteria',
             template: '<div ui-view></div>',
             abstract: true
         })
-            //10201: CONSULTA VIAJE TRONCAL
-            .state('app.consulta.viaje.troncal', {
-                url: '/troncal',
-                data: { pageTitle: 'Viajes- Despachos TRN' },
-                templateUrl: 'views/Consulta/Viajes/troncal.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-            //10202: CONSULTA VIAJE ULTIMA MILLA DESPACHO DIRECTO CLIENTE
-            .state('app.consulta.viaje.umilla', {
-                url: '/um',
-                data: { pageTitle: 'Viajes- Despachos UM/DDC ' },
-                templateUrl: 'views/Consulta/Viajes/umilla.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-        //10300: Menu SUPERVISOR
-        .state('app.consulta.supervisor', {
-            url: '/supervisor',
-            template: '<div ui-view></div>',
-            abstract: true
+                //10501: MERCADERIA TRANPORTADA
+                .state('app.consulta.reporteria.mercaderia', {
+            url: '/mercaderia',
+            data: { pageTitle: 'Reportería Mercaderia Trans.' },
+            templateUrl: 'views/Consulta/Reporteria/mercaderia.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
         })
-            //10301: CONSULTA SUPERVISOR ANULAR VIAJE
-            .state('app.consulta.supervisor.anular', {
-                url: '/anular',
-                data: { pageTitle: 'Supervisor- Anular Viaje' },
-                templateUrl: 'views/Consulta/Supervisor/anular.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-            //10302: VIAJES TRONCAL
-            .state('app.consulta.supervisor.troncal', {
-                url: '/troncal',
-                data: { pageTitle: 'Supervisor-Viaje Troncal' },
-                templateUrl: 'views/Consulta/Supervisor/troncal.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-            //10303: VIAJES ULTIMA MILLA / DDC
-            .state('app.consulta.supervisor.umilla', {
-                url: '/umilla',
-                data: { pageTitle: 'Supervisor-Viaje Ulm, Milla /DDC' },
-                templateUrl: 'views/Consulta/Supervisor/umilla.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-        //10400: Menu TARIFAS
-        .state('app.consulta.tarifa', {
-            url: '/tarifa',
-            template: '<div ui-view></div>',
-            abstract: true
+                //10502: DISTRIBUCION DE GASTOS
+                .state('app.consulta.reporteria.gastos', {
+            url: '/gastos',
+            data: { pageTitle: 'Reportería Distribución de Gastos' },
+            templateUrl: 'views/Consulta/Reporteria/gastos.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
         })
-            //10401: TARIFA TRONCAL
-            .state('app.consulta.tarifa.troncal', {
-                url: '/troncal',
-                data: { pageTitle: 'Tarifa-Viaje Troncal' },
-                templateUrl: 'views/Consulta/Tarifa/troncal.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-            //10402: TARIFA ULTIMA MILLA DDC
-            .state('app.consulta.tarifa.umilla', {
-                url: '/umilla',
-                data: { pageTitle: 'Tarifa-Viaje Ulm, Milla /DDC' },
-                templateUrl: 'views/Consulta/Tarifa/umilla.html',
-                resolve: {
-                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                        return $ocLazyLoad.load({
-                            serie: true,
-                            files: [
-                                'assets/plugins/bootbox/bootbox.min.js',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                                'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                                'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                                'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                                'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                                'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                                'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                                'assets/plugins/bootstrap-daterangepicker/moment.js',
-                                'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                                'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                            ]
-                        });
-                    }]
-                }
-            })
-            //10403: TARIFA FACTURACION ULTIMA MILLA DDC
-            .state('app.consulta.tarifa.factura', {
-            url: '/factura',
-            data: { pageTitle: 'Tarifa-Facturación UM/DDC' },
-            templateUrl: 'views/Consulta/Tarifa/factura.html',
+                //10503: VIAJES DE REPARTO TARIFICADO
+                .state('app.consulta.reporteria.reparto', {
+            url: '/reparto',
+            data: { pageTitle: 'Reportería Viajes de Reparto Tarificado' },
+            templateUrl: 'views/Consulta/Reporteria/reparto.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+                //10504: PRORRATEO
+                .state('app.consulta.reporteria.prorrateo', {
+            url: '/prorrateo',
+            data: { pageTitle: 'Reportería Prorrateo.' },
+            templateUrl: 'views/Consulta/Reporteria/prorrateo.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({

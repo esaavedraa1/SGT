@@ -36,7 +36,9 @@
                     <span>Consulta</span>
                 </a>
                 <ul class="sub-menu">
+
                     <li ui-sref-active="active"><a ui-sref="app.consulta.parciales">Despachos Parciales</a></li>
+                    <li ui-sref-active="active"><a ui-sref="app.consulta.dashboard">Dashboard Transportes</a></li>
                     <li class="has-sub" ng-class="{active:$state.includes('app.consulta.viaje')}">
                         <a href="javascript:;"><b class="caret pull-right"></b>Viajes</a>
                         <ul class="sub-menu">
@@ -50,6 +52,15 @@
                             <li ui-sref-active="active"><a ui-sref="app.consulta.tarifa.troncal">Troncal</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.consulta.tarifa.umilla">Ul. Milla/Direc.Cnt</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.consulta.tarifa.factura">Facturación UM/DDC</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.consulta.tarifa')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Reportería</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.reporteria.mercaderia">Mercaderia Transportada</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.reporteria.gastos">Distribución Gastos</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.reporteria.reparto">Reparto Tarificado</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.reporteria.prorrateo">Prorrateo</a></li>
                         </ul>
                     </li>
                 </ul>

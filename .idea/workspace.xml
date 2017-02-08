@@ -6,10 +6,12 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="pantalla consulta - supervisor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Tarifa/factura.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html" />
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Reporteria/gastos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Reporteria/mercaderia.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Reporteria/prorrateo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Reporteria/reparto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
@@ -41,41 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="4691" column="4" selection-start-line="4691" selection-start-column="4" selection-end-line="4691" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sello_crear.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/sello_crear.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="despacho_validar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="125" column="64" selection-start-line="125" selection-start-column="64" selection-end-line="125" selection-end-column="64" />
+            <state relative-caret-position="663">
+              <caret line="69" column="85" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -84,8 +56,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="1209" column="0" selection-start-line="1209" selection-start-column="0" selection-end-line="1209" selection-end-column="0" />
+            <state relative-caret-position="98">
+              <caret line="1148" column="14" selection-start-line="1148" selection-start-column="14" selection-end-line="1148" selection-end-column="14" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -163,62 +135,91 @@
                 <element signature="e#46264#46782#0" expanded="false" />
                 <element signature="e#46849#46962#0" expanded="false" />
                 <element signature="e#47062#48969#0" expanded="false" />
-                <element signature="e#49038#49148#0" expanded="false" />
-                <element signature="e#49243#51144#0" expanded="false" />
-                <element signature="e#51268#53167#0" expanded="false" />
-                <element signature="e#53244#53359#0" expanded="false" />
-                <element signature="e#53468#55374#0" expanded="false" />
-                <element signature="e#55466#57374#0" expanded="false" />
-                <element signature="e#57476#59390#0" expanded="false" />
-                <element signature="e#59460#59571#0" expanded="false" />
-                <element signature="e#59659#61559#0" expanded="false" />
-                <element signature="e#61655#63561#0" expanded="false" />
-                <element signature="e#63670#65467#0" expanded="false" />
-                <element signature="e#65532#65648#0" expanded="false" />
-                <element signature="e#65974#66089#0" expanded="false" />
-                <element signature="e#66163#66694#0" expanded="false" />
-                <element signature="e#66741#66856#0" expanded="false" />
-                <element signature="e#69693#69841#0" expanded="false" />
-                <element signature="e#69933#70583#0" expanded="false" />
-                <element signature="e#70675#71326#0" expanded="false" />
-                <element signature="e#70903#71308#0" expanded="false" />
-                <element signature="e#71418#72073#0" expanded="false" />
-                <element signature="e#72164#72812#0" expanded="false" />
-                <element signature="e#72905#73558#0" expanded="false" />
-                <element signature="e#74318#78386#0" expanded="false" />
-                <element signature="e#78468#82537#0" expanded="false" />
-                <element signature="e#82613#86667#0" expanded="false" />
-                <element signature="e#86747#90811#0" expanded="false" />
+                <element signature="e#49057#50848#0" expanded="false" />
+                <element signature="e#50925#51051#0" expanded="false" />
+                <element signature="e#51154#53163#0" expanded="false" />
+                <element signature="e#53295#55302#0" expanded="false" />
+                <element signature="e#55387#55518#0" expanded="false" />
+                <element signature="e#55635#57649#0" expanded="false" />
+                <element signature="e#57749#59765#0" expanded="false" />
+                <element signature="e#59875#61897#0" expanded="false" />
+                <element signature="e#61975#62102#0" expanded="false" />
+                <element signature="e#62198#64206#0" expanded="false" />
+                <element signature="e#64310#66324#0" expanded="false" />
+                <element signature="e#66441#68346#0" expanded="false" />
+                <element signature="e#68431#68546#0" expanded="false" />
+                <element signature="e#68657#70467#0" expanded="false" />
+                <element signature="e#70574#72381#0" expanded="false" />
+                <element signature="e#72495#74310#0" expanded="false" />
+                <element signature="e#74407#76208#0" expanded="false" />
+                <element signature="e#74700#76163#0" expanded="false" />
+                <element signature="e#76273#76389#0" expanded="false" />
+                <element signature="e#76715#76830#0" expanded="false" />
+                <element signature="e#76904#77435#0" expanded="false" />
+                <element signature="e#77482#77597#0" expanded="false" />
+                <element signature="e#77654#79899#0" expanded="false" />
+                <element signature="e#78036#79832#0" expanded="false" />
+                <element signature="e#80434#80582#0" expanded="false" />
+                <element signature="e#80674#81324#0" expanded="false" />
+                <element signature="e#81416#82067#0" expanded="false" />
+                <element signature="e#81644#82049#0" expanded="false" />
+                <element signature="e#82159#82814#0" expanded="false" />
+                <element signature="e#82905#83553#0" expanded="false" />
+                <element signature="e#83646#84299#0" expanded="false" />
+                <element signature="e#85059#89127#0" expanded="false" />
+                <element signature="e#89209#93278#0" expanded="false" />
+                <element signature="e#93354#97408#0" expanded="false" />
+                <element signature="e#97488#101552#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="troncal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="umilla.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html">
+      <file leaf-file-name="mercaderia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/mercaderia.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factura.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/factura.html">
+      <file leaf-file-name="gastos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/gastos.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reparto.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/reparto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prorrateo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/prorrateo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -246,11 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/contrato_todos.html" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/views/personal_crear.html" />
-        <option value="$PROJECT_DIR$/views/moneda_tipo_buscar.html" />
-        <option value="$PROJECT_DIR$/assets/plugins/bootbox/bootbox.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/moneda_tipo_crear.html" />
         <option value="$PROJECT_DIR$/views/moneda_editar.html" />
@@ -292,11 +288,16 @@
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/factura.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Consulta/dashboard.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Reporteria/mercaderia.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Reporteria/gastos.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Reporteria/reparto.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Reporteria/prorrateo.html" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
       </list>
     </option>
   </component>
@@ -407,7 +408,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tarifa" />
+              <option name="myItemId" value="Reporteria" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,14 +551,7 @@
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
-      <workItem from="1486563890880" duration="4083000" />
-    </task>
-    <task id="LOCAL-00389" summary="nuevo menu b2b app&#10;">
-      <created>1484763304879</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1484763304879</updated>
+      <workItem from="1486563890880" duration="5332000" />
     </task>
     <task id="LOCAL-00390" summary="cambio icono de B2B">
       <created>1484763646814</created>
@@ -895,11 +889,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486566304921</updated>
     </task>
-    <option name="localTasksCounter" value="438" />
+    <task id="LOCAL-00438" summary="pantalla consulta - supervisor">
+      <created>1486568050470</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1486568050470</updated>
+    </task>
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195848000" />
+    <option name="totallyTimeSpent" value="197097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -992,41 +993,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/personal_crear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/proveedor_buscar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/proveedor_tipo_buscar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/proveedor_tipo_editar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="84" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/moneda_crear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4369">
@@ -1327,18 +1293,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/factura.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/mercaderia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/gastos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/reparto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Reporteria/prorrateo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="1209" column="0" selection-start-line="1209" selection-start-column="0" selection-end-line="1209" selection-end-column="0" />
+        <state relative-caret-position="98">
+          <caret line="1148" column="14" selection-start-line="1148" selection-start-column="14" selection-end-line="1148" selection-end-column="14" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />
@@ -1416,56 +1438,49 @@
             <element signature="e#46264#46782#0" expanded="false" />
             <element signature="e#46849#46962#0" expanded="false" />
             <element signature="e#47062#48969#0" expanded="false" />
-            <element signature="e#49038#49148#0" expanded="false" />
-            <element signature="e#49243#51144#0" expanded="false" />
-            <element signature="e#51268#53167#0" expanded="false" />
-            <element signature="e#53244#53359#0" expanded="false" />
-            <element signature="e#53468#55374#0" expanded="false" />
-            <element signature="e#55466#57374#0" expanded="false" />
-            <element signature="e#57476#59390#0" expanded="false" />
-            <element signature="e#59460#59571#0" expanded="false" />
-            <element signature="e#59659#61559#0" expanded="false" />
-            <element signature="e#61655#63561#0" expanded="false" />
-            <element signature="e#63670#65467#0" expanded="false" />
-            <element signature="e#65532#65648#0" expanded="false" />
-            <element signature="e#65974#66089#0" expanded="false" />
-            <element signature="e#66163#66694#0" expanded="false" />
-            <element signature="e#66741#66856#0" expanded="false" />
-            <element signature="e#69693#69841#0" expanded="false" />
-            <element signature="e#69933#70583#0" expanded="false" />
-            <element signature="e#70675#71326#0" expanded="false" />
-            <element signature="e#70903#71308#0" expanded="false" />
-            <element signature="e#71418#72073#0" expanded="false" />
-            <element signature="e#72164#72812#0" expanded="false" />
-            <element signature="e#72905#73558#0" expanded="false" />
-            <element signature="e#74318#78386#0" expanded="false" />
-            <element signature="e#78468#82537#0" expanded="false" />
-            <element signature="e#82613#86667#0" expanded="false" />
-            <element signature="e#86747#90811#0" expanded="false" />
+            <element signature="e#49057#50848#0" expanded="false" />
+            <element signature="e#50925#51051#0" expanded="false" />
+            <element signature="e#51154#53163#0" expanded="false" />
+            <element signature="e#53295#55302#0" expanded="false" />
+            <element signature="e#55387#55518#0" expanded="false" />
+            <element signature="e#55635#57649#0" expanded="false" />
+            <element signature="e#57749#59765#0" expanded="false" />
+            <element signature="e#59875#61897#0" expanded="false" />
+            <element signature="e#61975#62102#0" expanded="false" />
+            <element signature="e#62198#64206#0" expanded="false" />
+            <element signature="e#64310#66324#0" expanded="false" />
+            <element signature="e#66441#68346#0" expanded="false" />
+            <element signature="e#68431#68546#0" expanded="false" />
+            <element signature="e#68657#70467#0" expanded="false" />
+            <element signature="e#70574#72381#0" expanded="false" />
+            <element signature="e#72495#74310#0" expanded="false" />
+            <element signature="e#74407#76208#0" expanded="false" />
+            <element signature="e#74700#76163#0" expanded="false" />
+            <element signature="e#76273#76389#0" expanded="false" />
+            <element signature="e#76715#76830#0" expanded="false" />
+            <element signature="e#76904#77435#0" expanded="false" />
+            <element signature="e#77482#77597#0" expanded="false" />
+            <element signature="e#77654#79899#0" expanded="false" />
+            <element signature="e#78036#79832#0" expanded="false" />
+            <element signature="e#80434#80582#0" expanded="false" />
+            <element signature="e#80674#81324#0" expanded="false" />
+            <element signature="e#81416#82067#0" expanded="false" />
+            <element signature="e#81644#82049#0" expanded="false" />
+            <element signature="e#82159#82814#0" expanded="false" />
+            <element signature="e#82905#83553#0" expanded="false" />
+            <element signature="e#83646#84299#0" expanded="false" />
+            <element signature="e#85059#89127#0" expanded="false" />
+            <element signature="e#89209#93278#0" expanded="false" />
+            <element signature="e#93354#97408#0" expanded="false" />
+            <element signature="e#97488#101552#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/factura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="663">
+          <caret line="69" column="85" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="85" />
           <folding />
         </state>
       </provider>
