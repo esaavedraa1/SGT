@@ -36,8 +36,14 @@
                     <span>Consulta</span>
                 </a>
                 <ul class="sub-menu">
-
                     <li ui-sref-active="active"><a ui-sref="app.consulta.parciales">Despachos Parciales</a></li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.consulta.viajes')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Viajes</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.viaje.troncal">Troncal</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.consulta.viaje.umilla">Ul. Milla/Direc.Cnt</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
