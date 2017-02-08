@@ -1459,7 +1459,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 })
                 //20200 : MENU APROBACION ORDEN DE FACTURACION
             .state('app.facturacion.validacion', {
-                url: '/aprobacion',
+                url: '/validacion',
                 template: '<div ui-view></div>',
                 abstract: true
             })

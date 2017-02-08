@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Aprobacion/troncal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Validacion/aprueba.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Validacion/troncal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +50,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="1524" column="60" selection-start-line="1524" selection-start-column="60" selection-end-line="1524" selection-end-column="60" />
+            <state relative-caret-position="310">
+              <caret line="1460" column="49" selection-start-line="1460" selection-start-column="49" selection-end-line="1460" selection-end-column="49" />
               <folding>
                 <element signature="e#524#633#0" expanded="false" />
                 <element signature="e#667#2394#0" expanded="false" />
@@ -301,8 +295,8 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/aprueba.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
       </list>
     </option>
   </component>
@@ -574,14 +568,7 @@
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
-      <workItem from="1486563890880" duration="7345000" />
-    </task>
-    <task id="LOCAL-00392" summary="1 VER PUBLICAR SOLICITUD">
-      <created>1484765100161</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1484765100165</updated>
+      <workItem from="1486563890880" duration="7453000" />
     </task>
     <task id="LOCAL-00393" summary="2 VER PUBLICAR SOLICITUD">
       <created>1484765425725</created>
@@ -919,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486569372370</updated>
     </task>
-    <option name="localTasksCounter" value="441" />
+    <task id="LOCAL-00441" summary="menu validacion facturacion">
+      <created>1486575972774</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1486575972774</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199110000" />
+    <option name="totallyTimeSpent" value="199218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -982,7 +976,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="change provedor col" />
     <MESSAGE value="new despacho solicitud programada&#10;new despacho solicitud express" />
     <MESSAGE value="html solicitud express" />
     <MESSAGE value="new menu manifistesto de carga" />
@@ -1007,7 +1000,8 @@
     <MESSAGE value="pantalla consulta - despachos parciales" />
     <MESSAGE value="pantalla consulta - supervisor" />
     <MESSAGE value="menu consulta reporteria" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu consulta reporteria" />
+    <MESSAGE value="menu validacion facturacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu validacion facturacion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1395,8 +1389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="1524" column="60" selection-start-line="1524" selection-start-column="60" selection-end-line="1524" selection-end-column="60" />
+        <state relative-caret-position="310">
+          <caret line="1460" column="49" selection-start-line="1460" selection-start-column="49" selection-end-line="1460" selection-end-column="49" />
           <folding>
             <element signature="e#524#633#0" expanded="false" />
             <element signature="e#667#2394#0" expanded="false" />
