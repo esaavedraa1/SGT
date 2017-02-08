@@ -955,7 +955,70 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
+        //Menu CON-VIA
+        .state('app.consulta.viaje', {
+            url: '/viaje',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //PANTALLA CON-VIA-01 : CONSULTA VIAJE TRONCAL
+        .state('app.consulta.viaje.troncal', {
+            url: '/troncal',
+            data: { pageTitle: 'Viajes- Despachos TRN' },
+            templateUrl: 'views/Consulta/Viajes/troncal.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //PANTALLA CON-VIA-02 : CONSULTA VIAJE ULTIMA MILLA DESPACHO DIRECTO CLIENTE
+        .state('app.consulta.viaje.umilla', {
+            url: '/um',
+            data: { pageTitle: 'Viajes- Despachos UM/DDC ' },
+            templateUrl: 'views/Consulta/Viajes/umilla.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
 
         //FAC FACTURACION
         .state('app.facturacion', {
