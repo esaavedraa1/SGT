@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -44,8 +40,8 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="408">
+              <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -514,14 +510,7 @@
       <workItem from="1486389386702" duration="129000" />
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
-      <workItem from="1486563890880" duration="2260000" />
-    </task>
-    <task id="LOCAL-00387" summary="nuevo menu b2b app&#10;">
-      <created>1484763016079</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1484763016083</updated>
+      <workItem from="1486563890880" duration="2365000" />
     </task>
     <task id="LOCAL-00388" summary="nuevo menu b2b app&#10;">
       <created>1484763140497</created>
@@ -859,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486565556440</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="pantalla consulta - supervisor">
+      <created>1486566206977</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1486566206977</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194025000" />
+    <option name="totallyTimeSpent" value="194130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -922,7 +918,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="change route of moneda tipo to moneda todos $location" />
     <MESSAGE value="change placeholder to Cargando in moneda_tipo_editar" />
     <MESSAGE value="change provedor col" />
     <MESSAGE value="new despacho solicitud programada&#10;new despacho solicitud express" />
@@ -947,7 +942,8 @@
     <MESSAGE value="pantalla ingresa Sellos" />
     <MESSAGE value="pantalla validaciones de salida" />
     <MESSAGE value="pantalla consulta - despachos parciales" />
-    <option name="LAST_COMMIT_MESSAGE" value="pantalla consulta - despachos parciales" />
+    <MESSAGE value="pantalla consulta - supervisor" />
+    <option name="LAST_COMMIT_MESSAGE" value="pantalla consulta - supervisor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1419,8 +1415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
           <folding />
         </state>
       </provider>
