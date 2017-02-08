@@ -66,93 +66,27 @@
                 </ul>
             </li>
 
-
-            <li class="has-sub" ng-class="{active:$state.includes('app.solicitud')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-book"></i>
-                    <span>Solicitudes</span>
-                </a>
-                <ul class="sub-menu">
-
-                    <li ui-sref-active="active"><a ui-sref="app.solicitud.todos">Solicitudes</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.solicitud.programada">Solicitud Programada</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.solicitud.express">Solicitud Express</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.solicitud.publicar">Solicitud Publicar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.solicitud.buscar">Solicitudes Buscar</a></li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.control')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-flag-checkered"></i>
-                    <span>Controles</span>
-                </a>
-                <ul class="sub-menu">
-
-                    <li ui-sref-active="active"><a ui-sref="app.control.todos">Controles</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.control.ingreso">Control de Ingreso</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.control.salida">Control de Salida</a></li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.sellos')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-barcode"></i>
-                    <span>Sellos</span>
-                </a>
-                <ul class="sub-menu">
-
-                    <li ui-sref-active="active"><a ui-sref="app.sello.todos">Sellos</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.sello.crear">Sellos Ingreso</a></li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.despacho')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-send"></i>
-                    <span>Despacho</span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.todos">Despachos</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.validar">Validaciones de Salida</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.editar">Despacho Editar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.buscar">Despacho Buscar</a></li>
-                    <li ui-sref-active="active"><a ui-sref="app.despacho.anular">Despacho Anular</a></li>
-                    <li class="has-sub" ng-class="{active:$state.includes('app.despacho.tipo')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b> Despacho Tipos</a>
-                        <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.despacho.tipo.todos">Despacho Tipos</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.despacho.tipo.crear">Despacho Crear</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.despacho.editar">Despacho Buscar</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="has-sub" ng-class="{active:$state.includes('app.carga')}">
-                <a href="javascript:;">
-                    <b class="caret pull-right"></b>
-                    <i class="fa fa-map"></i>
-                    <span>Manifiestos de Carga</span>
-                </a>
-                <ul class="sub-menu">
-                    <li ui-sref-active="active"><a ui-sref="app.carga.todos">Manifiestos</a></li>
-
-                </ul>
-            </li>
-
             <li class="has-sub" ng-class="{active:$state.includes('app.facturacion')}">
                 <a href="javascript:;">
                     <b class="caret pull-right"></b>
                     <i class="fa fa-euro"></i>
-                    <span>Facturacion</span>
+                    <span>Facturación</span>
                 </a>
                 <ul class="sub-menu">
                     <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.aprobacion')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b> Aprobacion OF</a>
+                        <a href="javascript:;"><b class="caret pull-right"></b> Aprobación OF</a>
                         <ul class="sub-menu">
                             <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.aprueba">Aprobar OF</a></li>
-
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.troncal">Detalle Troncal</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.aprobacion.umilla">Detalle Ult. Milla</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.validacion')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Validación OF</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.validacion.aprueba">Aprobar OF</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.validacion.troncal">Detalle Troncal</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.facturacion.validacion.umilla">Detalle Ult. Milla</a></li>
                         </ul>
                     </li>
                     <li class="has-sub" ng-class="{active:$state.includes('app.facturacion.objeciones')}">
