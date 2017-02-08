@@ -1020,6 +1020,101 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             }
         })
 
+        //Menu CON-SUP
+        .state('app.consulta.supervisor', {
+            url: '/supervisor',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //PANTALLA CON-SUP-01 : CONSULTA SUPERVISOR ANULAR VIAJE
+        .state('app.consulta.supervisor.anular', {
+            url: '/anular',
+            data: { pageTitle: 'Supervisor- Anular Viaje' },
+            templateUrl: 'views/Consulta/Supervisor/anular.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //PANTALLA CON-SUP-02 : VIAJES TRONCAL
+        .state('app.consulta.supervisor.troncal', {
+            url: '/troncal',
+            data: { pageTitle: 'Supervisor-Viaje Troncal' },
+            templateUrl: 'views/Consulta/Supervisor/troncal.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //PANTALLA CON-SUP-02 : VIAJES ULTIMA MILLA / DDC
+        .state('app.consulta.supervisor.umilla', {
+            url: '/umilla',
+            data: { pageTitle: 'Supervisor-Viaje Ulm, Milla /DDC' },
+            templateUrl: 'views/Consulta/Supervisor/umilla.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
+
         //FAC FACTURACION
         .state('app.facturacion', {
             url: '/facturacion',
