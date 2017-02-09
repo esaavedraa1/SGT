@@ -6,10 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="20501">
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html" afterPath="$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" afterPath="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,8 +198,8 @@
       <file leaf-file-name="troncal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="199" column="44" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
+            <state relative-caret-position="682">
+              <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -468,14 +467,7 @@
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
       <workItem from="1486563890880" duration="14753000" />
-      <workItem from="1486644707547" duration="2636000" />
-    </task>
-    <task id="LOCAL-00405" summary="CONTROL DE SALIDA">
-      <created>1484853544022</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1484853544023</updated>
+      <workItem from="1486644707547" duration="2782000" />
     </task>
     <task id="LOCAL-00406" summary="CONTROL DE SALIDA">
       <created>1484853613559</created>
@@ -813,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486645413637</updated>
     </task>
-    <option name="localTasksCounter" value="454" />
+    <task id="LOCAL-00454" summary="20501">
+      <created>1486654676916</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1486654676916</updated>
+    </task>
+    <option name="localTasksCounter" value="455" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209154000" />
+    <option name="totallyTimeSpent" value="209300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1413,8 +1412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="199" column="44" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
+        <state relative-caret-position="682">
+          <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
           <folding />
         </state>
       </provider>
