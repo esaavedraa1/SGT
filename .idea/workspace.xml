@@ -198,8 +198,8 @@
       <file leaf-file-name="troncal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
+            <state relative-caret-position="597">
+              <caret line="224" column="27" selection-start-line="224" selection-start-column="27" selection-end-line="224" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -467,14 +467,7 @@
       <workItem from="1486390087715" duration="6387000" />
       <workItem from="1486477872169" duration="1934000" />
       <workItem from="1486563890880" duration="14753000" />
-      <workItem from="1486644707547" duration="2782000" />
-    </task>
-    <task id="LOCAL-00406" summary="CONTROL DE SALIDA">
-      <created>1484853613559</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1484853613559</updated>
+      <workItem from="1486644707547" duration="2982000" />
     </task>
     <task id="LOCAL-00407" summary="CONTROL DE SALIDA">
       <created>1485196266192</created>
@@ -812,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486654676916</updated>
     </task>
-    <option name="localTasksCounter" value="455" />
+    <task id="LOCAL-00455" summary="20501">
+      <created>1486654819526</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1486654819526</updated>
+    </task>
+    <option name="localTasksCounter" value="456" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209300000" />
+    <option name="totallyTimeSpent" value="209500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1412,8 +1412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
+        <state relative-caret-position="597">
+          <caret line="224" column="27" selection-start-line="224" selection-start-column="27" selection-end-line="224" selection-end-column="27" />
           <folding />
         </state>
       </provider>
