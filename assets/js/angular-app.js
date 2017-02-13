@@ -1218,7 +1218,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
         //30302 : CONTROL DE SALIDA F-08
         .state('app.gestion.sello.ingreso', {
-            url: '/salida',
+            url: '/ingreso',
             data: { pageTitle: 'Ingreso de Sellos' },
             templateUrl: 'views/Gestion/Sellos/ingreso.html',
             resolve: {
