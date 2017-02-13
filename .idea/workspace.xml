@@ -154,8 +154,8 @@
       <file leaf-file-name="itinerario.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -547,14 +547,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="11012000" />
-    </task>
-    <task id="LOCAL-00435" summary="pantalla consulta - despachos parciales">
-      <created>1486565556440</created>
-      <option name="number" value="00435" />
-      <option name="presentableId" value="LOCAL-00435" />
-      <option name="project" value="LOCAL" />
-      <updated>1486565556440</updated>
+      <workItem from="1486955412115" duration="11046000" />
     </task>
     <task id="LOCAL-00436" summary="pantalla consulta - supervisor">
       <created>1486566206977</created>
@@ -892,11 +885,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487012608203</updated>
     </task>
-    <option name="localTasksCounter" value="484" />
+    <task id="LOCAL-00484" summary="30401">
+      <created>1487012672156</created>
+      <option name="number" value="00484" />
+      <option name="presentableId" value="LOCAL-00484" />
+      <option name="project" value="LOCAL" />
+      <updated>1487012672156</updated>
+    </task>
+    <option name="localTasksCounter" value="485" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223302000" />
+    <option name="totallyTimeSpent" value="223336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1456,8 +1456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="540">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
