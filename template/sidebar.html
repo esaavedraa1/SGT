@@ -134,6 +134,14 @@
                 </a>
                 <ul class="sub-menu">
                     <li class="has-sub" ng-class="{active:$state.includes('app.gestion.solicitud')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Plafificación</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.gestion.planificacion.historica">Historica</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.gestion.planificacion.predictiva">Predictiva</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-sub" ng-class="{active:$state.includes('app.gestion.solicitud')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Solicitudes</a>
                         <ul class="sub-menu">
                             <li ui-sref-active="active"><a ui-sref="app.gestion.solicitud.programada">Solicitud Programada</a></li>
