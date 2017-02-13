@@ -59,8 +59,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="1212" column="29" lean-forward="true" selection-start-line="1212" selection-start-column="29" selection-end-line="1212" selection-end-column="29" />
+            <state relative-caret-position="557">
+              <caret line="1222" column="45" lean-forward="false" selection-start-line="1222" selection-start-column="45" selection-end-line="1222" selection-end-column="45" />
               <folding>
                 <element signature="e#557#666#0" expanded="false" />
                 <element signature="e#751#2478#0" expanded="false" />
@@ -129,21 +129,20 @@
                 <element signature="e#78333#80209#0" expanded="false" />
                 <element signature="e#80388#82728#0" expanded="false" />
                 <element signature="e#80769#82645#0" expanded="false" />
-                <element signature="e#82796#82906#0" expanded="false" />
-                <element signature="e#83343#85139#0" expanded="false" />
-                <element signature="e#85418#85535#0" expanded="false" />
-                <element signature="e#85589#85721#0" expanded="false" />
-                <element signature="e#85783#86377#0" expanded="false" />
-                <element signature="e#86439#87034#0" expanded="false" />
-                <element signature="e#86651#87020#0" expanded="false" />
-                <element signature="e#87096#87695#0" expanded="false" />
-                <element signature="e#87756#88348#0" expanded="false" />
-                <element signature="e#88411#89008#0" expanded="false" />
-                <element signature="e#89391#89509#0" expanded="false" />
-                <element signature="e#89578#93646#0" expanded="false" />
-                <element signature="e#93701#97770#0" expanded="false" />
-                <element signature="e#97819#101873#0" expanded="false" />
-                <element signature="e#101927#105991#0" expanded="false" />
+                <element signature="e#83342#85138#0" expanded="false" />
+                <element signature="e#85417#85534#0" expanded="false" />
+                <element signature="e#85588#85720#0" expanded="false" />
+                <element signature="e#85782#86376#0" expanded="false" />
+                <element signature="e#86438#87033#0" expanded="false" />
+                <element signature="e#86650#87019#0" expanded="false" />
+                <element signature="e#87095#87694#0" expanded="false" />
+                <element signature="e#87755#88347#0" expanded="false" />
+                <element signature="e#88410#89007#0" expanded="false" />
+                <element signature="e#89390#89508#0" expanded="false" />
+                <element signature="e#89577#93645#0" expanded="false" />
+                <element signature="e#93700#97769#0" expanded="false" />
+                <element signature="e#97818#101872#0" expanded="false" />
+                <element signature="e#101926#105990#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -505,14 +504,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="8791000" />
-    </task>
-    <task id="LOCAL-00429" summary="pantalla ingresa Sellos">
-      <created>1486478132596</created>
-      <option name="number" value="00429" />
-      <option name="presentableId" value="LOCAL-00429" />
-      <option name="project" value="LOCAL" />
-      <updated>1486478132596</updated>
+      <workItem from="1486955412115" duration="8855000" />
     </task>
     <task id="LOCAL-00430" summary="pantalla ingresa Sellos">
       <created>1486478585492</created>
@@ -850,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487009958857</updated>
     </task>
-    <option name="localTasksCounter" value="478" />
+    <task id="LOCAL-00478" summary="30401">
+      <created>1487010058149</created>
+      <option name="number" value="00478" />
+      <option name="presentableId" value="LOCAL-00478" />
+      <option name="project" value="LOCAL" />
+      <updated>1487010058149</updated>
+    </task>
+    <option name="localTasksCounter" value="479" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221081000" />
+    <option name="totallyTimeSpent" value="221145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1325,8 +1324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="1212" column="29" lean-forward="true" selection-start-line="1212" selection-start-column="29" selection-end-line="1212" selection-end-column="29" />
+        <state relative-caret-position="557">
+          <caret line="1222" column="45" lean-forward="false" selection-start-line="1222" selection-start-column="45" selection-end-line="1222" selection-end-column="45" />
           <folding>
             <element signature="e#557#666#0" expanded="false" />
             <element signature="e#751#2478#0" expanded="false" />
@@ -1395,21 +1394,20 @@
             <element signature="e#78333#80209#0" expanded="false" />
             <element signature="e#80388#82728#0" expanded="false" />
             <element signature="e#80769#82645#0" expanded="false" />
-            <element signature="e#82796#82906#0" expanded="false" />
-            <element signature="e#83343#85139#0" expanded="false" />
-            <element signature="e#85418#85535#0" expanded="false" />
-            <element signature="e#85589#85721#0" expanded="false" />
-            <element signature="e#85783#86377#0" expanded="false" />
-            <element signature="e#86439#87034#0" expanded="false" />
-            <element signature="e#86651#87020#0" expanded="false" />
-            <element signature="e#87096#87695#0" expanded="false" />
-            <element signature="e#87756#88348#0" expanded="false" />
-            <element signature="e#88411#89008#0" expanded="false" />
-            <element signature="e#89391#89509#0" expanded="false" />
-            <element signature="e#89578#93646#0" expanded="false" />
-            <element signature="e#93701#97770#0" expanded="false" />
-            <element signature="e#97819#101873#0" expanded="false" />
-            <element signature="e#101927#105991#0" expanded="false" />
+            <element signature="e#83342#85138#0" expanded="false" />
+            <element signature="e#85417#85534#0" expanded="false" />
+            <element signature="e#85588#85720#0" expanded="false" />
+            <element signature="e#85782#86376#0" expanded="false" />
+            <element signature="e#86438#87033#0" expanded="false" />
+            <element signature="e#86650#87019#0" expanded="false" />
+            <element signature="e#87095#87694#0" expanded="false" />
+            <element signature="e#87755#88347#0" expanded="false" />
+            <element signature="e#88410#89007#0" expanded="false" />
+            <element signature="e#89390#89508#0" expanded="false" />
+            <element signature="e#89577#93645#0" expanded="false" />
+            <element signature="e#93700#97769#0" expanded="false" />
+            <element signature="e#97818#101872#0" expanded="false" />
+            <element signature="e#101926#105990#0" expanded="false" />
           </folding>
         </state>
       </provider>

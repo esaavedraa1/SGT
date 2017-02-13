@@ -1220,7 +1220,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.gestion.sello.ingreso', {
             url: '/ingreso',
             data: { pageTitle: 'Ingreso de Sellos' },
-            templateUrl: 'views/Gestion/Sellos/ingreso.html',
+            templateUrl: 'views/Gestion/Sello/ingreso.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
