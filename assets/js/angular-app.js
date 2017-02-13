@@ -640,26 +640,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             data: { pageTitle: 'Licencia Editar' },
             templateUrl: 'views/licencia_editar.html'
         })
-        .state('app.control', {
-            url: '/control',
-            template: '<div ui-view></div>',
-            abstract: true
-        })
-        .state('app.control.todos', {
-            url: '/todos',
-            data: { pageTitle: 'Licencia Todos' },
-            templateUrl: 'views/control_todos.html'
-        })
-        .state('app.control.ingreso', {
-            url: '/ingreso',
-            data: { pageTitle: 'Control de Ingreso' },
-            templateUrl: 'views/control_ingreso.html'
-        })
-        .state('app.control.salida', {
-            url: '/salida',
-            data: { pageTitle: 'Control de Salida' },
-            templateUrl: 'views/control_salida.html'
-        })
+
         .state('app.sello', {
             url: '/sello',
             template: '<div ui-view></div>',
@@ -1895,11 +1876,11 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }
             })
         //30200 : MENU SOLICITUDES
-            .state('app.gestion.solicitud', {
-                url: '/solicitud',
-                template: '<div ui-view></div>',
-                abstract: true
-            })
+        .state('app.gestion.solicitud', {
+            url: '/solicitud',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
             //30201: PANTALLA CREAR SOLICITUD PROGRAMADA F-03
             .state('app.gestion.solicitud.programada', {
                 url: '/programada',
@@ -2002,6 +1983,79 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
+        .state('app.gestion.control', {
+            url: '/control',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //30301: PANTALLA CONTROL DE INGRESO F-04
+        .state('app.gestion.control.ingreso', {
+            url: '/salida',
+            data: { pageTitle: 'Control de Ingreso' },
+            templateUrl: 'views/Gestion/Control/ingreso.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //30302 : CONTROL DE SALIDA F-08
+        .state('app.gestion.control.salida', {
+            url: '/salida',
+            data: { pageTitle: 'Control de Salida' },
+            templateUrl: 'views/Gestion/Control/salida.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
         //FIN 30000
         //MAN MANTENEDORES
         .state('app.mantenedores', {
