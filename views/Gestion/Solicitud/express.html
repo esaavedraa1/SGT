@@ -1,0 +1,151 @@
+<div ng-controller="expressDespachoController">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a ui-sref="app.dashboard">Home</a></li>
+        <li><a href="javascript:;">Gestión</a></li>
+        <li><a href="javascript:;">Solicitud</a></li>
+        <li class="active">30202 - Express</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Solicitud Express <small>Gestion de Viajes</small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-12 -->
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse" data-sortable-id="form-stuff-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Formulario Nueva Solcitud Express</h4>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo de Viaje</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>1 TRT</option>
+                                    <option>2 UM</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo de Cobro</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>1 Carga Completa</option>
+                                    <option>2 Carga Suelta</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Origen</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>00 CD Centro de Distribución</option>
+                                    <option>01 CTT Centro de Transferencia SCL</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Destino</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>45 Concepción</option>
+                                    <option>2 Carga Suelta</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Transportista</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>Transportes Pacifico</option>
+                                    <option>Tur Bus</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo de Vehiculo</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>CM40 - 40 Metros Cubicos</option>
+                                    <option>CM50 - 50 Metros Cubicos</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Patente</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="BBCV-69" />
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Presentación</label>
+                            <div class="col-md-6">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tarifa Especial</label>
+                            <div class="col-md-9">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="" />
+                                    SI/NO
+                                </label>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Valor Tarifa</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="5500" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Observación</label>
+                            <div class="col-md-9">
+                                <textarea class="form-control" placeholder="Indique aqui la obervación" rows="5" disabled></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Enviar</label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success" ng-click="NRO">Guardar</button>
+                                <button type="submit" class="btn btn-sm btn-info">Cancelar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end panel -->
+        </div>
+        <!-- end col-12 -->
+
+    </div>
+    <!-- end row -->
+</div>
