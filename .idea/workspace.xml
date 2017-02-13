@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" afterPath="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" afterPath="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,10 +78,10 @@
         </entry>
       </file>
       <file leaf-file-name="troncal.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html">
+        <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1880">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="2655">
+              <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -280,7 +280,6 @@
         <option value="$PROJECT_DIR$/views/Consulta/parciales.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Viajes/umilla.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html" />
-        <option value="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/factura.html" />
         <option value="$PROJECT_DIR$/views/Consulta/dashboard.html" />
@@ -314,6 +313,7 @@
         <option value="$PROJECT_DIR$/assets/js/Consulta/controllers.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
       </list>
     </option>
   </component>
@@ -410,6 +410,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Viajes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Consulta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tarifa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -632,14 +654,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="1426000" />
-    </task>
-    <task id="LOCAL-00418" summary="NUEVO ROUTER">
-      <created>1486392667511</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1486392667511</updated>
+      <workItem from="1486955412115" duration="2002000" />
     </task>
     <task id="LOCAL-00419" summary="NUEVO ROUTER">
       <created>1486393154689</created>
@@ -977,11 +992,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486956162471</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="10202">
+      <created>1486956990148</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1486956990148</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213716000" />
+    <option name="totallyTimeSpent" value="214292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1123,13 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1558,6 +1573,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1566,10 +1589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html">
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1880">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="2655">
+          <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
           <folding />
         </state>
       </provider>
