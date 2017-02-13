@@ -40,8 +40,8 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+            <state relative-caret-position="426">
+              <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -558,14 +558,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="6784000" />
-    </task>
-    <task id="LOCAL-00426" summary="PANTALLA RESPONDE OBJECION">
-      <created>1486403346668</created>
-      <option name="number" value="00426" />
-      <option name="presentableId" value="LOCAL-00426" />
-      <option name="project" value="LOCAL" />
-      <updated>1486403346668</updated>
+      <workItem from="1486955412115" duration="6845000" />
     </task>
     <task id="LOCAL-00427" summary="PANTALLA RESPONDE OBJECION">
       <created>1486403389426</created>
@@ -903,11 +896,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487007690290</updated>
     </task>
-    <option name="localTasksCounter" value="475" />
+    <task id="LOCAL-00475" summary="30301">
+      <created>1487007800440</created>
+      <option name="number" value="00475" />
+      <option name="presentableId" value="LOCAL-00475" />
+      <option name="project" value="LOCAL" />
+      <updated>1487007800440</updated>
+    </task>
+    <option name="localTasksCounter" value="476" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219074000" />
+    <option name="totallyTimeSpent" value="219135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +978,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="cambio icono de B2B" />
     <MESSAGE value="crear html de publicar solicitud" />
     <MESSAGE value="1 VER PUBLICAR SOLICITUD" />
     <MESSAGE value="2 VER PUBLICAR SOLICITUD" />
@@ -1003,7 +1002,8 @@
     <MESSAGE value="10202" />
     <MESSAGE value="30101" />
     <MESSAGE value="30203" />
-    <option name="LAST_COMMIT_MESSAGE" value="30203" />
+    <MESSAGE value="30301" />
+    <option name="LAST_COMMIT_MESSAGE" value="30301" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1521,8 +1521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+        <state relative-caret-position="426">
+          <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
           <folding />
         </state>
       </provider>
