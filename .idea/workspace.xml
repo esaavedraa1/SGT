@@ -6,9 +6,8 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="10202">
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" afterPath="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
     </list>
@@ -49,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anular.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="anular.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/anular.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="189" column="18" lean-forward="true" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
+            <state relative-caret-position="1109">
+              <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viaje.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="viaje.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+            <state relative-caret-position="574">
+              <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -228,6 +227,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -287,9 +291,9 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Viajes/troncal.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" />
+        <option value="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
       </list>
     </option>
   </component>
@@ -564,14 +568,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="324000" />
-    </task>
-    <task id="LOCAL-00414" summary="despacho anular pantalla">
-      <created>1485280218142</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1485280218142</updated>
+      <workItem from="1486955412115" duration="512000" />
     </task>
     <task id="LOCAL-00415" summary="despacho anular pantalla">
       <created>1485280275101</created>
@@ -909,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486862275180</updated>
     </task>
-    <option name="localTasksCounter" value="463" />
+    <task id="LOCAL-00463" summary="10202">
+      <created>1486955740168</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1486955740168</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212614000" />
+    <option name="totallyTimeSpent" value="212802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1485,18 +1489,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html">
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/anular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        <state relative-caret-position="1109">
+          <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/anular.html">
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="189" column="18" lean-forward="true" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
+        <state relative-caret-position="574">
+          <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
           <folding />
         </state>
       </provider>
