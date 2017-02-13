@@ -154,8 +154,8 @@
       <file leaf-file-name="itinerario.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="465">
+              <caret line="31" column="122" lean-forward="false" selection-start-line="31" selection-start-column="122" selection-end-line="31" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -164,8 +164,8 @@
       <file leaf-file-name="salida.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+            <state relative-caret-position="497">
+              <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -547,14 +547,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="11046000" />
-    </task>
-    <task id="LOCAL-00436" summary="pantalla consulta - supervisor">
-      <created>1486566206977</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1486566206977</updated>
+      <workItem from="1486955412115" duration="11129000" />
     </task>
     <task id="LOCAL-00437" summary="pantalla consulta - supervisor">
       <created>1486566304921</created>
@@ -892,11 +885,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487012672156</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="30401">
+      <created>1487012706701</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1487012706701</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223336000" />
+    <option name="totallyTimeSpent" value="223419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1337,14 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="169" column="115" lean-forward="false" selection-start-line="169" selection-start-column="115" selection-end-line="169" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
@@ -1438,6 +1430,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1446,18 +1446,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+        <state relative-caret-position="471">
+          <caret line="169" column="115" lean-forward="false" selection-start-line="169" selection-start-column="115" selection-end-line="169" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="465">
+          <caret line="31" column="122" lean-forward="false" selection-start-line="31" selection-start-column="122" selection-end-line="31" selection-end-column="122" />
           <folding />
         </state>
       </provider>
