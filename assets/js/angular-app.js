@@ -1294,7 +1294,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         .state('app.gestion.validaciones.itinerario', {
             url: '/itinerario',
             data: { pageTitle: 'Itininerario de Salida' },
-            templateUrl: 'views/Gestion/Validaciones/iti.pdf'
+            templateUrl: 'views/Gestion/Validaciones/itinerario.html'
         })
         //FIN 30000
         /*------------------------------------------------------------------------------------------------------------*/

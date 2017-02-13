@@ -6,11 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/despacho_validar.html" afterPath="$PROJECT_DIR$/views/despacho_validar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" afterPath="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="1295" column="58" lean-forward="true" selection-start-line="1295" selection-start-column="58" selection-end-line="1295" selection-end-column="58" />
+            <state relative-caret-position="566">
+              <caret line="1298" column="19" lean-forward="true" selection-start-line="1298" selection-start-column="19" selection-end-line="1298" selection-end-column="19" />
               <folding>
                 <element signature="e#557#666#0" expanded="false" />
                 <element signature="e#751#2478#0" expanded="false" />
@@ -136,20 +135,30 @@
                 <element signature="e#82996#85336#0" expanded="false" />
                 <element signature="e#83377#85253#0" expanded="false" />
                 <element signature="e#86030#87906#0" expanded="false" />
-                <element signature="e#88470#88587#0" expanded="false" />
-                <element signature="e#88641#88773#0" expanded="false" />
-                <element signature="e#88835#89429#0" expanded="false" />
-                <element signature="e#89491#90086#0" expanded="false" />
-                <element signature="e#89703#90072#0" expanded="false" />
-                <element signature="e#90148#90747#0" expanded="false" />
-                <element signature="e#90808#91400#0" expanded="false" />
-                <element signature="e#91463#92060#0" expanded="false" />
-                <element signature="e#92443#92561#0" expanded="false" />
-                <element signature="e#92630#96698#0" expanded="false" />
-                <element signature="e#96753#100822#0" expanded="false" />
-                <element signature="e#100871#104925#0" expanded="false" />
-                <element signature="e#104979#109043#0" expanded="false" />
+                <element signature="e#88478#88595#0" expanded="false" />
+                <element signature="e#88649#88781#0" expanded="false" />
+                <element signature="e#88843#89437#0" expanded="false" />
+                <element signature="e#89499#90094#0" expanded="false" />
+                <element signature="e#89711#90080#0" expanded="false" />
+                <element signature="e#90156#90755#0" expanded="false" />
+                <element signature="e#90816#91408#0" expanded="false" />
+                <element signature="e#91471#92068#0" expanded="false" />
+                <element signature="e#92451#92569#0" expanded="false" />
+                <element signature="e#92638#96706#0" expanded="false" />
+                <element signature="e#96761#100830#0" expanded="false" />
+                <element signature="e#100879#104933#0" expanded="false" />
+                <element signature="e#104987#109051#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itinerario.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,8 +166,8 @@
       <file leaf-file-name="salida.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="2235">
+              <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -233,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
         <option value="$PROJECT_DIR$/views/Consulta/parciales.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Viajes/umilla.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html" />
@@ -281,9 +289,10 @@
         <option value="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html" />
         <option value="$PROJECT_DIR$/views/despacho_validar.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
       </list>
     </option>
   </component>
@@ -540,14 +549,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="10401000" />
-    </task>
-    <task id="LOCAL-00431" summary="pantalla validaciones de salida">
-      <created>1486496430037</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1486496430038</updated>
+      <workItem from="1486955412115" duration="10764000" />
     </task>
     <task id="LOCAL-00432" summary="pantalla consulta - despachos parciales">
       <created>1486564576401</created>
@@ -885,11 +887,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487010122801</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="30401">
+      <created>1487011881883</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1487011881883</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222691000" />
+    <option name="totallyTimeSpent" value="223054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,13 +1003,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/Consulta/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1353,18 +1355,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="1295" column="58" lean-forward="true" selection-start-line="1295" selection-start-column="58" selection-end-line="1295" selection-end-column="58" />
+        <state relative-caret-position="566">
+          <caret line="1298" column="19" lean-forward="true" selection-start-line="1298" selection-start-column="19" selection-end-line="1298" selection-end-column="19" />
           <folding>
             <element signature="e#557#666#0" expanded="false" />
             <element signature="e#751#2478#0" expanded="false" />
@@ -1437,20 +1431,36 @@
             <element signature="e#82996#85336#0" expanded="false" />
             <element signature="e#83377#85253#0" expanded="false" />
             <element signature="e#86030#87906#0" expanded="false" />
-            <element signature="e#88470#88587#0" expanded="false" />
-            <element signature="e#88641#88773#0" expanded="false" />
-            <element signature="e#88835#89429#0" expanded="false" />
-            <element signature="e#89491#90086#0" expanded="false" />
-            <element signature="e#89703#90072#0" expanded="false" />
-            <element signature="e#90148#90747#0" expanded="false" />
-            <element signature="e#90808#91400#0" expanded="false" />
-            <element signature="e#91463#92060#0" expanded="false" />
-            <element signature="e#92443#92561#0" expanded="false" />
-            <element signature="e#92630#96698#0" expanded="false" />
-            <element signature="e#96753#100822#0" expanded="false" />
-            <element signature="e#100871#104925#0" expanded="false" />
-            <element signature="e#104979#109043#0" expanded="false" />
+            <element signature="e#88478#88595#0" expanded="false" />
+            <element signature="e#88649#88781#0" expanded="false" />
+            <element signature="e#88843#89437#0" expanded="false" />
+            <element signature="e#89499#90094#0" expanded="false" />
+            <element signature="e#89711#90080#0" expanded="false" />
+            <element signature="e#90156#90755#0" expanded="false" />
+            <element signature="e#90816#91408#0" expanded="false" />
+            <element signature="e#91471#92068#0" expanded="false" />
+            <element signature="e#92451#92569#0" expanded="false" />
+            <element signature="e#92638#96706#0" expanded="false" />
+            <element signature="e#96761#100830#0" expanded="false" />
+            <element signature="e#100879#104933#0" expanded="false" />
+            <element signature="e#104987#109051#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
