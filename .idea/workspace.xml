@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/solicitud_express.html" afterPath="$PROJECT_DIR$/views/solicitud_express.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/solicitud_publicar.html" afterPath="$PROJECT_DIR$/views/solicitud_publicar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,6 +37,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="151" column="20" lean-forward="true" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -197,7 +202,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="express.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -311,12 +316,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/views/solicitud_publicar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" />
         <option value="$PROJECT_DIR$/views/solicitud_express.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
       </list>
     </option>
   </component>
@@ -605,14 +610,7 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="4482000" />
-    </task>
-    <task id="LOCAL-00423" summary="NUEVO ROUTER">
-      <created>1486394025011</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1486394025011</updated>
+      <workItem from="1486955412115" duration="4629000" />
     </task>
     <task id="LOCAL-00424" summary="PANTALLA RESPONDE OBJECION">
       <created>1486402761973</created>
@@ -950,11 +948,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486997650818</updated>
     </task>
-    <option name="localTasksCounter" value="472" />
+    <task id="LOCAL-00472" summary="30101">
+      <created>1486999428294</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1486999428294</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216772000" />
+    <option name="totallyTimeSpent" value="216919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1377,14 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="136" column="96" lean-forward="true" selection-start-line="136" selection-start-column="96" selection-end-line="136" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -1566,6 +1563,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="151" column="20" lean-forward="true" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
           <folding />
         </state>
       </provider>
