@@ -1390,6 +1390,37 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
+
+            //40500 : MENU TARIFAS
+        .state('app.mantenedores.tarifa', {
+            url: '/tarifa',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //45000 :MENU TARIFAS TRONCALES
+        .state('app.mantenedores.tarifa.troncal', {
+            url: '/troncal',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //40501: Pantalla agregar tarifa troncal
+        .state('app.mantenedores.tarifa.troncal.agregar', {
+            url: '/agregar',
+            data: { pageTitle: 'Mantenedor de Tarifas Troncales - Agregar' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/agregar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
+
         //FIN 40000
         /*------------------------------------------------------------------------------------------------------------*/
         //90000 : MENU B2B
