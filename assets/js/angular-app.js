@@ -1466,7 +1466,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }
                 })
                 //40500 : MENU TARIFAS
-                .state('app.mantenedores.tarifa', {
+             /*   .state('app.mantenedores.tarifa', {
                     url: '/tarifa',
                     template: '<div ui-view></div>',
                     abstract: true
@@ -1493,7 +1493,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                                 }]
                             }
                         })
-
+*/
         //FIN 40000
         /*------------------------------------------------------------------------------------------------------------*/
         //90000 : MENU B2B

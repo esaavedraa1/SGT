@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -36,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="1480" column="0" lean-forward="false" selection-start-line="1480" selection-start-column="0" selection-end-line="1480" selection-end-column="0" />
+            <state relative-caret-position="530">
+              <caret line="1495" column="2" lean-forward="false" selection-start-line="1495" selection-start-column="2" selection-end-line="1495" selection-end-column="2" />
               <folding>
                 <element signature="e#557#666#0" expanded="false" />
                 <element signature="e#751#2478#0" expanded="false" />
@@ -127,25 +128,24 @@
                 <element signature="e#95093#95748#0" expanded="false" />
                 <element signature="e#95813#96461#0" expanded="false" />
                 <element signature="e#96528#97181#0" expanded="false" />
-                <element signature="e#97272#97415#0" expanded="false" />
-                <element signature="e#97531#97691#0" expanded="false" />
-                <element signature="e#97828#98600#0" expanded="false" />
-                <element signature="e#98097#98574#0" expanded="false" />
-                <element signature="e#98984#99102#0" expanded="false" />
-                <element signature="e#99171#103239#0" expanded="false" />
-                <element signature="e#103294#107363#0" expanded="false" />
-                <element signature="e#107412#111466#0" expanded="false" />
-                <element signature="e#111520#115584#0" expanded="false" />
+                <element signature="e#98988#99106#0" expanded="false" />
+                <element signature="e#99175#103243#0" expanded="false" />
+                <element signature="e#103298#107367#0" expanded="false" />
+                <element signature="e#107416#111470#0" expanded="false" />
+                <element signature="e#111524#115588#0" expanded="false" />
+                <marker date="1487081494000" expanded="false" signature="97533:97693" ph="{&quot;url&quot;: '/troncal'...}" />
+                <marker date="1487081494000" expanded="false" signature="97830:98602" ph="{&quot;url&quot;: '/agregar'...}" />
+                <marker date="1487081494000" expanded="false" signature="98099:98576" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="686">
-              <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -236,11 +236,11 @@
         <option value="$PROJECT_DIR$/views/carga_todos.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/cerrar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
         <option value="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
       </list>
     </option>
   </component>
@@ -520,14 +520,7 @@
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
       <workItem from="1486955412115" duration="13344000" />
-      <workItem from="1487079077573" duration="2265000" />
-    </task>
-    <task id="LOCAL-00443" summary="facturacion consulta 20500">
-      <created>1486578550618</created>
-      <option name="number" value="00443" />
-      <option name="presentableId" value="LOCAL-00443" />
-      <option name="project" value="LOCAL" />
-      <updated>1486578550618</updated>
+      <workItem from="1487079077573" duration="2332000" />
     </task>
     <task id="LOCAL-00444" summary="20500 y 20600">
       <created>1486580186611</created>
@@ -865,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487081065763</updated>
     </task>
-    <option name="localTasksCounter" value="492" />
+    <task id="LOCAL-00492" summary="30501">
+      <created>1487081433149</created>
+      <option name="number" value="00492" />
+      <option name="presentableId" value="LOCAL-00492" />
+      <option name="project" value="LOCAL" />
+      <updated>1487081433149</updated>
+    </task>
+    <option name="localTasksCounter" value="493" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227899000" />
+    <option name="totallyTimeSpent" value="227966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1290,10 +1290,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="1480" column="0" lean-forward="false" selection-start-line="1480" selection-start-column="0" selection-end-line="1480" selection-end-column="0" />
+        <state relative-caret-position="530">
+          <caret line="1495" column="2" lean-forward="false" selection-start-line="1495" selection-start-column="2" selection-end-line="1495" selection-end-column="2" />
           <folding>
             <element signature="e#557#666#0" expanded="false" />
             <element signature="e#751#2478#0" expanded="false" />
@@ -1380,24 +1388,15 @@
             <element signature="e#95093#95748#0" expanded="false" />
             <element signature="e#95813#96461#0" expanded="false" />
             <element signature="e#96528#97181#0" expanded="false" />
-            <element signature="e#97272#97415#0" expanded="false" />
-            <element signature="e#97531#97691#0" expanded="false" />
-            <element signature="e#97828#98600#0" expanded="false" />
-            <element signature="e#98097#98574#0" expanded="false" />
-            <element signature="e#98984#99102#0" expanded="false" />
-            <element signature="e#99171#103239#0" expanded="false" />
-            <element signature="e#103294#107363#0" expanded="false" />
-            <element signature="e#107412#111466#0" expanded="false" />
-            <element signature="e#111520#115584#0" expanded="false" />
+            <element signature="e#98988#99106#0" expanded="false" />
+            <element signature="e#99175#103243#0" expanded="false" />
+            <element signature="e#103298#107367#0" expanded="false" />
+            <element signature="e#107416#111470#0" expanded="false" />
+            <element signature="e#111524#115588#0" expanded="false" />
+            <marker date="1487081494000" expanded="false" signature="97533:97693" ph="{&quot;url&quot;: '/troncal'...}" />
+            <marker date="1487081494000" expanded="false" signature="97830:98602" ph="{&quot;url&quot;: '/agregar'...}" />
+            <marker date="1487081494000" expanded="false" signature="98099:98576" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
