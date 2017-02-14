@@ -191,7 +191,19 @@
                             <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.detalle">Detalle Proveedor</a></li>
                         </ul>
                     </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores.tarifa')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Tarifa</a>
+                        <ul class="sub-menu">
+                            <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores.troncal')}">
+                                <a href="javascript:;"><b class="caret pull-right"></b> Troncal</a>
+                                <ul class="sub-menu">
 
+                                    <li ui-sref-active="active"><a ui-sref="app.mantenedores.tarifa.troncal.agregar">Crear Tarifa</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
