@@ -24,7 +24,7 @@ colorAdminApp.controller('40501_Controller', function($scope, $rootScope, $state
         bootbox.alert("Desea Cancelar y perder los datos?");
     }
 });
-colorAdminApp.controller('40502_Controller', function($scope, $rootScope, $state) {
+colorAdminApp.controller('40502_Controller', function($scope, $rootScope, $state,$window) {
     $scope.PRO_AGR_TARF_TRON=function() {
         bootbox.alert("Tarifación Creada Exitosamente : Numero  = 1123");
         $window.location.href='#/app/dashboard';
