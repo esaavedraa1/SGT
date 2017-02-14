@@ -7,8 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="1495" column="2" lean-forward="false" selection-start-line="1495" selection-start-column="2" selection-end-line="1495" selection-end-column="2" />
+            <state relative-caret-position="197">
+              <caret line="1467" column="0" lean-forward="false" selection-start-line="1467" selection-start-column="0" selection-end-line="1467" selection-end-column="0" />
               <folding>
                 <element signature="e#557#666#0" expanded="false" />
                 <element signature="e#751#2478#0" expanded="false" />
@@ -128,15 +128,22 @@
                 <element signature="e#95093#95748#0" expanded="false" />
                 <element signature="e#95813#96461#0" expanded="false" />
                 <element signature="e#96528#97181#0" expanded="false" />
-                <element signature="e#98988#99106#0" expanded="false" />
-                <element signature="e#99175#103243#0" expanded="false" />
-                <element signature="e#103298#107367#0" expanded="false" />
-                <element signature="e#107416#111470#0" expanded="false" />
-                <element signature="e#111524#115588#0" expanded="false" />
-                <marker date="1487081494000" expanded="false" signature="97533:97693" ph="{&quot;url&quot;: '/troncal'...}" />
-                <marker date="1487081494000" expanded="false" signature="97830:98602" ph="{&quot;url&quot;: '/agregar'...}" />
-                <marker date="1487081494000" expanded="false" signature="98099:98576" ph="{...}" />
+                <element signature="e#97545#97663#0" expanded="false" />
+                <element signature="e#97732#101800#0" expanded="false" />
+                <element signature="e#101855#105924#0" expanded="false" />
+                <element signature="e#105973#110027#0" expanded="false" />
+                <element signature="e#110081#114145#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +151,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
+            <state relative-caret-position="521">
               <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
               <folding />
             </state>
@@ -154,8 +161,18 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="197" column="99" lean-forward="true" selection-start-line="197" selection-start-column="99" selection-end-line="197" selection-end-column="99" />
+            <state relative-caret-position="516">
+              <caret line="205" column="17" lean-forward="true" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,11 +253,11 @@
         <option value="$PROJECT_DIR$/views/carga_todos.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/cerrar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
-        <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
-        <option value="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" />
       </list>
     </option>
   </component>
@@ -374,6 +391,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mantenedores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturacion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,14 +621,7 @@
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
       <workItem from="1486955412115" duration="13344000" />
-      <workItem from="1487079077573" duration="2332000" />
-    </task>
-    <task id="LOCAL-00444" summary="20500 y 20600">
-      <created>1486580186611</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1486580186611</updated>
+      <workItem from="1487079077573" duration="2819000" />
     </task>
     <task id="LOCAL-00445" summary="20500 y 20600">
       <created>1486580400376</created>
@@ -865,11 +959,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487081433149</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="30501">
+      <created>1487081498258</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1487081498258</updated>
+    </task>
+    <option name="localTasksCounter" value="494" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227966000" />
+    <option name="totallyTimeSpent" value="228453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,7 +988,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21775898" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25124377" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
@@ -1266,42 +1367,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="63" lean-forward="true" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="197" column="99" lean-forward="true" selection-start-line="197" selection-start-column="99" selection-end-line="197" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
+        <state relative-caret-position="516">
+          <caret line="205" column="17" lean-forward="true" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="1495" column="2" lean-forward="false" selection-start-line="1495" selection-start-column="2" selection-end-line="1495" selection-end-column="2" />
+        <state relative-caret-position="197">
+          <caret line="1467" column="0" lean-forward="false" selection-start-line="1467" selection-start-column="0" selection-end-line="1467" selection-end-column="0" />
           <folding>
             <element signature="e#557#666#0" expanded="false" />
             <element signature="e#751#2478#0" expanded="false" />
@@ -1388,15 +1465,36 @@
             <element signature="e#95093#95748#0" expanded="false" />
             <element signature="e#95813#96461#0" expanded="false" />
             <element signature="e#96528#97181#0" expanded="false" />
-            <element signature="e#98988#99106#0" expanded="false" />
-            <element signature="e#99175#103243#0" expanded="false" />
-            <element signature="e#103298#107367#0" expanded="false" />
-            <element signature="e#107416#111470#0" expanded="false" />
-            <element signature="e#111524#115588#0" expanded="false" />
-            <marker date="1487081494000" expanded="false" signature="97533:97693" ph="{&quot;url&quot;: '/troncal'...}" />
-            <marker date="1487081494000" expanded="false" signature="97830:98602" ph="{&quot;url&quot;: '/agregar'...}" />
-            <marker date="1487081494000" expanded="false" signature="98099:98576" ph="{...}" />
+            <element signature="e#97545#97663#0" expanded="false" />
+            <element signature="e#97732#101800#0" expanded="false" />
+            <element signature="e#101855#105924#0" expanded="false" />
+            <element signature="e#105973#110027#0" expanded="false" />
+            <element signature="e#110081#114145#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
