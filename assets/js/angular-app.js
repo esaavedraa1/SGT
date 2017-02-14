@@ -1419,7 +1419,21 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
+        .state('app.mantenedores.tarifa.troncal.tarificar', {
+            url: '/tarificar',
+            data: { pageTitle: 'Mantenedor de Tarifas Troncales - Tarificar' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/tarificar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
 
         //FIN 40000
         /*------------------------------------------------------------------------------------------------------------*/
