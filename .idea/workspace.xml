@@ -572,14 +572,7 @@
       <workItem from="1487084357271" duration="1825000" />
       <workItem from="1487097991598" duration="738000" />
       <workItem from="1487179214800" duration="3053000" />
-      <workItem from="1487182873212" duration="41000" />
-    </task>
-    <task id="LOCAL-00447" summary="30200">
-      <created>1486582748632</created>
-      <option name="number" value="00447" />
-      <option name="presentableId" value="LOCAL-00447" />
-      <option name="project" value="LOCAL" />
-      <updated>1486582748632</updated>
+      <workItem from="1487182873212" duration="65000" />
     </task>
     <task id="LOCAL-00448" summary="30200">
       <created>1486583209989</created>
@@ -917,11 +910,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487182326895</updated>
     </task>
-    <option name="localTasksCounter" value="496" />
+    <task id="LOCAL-00496" summary="40503- historial de tarifas crear pantalla 2&#10;">
+      <created>1487182921134</created>
+      <option name="number" value="00496" />
+      <option name="presentableId" value="LOCAL-00496" />
+      <option name="project" value="LOCAL" />
+      <updated>1487182921135</updated>
+    </task>
+    <option name="localTasksCounter" value="497" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229290000" />
+    <option name="totallyTimeSpent" value="229314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
