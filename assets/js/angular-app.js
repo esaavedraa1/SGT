@@ -1397,7 +1397,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
-        //45000 :MENU TARIFAS TRONCALES
+        //40500 :MENU TARIFAS TRONCALES
         .state('app.mantenedores.tarifa.troncal', {
             url: '/troncal',
             template: '<div ui-view></div>',
@@ -1419,10 +1419,27 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        //40502 : tarificar ruta - sin menu directo veiene de 40501
         .state('app.mantenedores.tarifa.troncal.tarificar', {
             url: '/tarificar',
             data: { pageTitle: 'Mantenedor de Tarifas Troncales - Tarificar' },
             templateUrl: 'views/Mantenedores/Tarifa/Troncal/tarificar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //40503:Pantalla Historial de Tarifas
+        .state('app.mantenedores.tarifa.troncal.historial', {
+            url: '/historial',
+            data: { pageTitle: 'Tarifas Troncales - Historial' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/historial.html',
             resolve: {
                 service: ['$ocLazyLoad', function($ocLazyLoad) {
                     return $ocLazyLoad.load({
