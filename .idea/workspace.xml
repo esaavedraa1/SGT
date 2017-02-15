@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" afterPath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" afterPath="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,9 +35,134 @@
     <favorites_list name="SGT" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sidebar-right.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/sidebar-right.html">
+    <leaf>
+      <file leaf-file-name="ingreso.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="1298" column="19" lean-forward="true" selection-start-line="1298" selection-start-column="19" selection-end-line="1298" selection-end-column="19" />
+              <folding>
+                <element signature="e#557#666#0" expanded="false" />
+                <element signature="e#751#2478#0" expanded="false" />
+                <element signature="e#2684#2797#0" expanded="false" />
+                <element signature="e#2897#4804#0" expanded="false" />
+                <element signature="e#4892#6683#0" expanded="false" />
+                <element signature="e#6760#6886#0" expanded="false" />
+                <element signature="e#6989#8998#0" expanded="false" />
+                <element signature="e#9130#11137#0" expanded="false" />
+                <element signature="e#11222#11353#0" expanded="false" />
+                <element signature="e#11470#13484#0" expanded="false" />
+                <element signature="e#13584#15600#0" expanded="false" />
+                <element signature="e#15710#17732#0" expanded="false" />
+                <element signature="e#17810#17937#0" expanded="false" />
+                <element signature="e#18033#20041#0" expanded="false" />
+                <element signature="e#20145#22159#0" expanded="false" />
+                <element signature="e#22276#24181#0" expanded="false" />
+                <element signature="e#24266#24381#0" expanded="false" />
+                <element signature="e#24492#26302#0" expanded="false" />
+                <element signature="e#26409#28216#0" expanded="false" />
+                <element signature="e#28330#30145#0" expanded="false" />
+                <element signature="e#30242#32259#0" expanded="false" />
+                <element signature="e#32471#32587#0" expanded="false" />
+                <element signature="e#32697#32828#0" expanded="false" />
+                <element signature="e#32954#34869#0" expanded="false" />
+                <element signature="e#34983#37008#0" expanded="false" />
+                <element signature="e#37128#39156#0" expanded="false" />
+                <element signature="e#37426#39115#0" expanded="false" />
+                <element signature="e#39266#39397#0" expanded="false" />
+                <element signature="e#39523#41546#0" expanded="false" />
+                <element signature="e#41660#43685#0" expanded="false" />
+                <element signature="e#43805#45829#0" expanded="false" />
+                <element signature="e#45918#46049#0" expanded="false" />
+                <element signature="e#46176#48549#0" expanded="false" />
+                <element signature="e#46590#48466#0" expanded="false" />
+                <element signature="e#48646#48775#0" expanded="false" />
+                <element signature="e#48904#51391#0" expanded="false" />
+                <element signature="e#49336#51292#0" expanded="false" />
+                <element signature="e#51513#53877#0" expanded="false" />
+                <element signature="e#51918#53794#0" expanded="false" />
+                <element signature="e#53975#54104#0" expanded="false" />
+                <element signature="e#54223#56570#0" expanded="false" />
+                <element signature="e#54611#56487#0" expanded="false" />
+                <element signature="e#56689#59155#0" expanded="false" />
+                <element signature="e#57100#59056#0" expanded="false" />
+                <element signature="e#59278#61762#0" expanded="false" />
+                <element signature="e#59707#61663#0" expanded="false" />
+                <element signature="e#61860#61988#0" expanded="false" />
+                <element signature="e#62104#64583#0" expanded="false" />
+                <element signature="e#62528#64484#0" expanded="false" />
+                <element signature="e#64787#64899#0" expanded="false" />
+                <element signature="e#64982#65100#0" expanded="false" />
+                <element signature="e#65219#67577#0" expanded="false" />
+                <element signature="e#65618#67494#0" expanded="false" />
+                <element signature="e#67693#70069#0" expanded="false" />
+                <element signature="e#68110#69986#0" expanded="false" />
+                <element signature="e#70146#70260#0" expanded="false" />
+                <element signature="e#70379#72738#0" expanded="false" />
+                <element signature="e#70779#72655#0" expanded="false" />
+                <element signature="e#72851#75204#0" expanded="false" />
+                <element signature="e#73245#75121#0" expanded="false" />
+                <element signature="e#75313#77661#0" expanded="false" />
+                <element signature="e#75702#77578#0" expanded="false" />
+                <element signature="e#77736#77848#0" expanded="false" />
+                <element signature="e#77950#80292#0" expanded="false" />
+                <element signature="e#78333#80209#0" expanded="false" />
+                <element signature="e#80388#82728#0" expanded="false" />
+                <element signature="e#80769#82645#0" expanded="false" />
+                <element signature="e#82796#82906#0" expanded="false" />
+                <element signature="e#82996#85336#0" expanded="false" />
+                <element signature="e#83377#85253#0" expanded="false" />
+                <element signature="e#86030#87906#0" expanded="false" />
+                <element signature="e#88478#88595#0" expanded="false" />
+                <element signature="e#88649#88781#0" expanded="false" />
+                <element signature="e#88843#89437#0" expanded="false" />
+                <element signature="e#89499#90094#0" expanded="false" />
+                <element signature="e#89711#90080#0" expanded="false" />
+                <element signature="e#90156#90755#0" expanded="false" />
+                <element signature="e#90816#91408#0" expanded="false" />
+                <element signature="e#91471#92068#0" expanded="false" />
+                <element signature="e#92451#92569#0" expanded="false" />
+                <element signature="e#92638#96706#0" expanded="false" />
+                <element signature="e#96761#100830#0" expanded="false" />
+                <element signature="e#100879#104933#0" expanded="false" />
+                <element signature="e#104987#109051#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itinerario.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="109" lean-forward="false" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salida.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1907">
+              <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email_compose.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/email_compose.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -46,21 +171,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <file leaf-file-name="despacho_validar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/despacho_validar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1223">
-              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agregar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
+      <file leaf-file-name="ingreso.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Control/ingreso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salida.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Control/salida.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -95,6 +230,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/views/Consulta/parciales.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Viajes/umilla.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Tarifa/umilla.html" />
+        <option value="$PROJECT_DIR$/views/Consulta/Tarifa/factura.html" />
         <option value="$PROJECT_DIR$/views/Consulta/dashboard.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Reporteria/mercaderia.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Reporteria/gastos.html" />
@@ -122,6 +262,7 @@
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/anular.html" />
         <option value="$PROJECT_DIR$/assets/js/Consulta/controllers.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html" />
         <option value="$PROJECT_DIR$/views/solicitud_publicar.html" />
@@ -136,16 +277,10 @@
         <option value="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html" />
         <option value="$PROJECT_DIR$/views/despacho_validar.html" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
-        <option value="$PROJECT_DIR$/views/carga_todos.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/cerrar.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
-        <option value="$PROJECT_DIR$/assets/js/Mantenedores/controllers.js" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
       </list>
     </option>
   </component>
@@ -178,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,15 +354,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mantenedores" />
+              <option name="myItemId" value="Gestion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tarifa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Troncal" />
+              <option name="myItemId" value="Validaciones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,100 +373,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mantenedores" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proveedores" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mantenedores" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -357,17 +393,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,8 +537,56 @@
       <workItem from="1486753002184" duration="935000" />
       <workItem from="1486860643214" duration="22000" />
       <workItem from="1486860668579" duration="1158000" />
-      <workItem from="1486955412115" duration="13344000" />
-      <workItem from="1487079077573" duration="2947000" />
+      <workItem from="1486955412115" duration="11343000" />
+    </task>
+    <task id="LOCAL-00440" summary="menu consulta reporteria">
+      <created>1486569372370</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1486569372370</updated>
+    </task>
+    <task id="LOCAL-00441" summary="menu validacion facturacion">
+      <created>1486575972774</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1486575972774</updated>
+    </task>
+    <task id="LOCAL-00442" summary="menu validacion facturacion">
+      <created>1486576073331</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1486576073331</updated>
+    </task>
+    <task id="LOCAL-00443" summary="facturacion consulta 20500">
+      <created>1486578550618</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1486578550618</updated>
+    </task>
+    <task id="LOCAL-00444" summary="20500 y 20600">
+      <created>1486580186611</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1486580186611</updated>
+    </task>
+    <task id="LOCAL-00445" summary="20500 y 20600">
+      <created>1486580400376</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1486580400376</updated>
+    </task>
+    <task id="LOCAL-00446" summary="30200">
+      <created>1486582572743</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1486582572743</updated>
     </task>
     <task id="LOCAL-00447" summary="30200">
       <created>1486582748632</created>
@@ -805,60 +882,11 @@
       <option name="project" value="LOCAL" />
       <updated>1487012968129</updated>
     </task>
-    <task id="LOCAL-00489" summary="30401">
-      <created>1487013004822</created>
-      <option name="number" value="00489" />
-      <option name="presentableId" value="LOCAL-00489" />
-      <option name="project" value="LOCAL" />
-      <updated>1487013004822</updated>
-    </task>
-    <task id="LOCAL-00490" summary="30401">
-      <created>1487016117173</created>
-      <option name="number" value="00490" />
-      <option name="presentableId" value="LOCAL-00490" />
-      <option name="project" value="LOCAL" />
-      <updated>1487016117173</updated>
-    </task>
-    <task id="LOCAL-00491" summary="30501">
-      <created>1487081065763</created>
-      <option name="number" value="00491" />
-      <option name="presentableId" value="LOCAL-00491" />
-      <option name="project" value="LOCAL" />
-      <updated>1487081065763</updated>
-    </task>
-    <task id="LOCAL-00492" summary="30501">
-      <created>1487081433149</created>
-      <option name="number" value="00492" />
-      <option name="presentableId" value="LOCAL-00492" />
-      <option name="project" value="LOCAL" />
-      <updated>1487081433149</updated>
-    </task>
-    <task id="LOCAL-00493" summary="30501">
-      <created>1487081498258</created>
-      <option name="number" value="00493" />
-      <option name="presentableId" value="LOCAL-00493" />
-      <option name="project" value="LOCAL" />
-      <updated>1487081498258</updated>
-    </task>
-    <task id="LOCAL-00494" summary="test 1">
-      <created>1487082001332</created>
-      <option name="number" value="00494" />
-      <option name="presentableId" value="LOCAL-00494" />
-      <option name="project" value="LOCAL" />
-      <updated>1487082001332</updated>
-    </task>
-    <task id="LOCAL-00495" summary="test 2">
-      <created>1487082067957</created>
-      <option name="number" value="00495" />
-      <option name="presentableId" value="LOCAL-00495" />
-      <option name="project" value="LOCAL" />
-      <updated>1487082067957</updated>
-    </task>
-    <option name="localTasksCounter" value="496" />
+    <option name="localTasksCounter" value="489" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228581000" />
+    <option name="totallyTimeSpent" value="223633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,13 +901,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4883721" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184637" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15671642" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25124377" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25237593" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5036959" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -888,7 +917,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15671642" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -929,6 +957,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="1 VER PUBLICAR SOLICITUD" />
+    <MESSAGE value="2 VER PUBLICAR SOLICITUD" />
+    <MESSAGE value="3 VER PUBLICAR SOLICITUD" />
     <MESSAGE value="fix sidebar" />
     <MESSAGE value="CONTROL DE SALIDA" />
     <MESSAGE value="despacho anular pantalla" />
@@ -951,18 +982,50 @@
     <MESSAGE value="30203" />
     <MESSAGE value="30301" />
     <MESSAGE value="30401" />
-    <MESSAGE value="30501" />
-    <MESSAGE value="test 1" />
-    <MESSAGE value="test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="30401" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Validacion/aprueba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/umilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,6 +1048,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/solicitud_programada.html" />
+    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1052,6 +1122,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/carga_todos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="92" column="9" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="191" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Aprobacion/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1070,6 +1147,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,6 +1155,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="135" column="39" lean-forward="false" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="84" column="35" lean-forward="false" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,6 +1179,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,6 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,6 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,6 +1203,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,6 +1211,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="125" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,34 +1219,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/solicitud_publicar.html" />
+    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/solicitud_publicar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/solicitud_express.html" />
+    <entry file="file://$PROJECT_DIR$/views/solicitud_express.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/control_ingreso.html" />
+    <entry file="file://$PROJECT_DIR$/views/control_ingreso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Control/ingreso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/control_salida.html" />
+    <entry file="file://$PROJECT_DIR$/views/control_salida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Control/salida.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1162,8 +1295,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/sello_crear.html" />
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html" />
+    <entry file="file://$PROJECT_DIR$/views/sello_crear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/email_compose.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1180,10 +1327,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="169" column="115" lean-forward="false" selection-start-line="169" selection-start-column="115" selection-end-line="169" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salida.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="25" lean-forward="false" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        <state relative-caret-position="1907">
+          <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1196,78 +1351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/carga_todos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Manifiestos/cerrar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="196" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/flota_crear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1467" column="0" lean-forward="false" selection-start-line="1467" selection-start-column="0" selection-end-line="1467" selection-end-column="0" />
+        <state relative-caret-position="566">
+          <caret line="1298" column="19" lean-forward="true" selection-start-line="1298" selection-start-column="19" selection-end-line="1298" selection-end-column="19" />
           <folding>
             <element signature="e#557#666#0" expanded="false" />
             <element signature="e#751#2478#0" expanded="false" />
@@ -1339,50 +1426,28 @@
             <element signature="e#82796#82906#0" expanded="false" />
             <element signature="e#82996#85336#0" expanded="false" />
             <element signature="e#83377#85253#0" expanded="false" />
-            <element signature="e#85417#85534#0" expanded="false" />
-            <element signature="e#85639#87989#0" expanded="false" />
             <element signature="e#86030#87906#0" expanded="false" />
-            <element signature="e#88094#88266#0" expanded="false" />
-            <element signature="e#88563#90778#0" expanded="false" />
-            <element signature="e#90866#93078#0" expanded="false" />
-            <element signature="e#91215#93011#0" expanded="false" />
-            <element signature="e#93291#93408#0" expanded="false" />
-            <element signature="e#93462#93594#0" expanded="false" />
-            <element signature="e#93660#94310#0" expanded="false" />
-            <element signature="e#94376#95027#0" expanded="false" />
-            <element signature="e#94604#95009#0" expanded="false" />
-            <element signature="e#95093#95748#0" expanded="false" />
-            <element signature="e#95813#96461#0" expanded="false" />
-            <element signature="e#96528#97181#0" expanded="false" />
-            <element signature="e#97545#97663#0" expanded="false" />
-            <element signature="e#97732#101800#0" expanded="false" />
-            <element signature="e#101855#105924#0" expanded="false" />
-            <element signature="e#105973#110027#0" expanded="false" />
-            <element signature="e#110081#114145#0" expanded="false" />
+            <element signature="e#88478#88595#0" expanded="false" />
+            <element signature="e#88649#88781#0" expanded="false" />
+            <element signature="e#88843#89437#0" expanded="false" />
+            <element signature="e#89499#90094#0" expanded="false" />
+            <element signature="e#89711#90080#0" expanded="false" />
+            <element signature="e#90156#90755#0" expanded="false" />
+            <element signature="e#90816#91408#0" expanded="false" />
+            <element signature="e#91471#92068#0" expanded="false" />
+            <element signature="e#92451#92569#0" expanded="false" />
+            <element signature="e#92638#96706#0" expanded="false" />
+            <element signature="e#96761#100830#0" expanded="false" />
+            <element signature="e#100879#104933#0" expanded="false" />
+            <element signature="e#104987#109051#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar-right.html">
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1223">
-          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="109" lean-forward="false" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
           <folding />
         </state>
       </provider>

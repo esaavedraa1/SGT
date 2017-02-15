@@ -1290,87 +1290,12 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                     }]
                 }
             })
-            //30502: IMPRESION DE ITINERARIO
-            .state('app.gestion.validaciones.itinerario', {
+            //30501: VALIDACIONES DE SALIDA F-07
+        .state('app.gestion.validaciones.itinerario', {
             url: '/itinerario',
             data: { pageTitle: 'Itininerario de Salida' },
             templateUrl: 'views/Gestion/Validaciones/itinerario.html'
         })
-        //30600 : MENU VALIDACIONES
-        .state('app.gestion.manifiestos', {
-            url: '/manifiestos',
-            template: '<div ui-view></div>',
-            abstract: true
-        })
-        //30301: PANTALLA CONTROL DE INGRESO F-04
-        .state('app.gestion.manifiestos.cerrar', {
-            url: '/cerrar',
-            data: { pageTitle: 'Cerrar Manifiesto' },
-            templateUrl: 'views/Gestion/Manifiesto/cerrar.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                            'assets/plugins/select2/dist/css/select2.min.css',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
-                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
-                            'assets/plugins/bootstrap-daterangepicker/moment.js',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                            'assets/plugins/select2/dist/js/select2.min.js',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                        ]
-                    });
-                }]
-            }
-        })
-        //30302 : CONTROL DE SALIDA F-08
-        .state('app.gestion.control.salida', {
-            url: '/salida',
-            data: { pageTitle: 'Control de Salida' },
-            templateUrl: 'views/Gestion/Control/salida.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                            'assets/plugins/select2/dist/css/select2.min.css',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
-                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
-                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
-                            'assets/plugins/bootstrap-daterangepicker/moment.js',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                            'assets/plugins/select2/dist/js/select2.min.js',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                        ]
-                    });
-                }]
-            }
-        })
-
         //FIN 30000
         /*------------------------------------------------------------------------------------------------------------*/
         //40000 MENU MANTENEDORES
@@ -1386,86 +1311,148 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 abstract: true
             })
 
-                .state('app.mantenedores.proveedores.listado', {
-                    url: '/listado',
-                    data: { pageTitle: 'Mantenedor Proveedores - Listado ' },
-                    templateUrl: 'views/Mantenedores/Proveedores/listado.html',
-                    resolve: {
-                        service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                            return $ocLazyLoad.load({
-                                serie: true,
-                                files: [
-                                    'assets/plugins/bootbox/bootbox.min.js'
-                                ]
-                            });
-                        }]
-                    }
-                })
+            .state('app.mantenedores.proveedores.listado', {
+                url: '/listado',
+                data: { pageTitle: 'Mantenedor Proveedores - Listado ' },
+                templateUrl: 'views/Mantenedores/Proveedores/listado.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
-                .state('app.mantenedores.proveedores.agregar', {
-                    url: '/agregar',
-                    data: { pageTitle: 'Mantenedor de Proveedores - Agregar' },
-                    templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
-                    resolve: {
-                        service: ['$ocLazyLoad', function($ocLazyLoad) {
-                            return $ocLazyLoad.load({
-                                serie: true,
-                                files: [
-                                    'assets/plugins/bootbox/bootbox.min.js'
-                                ]
-                            });
-                        }]
-                    }
-                })
+            .state('app.mantenedores.proveedores.agregar', {
+                url: '/agregar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Agregar' },
+                templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
-                .state('app.mantenedores.proveedores.detalle', {
-                    url: '/detalle',
-                    data: { pageTitle: 'Mantenedor de Proveedores - Ver Detalle' },
-                    templateUrl: 'views/Mantenedores/Proveedores/detalle.html',
-                    resolve: {
-                        service: ['$ocLazyLoad', function($ocLazyLoad) {
-                            return $ocLazyLoad.load({
-                                serie: true,
-                                files: [
-                                    'assets/plugins/bootbox/bootbox.min.js'
-                                ]
-                            });
-                        }]
-                    }
-                })
+            .state('app.mantenedores.proveedores.detalle', {
+                url: '/detalle',
+                data: { pageTitle: 'Mantenedor de Proveedores - Ver Detalle' },
+                templateUrl: 'views/Mantenedores/Proveedores/detalle.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
-                .state('app.mantenedores.proveedores.editar', {
-                    url: '/editar',
-                    data: { pageTitle: 'Mantenedor de Proveedores - Editar' },
-                    templateUrl: 'views/Mantenedores/Proveedores/editar.html',
-                    resolve: {
-                        service: ['$ocLazyLoad', function($ocLazyLoad) {
-                            return $ocLazyLoad.load({
-                                serie: true,
-                                files: [
-                                    'assets/plugins/bootbox/bootbox.min.js'
-                                ]
-                            });
-                        }]
-                    }
-                })
+            .state('app.mantenedores.proveedores.editar', {
+                url: '/editar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Editar' },
+                templateUrl: 'views/Mantenedores/Proveedores/editar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
-                .state('app.mantenedores.proveedores.eliminar', {
-                    url: '/eliminar',
-                    data: { pageTitle: 'Mantenedor de Proveedores - Eliminar' },
-                    templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
-                    resolve: {
-                        service: ['$ocLazyLoad', function($ocLazyLoad) {
-                            return $ocLazyLoad.load({
-                                serie: true,
-                                files: [
-                                    'assets/plugins/bootbox/bootbox.min.js'
-                                ]
-                            });
-                        }]
-                    }
-                })
+            .state('app.mantenedores.proveedores.eliminar', {
+                url: '/eliminar',
+                data: { pageTitle: 'Mantenedor de Proveedores - Eliminar' },
+                templateUrl: 'views/Mantenedores/Proveedores/agregar.html',
+                resolve: {
+                    service: ['$ocLazyLoad', function($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            serie: true,
+                            files: [
+                                'assets/plugins/bootbox/bootbox.min.js'
+                            ]
+                        });
+                    }]
+                }
+            })
 
+            //40500 : MENU TARIFAS
+        .state('app.mantenedores.tarifa', {
+            url: '/tarifa',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //40500 :MENU TARIFAS TRONCALES
+        .state('app.mantenedores.tarifa.troncal', {
+            url: '/troncal',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //40501: Pantalla agregar tarifa troncal
+        .state('app.mantenedores.tarifa.troncal.agregar', {
+            url: '/agregar',
+            data: { pageTitle: 'Mantenedor de Tarifas Troncales - Agregar' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/agregar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //40502 : tarificar ruta - sin menu directo veiene de 40501
+        .state('app.mantenedores.tarifa.troncal.tarificar', {
+            url: '/tarificar',
+            data: { pageTitle: 'Mantenedor de Tarifas Troncales - Tarificar' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/tarificar.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //40503:Pantalla Historial de Tarifas
+        .state('app.mantenedores.tarifa.troncal.historial', {
+            url: '/historial',
+            data: { pageTitle: 'Tarifas Troncales - Historial' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/historial.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
+        //FIN 40000
         /*------------------------------------------------------------------------------------------------------------*/
         //90000 : MENU B2B
         .state('app.b2b', {

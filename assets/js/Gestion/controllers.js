@@ -1,5 +1,5 @@
 /**
- * Created by Core i3 on 08-02-2017.
+ * Created by E.Saavedra on 08-02-2017.
  */
 colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state) {
     $scope.PRO_ACEP_OBJ=function()
@@ -13,3 +13,4 @@ colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state
         bootbox.alert("Viaje vuelve a Estado CERRADO");
     }
 });
+
