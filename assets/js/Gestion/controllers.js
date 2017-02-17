@@ -14,16 +14,40 @@ colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state
     }
 });
 
-colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state) {
-    $scope.PRO_ACEP_OBJ=function()
+colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state,$window) {
+    $scope.PRO_EDIT_MANF=function()
     {
-        bootbox.prompt("Ingrese Nueva Tarifa",function (result) {
-            console.log(result);
+        bootbox.prompt({
+            title: "Seleccione Nuevo Destino",
+            inputType: 'select',
+            inputOptions: [
+                {
+                    text: '4 - TI -Panamericana',
+                    value: '',
+                },
+                {
+                    text: '5 - TI- La Florida',
+                    value: '1',
+                },
+                {
+                    text: '14 -TI- Talca',
+                    value: '2',
+                },
+                {
+                    text: 'Choice Three',
+                    value: '3',
+                }
+            ],
+            callback: function (result) {
+                console.log(result);
+            }
         });
     }
-    $scope.PRO_RECH_OBJ=function()
+    $scope.PRO_CANC=function()
     {
-        bootbox.alert("Viaje vuelve a Estado CERRADO");
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            $window.location.href='#/app/dashboard';
+        });
     }
 });
 

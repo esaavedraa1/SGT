@@ -50,8 +50,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="1368" column="0" selection-start-line="1368" selection-start-column="0" selection-end-line="1368" selection-end-column="0" />
+            <state relative-caret-position="856">
+              <caret line="1401" column="54" selection-start-line="1401" selection-start-column="54" selection-end-line="1401" selection-end-column="54" />
               <folding>
                 <element signature="e#59603#59715#0" expanded="false" />
                 <element signature="e#59798#59916#0" expanded="false" />
@@ -74,9 +74,7 @@
                 <element signature="e#84532#84649#0" expanded="false" />
                 <element signature="e#84699#84815#0" expanded="false" />
                 <element signature="e#84873#85411#0" expanded="false" />
-                <element signature="e#85469#86008#0" expanded="false" />
                 <element signature="e#86066#86609#0" expanded="false" />
-                <element signature="e#86666#87202#0" expanded="false" />
                 <element signature="e#87261#87802#0" expanded="false" />
                 <element signature="e#87878#87989#0" expanded="false" />
                 <element signature="e#88081#88193#0" expanded="false" />
@@ -94,21 +92,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-461">
-              <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+            <state relative-caret-position="627">
+              <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+        <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="619">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -202,8 +210,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
+        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
       </list>
     </option>
   </component>
@@ -404,6 +412,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Mantenedores" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Gestion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -541,14 +571,7 @@
       <workItem from="1487183945576" duration="674000" />
       <workItem from="1487186326565" duration="770000" />
       <workItem from="1487274591609" duration="1027000" />
-      <workItem from="1487336278247" duration="2495000" />
-    </task>
-    <task id="LOCAL-00445" summary="20500 y 20600">
-      <created>1486580400376</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1486580400376</updated>
+      <workItem from="1487336278247" duration="4249000" />
     </task>
     <task id="LOCAL-00446" summary="30200">
       <created>1486582572743</created>
@@ -886,11 +909,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487338289154</updated>
     </task>
-    <option name="localTasksCounter" value="494" />
+    <task id="LOCAL-00494" summary="30801- sidebar">
+      <created>1487338908144</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1487338908144</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228599000" />
+    <option name="totallyTimeSpent" value="230353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,13 +1033,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/solicitud_programada.html" />
-    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1277,10 +1300,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="1368" column="0" selection-start-line="1368" selection-start-column="0" selection-end-line="1368" selection-end-column="0" />
+        <state relative-caret-position="856">
+          <caret line="1401" column="54" selection-start-line="1401" selection-start-column="54" selection-end-line="1401" selection-end-column="54" />
           <folding>
             <element signature="e#59603#59715#0" expanded="false" />
             <element signature="e#59798#59916#0" expanded="false" />
@@ -1303,9 +1334,7 @@
             <element signature="e#84532#84649#0" expanded="false" />
             <element signature="e#84699#84815#0" expanded="false" />
             <element signature="e#84873#85411#0" expanded="false" />
-            <element signature="e#85469#86008#0" expanded="false" />
             <element signature="e#86066#86609#0" expanded="false" />
-            <element signature="e#86666#87202#0" expanded="false" />
             <element signature="e#87261#87802#0" expanded="false" />
             <element signature="e#87878#87989#0" expanded="false" />
             <element signature="e#88081#88193#0" expanded="false" />
@@ -1322,26 +1351,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2001">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="619">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+        <state relative-caret-position="627">
+          <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding />
         </state>
       </provider>
