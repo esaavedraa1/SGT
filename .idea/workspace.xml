@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" afterPath="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -92,17 +91,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
+            <state relative-caret-position="831">
+              <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -210,8 +209,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
       </list>
     </option>
   </component>
@@ -571,14 +570,7 @@
       <workItem from="1487183945576" duration="674000" />
       <workItem from="1487186326565" duration="770000" />
       <workItem from="1487274591609" duration="1027000" />
-      <workItem from="1487336278247" duration="4249000" />
-    </task>
-    <task id="LOCAL-00446" summary="30200">
-      <created>1486582572743</created>
-      <option name="number" value="00446" />
-      <option name="presentableId" value="LOCAL-00446" />
-      <option name="project" value="LOCAL" />
-      <updated>1486582572743</updated>
+      <workItem from="1487336278247" duration="4366000" />
     </task>
     <task id="LOCAL-00447" summary="30200">
       <created>1486582748632</created>
@@ -916,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487338908144</updated>
     </task>
-    <option name="localTasksCounter" value="495" />
+    <task id="LOCAL-00495" summary="30801- controller">
+      <created>1487341755625</created>
+      <option name="number" value="00495" />
+      <option name="presentableId" value="LOCAL-00495" />
+      <option name="project" value="LOCAL" />
+      <updated>1487341755625</updated>
+    </task>
+    <option name="localTasksCounter" value="496" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230353000" />
+    <option name="totallyTimeSpent" value="230470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,7 +990,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix sidebar" />
     <MESSAGE value="CONTROL DE SALIDA" />
     <MESSAGE value="despacho anular pantalla" />
     <MESSAGE value="NUEVO ROUTER" />
@@ -1016,7 +1014,8 @@
     <MESSAGE value="40503" />
     <MESSAGE value="30801" />
     <MESSAGE value="30801- sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="30801- sidebar" />
+    <MESSAGE value="30801- controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="30801- controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,18 +1358,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
           <folding />
         </state>
       </provider>
