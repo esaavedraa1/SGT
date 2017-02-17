@@ -14,3 +14,16 @@ colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state
     }
 });
 
+colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state) {
+    $scope.PRO_ACEP_OBJ=function()
+    {
+        bootbox.prompt("Ingrese Nueva Tarifa",function (result) {
+            console.log(result);
+        });
+    }
+    $scope.PRO_RECH_OBJ=function()
+    {
+        bootbox.alert("Viaje vuelve a Estado CERRADO");
+    }
+});
+

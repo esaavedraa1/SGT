@@ -7,7 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" afterPath="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,21 +94,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+            <state relative-caret-position="-461">
+              <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+            <state relative-caret-position="2001">
+              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -160,7 +171,6 @@
         <option value="$PROJECT_DIR$/views/Gestion/Planificacion/predictiva.html" />
         <option value="$PROJECT_DIR$/views/solicitud_programada.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/programada.html" />
-        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/assets/js/Facturacion.js" />
         <option value="$PROJECT_DIR$/assets/js/Facturacion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
@@ -191,8 +201,9 @@
         <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Manifiestos/servicio.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
-        <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
       </list>
     </option>
   </component>
@@ -375,6 +386,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -508,14 +541,7 @@
       <workItem from="1487183945576" duration="674000" />
       <workItem from="1487186326565" duration="770000" />
       <workItem from="1487274591609" duration="1027000" />
-      <workItem from="1487336278247" duration="1873000" />
-    </task>
-    <task id="LOCAL-00444" summary="20500 y 20600">
-      <created>1486580186611</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1486580186611</updated>
+      <workItem from="1487336278247" duration="2495000" />
     </task>
     <task id="LOCAL-00445" summary="20500 y 20600">
       <created>1486580400376</created>
@@ -853,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487337697063</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="30801- sidebar">
+      <created>1487338289154</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1487338289154</updated>
+    </task>
+    <option name="localTasksCounter" value="494" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227977000" />
+    <option name="totallyTimeSpent" value="228599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,7 +961,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="3 VER PUBLICAR SOLICITUD" />
     <MESSAGE value="fix sidebar" />
     <MESSAGE value="CONTROL DE SALIDA" />
     <MESSAGE value="despacho anular pantalla" />
@@ -953,7 +985,8 @@
     <MESSAGE value="30401" />
     <MESSAGE value="40503" />
     <MESSAGE value="30801" />
-    <option name="LAST_COMMIT_MESSAGE" value="30801" />
+    <MESSAGE value="30801- sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="30801- sidebar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1128,13 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/solicitud_publicar.html" />
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1296,18 +1322,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        <state relative-caret-position="2001">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Viaje/editar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
           <folding />
         </state>
       </provider>
