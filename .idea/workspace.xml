@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" afterPath="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,16 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cerrar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Manifiestos/cerrar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publicar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="publicar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+            <state relative-caret-position="2890">
+              <caret line="170" column="47" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ingreso.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -235,7 +235,6 @@
         <option value="$PROJECT_DIR$/views/control_salida.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Control/salida.html" />
         <option value="$PROJECT_DIR$/views/sello_crear.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html" />
         <option value="$PROJECT_DIR$/views/despacho_validar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/salida.html" />
@@ -250,6 +249,7 @@
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/assets/js/Facturacion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
       </list>
     </option>
   </component>
@@ -384,6 +384,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Solicitud" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sello" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,14 +588,7 @@
       <workItem from="1487186326565" duration="770000" />
       <workItem from="1487274591609" duration="1027000" />
       <workItem from="1487336278247" duration="5985000" />
-      <workItem from="1487594127904" duration="1301000" />
-    </task>
-    <task id="LOCAL-00449" summary="30200">
-      <created>1486583269239</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1486583269239</updated>
+      <workItem from="1487594127904" duration="2048000" />
     </task>
     <task id="LOCAL-00450" summary="30200">
       <created>1486585618256</created>
@@ -911,11 +926,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487342278863</updated>
     </task>
-    <option name="localTasksCounter" value="498" />
+    <task id="LOCAL-00498" summary="reparacion pantalla publicar solicitud">
+      <created>1487596056728</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1487596056729</updated>
+    </task>
+    <option name="localTasksCounter" value="499" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233390000" />
+    <option name="totallyTimeSpent" value="234137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +1008,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="despacho anular pantalla" />
     <MESSAGE value="NUEVO ROUTER" />
     <MESSAGE value="PANTALLA RESPONDE OBJECION" />
     <MESSAGE value="pantalla ingresa Sellos" />
@@ -1011,7 +1032,8 @@
     <MESSAGE value="30801- sidebar" />
     <MESSAGE value="30801- controller" />
     <MESSAGE value="30802 -sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="30802 -sidebar" />
+    <MESSAGE value="reparacion pantalla publicar solicitud" />
+    <option name="LAST_COMMIT_MESSAGE" value="reparacion pantalla publicar solicitud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,13 +1199,6 @@
     <entry file="file://$PROJECT_DIR$/views/control_salida.html" />
     <entry file="file://$PROJECT_DIR$/views/sello_crear.html" />
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/salisa.html" />
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1370,8 +1385,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+        <state relative-caret-position="2890">
+          <caret line="170" column="47" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
           <folding />
         </state>
       </provider>
