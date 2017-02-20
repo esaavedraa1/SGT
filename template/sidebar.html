@@ -164,10 +164,17 @@
                         </ul>
                     </li>
                     <li class="has-sub" ng-class="{active:$state.includes('app.gestion.validaciones')}">
-                        <a href="javascript:;"><b class="caret pull-right"></b>Validaciones</a>
+                    <a href="javascript:;"><b class="caret pull-right"></b>Validaciones</a>
+                    <ul class="sub-menu">
+                        <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.salida">Salida</a></li>
+                        <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.itinerario">Itinerario</a></li>
+                    </ul>
+                    </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.gestion.viaje')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Viaje</a>
                         <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.salida">Salida</a></li>
-                            <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.itinerario">Itinerario</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.gestion.viaje.editar">Editar Viaje</a></li>
+                            <li ui-sref-active="active"><a ui-sref="app.gestion.viaje.anular">Anular Viaje</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -191,7 +198,19 @@
                             <li ui-sref-active="active"><a ui-sref="app.mantenedores.proveedores.detalle">Detalle Proveedor</a></li>
                         </ul>
                     </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores.tarifa')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b> Tarifa</a>
+                        <ul class="sub-menu">
+                            <li class="has-sub" ng-class="{active:$state.includes('app.mantenedores.tarifa.troncal')}">
+                                <a href="javascript:;"><b class="caret pull-right"></b> Troncal</a>
+                                <ul class="sub-menu">
 
+                                    <li ui-sref-active="active"><a ui-sref="app.mantenedores.tarifa.troncal.agregar">Crear Tarifa</a></li>
+                                    <li ui-sref-active="active"><a ui-sref="app.mantenedores.tarifa.troncal.historial">Historial</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 

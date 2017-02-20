@@ -1,14 +1,14 @@
-<div ng-controller="tablaManifiestoDefaultController">
+<div ng-controller="30802_Controller">
     <!-- begin breadcrumb -->
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">Gestión</a></li>
-        <li><a href="javascript:;">Solicitud</a></li>
-        <li class="active">30203 - Publicar</li>
+        <li><a href="javascript:;">Gestion</a></li>
+        <li><a href="javascript:;">Viajes</a></li>
+        <li class="active">30802 - Anular</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Publicar Solicitud <small>Gestión de Viajes</small></h1>
+    <h1 class="page-header">Anular Despacho <small>Gestión de Despachos</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -30,18 +30,13 @@
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-md-3 control-label">Numero de Solicitud</label>
+                            <label class="col-md-3 control-label">Numero de Viaje</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10021" />
                             </div>
-                            <label class="col-md-2 control-label">Transportista</label>
+                            <label class="col-md-2 control-label">Patente</label>
                             <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>1 - Transportes del Pacifico</option>
-                                    <option>2 - Transportes del PIPAU</option>
-
-                                </select>
+                                <input type="text" class="form-control" placeholder="BBBB-01" />
                             </div>
                         </div>
 
@@ -106,75 +101,75 @@
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <h4 class="panel-title">Publicar Solicitudes </h4>
+                    <h4 class="panel-title">Tabla Resultado  Despachos </h4>
                 </div>
 
                 <div class="panel-body">
                     <table id="data-table" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th>N° Solicitud</th>
-                            <th>Transportista</th>
+                            <th>N° Viaje</th>
+                            <th>Patente</th>
                             <th>Origen</th>
                             <th>Destino</th>
                             <th>Fecha</th>
-
-                            <th>Publicar</th>
+                            <th>Estado</th>
+                            <th>Anular</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14222</a></td>.
-                            <td>Trasportes del Pacifico</td>
+                            <td><a href="carga_todos.html">214222</a></td>
+                            <td>FBKK-15</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
                             <td>12/12/16 14:59:02-Z</td>
-
+                            <td>CARGANDO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14222</a></td>
-                            <td>Trasportes del Pacifico</td>
+                            <td><a href="carga_todos.html">214222</a></td>
+                            <td>BBBC-25</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>41 TALCA</td>
                             <td>12/12/16 15:01:14-Z</td>
-
+                            <td>CREADO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14223</a></td>
-                            <td>Trasportes del Pacifico</td>
+                            <td><a href="carga_todos.html">214223</a></td>
+                            <td>HHBC-29</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>14 ANTOFAGASTA</td>
                             <td>12/12/16 15:11:46-Z</td>
-
+                            <td>CARGANDO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14223</a></td>
-                            <td>Trasportes PIPAU</td>
+                            <td><a href="carga_todos.html">214223</a></td>
+                            <td>CGFC-15</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>15 CALAMA</td>
                             <td>12/12/16 15:14:59-Z</td>
-
+                            <td>CARGANDO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14224</a></td>
-                            <td>Trasportes PIPAU</td>
+                            <td><a href="carga_todos.html">214224</a></td>
+                            <td>BHJY-16</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>05 PARQUE ARAUCO</td>
                             <td>05/01/17 10:14:59-Z</td>
-
+                            <td>CREADO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="carga_todos.html">14225</a></td>
-                            <td>Trasportes PIPAU</td>
+                            <td><a href="carga_todos.html">214225</a></td>
+                            <td>CCGH-24</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>12 MALL PLAZA NORTE</td>
                             <td>05/01/17 09:04:59-Z</td>
-
+                            <td>CARGANDO</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         </tbody>
@@ -186,7 +181,7 @@
                     </div>
                     <div class="col-md-5">
                         <p>
-                            <button class="btn btn-success " >Publicar Solicitud</button>
+                            <button class="btn btn-danger " >Anular Despacho</button>
                             <button class="btn btn-info " >Cancelar</button>
                         </p>
                     </div>
