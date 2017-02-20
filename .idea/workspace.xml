@@ -103,8 +103,8 @@
       <file leaf-file-name="ingreso.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+            <state relative-caret-position="850">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -588,14 +588,7 @@
       <workItem from="1487186326565" duration="770000" />
       <workItem from="1487274591609" duration="1027000" />
       <workItem from="1487336278247" duration="5985000" />
-      <workItem from="1487594127904" duration="2048000" />
-    </task>
-    <task id="LOCAL-00450" summary="30200">
-      <created>1486585618256</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1486585618256</updated>
+      <workItem from="1487594127904" duration="2120000" />
     </task>
     <task id="LOCAL-00451" summary="20501">
       <created>1486645004869</created>
@@ -933,11 +926,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487596056729</updated>
     </task>
-    <option name="localTasksCounter" value="499" />
+    <task id="LOCAL-00499" summary="30401- revision  2&#10;">
+      <created>1487598250125</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1487598250125</updated>
+    </task>
+    <option name="localTasksCounter" value="500" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234137000" />
+    <option name="totallyTimeSpent" value="234209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1008,7 +1008,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="NUEVO ROUTER" />
     <MESSAGE value="PANTALLA RESPONDE OBJECION" />
     <MESSAGE value="pantalla ingresa Sellos" />
     <MESSAGE value="pantalla validaciones de salida" />
@@ -1033,7 +1032,8 @@
     <MESSAGE value="30801- controller" />
     <MESSAGE value="30802 -sidebar" />
     <MESSAGE value="reparacion pantalla publicar solicitud" />
-    <option name="LAST_COMMIT_MESSAGE" value="reparacion pantalla publicar solicitud" />
+    <MESSAGE value="30401- revision  2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="30401- revision  2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1393,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Sello/ingreso.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        <state relative-caret-position="850">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding />
         </state>
       </provider>
