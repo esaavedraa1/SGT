@@ -1336,6 +1336,8 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        //30602: PANTALLA CREACION DE SERVICIOS
+
         //30800: MENU VIAJES
         .state('app.gestion.viaje', {
             url: '/viaje',
