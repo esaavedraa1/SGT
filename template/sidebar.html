@@ -163,12 +163,20 @@
 
                         </ul>
                     </li>
+
                     <li class="has-sub" ng-class="{active:$state.includes('app.gestion.validaciones')}">
                     <a href="javascript:;"><b class="caret pull-right"></b>Validaciones</a>
                     <ul class="sub-menu">
                         <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.salida">Salida</a></li>
                         <li ui-sref-active="active"><a ui-sref="app.gestion.validaciones.itinerario">Itinerario</a></li>
                     </ul>
+                    </li>
+                    <li class="has-sub" ng-class="{active:$state.includes('app.gestion.manifiestos')}">
+                        <a href="javascript:;"><b class="caret pull-right"></b>Manifiestos de carga</a>
+                        <ul class="sub-menu">
+                            <li ui-sref-active="active"><a ui-sref="app.gestion.manifiestos.cerrar">Cerrar MC</a></li>
+
+                        </ul>
                     </li>
                     <li class="has-sub" ng-class="{active:$state.includes('app.gestion.viaje')}">
                         <a href="javascript:;"><b class="caret pull-right"></b>Viaje</a>
@@ -227,7 +235,14 @@
                     <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Transportista</a>
                         <ul class="sub-menu">
-                            <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.aceptar">Solicitudes Publicadas</a></li>
+                            <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista.solicitud')}">
+                                <a href="javascript:;"><b class="caret pull-right"></b>Solicitud</a>
+                                <ul class="sub-menu">
+                                    <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.solicitud.aceptar">Aceptar Solicitud</a></li>
+                                    <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.solicitud.detalle">Detalle Solicitud</a></li>
+                                </ul>
+                            </li>
+
                             <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.despacho">Revisa Viaje</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.oc">Ordenes de Facturación</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.factura">Facturas</a></li>
