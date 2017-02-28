@@ -7,9 +7,8 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
          ------------------------- */
 
         $('#datetimepicker1').datetimepicker({
-            ViewMode: 'years',
+            viewMode: 'years',
             format : 'MM/YYYY',
-            locale: 'es',
             todayHighlight: true
         });
     });
