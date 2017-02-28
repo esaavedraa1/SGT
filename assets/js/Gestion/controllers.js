@@ -1,6 +1,29 @@
 /**
  * Created by E.Saavedra on 08-02-2017.
  */
+colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state) {
+    angular.element(document).ready(function () {
+        /* Datepicker
+         ------------------------- */
+        $('#datepicker-default').datepicker({
+            minViewMode : 1,
+            language :"es",
+            todayHighlight: true
+        });
+    });
+    $scope.PRO_CARGA_SOLI=function()
+    {
+        bootbox.alert("Creación Exitosa  Solicitud N°12244");
+
+    }
+    $scope.PRO_CANC=function()
+    {
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+        });
+    }
+});
 colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state) {
     $scope.PRO_CARGA_SOLI=function()
     {
