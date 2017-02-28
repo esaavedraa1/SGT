@@ -2022,11 +2022,11 @@ colorAdminApp.controller('tablaFlotaDefaultController', function($scope, $rootSc
  ------------------------------- */
 colorAdminApp.controller('tablaManifiestoDefaultController', function($scope, $rootScope, $state) {
     angular.element(document).ready(function () {
-        /* Datepicker
-         ------------------------- */
-        $('#datepicker-default').datepicker({
-            todayHighlight: true
-        });
+            /* Datepicker
+             ------------------------- */
+            $('#datepicker-default').datepicker({
+                todayHighlight: true
+            });
         $('#datepicker-default2').datepicker({
             todayHighlight: true
         });

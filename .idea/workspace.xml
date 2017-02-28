@@ -7,7 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-controller.js" afterPath="$PROJECT_DIR$/assets/js/angular-controller.js" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +37,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="885">
@@ -93,8 +94,8 @@
       <file leaf-file-name="angular-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="2024" column="7" selection-start-line="2023" selection-start-column="4" selection-end-line="2028" selection-end-column="11" />
+            <state relative-caret-position="363">
+              <caret line="2065" column="28" selection-start-line="2065" selection-start-column="28" selection-end-line="2065" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -102,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="136">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -181,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/Consulta/Reporteria/prorrateo.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/aprueba.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html" />
@@ -229,9 +229,10 @@
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
-        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
+        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
       </list>
     </option>
   </component>
@@ -303,6 +304,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-datepicker" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-datepicker" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,14 +573,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="7103000" />
-    </task>
-    <task id="LOCAL-00471" summary="30101">
-      <created>1486997650817</created>
-      <option name="number" value="00471" />
-      <option name="presentableId" value="LOCAL-00471" />
-      <option name="project" value="LOCAL" />
-      <updated>1486997650818</updated>
+      <workItem from="1488286622753" duration="7315000" />
     </task>
     <task id="LOCAL-00472" summary="30101">
       <created>1486999428294</created>
@@ -851,11 +911,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488306952567</updated>
     </task>
-    <option name="localTasksCounter" value="520" />
+    <task id="LOCAL-00520" summary="30101&#10;">
+      <created>1488307135174</created>
+      <option name="number" value="00520" />
+      <option name="presentableId" value="LOCAL-00520" />
+      <option name="project" value="LOCAL" />
+      <updated>1488307135174</updated>
+    </task>
+    <option name="localTasksCounter" value="521" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246306000" />
+    <option name="totallyTimeSpent" value="246518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1259,24 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="2024" column="7" selection-start-line="2023" selection-start-column="4" selection-end-line="2028" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1334,6 +1383,24 @@
             <element signature="e#110817#114675#0" expanded="false" />
             <element signature="e#114725#118593#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="2065" column="28" selection-start-line="2065" selection-start-column="28" selection-end-line="2065" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,8 +6,7 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
         /* Datepicker
          ------------------------- */
         $('#datepicker-default').datepicker({
-            minViewMode : 1,
-            language :"es",
+
             todayHighlight: true
         });
     });
