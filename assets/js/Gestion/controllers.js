@@ -5,14 +5,11 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
     angular.element(document).ready(function () {
         /* Datepicker
          ------------------------- */
-        $('#datepicker-default').datepicker({
-            minViewMode: 1,
-            language: "es",
-            todayHighlight: true
-        });
+
         $('#datetimepicker1').datetimepicker({
-            minViewMode: 1,
-            language: "es",
+            ViewMode: 'years',
+            format : 'MM/YYYY',
+            locale: 'es',
             todayHighlight: true
         });
     });
@@ -30,8 +27,8 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
     }
 });
 colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state) {
-    $scope.PRO_CARGA_SOLI=function()
-    {
+    $scope.PRO_CARGA_SOLI=function(){
+
         bootbox.alert("Creación Exitosa  Solicitud N°12244");
 
     }
