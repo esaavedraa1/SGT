@@ -4,9 +4,8 @@
 colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state) {
     $scope.PRO_CARGA_SOLI=function()
     {
-        bootbox.prompt("Creación Exitosa  Solicitud N°12244",function (result) {
-            console.log(result);
-        });
+        bootbox.alert("Creación Exitosa  Solicitud N°12244");
+
     }
     $scope.PRO_CANC=function()
     {
