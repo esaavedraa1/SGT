@@ -11,7 +11,9 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
             todayHighlight: true
         });
         $('#datetimepicker1').datetimepicker({
-
+            minViewMode: 1,
+            language: "es",
+            todayHighlight: true
         });
     });
     $scope.PRO_CARGA_SOLI=function()
