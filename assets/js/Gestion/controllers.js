@@ -6,7 +6,7 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
         /* Datepicker
          ------------------------- */
 
-        $('#datetimepicker1').datetimepicker({
+        $('#datetimepicker1').datepicker({
             viewMode: 'years',
             format : 'MM/YYYY',
             todayHighlight: true
