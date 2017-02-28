@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -117,8 +118,8 @@
       <file leaf-file-name="express.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+            <state relative-caret-position="715">
+              <caret line="156" column="30" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -137,8 +138,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -600,14 +601,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="2356000" />
-    </task>
-    <task id="LOCAL-00465" summary="10202">
-      <created>1486956009826</created>
-      <option name="number" value="00465" />
-      <option name="presentableId" value="LOCAL-00465" />
-      <option name="project" value="LOCAL" />
-      <updated>1486956009826</updated>
+      <workItem from="1488286622753" duration="2588000" />
     </task>
     <task id="LOCAL-00466" summary="10202">
       <created>1486956162471</created>
@@ -945,11 +939,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488288893676</updated>
     </task>
-    <option name="localTasksCounter" value="514" />
+    <task id="LOCAL-00514" summary="30201">
+      <created>1488289001764</created>
+      <option name="number" value="00514" />
+      <option name="presentableId" value="LOCAL-00514" />
+      <option name="project" value="LOCAL" />
+      <updated>1488289001764</updated>
+    </task>
+    <option name="localTasksCounter" value="515" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241559000" />
+    <option name="totallyTimeSpent" value="241791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1020,7 +1021,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="facturacion consulta 20500" />
     <MESSAGE value="20500 y 20600" />
     <MESSAGE value="30200" />
     <MESSAGE value="20501" />
@@ -1045,7 +1045,8 @@
     <MESSAGE value="30601- sidebar" />
     <MESSAGE value="30201 agrega m3" />
     <MESSAGE value="30204" />
-    <option name="LAST_COMMIT_MESSAGE" value="30204" />
+    <MESSAGE value="30201" />
+    <option name="LAST_COMMIT_MESSAGE" value="30201" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,16 +1409,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+        <state relative-caret-position="715">
+          <caret line="156" column="30" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
           <folding />
         </state>
       </provider>

@@ -2,15 +2,18 @@
  * Created by E.Saavedra on 08-02-2017.
  */
 colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state) {
-    $scope.PRO_ACEP_OBJ=function()
+    $scope.PRO_CARGA_SOLI=function()
     {
-        bootbox.prompt("Ingrese Nueva Tarifa",function (result) {
+        bootbox.prompt("Creación Exitosa  Solicitud N°12244",function (result) {
             console.log(result);
         });
     }
-    $scope.PRO_RECH_OBJ=function()
+    $scope.PRO_CANC=function()
     {
-        bootbox.alert("Viaje vuelve a Estado CERRADO");
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+        });
     }
 });
 colorAdminApp.controller('30204_Controller', function($scope, $rootScope, $state,$window) {
