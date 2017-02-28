@@ -8,7 +8,7 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
 
         $('#datetimepicker1').datepicker({
             minViewMode: 1,
-            format : 'yy-mm',
+            format : 'mm-yy',
             clearBtn: true,
             language: 'es'
         });
