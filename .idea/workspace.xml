@@ -571,21 +571,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="9440000" />
-    </task>
-    <task id="LOCAL-00485" summary="30401">
-      <created>1487012706701</created>
-      <option name="number" value="00485" />
-      <option name="presentableId" value="LOCAL-00485" />
-      <option name="project" value="LOCAL" />
-      <updated>1487012706701</updated>
-    </task>
-    <task id="LOCAL-00486" summary="30401">
-      <created>1487012789896</created>
-      <option name="number" value="00486" />
-      <option name="presentableId" value="LOCAL-00486" />
-      <option name="project" value="LOCAL" />
-      <updated>1487012789896</updated>
+      <workItem from="1488286622753" duration="9657000" />
     </task>
     <task id="LOCAL-00487" summary="30401">
       <created>1487012883753</created>
@@ -916,11 +902,25 @@
       <option name="project" value="LOCAL" />
       <updated>1488309817493</updated>
     </task>
-    <option name="localTasksCounter" value="534" />
+    <task id="LOCAL-00534" summary="30101&#10;">
+      <created>1488309892721</created>
+      <option name="number" value="00534" />
+      <option name="presentableId" value="LOCAL-00534" />
+      <option name="project" value="LOCAL" />
+      <updated>1488309892721</updated>
+    </task>
+    <task id="LOCAL-00535" summary="30101&#10;">
+      <created>1488309949552</created>
+      <option name="number" value="00535" />
+      <option name="presentableId" value="LOCAL-00535" />
+      <option name="project" value="LOCAL" />
+      <updated>1488309949552</updated>
+    </task>
+    <option name="localTasksCounter" value="536" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248643000" />
+    <option name="totallyTimeSpent" value="248860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
