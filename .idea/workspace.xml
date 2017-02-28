@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" afterPath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="768">
@@ -114,18 +114,18 @@
       <file leaf-file-name="enpatio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historica.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="historica.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+            <state relative-caret-position="833">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -134,8 +134,8 @@
       <file leaf-file-name="form_plugins.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/form_plugins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3791">
-              <caret line="223" column="73" selection-start-line="223" selection-start-column="73" selection-end-line="223" selection-end-column="73" />
+            <state relative-caret-position="493">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -227,10 +227,10 @@
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
       </list>
     </option>
   </component>
@@ -571,14 +571,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="7681000" />
-    </task>
-    <task id="LOCAL-00475" summary="30301">
-      <created>1487007800440</created>
-      <option name="number" value="00475" />
-      <option name="presentableId" value="LOCAL-00475" />
-      <option name="project" value="LOCAL" />
-      <updated>1487007800440</updated>
+      <workItem from="1488286622753" duration="8452000" />
     </task>
     <task id="LOCAL-00476" summary="30301">
       <created>1487007855590</created>
@@ -916,11 +909,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488307652781</updated>
     </task>
-    <option name="localTasksCounter" value="524" />
+    <task id="LOCAL-00524" summary="30101&#10;">
+      <created>1488307716792</created>
+      <option name="number" value="00524" />
+      <option name="presentableId" value="LOCAL-00524" />
+      <option name="project" value="LOCAL" />
+      <updated>1488307716792</updated>
+    </task>
+    <option name="localTasksCounter" value="525" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246884000" />
+    <option name="totallyTimeSpent" value="247655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1308,30 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/form_plugins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3791">
-          <caret line="223" column="73" selection-start-line="223" selection-start-column="73" selection-end-line="223" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1398,6 +1374,30 @@
             <element signature="e#109912#113770#0" expanded="false" />
             <element signature="e#113820#117688#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/form_plugins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
