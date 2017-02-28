@@ -60,6 +60,11 @@ colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state
 });
 
 colorAdminApp.controller('30802_Controller', function($scope, $rootScope, $state,$window) {
+    //PRO_CREA_SOLIEX
+    $scope.PRO_CANC=function()
+    {
+            $window.location.href='#/app/gestion/solicitud/express';
+    }
     $scope.PRO_CANC=function()
     {
         bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
