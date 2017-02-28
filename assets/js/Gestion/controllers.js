@@ -15,10 +15,9 @@ colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state
 });
 colorAdminApp.controller('30204_Controller', function($scope, $rootScope, $state,$window) {
   //PRO_CREA_SOLIEX
-    $scope.PRO_CREA_SOLIEX=function(result)
+    $scope.PRO_CREA_SOLIEX=function()
     {
-        if(result){
-            $window.location.href='#/app/gestion/solicitud/express';}
+            $window.location.href='#/app/gestion/solicitud/express';
 
     }
     $scope.PRO_CANC=function()
