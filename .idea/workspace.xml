@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" afterPath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -121,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historica.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="historica.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+            <state relative-caret-position="595">
+              <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -229,8 +229,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
-        <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
       </list>
     </option>
   </component>
@@ -571,14 +571,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="9693000" />
-    </task>
-    <task id="LOCAL-00488" summary="30401">
-      <created>1487012968129</created>
-      <option name="number" value="00488" />
-      <option name="presentableId" value="LOCAL-00488" />
-      <option name="project" value="LOCAL" />
-      <updated>1487012968129</updated>
+      <workItem from="1488286622753" duration="9921000" />
     </task>
     <task id="LOCAL-00489" summary="30401">
       <created>1487183969321</created>
@@ -916,11 +909,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488310109646</updated>
     </task>
-    <option name="localTasksCounter" value="537" />
+    <task id="LOCAL-00537" summary="30101&#10;">
+      <created>1488310146803</created>
+      <option name="number" value="00537" />
+      <option name="presentableId" value="LOCAL-00537" />
+      <option name="project" value="LOCAL" />
+      <updated>1488310146803</updated>
+    </task>
+    <option name="localTasksCounter" value="538" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248896000" />
+    <option name="totallyTimeSpent" value="249124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1385,18 +1385,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
           <folding />
         </state>
       </provider>
