@@ -8,8 +8,9 @@ colorAdminApp.controller('30101_Controller', function($scope, $rootScope, $state
 
         $('#datetimepicker1').datepicker({
             minViewMode: 1,
+            format : 'MM/YY',
             clearBtn: true,
-            language: "es"
+            language: 'es'
         });
     });
     $scope.PRO_CARGA_SOLI=function()
