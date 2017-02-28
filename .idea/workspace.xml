@@ -6,10 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" afterPath="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="1140" column="28" selection-start-line="1140" selection-start-column="28" selection-end-line="1140" selection-end-column="28" />
+            <state relative-caret-position="141">
+              <caret line="1141" column="54" selection-start-line="1141" selection-start-column="54" selection-end-line="1141" selection-end-column="54" />
               <folding>
                 <element signature="e#59603#59715#0" expanded="false" />
                 <element signature="e#59798#59916#0" expanded="false" />
@@ -96,16 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cerrar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Manifiesto/cerrar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,9 +128,21 @@
       <file leaf-file-name="enpatio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="e#778#1733#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,7 +245,6 @@
         <option value="$PROJECT_DIR$/views/Gestion/Viaje/editar.html" />
         <option value="$PROJECT_DIR$/views/despacho_anular.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Viaje/anular.html" />
-        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/assets/js/Facturacion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/publicar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Sello/ingreso.html" />
@@ -253,9 +253,10 @@
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/servicio.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/programada.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
+        <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
       </list>
     </option>
   </component>
@@ -412,6 +413,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -439,6 +462,11 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -553,14 +581,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="858000" />
-    </task>
-    <task id="LOCAL-00459" summary="20102">
-      <created>1486753687060</created>
-      <option name="number" value="00459" />
-      <option name="presentableId" value="LOCAL-00459" />
-      <option name="project" value="LOCAL" />
-      <updated>1486753687060</updated>
+      <workItem from="1488286622753" duration="1206000" />
     </task>
     <task id="LOCAL-00460" summary="20102">
       <created>1486753858902</created>
@@ -898,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487880722650</updated>
     </task>
-    <option name="localTasksCounter" value="508" />
+    <task id="LOCAL-00508" summary="30204">
+      <created>1488287503281</created>
+      <option name="number" value="00508" />
+      <option name="presentableId" value="LOCAL-00508" />
+      <option name="project" value="LOCAL" />
+      <updated>1488287503282</updated>
+    </task>
+    <option name="localTasksCounter" value="509" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240061000" />
+    <option name="totallyTimeSpent" value="240409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -973,7 +1001,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="menu validacion facturacion" />
     <MESSAGE value="facturacion consulta 20500" />
     <MESSAGE value="20500 y 20600" />
     <MESSAGE value="30200" />
@@ -998,7 +1025,8 @@
     <MESSAGE value="30601" />
     <MESSAGE value="30601- sidebar" />
     <MESSAGE value="30201 agrega m3" />
-    <option name="LAST_COMMIT_MESSAGE" value="30201 agrega m3" />
+    <MESSAGE value="30204" />
+    <option name="LAST_COMMIT_MESSAGE" value="30204" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,13 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Mantenedores/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
@@ -1304,14 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar-right.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1330,8 +1343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="1140" column="28" selection-start-line="1140" selection-start-column="28" selection-end-line="1140" selection-end-column="28" />
+        <state relative-caret-position="141">
+          <caret line="1141" column="54" selection-start-line="1141" selection-start-column="54" selection-end-line="1141" selection-end-column="54" />
           <folding>
             <element signature="e#59603#59715#0" expanded="false" />
             <element signature="e#59798#59916#0" expanded="false" />
@@ -1370,6 +1383,24 @@
             <element signature="e#105993#109866#0" expanded="false" />
             <element signature="e#109911#113769#0" expanded="false" />
             <element signature="e#113819#117687#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#778#1733#0" expanded="false" />
           </folding>
         </state>
       </provider>

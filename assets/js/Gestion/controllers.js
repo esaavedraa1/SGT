@@ -13,6 +13,14 @@ colorAdminApp.controller('30201_Controller', function($scope, $rootScope, $state
         bootbox.alert("Viaje vuelve a Estado CERRADO");
     }
 });
+colorAdminApp.controller('30204_Controller', function($scope, $rootScope, $state,$window) {
+    $scope.PRO_CANC=function()
+    {
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            $window.location.href='#/app/dashboard';
+        });
+    }
+});
 
 colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state,$window) {
     $scope.PRO_EDIT_MANF=function()
