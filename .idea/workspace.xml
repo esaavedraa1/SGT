@@ -5,7 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="30204">
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
     </list>
@@ -137,8 +137,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="353">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -578,14 +578,7 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="1974000" />
-    </task>
-    <task id="LOCAL-00462" summary="10202">
-      <created>1486862275180</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1486862275180</updated>
+      <workItem from="1488286622753" duration="2177000" />
     </task>
     <task id="LOCAL-00463" summary="10202">
       <created>1486955740168</created>
@@ -923,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488288429327</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="30204">
+      <created>1488288613331</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1488288613331</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241177000" />
+    <option name="totallyTimeSpent" value="241380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1394,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="353">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
