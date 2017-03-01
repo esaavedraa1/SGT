@@ -1379,7 +1379,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
         })
         //30701 : PANTALLA CREACION DE SERVICIOS
         .state('app.gestion.servicio.despacho', {
-            url: '/crear',
+            url: '/despacho',
             data: { pageTitle: 'Crear Servicio' },
             templateUrl: 'views/Gestion/Servicio/despacho.html',
             resolve: {
