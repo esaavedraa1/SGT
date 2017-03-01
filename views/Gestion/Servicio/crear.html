@@ -1,1 +1,116 @@
-30702
+<div ng-controller="40501_Controller">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a ui-sref="app.dashboard">Home</a></li>
+        <li><a href="javascript:;">Gestion</a></li>
+        <li><a href="javascript:;">Servicio</a></li>
+        <li class="active">30702 - Agregar</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Crear Servicio<small> Gestión de Viajes</small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-12 -->
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse" data-sortable-id="form-stuff-1">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Formulario Creación</h4>
+                </div>
+                <div class="panel-body">
+                    <label class="col-md-1 control-label">Transportista</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" text="TRANSPORTES PIPAU" ng-model="prov_nombre" disabled />
+                    </div>
+
+
+                    <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Inicio</label>
+                            <div class="col-md-6">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Termino</label>
+                            <div class="col-md-6">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Origen</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>55 - CD - SANTIAGO</option>
+                                    <option>59 - CD - ANTOFAGASTA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Destino</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>13 - TI - TALCA</option>
+                                    <option>15 - TI - PUERTO MONTT</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo de Vehiculo</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>1 - CM35</option>
+                                    <option>2 - CM40</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Estado</label>
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>HABILITADA</option>
+                                    <option>SUSPENDIDA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Acciones : </label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success" ng-click = "PRO_AGR_TARF_TRON()">Guardar</button>
+                                <button type="submit" class="btn btn-sm btn-info" ng-click="PRO_CANC()">Cancelar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end panel -->
+        </div>
+        <!-- end col-12 -->
+
+    </div>
+    <!-- end row -->
+</div>
