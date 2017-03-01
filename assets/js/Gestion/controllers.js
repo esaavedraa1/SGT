@@ -66,7 +66,16 @@ colorAdminApp.controller('30701_Controller', function($scope, $rootScope, $state
     }
 });
 colorAdminApp.controller('30702_Controller', function($scope, $rootScope, $state,$window) {
-
+    $scope.PRO_AGR_SERV=function()
+    {
+        bootbox.confirm("La tarifa es : $6500 x Unidad ¿Desea Confirmar?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+            else {
+                $window.location.href='#/app/gestion/servicio/despacho';
+            }
+        });
+    }
     $scope.PRO_CANC=function()
     {
         bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
