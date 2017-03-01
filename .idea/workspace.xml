@@ -8,7 +8,6 @@
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" afterPath="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" afterPath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -590,14 +589,7 @@
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
       <workItem from="1488286622753" duration="13293000" />
-      <workItem from="1488376844747" duration="3884000" />
-    </task>
-    <task id="LOCAL-00510" summary="30204">
-      <created>1488288429327</created>
-      <option name="number" value="00510" />
-      <option name="presentableId" value="LOCAL-00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1488288429327</updated>
+      <workItem from="1488376844747" duration="3940000" />
     </task>
     <task id="LOCAL-00511" summary="30204">
       <created>1488288613331</created>
@@ -935,11 +927,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488380006859</updated>
     </task>
-    <option name="localTasksCounter" value="559" />
+    <task id="LOCAL-00559" summary="30702">
+      <created>1488380743742</created>
+      <option name="number" value="00559" />
+      <option name="presentableId" value="LOCAL-00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1488380743742</updated>
+    </task>
+    <option name="localTasksCounter" value="560" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256380000" />
+    <option name="totallyTimeSpent" value="256436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1010,7 +1009,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="20102" />
     <MESSAGE value="20202" />
     <MESSAGE value="10202" />
     <MESSAGE value="30101" />
@@ -1035,7 +1033,8 @@
     <MESSAGE value="30502" />
     <MESSAGE value="30101&#10;" />
     <MESSAGE value="30701" />
-    <option name="LAST_COMMIT_MESSAGE" value="30701" />
+    <MESSAGE value="30702" />
+    <option name="LAST_COMMIT_MESSAGE" value="30702" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1416,7 +1415,7 @@
     <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
         </state>
       </provider>
