@@ -55,7 +55,26 @@ colorAdminApp.controller('30204_Controller', function($scope, $rootScope, $state
         });
     }
 });
+colorAdminApp.controller('30701_Controller', function($scope, $rootScope, $state,$window) {
 
+    $scope.PRO_CANC=function()
+    {
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+        });
+    }
+});
+colorAdminApp.controller('30702_Controller', function($scope, $rootScope, $state,$window) {
+
+    $scope.PRO_CANC=function()
+    {
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+        });
+    }
+});
 colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state,$window) {
     $scope.PRO_EDIT_MANF=function()
     {
@@ -92,7 +111,6 @@ colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state
         });
     }
 });
-
 colorAdminApp.controller('30802_Controller', function($scope, $rootScope, $state,$window) {
 
     $scope.PRO_CANC=function()
