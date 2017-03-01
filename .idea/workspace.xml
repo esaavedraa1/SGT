@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Consulta/Viajes/troncal.html" afterPath="$PROJECT_DIR$/views/Consulta/Viajes/troncal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" afterPath="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -93,17 +92,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="despacho.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="despacho.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/despacho.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+            <state relative-caret-position="765">
+              <caret line="141" column="61" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="troncal.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="troncal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Consulta/Viajes/troncal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -211,8 +210,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/despacho.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Viajes/troncal.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
       </list>
     </option>
   </component>
@@ -542,14 +541,7 @@
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
       <workItem from="1488286622753" duration="13293000" />
-      <workItem from="1488376844747" duration="1955000" />
-    </task>
-    <task id="LOCAL-00501" summary="90601">
-      <created>1487685676838</created>
-      <option name="number" value="00501" />
-      <option name="presentableId" value="LOCAL-00501" />
-      <option name="project" value="LOCAL" />
-      <updated>1487685676838</updated>
+      <workItem from="1488376844747" duration="2432000" />
     </task>
     <task id="LOCAL-00502" summary="30202">
       <created>1487775746234</created>
@@ -887,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488378745966</updated>
     </task>
-    <option name="localTasksCounter" value="550" />
+    <task id="LOCAL-00550" summary="30701">
+      <created>1488378809662</created>
+      <option name="number" value="00550" />
+      <option name="presentableId" value="LOCAL-00550" />
+      <option name="project" value="LOCAL" />
+      <updated>1488378809663</updated>
+    </task>
+    <option name="localTasksCounter" value="551" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254451000" />
+    <option name="totallyTimeSpent" value="254928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1355,18 +1354,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/despacho.html">
+    <entry file="file://$PROJECT_DIR$/views/Consulta/Viajes/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="156">
           <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Viajes/troncal.html">
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/despacho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        <state relative-caret-position="765">
+          <caret line="141" column="61" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
           <folding />
         </state>
       </provider>
