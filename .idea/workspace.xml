@@ -5,9 +5,13 @@
     <bookmark url="file://$PROJECT_DIR$/views/despacho_buscar.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
+    <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="30101&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/Gestion/Servicio/servicio.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" afterPath="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +43,8 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="990" column="119" selection-start-line="990" selection-start-column="119" selection-end-line="990" selection-end-column="119" />
+            <state relative-caret-position="749">
+              <caret line="1416" column="61" selection-start-line="1416" selection-start-column="61" selection-end-line="1416" selection-end-column="61" />
               <folding>
                 <element signature="e#47469#49705#0" expanded="false" />
                 <element signature="e#50367#52163#0" expanded="false" />
@@ -63,89 +67,60 @@
                 <element signature="e#79170#81382#0" expanded="false" />
                 <element signature="e#81463#81580#0" expanded="false" />
                 <element signature="e#81677#83899#0" expanded="false" />
+                <element signature="e#84000#84172#0" expanded="false" />
+                <element signature="e#84250#84366#0" expanded="false" />
                 <element signature="e#84456#86671#0" expanded="false" />
-                <element signature="e#86787#86897#0" expanded="false" />
-                <element signature="e#86981#89186#0" expanded="false" />
-                <element signature="e#91687#91804#0" expanded="false" />
-                <element signature="e#91854#91970#0" expanded="false" />
-                <element signature="e#92028#92566#0" expanded="false" />
-                <element signature="e#93221#93764#0" expanded="false" />
-                <element signature="e#94416#94957#0" expanded="false" />
-                <element signature="e#95033#95144#0" expanded="false" />
-                <element signature="e#95236#95348#0" expanded="false" />
-                <element signature="e#95457#96005#0" expanded="false" />
-                <element signature="e#96135#96689#0" expanded="false" />
-                <element signature="e#96797#97337#0" expanded="false" />
-                <element signature="e#97534#97642#0" expanded="false" />
-                <element signature="e#97721#97839#0" expanded="false" />
-                <element signature="e#97907#98021#0" expanded="false" />
-                <element signature="e#98081#101959#0" expanded="false" />
-                <element signature="e#102065#105943#0" expanded="false" />
-                <element signature="e#105994#109867#0" expanded="false" />
-                <element signature="e#109912#113770#0" expanded="false" />
-                <element signature="e#113820#117688#0" expanded="false" />
+                <element signature="e#91490#91600#0" expanded="false" />
+                <element signature="e#91684#93889#0" expanded="false" />
+                <element signature="e#93973#96178#0" expanded="false" />
+                <element signature="e#96390#96507#0" expanded="false" />
+                <element signature="e#96557#96673#0" expanded="false" />
+                <element signature="e#96731#97269#0" expanded="false" />
+                <element signature="e#97924#98467#0" expanded="false" />
+                <element signature="e#99119#99660#0" expanded="false" />
+                <element signature="e#99736#99847#0" expanded="false" />
+                <element signature="e#99939#100051#0" expanded="false" />
+                <element signature="e#100160#100708#0" expanded="false" />
+                <element signature="e#100838#101392#0" expanded="false" />
+                <element signature="e#101500#102040#0" expanded="false" />
+                <element signature="e#102237#102345#0" expanded="false" />
+                <element signature="e#102424#102542#0" expanded="false" />
+                <element signature="e#102610#102724#0" expanded="false" />
+                <element signature="e#102784#106662#0" expanded="false" />
+                <element signature="e#106768#110646#0" expanded="false" />
+                <element signature="e#110697#114570#0" expanded="false" />
+                <element signature="e#114615#118473#0" expanded="false" />
+                <element signature="e#118523#122391#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
+      <file leaf-file-name="despacho.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/despacho.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="2250" column="37" selection-start-line="2250" selection-start-column="37" selection-end-line="2250" selection-end-column="37" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enpatio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
+      <file leaf-file-name="crear.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historica.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Planificacion/historica.html">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_plugins.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/form_plugins.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="express.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="72" column="30" selection-start-line="68" selection-start-column="24" selection-end-line="77" selection-end-column="30" />
+            <state relative-caret-position="794">
+              <caret line="183" column="122" selection-start-line="183" selection-start-column="122" selection-end-line="183" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -180,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Validacion/aprueba.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Validacion/umilla.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Consulta/umilla.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/ns.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
@@ -223,14 +195,17 @@
         <option value="$PROJECT_DIR$/views/B2B/Transportista/Solicitud/aceptar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/servicio.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/programada.html" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/express.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/itinerario.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-controller.js" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/views/Gestion/Planificacion/historica.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/views/Gestion/Solicitud/despacho.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
       </list>
     </option>
   </component>
@@ -273,6 +248,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,73 +277,83 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solicitud" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gestion" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Servicio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SGT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-datepicker" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGT" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-datepicker" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,7 +413,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,11 +428,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Core i3\Documents\SGT\views\Gestion\Servicio" />
       <recent name="$PROJECT_DIR$/views/Gestion/Servicio" />
       <recent name="$PROJECT_DIR$/views/B2B/Transportista/Solicitud" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\Consulta" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\B2B\Transportista" />
-      <recent name="C:\Users\Core i3\Documents\SGT\views\Facturacion\Objeciones" />
     </key>
   </component>
   <component name="RunManager">
@@ -571,14 +556,8 @@
       <workItem from="1487775654755" duration="2085000" />
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
-      <workItem from="1488286622753" duration="12755000" />
-    </task>
-    <task id="LOCAL-00498" summary="reparacion pantalla publicar solicitud">
-      <created>1487596056728</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1487596056729</updated>
+      <workItem from="1488286622753" duration="13293000" />
+      <workItem from="1488376844747" duration="1665000" />
     </task>
     <task id="LOCAL-00499" summary="30401- revision  2&#10;">
       <created>1487598250125</created>
@@ -916,11 +895,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488313590993</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="30101&#10;">
+      <created>1488313661621</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1488313661621</updated>
+    </task>
+    <option name="localTasksCounter" value="548" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251958000" />
+    <option name="totallyTimeSpent" value="254161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,20 +1011,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Aprobacion/troncal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Validacion/troncal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1232,15 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/servicio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,7 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,75 +1246,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="155" column="111" selection-start-line="155" selection-start-column="111" selection-end-line="155" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="37060">
           <caret line="2250" column="37" selection-start-line="2250" selection-start-column="37" selection-end-line="2250" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="990" column="119" selection-start-line="990" selection-start-column="119" selection-end-line="990" selection-end-column="119" />
-          <folding>
-            <element signature="e#47469#49705#0" expanded="false" />
-            <element signature="e#50367#52163#0" expanded="false" />
-            <element signature="e#52610#54498#0" expanded="false" />
-            <element signature="e#54650#56878#0" expanded="false" />
-            <element signature="e#56964#57076#0" expanded="false" />
-            <element signature="e#57176#59399#0" expanded="false" />
-            <element signature="e#59603#59715#0" expanded="false" />
-            <element signature="e#59798#59916#0" expanded="false" />
-            <element signature="e#62366#64614#0" expanded="false" />
-            <element signature="e#64691#64805#0" expanded="false" />
-            <element signature="e#64916#67147#0" expanded="false" />
-            <element signature="e#67252#69477#0" expanded="false" />
-            <element signature="e#69578#71798#0" expanded="false" />
-            <element signature="e#71898#74115#0" expanded="false" />
-            <element signature="e#74186#74298#0" expanded="false" />
-            <element signature="e#74396#76610#0" expanded="false" />
-            <element signature="e#76698#78910#0" expanded="false" />
-            <element signature="e#78978#79088#0" expanded="false" />
-            <element signature="e#79170#81382#0" expanded="false" />
-            <element signature="e#81463#81580#0" expanded="false" />
-            <element signature="e#81677#83899#0" expanded="false" />
-            <element signature="e#84456#86671#0" expanded="false" />
-            <element signature="e#86787#86897#0" expanded="false" />
-            <element signature="e#86981#89186#0" expanded="false" />
-            <element signature="e#91687#91804#0" expanded="false" />
-            <element signature="e#91854#91970#0" expanded="false" />
-            <element signature="e#92028#92566#0" expanded="false" />
-            <element signature="e#93221#93764#0" expanded="false" />
-            <element signature="e#94416#94957#0" expanded="false" />
-            <element signature="e#95033#95144#0" expanded="false" />
-            <element signature="e#95236#95348#0" expanded="false" />
-            <element signature="e#95457#96005#0" expanded="false" />
-            <element signature="e#96135#96689#0" expanded="false" />
-            <element signature="e#96797#97337#0" expanded="false" />
-            <element signature="e#97534#97642#0" expanded="false" />
-            <element signature="e#97721#97839#0" expanded="false" />
-            <element signature="e#97907#98021#0" expanded="false" />
-            <element signature="e#98081#101959#0" expanded="false" />
-            <element signature="e#102065#105943#0" expanded="false" />
-            <element signature="e#105994#109867#0" expanded="false" />
-            <element signature="e#109912#113770#0" expanded="false" />
-            <element signature="e#113820#117688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1379,7 +1277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/enpatio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="714">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
@@ -1387,7 +1285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Solicitud/express.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="1224">
           <caret line="72" column="30" selection-start-line="68" selection-start-column="24" selection-end-line="77" selection-end-column="30" />
           <folding />
         </state>
@@ -1397,6 +1295,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/servicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="1416" column="61" selection-start-line="1416" selection-start-column="61" selection-end-line="1416" selection-end-column="61" />
+          <folding>
+            <element signature="e#47469#49705#0" expanded="false" />
+            <element signature="e#50367#52163#0" expanded="false" />
+            <element signature="e#52610#54498#0" expanded="false" />
+            <element signature="e#54650#56878#0" expanded="false" />
+            <element signature="e#56964#57076#0" expanded="false" />
+            <element signature="e#57176#59399#0" expanded="false" />
+            <element signature="e#59603#59715#0" expanded="false" />
+            <element signature="e#59798#59916#0" expanded="false" />
+            <element signature="e#62366#64614#0" expanded="false" />
+            <element signature="e#64691#64805#0" expanded="false" />
+            <element signature="e#64916#67147#0" expanded="false" />
+            <element signature="e#67252#69477#0" expanded="false" />
+            <element signature="e#69578#71798#0" expanded="false" />
+            <element signature="e#71898#74115#0" expanded="false" />
+            <element signature="e#74186#74298#0" expanded="false" />
+            <element signature="e#74396#76610#0" expanded="false" />
+            <element signature="e#76698#78910#0" expanded="false" />
+            <element signature="e#78978#79088#0" expanded="false" />
+            <element signature="e#79170#81382#0" expanded="false" />
+            <element signature="e#81463#81580#0" expanded="false" />
+            <element signature="e#81677#83899#0" expanded="false" />
+            <element signature="e#84000#84172#0" expanded="false" />
+            <element signature="e#84250#84366#0" expanded="false" />
+            <element signature="e#84456#86671#0" expanded="false" />
+            <element signature="e#91490#91600#0" expanded="false" />
+            <element signature="e#91684#93889#0" expanded="false" />
+            <element signature="e#93973#96178#0" expanded="false" />
+            <element signature="e#96390#96507#0" expanded="false" />
+            <element signature="e#96557#96673#0" expanded="false" />
+            <element signature="e#96731#97269#0" expanded="false" />
+            <element signature="e#97924#98467#0" expanded="false" />
+            <element signature="e#99119#99660#0" expanded="false" />
+            <element signature="e#99736#99847#0" expanded="false" />
+            <element signature="e#99939#100051#0" expanded="false" />
+            <element signature="e#100160#100708#0" expanded="false" />
+            <element signature="e#100838#101392#0" expanded="false" />
+            <element signature="e#101500#102040#0" expanded="false" />
+            <element signature="e#102237#102345#0" expanded="false" />
+            <element signature="e#102424#102542#0" expanded="false" />
+            <element signature="e#102610#102724#0" expanded="false" />
+            <element signature="e#102784#106662#0" expanded="false" />
+            <element signature="e#106768#110646#0" expanded="false" />
+            <element signature="e#110697#114570#0" expanded="false" />
+            <element signature="e#114615#118473#0" expanded="false" />
+            <element signature="e#118523#122391#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="183" column="122" selection-start-line="183" selection-start-column="122" selection-end-line="183" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/despacho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
