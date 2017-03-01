@@ -70,7 +70,9 @@ colorAdminApp.controller('30702_Controller', function($scope, $rootScope, $state
     {
         bootbox.confirm("La tarifa es : $6500 x Unidad ¿Desea Confirmar?",function (result) {
             if(result){
-                $window.location.href='#/app/dashboard';}
+                bootbox.alert("Creación Exitosa");
+                $window.location.href='#/app/gestion/servicio/despacho';
+            }
             else {
                 $window.location.href='#/app/gestion/servicio/despacho';
             }

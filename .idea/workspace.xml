@@ -8,7 +8,6 @@
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" afterPath="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" afterPath="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,15 +95,14 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            <state relative-caret-position="425">
+              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
               <folding>
                 <element signature="e#130#755#0" expanded="false" />
-                <element signature="e#840#1174#0" expanded="false" />
                 <element signature="e#1267#1633#0" expanded="false" />
                 <element signature="e#1726#1953#0" expanded="false" />
-                <element signature="e#2706#3661#0" expanded="false" />
-                <element signature="e#3754#3981#0" expanded="false" />
+                <element signature="e#2786#3741#0" expanded="false" />
+                <element signature="e#3834#4061#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -645,14 +643,7 @@
       <workItem from="1487872955192" duration="330000" />
       <workItem from="1487880186841" duration="638000" />
       <workItem from="1488286622753" duration="13293000" />
-      <workItem from="1488376844747" duration="6493000" />
-    </task>
-    <task id="LOCAL-00519" summary="30101&#10;">
-      <created>1488306952567</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1488306952567</updated>
+      <workItem from="1488376844747" duration="6585000" />
     </task>
     <task id="LOCAL-00520" summary="30101&#10;">
       <created>1488307135174</created>
@@ -990,11 +981,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488388324308</updated>
     </task>
-    <option name="localTasksCounter" value="568" />
+    <task id="LOCAL-00568" summary="30701">
+      <created>1488388765493</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1488388765493</updated>
+    </task>
+    <option name="localTasksCounter" value="569" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258989000" />
+    <option name="totallyTimeSpent" value="259081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1087,10 +1085,10 @@
     <MESSAGE value="30201" />
     <MESSAGE value="30502" />
     <MESSAGE value="30101&#10;" />
-    <MESSAGE value="30701" />
     <MESSAGE value="30702" />
     <MESSAGE value="90102" />
-    <option name="LAST_COMMIT_MESSAGE" value="90102" />
+    <MESSAGE value="30701" />
+    <option name="LAST_COMMIT_MESSAGE" value="30701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,15 +1472,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state relative-caret-position="425">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
           <folding>
             <element signature="e#130#755#0" expanded="false" />
-            <element signature="e#840#1174#0" expanded="false" />
             <element signature="e#1267#1633#0" expanded="false" />
             <element signature="e#1726#1953#0" expanded="false" />
-            <element signature="e#2706#3661#0" expanded="false" />
-            <element signature="e#3754#3981#0" expanded="false" />
+            <element signature="e#2786#3741#0" expanded="false" />
+            <element signature="e#3834#4061#0" expanded="false" />
           </folding>
         </state>
       </provider>
