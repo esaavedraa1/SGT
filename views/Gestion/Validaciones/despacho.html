@@ -2,13 +2,13 @@
     <!-- begin breadcrumb -->
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">Consulta</a></li>
-        <li><a href="javascript:;">Viajes</a></li>
-        <li class="active">10201 - Viajes Troncal</li>
+        <li><a href="javascript:;">Gestión</a></li>
+        <li><a href="javascript:;">Validaciones</a></li>
+        <li class="active">30503 - Despacho</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Consulta Viaje Troncal <small>Gestión de Consultas</small></h1>
+    <h1 class="page-header">Consulta Despacho Validado<small>Gestión de Viajes</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -67,24 +67,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-3 control-label">Estado Viaje</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>Cargando</option>
-                                    <option>Recibido</option>
-                                </select>
-                            </div>
-                            <label class="col-md-2 control-label">Estado Facturacion</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>Facturado</option>
-                                    <option>Recibido</option>
-                                </select>
-                            </div>
-                        </div>
+                        <!-- <div class="form-group"> -->
+                            <!-- <label class="col-md-3 control-label">Estado Viaje</label> -->
+                            <!-- <div class="col-md-2"> -->
+                                <!-- <select class="form-control"> -->
+                                    <!-- <option>Todos</option> -->
+                                    <!-- <option>Cargando</option> -->
+                                    <!-- <option>Recibido</option> -->
+                                <!-- </select> -->
+                            <!-- </div> -->
+                            <!-- <label class="col-md-2 control-label">Estado Facturacion</label> -->
+                            <!-- <div class="col-md-2"> -->
+                                <!-- <select class="form-control"> -->
+                                    <!-- <option>Todos</option> -->
+                                    <!-- <option>Facturado</option> -->
+                                    <!-- <option>Recibido</option> -->
+                                <!-- </select> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
 
                         <div class="form-group">
                             <label class="col-md-3 control-label">Acciones:</label>
@@ -108,7 +108,7 @@
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <h4 class="panel-title">Solicitudes Registradas </h4>
+                    <h4 class="panel-title">Despachos Registrados </h4>
                 </div>
 
                 <div class="panel-body">
@@ -122,19 +122,19 @@
                             <th>Origen</th>
                             <th>Destino</th>
                             <th>Estado Viaje</th>
-
+							<th>&nbsp;</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214222</a></td>
+                            <td><a href="../../carga_todos.html">214221</a></td>
                             <td>TRONCAL</td>
                             <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
-                            <td>ANULADO</td>
-
+                            <td>VALIDADO</td>
+							<td><a ui-sref="app.gestion.validaciones.itinerario" class="btn btn-success btn-circle m-r-2" ><i class="fa fa-plus-square"></i></a> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214222</a></td>
@@ -143,8 +143,8 @@
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>17 TI-TALCA</td>
-                            <td>EN VIAJE</td>
-
+                            <td>VALIDADO</td>
+							<td><a ui-sref="app.gestion.validaciones.itinerario" class="btn btn-success btn-circle m-r-2" ><i class="fa fa-plus-square"></i></a> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214223</a></td>
@@ -153,17 +153,9 @@
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>15 ARICA</td>
-                            <td>CREADO</td>
+                            <td>VALIDADO</td>
+							<td><a ui-sref="app.gestion.validaciones.itinerario" class="btn btn-success btn-circle m-r-2" ><i class="fa fa-plus-square"></i></a> </td>
 
-                        </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214223</a></td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
-                            <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>14 PUERTO MONTT</td>
-                            <td>CERRADO</td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214224</a></td>
@@ -172,8 +164,8 @@
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>36 ANTOFAGASTA</td>
-                            <td>ESPERANDO SALIDA</td>
-
+                            <td>VALIDADO</td>
+							<td><a ui-sref="app.gestion.validaciones.itinerario" class="btn btn-success btn-circle m-r-2" ><i class="fa fa-plus-square"></i></a> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214225</a></td>
@@ -182,8 +174,8 @@
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>19 LA FLORIDA</td>
-                            <td>EN VIAJE</td>
-
+                            <td>VALIDADO</td>
+							<td><a ui-sref="app.gestion.validaciones.itinerario" class="btn btn-success btn-circle m-r-2" ><i class="fa fa-plus-square"></i></a> </td>
                         </tr>
                         </tbody>
                     </table>
