@@ -67,6 +67,8 @@ Website: http://www.seantheme.com/color-admin-v2.0/admin/angularjs/
    59.0 CONTROLLER - Login V2
    60.0 CONTROLLER - Login V3
    61.0 CONTROLLER - Register V3
+   
+   62.0 CONTROLLER - Modal POPUP Comseg
     <!-- ======== GLOBAL SCRIPT SETTING ======== -->
 */
 
@@ -95,6 +97,7 @@ var blue		= '#348fe2',
    1.0 CONTROLLER - App
 ------------------------------- */
 colorAdminApp.controller('appController', ['$rootScope', '$scope', function($rootScope, $scope) {
+	console.log('abre appController');
     $scope.$on('$includeContentLoaded', function() {
         handleSlimScroll();
     });
@@ -142,8 +145,16 @@ colorAdminApp.controller('appController', ['$rootScope', '$scope', function($roo
     $scope.$on('$stateChangeError', function() {
         Pace.stop();
     });
-}]);
+	
+	// console.log('Antes del PopUp');
+	// $scope.popupwithclose = function (){
+		// var uibModalInstance = $uibModal.open({
+			// templateUrl: 'views/Facturacion/Aprobacion/umilla.html',
+			  // controller: 'B2B_Aprueba',
+		// });
+	// }
 
+}]);
 
 
 /* -------------------------------
@@ -4695,6 +4706,26 @@ colorAdminApp.controller('registerV3Controller', function($scope, $rootScope, $s
     };
 
 });
+
+
+
+
+/* -------------------------------
+   62.0 CONTROLLER - Popup Penca
+------------------------------- */
+ // colorAdminApp.controller('B2B_Aprueba', function($scope, $uibModalInstance) {
+	// console.log('En el PopUp');
+	// $scope.close = function () {
+		// $uibModalInstance.dismiss('cancel');
+	// };
+ // });
+
+// // controller for popup1.html view for close button
+// colorAdminApp.controller('PopupCont',function ($scope, $uibModalInstance) {
+	
+// });
+
+
 
 colorAdminApp.controller('B2B_Fact_Obje_Resp_Controller', function($scope, $rootScope, $state) {
     $scope.PRO_ACEP_OBJ=function()

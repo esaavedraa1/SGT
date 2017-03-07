@@ -24,7 +24,7 @@
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <!-- <h4 class="panel-title">Filtros de Busqueda </h4> -->
+                    <h4 class="panel-title">Aprueba / Rechaza  OF</h4>
                 </div>
 
                 <div class="panel-body">
@@ -101,9 +101,11 @@
                             <div class="col-md-9">
                                 <button type="submit" class="btn btn-sm btn-success">Aprobar</button>
 								&nbsp;
-								<button type="submit" class="btn btn-info">Rechazar</button>	
+								<!-- <button type="submit" class="btn btn-sm btn-info" ng-click="bootbox.prompt('This is the default prompt!', function(result){ console.log(result); });" >Rechazar</button>	 -->
+								<button class="btn btn-sm btn-danger " ng-click="PRO_RECHA_OF_OBJ()">Rechazar</button>
 &nbsp;
-								<button type="submit" class="btn btn-info">Cancelar</button>								
+								<!-- <button type="submit" class="btn btn-sm btn-info">Cancelar</button>								 -->
+								<a ui-sref="app.facturacion.aprobacion.aprueba" class="btn btn-sm btn-info">Cancelar</a>								
                             </div>
                         </div>
 						

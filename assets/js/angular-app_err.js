@@ -5,7 +5,7 @@
  Website: http://www.seantheme.com/color-admin-v2.0/admin/angularjs/
  */
 
-var colorAdminApp = angular.module('colorAdminApp', [
+var colorAdminApp = angular.module('colorAdminApp', ['ngMaterial',
     'ui.router',
     'ui.bootstrap',
     'oc.lazyLoad'
@@ -562,7 +562,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        //20102 : DETALLE VIAJES ULTIMA MILLA DDC
+        //20103 : DETALLE VIAJES ULTIMA MILLA DDC
         .state('app.facturacion.aprobacion.umilla', {
             url: '/umilla',
             data: { pageTitle: 'Facturación - Detalle Ultima M/DDC ' },
@@ -660,35 +660,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             url: '/umilla',
             data: { pageTitle: 'Facturación - Detalle Ultima M/DDC ' },
             templateUrl: 'views/Facturacion/Validacion/umilla.html',
-            resolve: {
-                service: ['$ocLazyLoad', function ($ocLazyLoad) {
-                    return $ocLazyLoad.load({
-                        serie: true,
-                        files: [
-                            'assets/plugins/bootbox/bootbox.min.js',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
-                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
-                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
-                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
-                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
-                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
-                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
-                            'assets/plugins/bootstrap-daterangepicker/moment.js',
-                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
-                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
-                        ]
-                    });
-                }]
-            }
-        })
-		//20104 : APRUEBA RECHAZA ORDEN DE FACTURACION
-        .state('app.facturacion.aprobacion.apre', {
-            url: '/apre',
-            data: { pageTitle: 'Facturación - Aprueba o Rechaza OF2' },
-            templateUrl: 'views/Facturacion/Aprobacion/apre.html',
             resolve: {
                 service: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
