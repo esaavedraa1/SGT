@@ -1582,12 +1582,12 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             }
         })
         //30900: MENU VIAJES
-        .state('app.gestion.documentos', {
-            url: '/documentos',
+        .state('app.gestion.documento', {
+            url: '/documento',
             template: '<div ui-view></div>',
             abstract: true
         })
-        .state('app.gestion.documentos.devolucion', {
+        .state('app.gestion.documento.devolucion', {
             url: '/devolucion',
             template: '<div ui-view></div>',
             abstract: true
@@ -1660,7 +1660,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-        .state('app.gestion.documentos.rendicion', {
+        .state('app.gestion.documento.rendicion', {
             url: '/rendicion',
             template: '<div ui-view></div>',
             abstract: true
