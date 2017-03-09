@@ -96,8 +96,8 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="204" column="114" selection-start-line="204" selection-start-column="114" selection-end-line="204" selection-end-column="114" />
+            <state relative-caret-position="424">
+              <caret line="204" column="115" selection-start-line="204" selection-start-column="115" selection-end-line="204" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -756,14 +756,7 @@
       <workItem from="1488554276456" duration="1548000" />
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
-      <workItem from="1489066274126" duration="3639000" />
-    </task>
-    <task id="LOCAL-00526" summary="30101&#10;">
-      <created>1488309100108</created>
-      <option name="number" value="00526" />
-      <option name="presentableId" value="LOCAL-00526" />
-      <option name="project" value="LOCAL" />
-      <updated>1488309100109</updated>
+      <workItem from="1489066274126" duration="3791000" />
     </task>
     <task id="LOCAL-00527" summary="30101&#10;">
       <created>1488309164378</created>
@@ -1101,11 +1094,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489069845413</updated>
     </task>
-    <option name="localTasksCounter" value="575" />
+    <task id="LOCAL-00575" summary="30901 - 30904">
+      <created>1489069944312</created>
+      <option name="number" value="00575" />
+      <option name="presentableId" value="LOCAL-00575" />
+      <option name="project" value="LOCAL" />
+      <updated>1489069944312</updated>
+    </task>
+    <option name="localTasksCounter" value="576" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266645000" />
+    <option name="totallyTimeSpent" value="266797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1587,8 +1587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="204" column="114" selection-start-line="204" selection-start-column="114" selection-end-line="204" selection-end-column="114" />
+        <state relative-caret-position="424">
+          <caret line="204" column="115" selection-start-line="204" selection-start-column="115" selection-end-line="204" selection-end-column="115" />
           <folding />
         </state>
       </provider>
