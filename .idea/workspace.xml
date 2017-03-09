@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" afterPath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="historial.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -716,14 +715,7 @@
       <workItem from="1488554276456" duration="1548000" />
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
-      <workItem from="1489066274126" duration="7651000" />
-    </task>
-    <task id="LOCAL-00528" summary="30101&#10;">
-      <created>1488309199574</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1488309199574</updated>
+      <workItem from="1489066274126" duration="7713000" />
     </task>
     <task id="LOCAL-00529" summary="30101&#10;">
       <created>1488309568848</created>
@@ -1061,11 +1053,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489070097877</updated>
     </task>
-    <option name="localTasksCounter" value="577" />
+    <task id="LOCAL-00577" summary="40501">
+      <created>1489089823435</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1489089823436</updated>
+    </task>
+    <option name="localTasksCounter" value="578" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270657000" />
+    <option name="totallyTimeSpent" value="270719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1136,7 +1135,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="30203" />
     <MESSAGE value="30301" />
     <MESSAGE value="30401" />
     <MESSAGE value="40503" />
@@ -1161,7 +1159,8 @@
     <MESSAGE value="30701" />
     <MESSAGE value="30503" />
     <MESSAGE value="30901 - 30904" />
-    <option name="LAST_COMMIT_MESSAGE" value="30901 - 30904" />
+    <MESSAGE value="40501" />
+    <option name="LAST_COMMIT_MESSAGE" value="40501" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1549,8 +1548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding />
         </state>
       </provider>
