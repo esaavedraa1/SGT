@@ -6,8 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,155 +39,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+      <file leaf-file-name="rendir.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1336" column="62" selection-start-line="1336" selection-start-column="62" selection-end-line="1336" selection-end-column="62" />
-              <folding>
-                <element signature="e#30449#30564#0" expanded="false" />
-                <element signature="e#30674#32481#0" expanded="false" />
-                <element signature="e#32579#34388#0" expanded="false" />
-                <element signature="e#34492#36304#0" expanded="false" />
-                <element signature="e#36631#38438#0" expanded="false" />
-                <element signature="e#38536#40345#0" expanded="false" />
-                <element signature="e#40449#42261#0" expanded="false" />
-                <element signature="e#42572#44817#0" expanded="false" />
-                <element signature="e#44906#45019#0" expanded="false" />
-                <element signature="e#45132#47363#0" expanded="false" />
-                <element signature="e#47469#49705#0" expanded="false" />
-                <element signature="e#49795#49908#0" expanded="false" />
-                <element signature="e#50011#52230#0" expanded="false" />
-                <element signature="e#50367#52163#0" expanded="false" />
-                <element signature="e#52333#54543#0" expanded="false" />
-                <element signature="e#52610#54498#0" expanded="false" />
-                <element signature="e#54650#56878#0" expanded="false" />
-                <element signature="e#56964#57076#0" expanded="false" />
-                <element signature="e#57176#59399#0" expanded="false" />
-                <element signature="e#59603#59715#0" expanded="false" />
-                <element signature="e#59798#59916#0" expanded="false" />
-                <element signature="e#60027#62258#0" expanded="false" />
-                <element signature="e#60212#62248#0" expanded="false" />
-                <element signature="e#62366#64614#0" expanded="false" />
-                <element signature="e#64691#64805#0" expanded="false" />
-                <element signature="e#64916#67147#0" expanded="false" />
-                <element signature="e#67252#69477#0" expanded="false" />
-                <element signature="e#69578#71798#0" expanded="false" />
-                <element signature="e#71898#74115#0" expanded="false" />
-                <element signature="e#74186#74298#0" expanded="false" />
-                <element signature="e#74396#76610#0" expanded="false" />
-                <element signature="e#76698#78910#0" expanded="false" />
-                <element signature="e#78978#79088#0" expanded="false" />
-                <element signature="e#79170#81382#0" expanded="false" />
-                <element signature="e#81463#81580#0" expanded="false" />
-                <element signature="e#81677#83899#0" expanded="false" />
-                <element signature="e#86577#86693#0" expanded="false" />
-                <element signature="e#86783#88998#0" expanded="false" />
-                <element signature="e#93820#93930#0" expanded="false" />
-                <element signature="e#94014#96219#0" expanded="false" />
-                <element signature="e#96303#98508#0" expanded="false" />
-                <element signature="e#98720#98837#0" expanded="false" />
-                <element signature="e#98887#99003#0" expanded="false" />
-                <element signature="e#99061#99599#0" expanded="false" />
-                <element signature="e#100254#100797#0" expanded="false" />
-                <element signature="e#101449#101990#0" expanded="false" />
-                <element signature="e#102066#102177#0" expanded="false" />
-                <element signature="e#102269#102381#0" expanded="false" />
-                <element signature="e#102490#103038#0" expanded="false" />
-                <element signature="e#103168#103722#0" expanded="false" />
-                <element signature="e#103830#104370#0" expanded="false" />
-                <element signature="e#104567#104675#0" expanded="false" />
-                <element signature="e#104754#104872#0" expanded="false" />
-                <element signature="e#104940#105054#0" expanded="false" />
-                <element signature="e#105114#108992#0" expanded="false" />
-                <element signature="e#109098#112976#0" expanded="false" />
-                <element signature="e#113027#116900#0" expanded="false" />
-                <element signature="e#116945#120803#0" expanded="false" />
-                <element signature="e#120853#124721#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
+      <file leaf-file-name="devolver.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-              <folding>
-                <element signature="e#130#755#0" expanded="false" />
-                <element signature="e#1267#1633#0" expanded="false" />
-                <element signature="e#1726#1953#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/Facturacion/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crear.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
+      <file leaf-file-name="detalle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="b2b_despacho.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html">
+      <file leaf-file-name="detalle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
-              <caret line="130" column="45" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moneda_tipo_crear.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/moneda_tipo_crear.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="41" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -219,13 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Interna/crear.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Planificacion/predictiva.html" />
-        <option value="$PROJECT_DIR$/views/solicitud_programada.html" />
-        <option value="$PROJECT_DIR$/assets/js/Facturacion.js" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html" />
-        <option value="$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Aprobacion/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Validacion/troncal.html" />
         <option value="$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html" />
@@ -270,6 +152,13 @@
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Validaciones/despacho.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/devolucion.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/devolver.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html" />
       </list>
     </option>
   </component>
@@ -311,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,7 +248,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Consulta" />
+              <option name="myItemId" value="Gestion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,11 +266,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Consulta" />
+              <option name="myItemId" value="Gestion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Viajes" />
+              <option name="myItemId" value="Documento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rendicion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,11 +292,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="B2B" />
+              <option name="myItemId" value="Gestion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Transportista" />
+              <option name="myItemId" value="Documento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Devolucion" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,8 +418,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,11 +433,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Core i3\Documents\SGT\views\Gestion\Documento\Devolucion" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\Gestion\Servicio" />
       <recent name="$PROJECT_DIR$/views/Gestion/Servicio" />
       <recent name="$PROJECT_DIR$/views/B2B/Transportista/Solicitud" />
       <recent name="C:\Users\Core i3\Documents\SGT\views\Consulta" />
-      <recent name="C:\Users\Core i3\Documents\SGT\views\B2B\Transportista" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -557,7 +454,14 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Objeciones/responder.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/Facturacion/controllers.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-controller.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/aprueba.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Gestion/Planificacion/historica.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -565,6 +469,12 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-app_err.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-material.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index_old.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/apre.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/aprrec.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/marmota.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -777,14 +687,10 @@
       <workItem from="1488286622753" duration="13293000" />
       <workItem from="1488376844747" duration="7801000" />
       <workItem from="1488463323471" duration="599000" />
-      <workItem from="1488554276456" duration="414000" />
-    </task>
-    <task id="LOCAL-00522" summary="30101&#10;">
-      <created>1488307595084</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1488307595084</updated>
+      <workItem from="1488554276456" duration="1548000" />
+      <workItem from="1488804620206" duration="389000" />
+      <workItem from="1488822842925" duration="173000" />
+      <workItem from="1489066274126" duration="1026000" />
     </task>
     <task id="LOCAL-00523" summary="30101&#10;">
       <created>1488307652781</created>
@@ -1122,11 +1028,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488554618108</updated>
     </task>
-    <option name="localTasksCounter" value="571" />
+    <task id="LOCAL-00571" summary="30503">
+      <created>1488554697520</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1488554697520</updated>
+    </task>
+    <option name="localTasksCounter" value="572" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261310000" />
+    <option name="totallyTimeSpent" value="264032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,14 +1051,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34002113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25237593" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
@@ -1231,48 +1144,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/Consulta/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/troncal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Tarifa/troncal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/umilla.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/viaje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="125" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Consulta/Supervisor/anular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/solicitud_publicar.html" />
     <entry file="file://$PROJECT_DIR$/views/solicitud_express.html" />
     <entry file="file://$PROJECT_DIR$/views/control_ingreso.html" />
@@ -1477,6 +1348,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20315">
+          <caret line="1366" column="62" selection-start-line="1366" selection-start-column="62" selection-end-line="1366" selection-end-column="62" />
+          <folding>
+            <element signature="e#32579#34388#0" expanded="false" />
+            <element signature="e#34492#36304#0" expanded="false" />
+            <element signature="e#38536#40345#0" expanded="false" />
+            <element signature="e#40449#42261#0" expanded="false" />
+            <marker date="1489066605710" expanded="true" signature="433:42263" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="558:667" ph="{&quot;url&quot;: '/app'...}" />
+            <marker date="1489066605710" expanded="true" signature="744:2470" ph="{&quot;url&quot;: '/dashboard'...}" />
+            <marker date="1489066605710" expanded="true" signature="889:2460" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="916:2446" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="954:2445" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="1000:2425" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="1070:2403" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="2500:2612" ph="/*...*/" />
+            <marker date="1489066605710" expanded="true" signature="2676:2789" ph="{&quot;url&quot;: '/consulta'...}" />
+            <marker date="1489066605710" expanded="true" signature="4760:6551" ph="{&quot;url&quot;: '/dashboard'...}" />
+            <marker date="1489066605710" expanded="true" signature="4931:6541" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="4958:6527" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="4997:6526" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="5043:6506" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="5113:6484" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="6620:6730" ph="{&quot;url&quot;: '/viaje'...}" />
+            <marker date="1489066605710" expanded="true" signature="8726:10517" ph="{&quot;url&quot;: '/um'...}" />
+            <marker date="1489066605710" expanded="true" signature="8897:10507" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="8924:10493" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="8963:10492" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="9009:10472" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="9079:10450" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="10594:10709" ph="{&quot;url&quot;: '/supervisor'...}" />
+            <marker date="1489066605710" expanded="true" signature="10810:12608" ph="{&quot;url&quot;: '/anular'...}" />
+            <marker date="1489066605710" expanded="true" signature="14586:16392" ph="{&quot;url&quot;: '/umilla'...}" />
+            <marker date="1489066605710" expanded="true" signature="14772:16382" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="14799:16368" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="14838:16367" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="14884:16347" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="14954:16325" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="16462:16573" ph="{&quot;url&quot;: '/tarifa'...}" />
+            <marker date="1489066605710" expanded="true" signature="18533:20331" ph="{&quot;url&quot;: '/umilla'...}" />
+            <marker date="1489066605710" expanded="true" signature="20432:22229" ph="{&quot;url&quot;: '/factura'...}" />
+            <marker date="1489066605710" expanded="true" signature="20609:22219" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="20636:22205" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="20675:22204" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="20721:22184" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="20791:22162" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="22306:22421" ph="{&quot;url&quot;: '/reporteria'...}" />
+            <marker date="1489066605710" expanded="true" signature="22516:24326" ph="{&quot;url&quot;: '/mercaderia'...}" />
+            <marker date="1489066605710" expanded="true" signature="24417:26224" ph="{&quot;url&quot;: '/gastos'...}" />
+            <marker date="1489066605710" expanded="true" signature="26322:28137" ph="{&quot;url&quot;: '/reparto'...}" />
+            <marker date="1489066605710" expanded="true" signature="28218:30019" ph="{&quot;url&quot;: '/prorrateo'...}" />
+            <marker date="1489066605710" expanded="true" signature="28399:30009" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="28426:29995" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="28465:29994" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="28511:29974" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="28581:29952" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="30049:30161" ph="/*...*/" />
+            <marker date="1489066605710" expanded="true" signature="30231:30347" ph="{&quot;url&quot;: '/facturacion'...}" />
+            <marker date="1489066605710" expanded="false" signature="30449:30564" ph="{&quot;url&quot;: '/aprobacion'...}" />
+            <marker date="1489066605710" expanded="false" signature="34492:36304" ph="{&quot;url&quot;: '/umilla'...}" />
+            <marker date="1489066605710" expanded="true" signature="34684:36294" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="34711:36280" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="34750:36279" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="34796:36259" ph="{...}" />
+            <marker date="1489066605710" expanded="true" signature="34866:36237" ph="[...]" />
+            <marker date="1489066605710" expanded="true" signature="36406:36521" ph="{&quot;url&quot;: '/validacion'...}" />
+            <marker date="1489066605710" expanded="false" signature="40449:42261" ph="{&quot;url&quot;: '/umilla'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/despacho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+          <folding>
+            <element signature="e#6973#6979#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Gestion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1491,15 +1453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Facturacion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="374">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Servicio/crear.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
+        <state relative-caret-position="664">
           <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
           <folding />
         </state>
@@ -1507,7 +1469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
+        <state relative-caret-position="664">
           <caret line="130" column="45" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
@@ -1515,7 +1477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="664">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
@@ -1537,78 +1499,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolucion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="1336" column="62" selection-start-line="1336" selection-start-column="62" selection-end-line="1336" selection-end-column="62" />
-          <folding>
-            <element signature="e#30449#30564#0" expanded="false" />
-            <element signature="e#30674#32481#0" expanded="false" />
-            <element signature="e#32579#34388#0" expanded="false" />
-            <element signature="e#34492#36304#0" expanded="false" />
-            <element signature="e#36631#38438#0" expanded="false" />
-            <element signature="e#38536#40345#0" expanded="false" />
-            <element signature="e#40449#42261#0" expanded="false" />
-            <element signature="e#42572#44817#0" expanded="false" />
-            <element signature="e#44906#45019#0" expanded="false" />
-            <element signature="e#45132#47363#0" expanded="false" />
-            <element signature="e#47469#49705#0" expanded="false" />
-            <element signature="e#49795#49908#0" expanded="false" />
-            <element signature="e#50011#52230#0" expanded="false" />
-            <element signature="e#50367#52163#0" expanded="false" />
-            <element signature="e#52333#54543#0" expanded="false" />
-            <element signature="e#52610#54498#0" expanded="false" />
-            <element signature="e#54650#56878#0" expanded="false" />
-            <element signature="e#56964#57076#0" expanded="false" />
-            <element signature="e#57176#59399#0" expanded="false" />
-            <element signature="e#59603#59715#0" expanded="false" />
-            <element signature="e#59798#59916#0" expanded="false" />
-            <element signature="e#60027#62258#0" expanded="false" />
-            <element signature="e#60212#62248#0" expanded="false" />
-            <element signature="e#62366#64614#0" expanded="false" />
-            <element signature="e#64691#64805#0" expanded="false" />
-            <element signature="e#64916#67147#0" expanded="false" />
-            <element signature="e#67252#69477#0" expanded="false" />
-            <element signature="e#69578#71798#0" expanded="false" />
-            <element signature="e#71898#74115#0" expanded="false" />
-            <element signature="e#74186#74298#0" expanded="false" />
-            <element signature="e#74396#76610#0" expanded="false" />
-            <element signature="e#76698#78910#0" expanded="false" />
-            <element signature="e#78978#79088#0" expanded="false" />
-            <element signature="e#79170#81382#0" expanded="false" />
-            <element signature="e#81463#81580#0" expanded="false" />
-            <element signature="e#81677#83899#0" expanded="false" />
-            <element signature="e#86577#86693#0" expanded="false" />
-            <element signature="e#86783#88998#0" expanded="false" />
-            <element signature="e#93820#93930#0" expanded="false" />
-            <element signature="e#94014#96219#0" expanded="false" />
-            <element signature="e#96303#98508#0" expanded="false" />
-            <element signature="e#98720#98837#0" expanded="false" />
-            <element signature="e#98887#99003#0" expanded="false" />
-            <element signature="e#99061#99599#0" expanded="false" />
-            <element signature="e#100254#100797#0" expanded="false" />
-            <element signature="e#101449#101990#0" expanded="false" />
-            <element signature="e#102066#102177#0" expanded="false" />
-            <element signature="e#102269#102381#0" expanded="false" />
-            <element signature="e#102490#103038#0" expanded="false" />
-            <element signature="e#103168#103722#0" expanded="false" />
-            <element signature="e#103830#104370#0" expanded="false" />
-            <element signature="e#104567#104675#0" expanded="false" />
-            <element signature="e#104754#104872#0" expanded="false" />
-            <element signature="e#104940#105054#0" expanded="false" />
-            <element signature="e#105114#108992#0" expanded="false" />
-            <element signature="e#109098#112976#0" expanded="false" />
-            <element signature="e#113027#116900#0" expanded="false" />
-            <element signature="e#116945#120803#0" expanded="false" />
-            <element signature="e#120853#124721#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
