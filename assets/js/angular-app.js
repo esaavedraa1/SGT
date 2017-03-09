@@ -1581,6 +1581,158 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        //30900: MENU VIAJES
+        .state('app.gestion.documentos', {
+            url: '/documentos',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        .state('app.gestion.documentos.devolucion', {
+            url: '/devolucion',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //30901: PANTALLA DEVOLVER
+        .state('app.gestion.documento.devolucion.devolver', {
+            url: '/devolver',
+            data: { pageTitle: 'Devolver Documento' },
+            templateUrl: 'views/Gestion/Documento/Devolucion/devolver.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //30902: PANTALLA DEVOLVER
+        .state('app.gestion.documento.devolucion.detalle', {
+            url: '/detalle',
+            data: { pageTitle: 'Detalle Documento' },
+            templateUrl: 'views/Gestion/Documento/Devolucion/detalle.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        .state('app.gestion.documentos.rendicion', {
+            url: '/rendicion',
+            template: '<div ui-view></div>',
+            abstract: true
+        })
+        //30903: PANTALLA DEVOLVER
+        .state('app.gestion.documento.rendicion.rendir', {
+            url: '/rendir',
+            data: { pageTitle: 'Rendir Documentos' },
+            templateUrl: 'views/Gestion/Documento/Rendicion/rendir.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+        //30904: PANTALLA DEVOLVER
+        .state('app.gestion.documento.rendicion.detalle', {
+            url: '/detalle',
+            data: { pageTitle: 'Detalle Documentos' },
+            templateUrl: 'views/Gestion/Documento/Rendicion/detalle.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/select2/dist/css/select2.min.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js',
+                            'assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js',
+                            'assets/plugins/jquery-tag-it/js/tag-it.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/select2/dist/js/select2.min.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
         //FIN 30000
         /*------------------------------------------------------------------------------------------------------------*/
         //40000 MENU MANTENEDORES
@@ -1589,13 +1741,11 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
             template: '<div ui-view></div>',
             abstract: true
         })
-
         .state('app.mantenedores.proveedores', {
             url: '/proveedores',
             template: '<div ui-view></div>',
             abstract: true
         })
-
         .state('app.mantenedores.proveedores.listado', {
             url: '/listado',
             data: { pageTitle: 'Mantenedor Proveedores - Listado ' },
@@ -1611,7 +1761,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
         .state('app.mantenedores.proveedores.agregar', {
             url: '/agregar',
             data: { pageTitle: 'Mantenedor de Proveedores - Agregar' },
@@ -1627,7 +1776,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
         .state('app.mantenedores.proveedores.detalle', {
             url: '/detalle',
             data: { pageTitle: 'Mantenedor de Proveedores - Ver Detalle' },
@@ -1643,7 +1791,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
         .state('app.mantenedores.proveedores.editar', {
             url: '/editar',
             data: { pageTitle: 'Mantenedor de Proveedores - Editar' },
@@ -1659,7 +1806,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
         .state('app.mantenedores.proveedores.eliminar', {
             url: '/eliminar',
             data: { pageTitle: 'Mantenedor de Proveedores - Eliminar' },
@@ -1675,7 +1821,6 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
-
         //40500 : MENU TARIFAS
         .state('app.mantenedores.tarifa', {
             url: '/tarifa',

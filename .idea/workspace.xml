@@ -6,11 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +37,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rendir.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="943">
+              <caret line="1708" column="45" selection-start-line="1708" selection-start-column="45" selection-end-line="1708" selection-end-column="45" />
+              <folding>
+                <element signature="e#30449#30564#0" expanded="false" />
+                <element signature="e#32579#34388#0" expanded="false" />
+                <element signature="e#34492#36304#0" expanded="false" />
+                <element signature="e#38536#40345#0" expanded="false" />
+                <element signature="e#40449#42261#0" expanded="false" />
+                <element signature="e#83372#83489#0" expanded="false" />
+                <element signature="e#83586#85808#0" expanded="false" />
+                <element signature="e#86178#88408#0" expanded="false" />
+                <element signature="e#88692#90907#0" expanded="false" />
+                <element signature="e#91193#93407#0" expanded="false" />
+                <element signature="e#93454#95662#0" expanded="false" />
+                <element signature="e#95729#95839#0" expanded="false" />
+                <element signature="e#95923#98128#0" expanded="false" />
+                <element signature="e#98212#100417#0" expanded="false" />
+                <element signature="e#110442#110559#0" expanded="false" />
+                <element signature="e#110608#110724#0" expanded="false" />
+                <element signature="e#110781#111319#0" expanded="false" />
+                <element signature="e#110975#111309#0" expanded="false" />
+                <element signature="e#111376#111915#0" expanded="false" />
+                <element signature="e#111972#112515#0" expanded="false" />
+                <element signature="e#112571#113107#0" expanded="false" />
+                <element signature="e#113165#113706#0" expanded="false" />
+                <element signature="e#113781#113892#0" expanded="false" />
+                <element signature="e#113984#114096#0" expanded="false" />
+                <element signature="e#114205#114753#0" expanded="false" />
+                <element signature="e#114883#115437#0" expanded="false" />
+                <element signature="e#115545#116085#0" expanded="false" />
+                <element signature="e#116282#116390#0" expanded="false" />
+                <element signature="e#116469#116587#0" expanded="false" />
+                <element signature="e#116655#116769#0" expanded="false" />
+                <element signature="e#116829#120707#0" expanded="false" />
+                <element signature="e#120813#124691#0" expanded="false" />
+                <element signature="e#124742#128615#0" expanded="false" />
+                <element signature="e#128660#132518#0" expanded="false" />
+                <element signature="e#132568#136436#0" expanded="false" />
+                <marker date="1489069153527" expanded="true" signature="433:42263" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rendir.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/apps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +217,6 @@
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
-        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
-        <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Validaciones/despacho.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Documento/devolucion.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Documento/devolver.html" />
@@ -159,6 +224,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/detalle.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html" />
+        <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
+        <option value="$PROJECT_DIR$/template/sidebar.html" />
       </list>
     </option>
   </component>
@@ -690,14 +757,7 @@
       <workItem from="1488554276456" duration="1548000" />
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
-      <workItem from="1489066274126" duration="1026000" />
-    </task>
-    <task id="LOCAL-00523" summary="30101&#10;">
-      <created>1488307652781</created>
-      <option name="number" value="00523" />
-      <option name="presentableId" value="LOCAL-00523" />
-      <option name="project" value="LOCAL" />
-      <updated>1488307652781</updated>
+      <workItem from="1489066274126" duration="3019000" />
     </task>
     <task id="LOCAL-00524" summary="30101&#10;">
       <created>1488307716792</created>
@@ -1035,11 +1095,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488554697520</updated>
     </task>
-    <option name="localTasksCounter" value="572" />
+    <task id="LOCAL-00572" summary="30901 - 30904">
+      <created>1489067314344</created>
+      <option name="number" value="00572" />
+      <option name="presentableId" value="LOCAL-00572" />
+      <option name="project" value="LOCAL" />
+      <updated>1489067314345</updated>
+    </task>
+    <option name="localTasksCounter" value="573" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264032000" />
+    <option name="totallyTimeSpent" value="266025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1058,7 +1125,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34002113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.082365364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25237593" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
@@ -1110,7 +1177,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="30101" />
     <MESSAGE value="30203" />
     <MESSAGE value="30301" />
     <MESSAGE value="30401" />
@@ -1135,7 +1201,8 @@
     <MESSAGE value="90102" />
     <MESSAGE value="30701" />
     <MESSAGE value="30503" />
-    <option name="LAST_COMMIT_MESSAGE" value="30503" />
+    <MESSAGE value="30901 - 30904" />
+    <option name="LAST_COMMIT_MESSAGE" value="30901 - 30904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,8 +1211,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/solicitud_publicar.html" />
-    <entry file="file://$PROJECT_DIR$/views/solicitud_express.html" />
     <entry file="file://$PROJECT_DIR$/views/control_ingreso.html" />
     <entry file="file://$PROJECT_DIR$/views/control_salida.html" />
     <entry file="file://$PROJECT_DIR$/views/sello_crear.html" />
@@ -1348,94 +1413,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20315">
-          <caret line="1366" column="62" selection-start-line="1366" selection-start-column="62" selection-end-line="1366" selection-end-column="62" />
-          <folding>
-            <element signature="e#32579#34388#0" expanded="false" />
-            <element signature="e#34492#36304#0" expanded="false" />
-            <element signature="e#38536#40345#0" expanded="false" />
-            <element signature="e#40449#42261#0" expanded="false" />
-            <marker date="1489066605710" expanded="true" signature="433:42263" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="558:667" ph="{&quot;url&quot;: '/app'...}" />
-            <marker date="1489066605710" expanded="true" signature="744:2470" ph="{&quot;url&quot;: '/dashboard'...}" />
-            <marker date="1489066605710" expanded="true" signature="889:2460" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="916:2446" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="954:2445" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="1000:2425" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="1070:2403" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="2500:2612" ph="/*...*/" />
-            <marker date="1489066605710" expanded="true" signature="2676:2789" ph="{&quot;url&quot;: '/consulta'...}" />
-            <marker date="1489066605710" expanded="true" signature="4760:6551" ph="{&quot;url&quot;: '/dashboard'...}" />
-            <marker date="1489066605710" expanded="true" signature="4931:6541" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="4958:6527" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="4997:6526" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="5043:6506" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="5113:6484" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="6620:6730" ph="{&quot;url&quot;: '/viaje'...}" />
-            <marker date="1489066605710" expanded="true" signature="8726:10517" ph="{&quot;url&quot;: '/um'...}" />
-            <marker date="1489066605710" expanded="true" signature="8897:10507" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="8924:10493" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="8963:10492" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="9009:10472" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="9079:10450" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="10594:10709" ph="{&quot;url&quot;: '/supervisor'...}" />
-            <marker date="1489066605710" expanded="true" signature="10810:12608" ph="{&quot;url&quot;: '/anular'...}" />
-            <marker date="1489066605710" expanded="true" signature="14586:16392" ph="{&quot;url&quot;: '/umilla'...}" />
-            <marker date="1489066605710" expanded="true" signature="14772:16382" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="14799:16368" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="14838:16367" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="14884:16347" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="14954:16325" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="16462:16573" ph="{&quot;url&quot;: '/tarifa'...}" />
-            <marker date="1489066605710" expanded="true" signature="18533:20331" ph="{&quot;url&quot;: '/umilla'...}" />
-            <marker date="1489066605710" expanded="true" signature="20432:22229" ph="{&quot;url&quot;: '/factura'...}" />
-            <marker date="1489066605710" expanded="true" signature="20609:22219" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="20636:22205" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="20675:22204" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="20721:22184" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="20791:22162" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="22306:22421" ph="{&quot;url&quot;: '/reporteria'...}" />
-            <marker date="1489066605710" expanded="true" signature="22516:24326" ph="{&quot;url&quot;: '/mercaderia'...}" />
-            <marker date="1489066605710" expanded="true" signature="24417:26224" ph="{&quot;url&quot;: '/gastos'...}" />
-            <marker date="1489066605710" expanded="true" signature="26322:28137" ph="{&quot;url&quot;: '/reparto'...}" />
-            <marker date="1489066605710" expanded="true" signature="28218:30019" ph="{&quot;url&quot;: '/prorrateo'...}" />
-            <marker date="1489066605710" expanded="true" signature="28399:30009" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="28426:29995" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="28465:29994" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="28511:29974" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="28581:29952" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="30049:30161" ph="/*...*/" />
-            <marker date="1489066605710" expanded="true" signature="30231:30347" ph="{&quot;url&quot;: '/facturacion'...}" />
-            <marker date="1489066605710" expanded="false" signature="30449:30564" ph="{&quot;url&quot;: '/aprobacion'...}" />
-            <marker date="1489066605710" expanded="false" signature="34492:36304" ph="{&quot;url&quot;: '/umilla'...}" />
-            <marker date="1489066605710" expanded="true" signature="34684:36294" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="34711:36280" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="34750:36279" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="34796:36259" ph="{...}" />
-            <marker date="1489066605710" expanded="true" signature="34866:36237" ph="[...]" />
-            <marker date="1489066605710" expanded="true" signature="36406:36521" ph="{&quot;url&quot;: '/validacion'...}" />
-            <marker date="1489066605710" expanded="false" signature="40449:42261" ph="{&quot;url&quot;: '/umilla'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Validaciones/despacho.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <element signature="e#6973#6979#1" expanded="true" />
+            <element signature="e#6973#6979#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,10 +1515,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/apps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="1708" column="45" selection-start-line="1708" selection-start-column="45" selection-end-line="1708" selection-end-column="45" />
+          <folding>
+            <element signature="e#30449#30564#0" expanded="false" />
+            <element signature="e#32579#34388#0" expanded="false" />
+            <element signature="e#34492#36304#0" expanded="false" />
+            <element signature="e#38536#40345#0" expanded="false" />
+            <element signature="e#40449#42261#0" expanded="false" />
+            <element signature="e#83372#83489#0" expanded="false" />
+            <element signature="e#83586#85808#0" expanded="false" />
+            <element signature="e#86178#88408#0" expanded="false" />
+            <element signature="e#88692#90907#0" expanded="false" />
+            <element signature="e#91193#93407#0" expanded="false" />
+            <element signature="e#93454#95662#0" expanded="false" />
+            <element signature="e#95729#95839#0" expanded="false" />
+            <element signature="e#95923#98128#0" expanded="false" />
+            <element signature="e#98212#100417#0" expanded="false" />
+            <element signature="e#110442#110559#0" expanded="false" />
+            <element signature="e#110608#110724#0" expanded="false" />
+            <element signature="e#110781#111319#0" expanded="false" />
+            <element signature="e#110975#111309#0" expanded="false" />
+            <element signature="e#111376#111915#0" expanded="false" />
+            <element signature="e#111972#112515#0" expanded="false" />
+            <element signature="e#112571#113107#0" expanded="false" />
+            <element signature="e#113165#113706#0" expanded="false" />
+            <element signature="e#113781#113892#0" expanded="false" />
+            <element signature="e#113984#114096#0" expanded="false" />
+            <element signature="e#114205#114753#0" expanded="false" />
+            <element signature="e#114883#115437#0" expanded="false" />
+            <element signature="e#115545#116085#0" expanded="false" />
+            <element signature="e#116282#116390#0" expanded="false" />
+            <element signature="e#116469#116587#0" expanded="false" />
+            <element signature="e#116655#116769#0" expanded="false" />
+            <element signature="e#116829#120707#0" expanded="false" />
+            <element signature="e#120813#124691#0" expanded="false" />
+            <element signature="e#124742#128615#0" expanded="false" />
+            <element signature="e#128660#132518#0" expanded="false" />
+            <element signature="e#132568#136436#0" expanded="false" />
+            <marker date="1489069153527" expanded="true" signature="433:42263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
           <folding />
         </state>
       </provider>
