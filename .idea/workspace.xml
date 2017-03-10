@@ -49,8 +49,8 @@
       <file leaf-file-name="rendir.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="169" column="67" selection-start-line="169" selection-start-column="67" selection-end-line="169" selection-end-column="67" />
+            <state relative-caret-position="374">
+              <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -707,14 +707,7 @@
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
       <workItem from="1489066274126" duration="7817000" />
-      <workItem from="1489149322085" duration="6224000" />
-    </task>
-    <task id="LOCAL-00535" summary="30101&#10;">
-      <created>1488309949552</created>
-      <option name="number" value="00535" />
-      <option name="presentableId" value="LOCAL-00535" />
-      <option name="project" value="LOCAL" />
-      <updated>1488309949552</updated>
+      <workItem from="1489149322085" duration="6300000" />
     </task>
     <task id="LOCAL-00536" summary="30101&#10;">
       <created>1488310109646</created>
@@ -1052,11 +1045,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489158395804</updated>
     </task>
-    <option name="localTasksCounter" value="584" />
+    <task id="LOCAL-00584" summary="30903">
+      <created>1489159191675</created>
+      <option name="number" value="00584" />
+      <option name="presentableId" value="LOCAL-00584" />
+      <option name="project" value="LOCAL" />
+      <updated>1489159191675</updated>
+    </task>
+    <option name="localTasksCounter" value="585" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277047000" />
+    <option name="totallyTimeSpent" value="277123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1127,7 +1127,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="30301" />
     <MESSAGE value="30401" />
     <MESSAGE value="40503" />
     <MESSAGE value="30801" />
@@ -1152,7 +1151,8 @@
     <MESSAGE value="30503" />
     <MESSAGE value="30901 - 30904" />
     <MESSAGE value="40501" />
-    <option name="LAST_COMMIT_MESSAGE" value="40501" />
+    <MESSAGE value="30903" />
+    <option name="LAST_COMMIT_MESSAGE" value="30903" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1498,8 +1498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="169" column="67" selection-start-line="169" selection-start-column="67" selection-end-line="169" selection-end-column="67" />
+        <state relative-caret-position="374">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
           <folding />
         </state>
       </provider>
