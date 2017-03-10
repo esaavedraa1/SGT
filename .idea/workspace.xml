@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" afterPath="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" afterPath="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,21 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="devolver.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="devolver.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+            <state relative-caret-position="340">
+              <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historial.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="historial.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="969">
+              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="troncal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Consulta/Viajes/troncal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="2465">
               <caret line="145" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
               <folding />
             </state>
@@ -69,7 +69,7 @@
       <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-950">
+            <state relative-caret-position="119">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
@@ -79,7 +79,7 @@
       <file leaf-file-name="agregar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
+            <state relative-caret-position="765">
               <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="48" selection-end-column="38" />
               <folding />
             </state>
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/views/Gestion/Documento/Rendicion/rendir.html" />
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
         <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html" />
+        <option value="$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html" />
       </list>
     </option>
   </component>
@@ -177,10 +177,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,8 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -465,129 +465,6 @@
       <recent name="C:\Users\Core i3\Documents\SGT\views\Consulta" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/Facturacion/controllers.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-controller.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/aprueba.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/umilla.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Gestion/Planificacion/historica.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-app_err.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/angular-material.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index_old.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/apre.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/aprrec.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Aprobacion/marmota.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -715,14 +592,8 @@
       <workItem from="1488554276456" duration="1548000" />
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
-      <workItem from="1489066274126" duration="7713000" />
-    </task>
-    <task id="LOCAL-00529" summary="30101&#10;">
-      <created>1488309568848</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1488309568848</updated>
+      <workItem from="1489066274126" duration="7817000" />
+      <workItem from="1489149322085" duration="98000" />
     </task>
     <task id="LOCAL-00530" summary="30101&#10;">
       <created>1488309629024</created>
@@ -1060,11 +931,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489089823436</updated>
     </task>
-    <option name="localTasksCounter" value="578" />
+    <task id="LOCAL-00578" summary="40501">
+      <created>1489089877045</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1489089877046</updated>
+    </task>
+    <option name="localTasksCounter" value="579" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270719000" />
+    <option name="totallyTimeSpent" value="270921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,14 +954,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.082365364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.079027355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25237593" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
@@ -1361,9 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <element signature="e#6973#6979#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,11 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#130#755#0" expanded="false" />
-            <element signature="e#1267#1633#0" expanded="false" />
-            <element signature="e#1726#1953#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="130" column="45" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,23 +1274,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="41" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolucion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolucion.html" />
     <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Rendicion/detalle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,9 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1224">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,44 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="1662" column="37" selection-start-line="1662" selection-start-column="37" selection-end-line="1662" selection-end-column="37" />
-          <folding>
-            <element signature="e#30449#30564#0" expanded="false" />
-            <element signature="e#32579#34388#0" expanded="false" />
-            <element signature="e#34492#36304#0" expanded="false" />
-            <element signature="e#38536#40345#0" expanded="false" />
-            <element signature="e#40449#42261#0" expanded="false" />
-            <element signature="e#83372#83489#0" expanded="false" />
-            <element signature="e#83586#85808#0" expanded="false" />
-            <element signature="e#86178#88408#0" expanded="false" />
-            <element signature="e#88692#90907#0" expanded="false" />
-            <element signature="e#91193#93407#0" expanded="false" />
-            <element signature="e#93454#95662#0" expanded="false" />
-            <element signature="e#95729#95839#0" expanded="false" />
-            <element signature="e#95923#98128#0" expanded="false" />
-            <element signature="e#98212#100417#0" expanded="false" />
-            <element signature="e#110438#110555#0" expanded="false" />
-            <element signature="e#110604#110720#0" expanded="false" />
-            <element signature="e#110777#111315#0" expanded="false" />
-            <element signature="e#110971#111305#0" expanded="false" />
-            <element signature="e#111372#111911#0" expanded="false" />
-            <element signature="e#111968#112511#0" expanded="false" />
-            <element signature="e#112567#113103#0" expanded="false" />
-            <element signature="e#113161#113702#0" expanded="false" />
-            <element signature="e#113777#113888#0" expanded="false" />
-            <element signature="e#113980#114092#0" expanded="false" />
-            <element signature="e#114201#114749#0" expanded="false" />
-            <element signature="e#114879#115433#0" expanded="false" />
-            <element signature="e#115541#116081#0" expanded="false" />
-            <element signature="e#116278#116386#0" expanded="false" />
-            <element signature="e#116465#116583#0" expanded="false" />
-            <element signature="e#116651#116765#0" expanded="false" />
-            <element signature="e#116825#120703#0" expanded="false" />
-            <element signature="e#120809#124687#0" expanded="false" />
-            <element signature="e#124738#128611#0" expanded="false" />
-            <element signature="e#128656#132514#0" expanded="false" />
-            <element signature="e#132564#136432#0" expanded="false" />
-            <marker date="1489069840808" expanded="true" signature="433:42263" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1502,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,29 +1324,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1393">
           <caret line="204" column="115" selection-start-line="204" selection-start-column="115" selection-end-line="204" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Consulta/Viajes/troncal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="2465">
           <caret line="145" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Proveedores/agregar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
+        <state relative-caret-position="765">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="48" selection-end-column="38" />
           <folding />
         </state>
@@ -1540,7 +1345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
+        <state relative-caret-position="119">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
@@ -1548,8 +1353,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/historial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="969">
+          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
           <folding />
         </state>
       </provider>
