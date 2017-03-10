@@ -39,8 +39,8 @@
       <file leaf-file-name="devolver.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="147" column="79" selection-start-line="147" selection-start-column="79" selection-end-line="147" selection-end-column="79" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -693,14 +693,7 @@
       <workItem from="1488804620206" duration="389000" />
       <workItem from="1488822842925" duration="173000" />
       <workItem from="1489066274126" duration="7817000" />
-      <workItem from="1489149322085" duration="4438000" />
-    </task>
-    <task id="LOCAL-00533" summary="30101&#10;">
-      <created>1488309817493</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1488309817493</updated>
+      <workItem from="1489149322085" duration="5514000" />
     </task>
     <task id="LOCAL-00534" summary="30101&#10;">
       <created>1488309892721</created>
@@ -1038,11 +1031,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489151347391</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="40501">
+      <created>1489157157523</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1489157157523</updated>
+    </task>
+    <option name="localTasksCounter" value="583" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275261000" />
+    <option name="totallyTimeSpent" value="276337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1483,8 +1483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Gestion/Documento/Devolucion/devolver.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="147" column="79" selection-start-line="147" selection-start-column="79" selection-end-line="147" selection-end-column="79" />
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
