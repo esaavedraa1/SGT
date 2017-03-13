@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html" afterPath="$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+            <state relative-caret-position="390">
+              <caret line="180" column="29" selection-start-line="109" selection-start-column="21" selection-end-line="180" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="b2b_despacho.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="b2b_despacho.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="112" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="526">
+              <caret line="175" column="44" selection-start-line="175" selection-start-column="44" selection-end-line="175" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -185,7 +185,6 @@
         <option value="$PROJECT_DIR$/views/Gestion/Solicitud/despacho.html" />
         <option value="$PROJECT_DIR$/views/Consulta/Viajes/troncal.html" />
         <option value="$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html" />
-        <option value="$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/crear.html" />
         <option value="$PROJECT_DIR$/views/Gestion/Servicio/despacho.html" />
         <option value="$PROJECT_DIR$/assets/js/Gestion/controllers.js" />
@@ -200,6 +199,7 @@
         <option value="$PROJECT_DIR$/assets/js/angular-app.js" />
         <option value="$PROJECT_DIR$/template/sidebar.html" />
         <option value="$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html" />
+        <option value="$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html" />
       </list>
     </option>
   </component>
@@ -361,6 +361,119 @@
       <recent name="C:\Users\Core i3\Documents\SGT\views\Consulta" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Consulta/troncal.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Consulta/umilla.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Mantenedores/Tarifa/Troncal/agregar.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Facturacion/Consulta/umilla_old.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -490,14 +603,7 @@
       <workItem from="1488822842925" duration="173000" />
       <workItem from="1489066274126" duration="7817000" />
       <workItem from="1489149322085" duration="8266000" />
-      <workItem from="1489425468013" duration="2330000" />
-    </task>
-    <task id="LOCAL-00542" summary="30101&#10;">
-      <created>1488310867039</created>
-      <option name="number" value="00542" />
-      <option name="presentableId" value="LOCAL-00542" />
-      <option name="project" value="LOCAL" />
-      <updated>1488310867039</updated>
+      <workItem from="1489425468013" duration="4223000" />
     </task>
     <task id="LOCAL-00543" summary="30101&#10;">
       <created>1488311017931</created>
@@ -835,11 +941,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489427567016</updated>
     </task>
-    <option name="localTasksCounter" value="591" />
+    <task id="LOCAL-00591" summary="30903">
+      <created>1489427810015</created>
+      <option name="number" value="00591" />
+      <option name="presentableId" value="LOCAL-00591" />
+      <option name="project" value="LOCAL" />
+      <updated>1489427810016</updated>
+    </task>
+    <option name="localTasksCounter" value="592" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281419000" />
+    <option name="totallyTimeSpent" value="283312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1319,18 +1432,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html">
+    <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="112" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="180" column="29" selection-start-line="109" selection-start-column="21" selection-end-line="180" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html">
+    <entry file="file://$PROJECT_DIR$/views/B2B/Transportista/b2b_despacho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+        <state relative-caret-position="526">
+          <caret line="175" column="44" selection-start-line="175" selection-start-column="44" selection-end-line="175" selection-end-column="44" />
           <folding />
         </state>
       </provider>
