@@ -30,16 +30,57 @@
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-md-3 control-label">Numero de Viaje</label>
+                            <label class="col-md-3 control-label">N&uacute;mero de Viaje</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10021" />
                             </div>
-                            <label class="col-md-2 control-label">Numero de Manifiesto de Carga</label>
+                           <label class="col-md-2 control-label">Patente</label>
                             <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="10021" />
+                                <input type="text" class="form-control" placeholder="CPPL-54" />
                             </div>
                         </div>
-
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Fecha</label>
+                            <div class="col-md-6">
+                                <div class="input-group input-daterange">
+                                    <input type="text" class="form-control" name="start" placeholder="Inicio" />
+                                    <span class="input-group-addon">a</span>
+                                    <input type="text" class="form-control" name="end" placeholder="Termino" />
+                                </div>
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Tipo Cobro</label>
+                            <div class="col-md-2">
+                                 <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>45 CONCEPCION</option>
+                                    <option>41 TALCA</option>
+                                </select>
+                            </div>
+                           <label class="col-md-2 control-label">Tipo Viaje</label>
+                            <div class="col-md-2">
+                                 <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>45 CONCEPCION</option>
+                                    <option>41 TALCA</option>
+                                </select>
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Transportista</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="TRANSPORTES FABIO" />
+                            </div>
+                           <label class="col-md-2 control-label">Tipo Vehiculo</label>
+                            <div class="col-md-2">
+                                <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>45 CONCEPCION</option>
+                                    <option>41 TALCA</option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label">Origen</label>
                             <div class="col-md-2">
@@ -57,24 +98,21 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-3 control-label">Fecha</label>
-                            <div class="col-md-6">
-                                <div class="input-group input-daterange">
-                                    <input type="text" class="form-control" name="start" placeholder="Inicio" />
-                                    <span class="input-group-addon">a</span>
-                                    <input type="text" class="form-control" name="end" placeholder="Termino" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-md-3 control-label">Estado Viaje</label>
+                        
+						<div class="form-group">
+							<label class="col-md-3 control-label">N&uacute;mero de Manifiesto de Carga</label>
                             <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>Cargando</option>
-                                    <option>Recibido</option>
-                                </select>
+                                <input type="text" class="form-control" placeholder="222015" />
+                            </div>
+							<label class="col-md-2 control-label">N&uacute;mero de OF</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="1000" />
+                            </div>
+						</div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">OC</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="10550" />
                             </div>
                             <label class="col-md-2 control-label">Estado Facturacion</label>
                             <div class="col-md-2">
@@ -115,104 +153,92 @@
                     <table id="data-table" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th>N° Despacho</th>
-                            <th>Tipo</th>
-                            <th>Proveedor</th>
-                            <th>Tipo de Camión</th>
+                            <th>N° Viaje</th>
+                            <th>Patente</th>
+                            <th>Fec.Desde</th>
+                            <th>Fec.Hasta</th>
+							<th>Tipo Cobro</th>
+                            <th>Tipo Viaje</th>
+							<th>Transportista</th>
+							<th>Tipo Vehiculo</th>
                             <th>Origen</th>
                             <th>Destino</th>
-                            <th>Estado Via.</th>
-                            <th>Tarifa</th>
-                            <th>Fecha Fact</th>
+							<th>MC</th>
+							<th>OF</th>
+                            <th>OC</th>
                             <th>Estado Fac.</th>
-                            <th>N° Orn Fact</th>
-                            <th>Estado Orn Fact</th>
+                            <th>N° Factura</th>
+
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214222</a></td>
+                            <td>CPPL-54</td>
+                            <td>09/02/17</td>
+                            <td>10/02/17</td>
+                            <td>CARGA SUELTA</td>
                             <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
+                            <td>TRANSPORTES FABIO</td>
                             <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
+							<td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
-                            <td>CERRADO</td>
-                            <td>360,500</td>
-                            <td>09/02/17 12:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1002</td>
-                            <td>CREADA</td>
-                        </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214222</a></td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
-                            <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>17 TI-TALCA</td>
-                            <td>CERRADO</td>
-                            <td>490,500</td>
-                            <td>09/02/17 12:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1002</td>
-                            <td>CREADA</td>
+                            <td>222015</td>
+							<td>1000</td>
+							<td>10550</td>
+							<td>APROBADA</td>
+                            <td>45850</td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214223</a></td>
+                            <td>CPPL-54</td>
+                            <td>09/02/17</td>
+                            <td>10/02/17</td>
+                            <td>CARGA SUELTA</td>
                             <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
+                            <td>TRANSPORTES FABIO</td>
                             <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>15 ARICA</td>
-                            <td>CERRADO</td>
-                            <td>550,500</td>
-                            <td>09/02/17 12:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1002</td>
-                            <td>CREADA</td>
+							<td>00 CD-SANTIAGO</td>
+                            <td>45 CONCEPCIÓN</td>
+                            <td>222015</td>
+							<td>1000</td>
+							<td>10550</td>
+							<td>APROBADA</td>
+                            <td>45850</td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214223</a></td>
+                           <td><a href="../../carga_todos.html">214224</a></td>
+                            <td>CPPL-54</td>
+                            <td>09/02/17</td>
+                            <td>10/02/17</td>
+                            <td>CARGA SUELTA</td>
                             <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
+                            <td>TRANSPORTES FABIO</td>
                             <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>14 PUERTO MONTT</td>
-                            <td>CERRADO</td>
-                            <td>680,000</td>
-                            <td>12/02/17 02:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1003</td>
-                            <td>CREADA</td>
-                        </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214224</a></td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
-                            <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>36 ANTOFAGASTA</td>
-                            <td>CERRADO</td>
-                            <td>705,000</td>
-                            <td>12/02/17 02:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1003</td>
-                            <td>CREADA</td>
+							<td>00 CD-SANTIAGO</td>
+                            <td>45 CONCEPCIÓN</td>
+                            <td>222015</td>
+							<td>1000</td>
+							<td>10550</td>
+							<td>APROBADA</td>
+                            <td>45850</td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214225</a></td>
+                            <td>CPPL-54</td>
+                            <td>09/02/17</td>
+                            <td>10/02/17</td>
+                            <td>CARGA SUELTA</td>
                             <td>TRONCAL</td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
+                            <td>TRANSPORTES FABIO</td>
                             <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>19 LA FLORIDA</td>
-                            <td>OBJETADO</td>
-                            <td>90,500</td>
-                            <td>12/02/17 02:15:12 </td>
-                            <td>FACTURADO</td>
-                            <td>1003</td>
-                            <td>CREADA</td>
+							<td>00 CD-SANTIAGO</td>
+                            <td>45 CONCEPCIÓN</td>
+                            <td>222015</td>
+							<td>1000</td>
+							<td>10550</td>
+							<td>APROBADA</td>
+                            <td>45850</td>
                         </tr>
                         </tbody>
                     </table>
