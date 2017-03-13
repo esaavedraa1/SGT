@@ -260,7 +260,14 @@
                 <ul class="sub-menu">
                     <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Transportista</a>
+                    <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.despacho">Revisa Viaje</a></li>
                         <ul class="sub-menu">
+                            <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista.solicitud')}">
+                                <a href="javascript:;"><b class="caret pull-right"></b>Ordenes Facturación</a>
+                                <ul class="sub-menu">
+                                    <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.of.generar">Generar OF</a></li>
+                                </ul>
+                            </li>
                             <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista.solicitud')}">
                                 <a href="javascript:;"><b class="caret pull-right"></b>Solicitud</a>
                                 <ul class="sub-menu">
@@ -268,8 +275,6 @@
                                     <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.solicitud.detalle">Detalle Solicitud</a></li>
                                 </ul>
                             </li>
-
-                            <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.despacho">Revisa Viaje</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.oc">Ordenes de Facturación</a></li>
                             <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.factura">Facturas</a></li>
                         </ul>
