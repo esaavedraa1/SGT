@@ -260,9 +260,10 @@
                 <ul class="sub-menu">
                     <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista')}">
                         <a href="javascript:;"><b class="caret pull-right"></b> Transportista</a>
-                    <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.despacho">Revisa Viaje</a></li>
+
                         <ul class="sub-menu">
-                            <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista.solicitud')}">
+                            <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.despacho">Revisa Viaje</a></li>
+                            <li class="has-sub" ng-class="{active:$state.includes('app.b2b.transportista.of')}">
                                 <a href="javascript:;"><b class="caret pull-right"></b>Ordenes Facturación</a>
                                 <ul class="sub-menu">
                                     <li ui-sref-active="active"><a ui-sref="app.b2b.transportista.of.generar">Generar OF</a></li>

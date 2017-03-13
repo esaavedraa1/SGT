@@ -6,9 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/B2B/Transportista/OF/generar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/angular-app.js" afterPath="$PROJECT_DIR$/assets/js/angular-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/sidebar.html" afterPath="$PROJECT_DIR$/template/sidebar.html" />
     </list>
     <ignored path="SGT.iws" />
@@ -105,8 +103,8 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="276" column="33" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+            <state relative-caret-position="322">
+              <caret line="267" column="53" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -434,14 +432,7 @@
       <workItem from="1488822842925" duration="173000" />
       <workItem from="1489066274126" duration="7817000" />
       <workItem from="1489149322085" duration="8266000" />
-      <workItem from="1489425468013" duration="1105000" />
-    </task>
-    <task id="LOCAL-00538" summary="30101&#10;">
-      <created>1488310373857</created>
-      <option name="number" value="00538" />
-      <option name="presentableId" value="LOCAL-00538" />
-      <option name="project" value="LOCAL" />
-      <updated>1488310373857</updated>
+      <workItem from="1489425468013" duration="1479000" />
     </task>
     <task id="LOCAL-00539" summary="30101&#10;">
       <created>1488310406870</created>
@@ -779,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489169034587</updated>
     </task>
-    <option name="localTasksCounter" value="587" />
+    <task id="LOCAL-00587" summary="30903">
+      <created>1489426586188</created>
+      <option name="number" value="00587" />
+      <option name="presentableId" value="LOCAL-00587" />
+      <option name="project" value="LOCAL" />
+      <updated>1489426586190</updated>
+    </task>
+    <option name="localTasksCounter" value="588" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280194000" />
+    <option name="totallyTimeSpent" value="280568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1272,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="276" column="33" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+        <state relative-caret-position="322">
+          <caret line="267" column="53" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="53" />
           <folding />
         </state>
       </provider>
