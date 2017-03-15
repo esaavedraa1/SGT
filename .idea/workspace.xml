@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Modifica/ns.html" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/ns.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +98,8 @@
       <file leaf-file-name="ns.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+            <state relative-caret-position="612">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -646,14 +647,7 @@
       <workItem from="1489149322085" duration="8266000" />
       <workItem from="1489425468013" duration="4828000" />
       <workItem from="1489495624046" duration="983000" />
-      <workItem from="1489583323375" duration="3338000" />
-    </task>
-    <task id="LOCAL-00547" summary="30101&#10;">
-      <created>1488313661621</created>
-      <option name="number" value="00547" />
-      <option name="presentableId" value="LOCAL-00547" />
-      <option name="project" value="LOCAL" />
-      <updated>1488313661621</updated>
+      <workItem from="1489583323375" duration="3411000" />
     </task>
     <task id="LOCAL-00548" summary="30701">
       <created>1488378524136</created>
@@ -991,11 +985,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489590084612</updated>
     </task>
-    <option name="localTasksCounter" value="596" />
+    <task id="LOCAL-00596" summary="20502">
+      <created>1489590152948</created>
+      <option name="number" value="00596" />
+      <option name="presentableId" value="LOCAL-00596" />
+      <option name="project" value="LOCAL" />
+      <updated>1489590152948</updated>
+    </task>
+    <option name="localTasksCounter" value="597" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288238000" />
+    <option name="totallyTimeSpent" value="288311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1495,8 +1496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        <state relative-caret-position="612">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
       </provider>
