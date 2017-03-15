@@ -8,7 +8,7 @@
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Detalle Facturación Troncal <small>Gestión de Facturación</small></h1>
+    <h1 class="page-header">Detalle Facturación Ultima Milla <small>Gestión de Facturación</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -34,31 +34,7 @@
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10021" />
                             </div>
-                           <label class="col-md-2 control-label">Patente</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="CPPL-54" />
-                            </div>
-                        </div>
-						<div class="form-group">
-                            <label class="col-md-3 control-label">Fecha</label>
-                            <div class="col-md-6">
-                                <div class="input-group input-daterange">
-                                    <input type="text" class="form-control" name="start" placeholder="Inicio" />
-                                    <span class="input-group-addon">a</span>
-                                    <input type="text" class="form-control" name="end" placeholder="Termino" />
-                                </div>
-                            </div>
-                        </div>
-						<div class="form-group">
-                            <label class="col-md-3 control-label">Tipo Cobro</label>
-                            <div class="col-md-2">
-                                 <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>45 CONCEPCION</option>
-                                    <option>41 TALCA</option>
-                                </select>
-                            </div>
-                           <label class="col-md-2 control-label">Tipo Viaje</label>
+							<label class="col-md-2 control-label">Tipo Viaje</label>
                             <div class="col-md-2">
                                  <select class="form-control">
                                     <option>Todos</option>
@@ -67,21 +43,7 @@
                                 </select>
                             </div>
                         </div>
-						<div class="form-group">
-                            <label class="col-md-3 control-label">Transportista</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="TRANSPORTES FABIO" />
-                            </div>
-                           <label class="col-md-2 control-label">Tipo Vehiculo</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>45 CONCEPCION</option>
-                                    <option>41 TALCA</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
+						 <div class="form-group">
                             <label class="col-md-3 control-label">Origen</label>
                             <div class="col-md-2">
                                 <select class="form-control">
@@ -98,23 +60,55 @@
                                 </select>
                             </div>
                         </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Fecha</label>
+                            <div class="col-md-6">
+                                <div class="input-group input-daterange">
+                                    <input type="text" class="form-control" name="start" placeholder="Inicio" />
+                                    <span class="input-group-addon">a</span>
+                                    <input type="text" class="form-control" name="end" placeholder="Termino" />
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Estado Boleta</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="Cerrada" />
+                            </div>
+                           <label class="col-md-2 control-label">N&uacute;mero Boleta</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="69" />
+                            </div>
+                        </div>
+                       
                         
 						<div class="form-group">
 							<label class="col-md-3 control-label">N&uacute;mero de Manifiesto de Carga</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="222015" />
                             </div>
-							<label class="col-md-2 control-label">N&uacute;mero de OF</label>
+							<label class="col-md-2 control-label">N&uacute;mero de ND</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="1000" />
                             </div>
 						</div>
                         <div class="form-group">
-                            <label class="col-md-3 control-label">OC</label>
+						
+							<label class="col-md-3 control-label">N&uacute;mero de OF</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="1000" />
+                            </div>
+                            <label class="col-md-2 control-label">OC</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10550" />
                             </div>
-                            <label class="col-md-2 control-label">Estado Facturacion</label>
+                            
+                        </div>
+						
+						<div class="form-group">
+						
+							<label class="col-md-3 control-label">Estado Facturacion</label>
                             <div class="col-md-2">
                                 <select class="form-control">
                                     <option>Todos</option>
@@ -122,7 +116,13 @@
                                     <option>Recibido</option>
                                 </select>
                             </div>
+                            <label class="col-md-2 control-label">N&uacute;mero Factura</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="16900" />
+                            </div>
+                            
                         </div>
+						
 
                         <div class="form-group">
                             <label class="col-md-3 control-label">Acciones:</label>
@@ -154,92 +154,58 @@
                         <thead>
                         <tr>
                             <th>N° Viaje</th>
-                            <th>Patente</th>
+							<th>Tipo Viaje</th>
+                            <th>Origen</th>
+                            <th>Destino</th>x
                             <th>Fec.Desde</th>
                             <th>Fec.Hasta</th>
-							<th>Tipo Cobro</th>
-                            <th>Tipo Viaje</th>
-							<th>Transportista</th>
-							<th>Tipo Vehiculo</th>
-                            <th>Origen</th>
-                            <th>Destino</th>
 							<th>MC</th>
-							<th>OF</th>
-                            <th>OC</th>
-                            <th>Estado Fac.</th>
-                            <th>N° Factura</th>
+							<th>Boleta</th>
+							<th>Estado Boleta</th>
+							<th>ND</th>
+                            <th>Estado ND</th>
+							<th>Destino ND</th>
+                            <th>Metodo.</th>
+                            <th>Tamaño</th>
 
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214222</a></td>
-                            <td>CPPL-54</td>
-                            <td>09/02/17</td>
-                            <td>10/02/17</td>
                             <td>CARGA SUELTA</td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES FABIO</td>
-                            <td>CM40</td>
 							<td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
-                            <td>222015</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
+                            <td>09/02/17</td>
+                            <td>10/02/17</td>
+                            							
+                            <td>45000</td>
+							<td>69</td>
+							<td>Cerrada</td>
+							<td>5500</td>
+                            <td>Entregado</td>
+							<td>Asturias 830, Concepci&oacute;n</td>
+							<td>Normal</td>
+							<td>Mediano</td>
                         </tr>
-                        <tr class="odd gradeX">
+						<tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214223</a></td>
-                            <td>CPPL-54</td>
-                            <td>09/02/17</td>
-                            <td>10/02/17</td>
                             <td>CARGA SUELTA</td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES FABIO</td>
-                            <td>CM40</td>
 							<td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
-                            <td>222015</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
-                        </tr>
-                        <tr class="odd gradeX">
-                           <td><a href="../../carga_todos.html">214224</a></td>
-                            <td>CPPL-54</td>
                             <td>09/02/17</td>
                             <td>10/02/17</td>
-                            <td>CARGA SUELTA</td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES FABIO</td>
-                            <td>CM40</td>
-							<td>00 CD-SANTIAGO</td>
-                            <td>45 CONCEPCIÓN</td>
-                            <td>222015</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
+                            							
+                            <td>45001</td>
+							<td>69</td>
+							<td>Cerrada</td>
+							<td>5501</td>
+                            <td>Entregado</td>
+							<td>Asturias 830, Concepci&oacute;n</td>
+							<td>Normal</td>
+							<td>Mediano</td>
                         </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214225</a></td>
-                            <td>CPPL-54</td>
-                            <td>09/02/17</td>
-                            <td>10/02/17</td>
-                            <td>CARGA SUELTA</td>
-                            <td>TRONCAL</td>
-                            <td>TRANSPORTES FABIO</td>
-                            <td>CM40</td>
-							<td>00 CD-SANTIAGO</td>
-                            <td>45 CONCEPCIÓN</td>
-                            <td>222015</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
-                        </tr>
+                        
                         </tbody>
                     </table>
                     <div class="col-md-1">
