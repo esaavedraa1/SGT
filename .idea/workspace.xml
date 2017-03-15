@@ -98,8 +98,8 @@
       <file leaf-file-name="ns.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
+            <state relative-caret-position="161">
+              <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -647,14 +647,7 @@
       <workItem from="1489149322085" duration="8266000" />
       <workItem from="1489425468013" duration="4828000" />
       <workItem from="1489495624046" duration="983000" />
-      <workItem from="1489583323375" duration="5487000" />
-    </task>
-    <task id="LOCAL-00551" summary="30701">
-      <created>1488379286598</created>
-      <option name="number" value="00551" />
-      <option name="presentableId" value="LOCAL-00551" />
-      <option name="project" value="LOCAL" />
-      <updated>1488379286598</updated>
+      <workItem from="1489583323375" duration="5566000" />
     </task>
     <task id="LOCAL-00552" summary="30701">
       <created>1488379367494</created>
@@ -992,11 +985,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489600657846</updated>
     </task>
-    <option name="localTasksCounter" value="600" />
+    <task id="LOCAL-00600" summary="20502">
+      <created>1489602218776</created>
+      <option name="number" value="00600" />
+      <option name="presentableId" value="LOCAL-00600" />
+      <option name="project" value="LOCAL" />
+      <updated>1489602218776</updated>
+    </task>
+    <option name="localTasksCounter" value="601" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290387000" />
+    <option name="totallyTimeSpent" value="290466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1496,8 +1496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
+        <state relative-caret-position="161">
+          <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
           <folding />
         </state>
       </provider>
