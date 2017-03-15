@@ -115,6 +115,15 @@ colorAdminApp.controller('30801_Controller', function($scope, $rootScope, $state
             }
         });
     }
+	$scope.PRO_EDIT_VIAJE=function()
+    {
+        bootbox.prompt({
+            title: "Seleccione Nuevo Viaje",
+            callback: function (result) {
+                console.log(result);
+            }
+        });
+    }
     $scope.PRO_CANC=function()
     {
         bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
