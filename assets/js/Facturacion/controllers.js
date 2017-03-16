@@ -13,7 +13,20 @@ colorAdminApp.controller('20501_Controller', function($scope, $rootScope, $state
         bootbox.alert("Viaje sin cambios");
     }
 });
-colorAdminApp.controller('20502_Controller', function($scope, $rootScope, $state) {
+colorAdminApp.controller('20502_Controller', function($scope, $rootScope, $state,$window) {
+    $scope.PRO_ACEP_OBJ=function()
+    {
+        bootbox.prompt("Ingrese Nueva Tarifa",function (result) {
+            console.log(result);
+        });
+    }
+    $scope.PRO_CANC=function()
+    {
+        bootbox.confirm("Desea Salir y volver al menu principal?",function (result) {
+            if(result){
+                $window.location.href='#/app/dashboard';}
+        });
+    }
     angular.element(document).ready(function () {
         /* Datepicker
          ------------------------- */
