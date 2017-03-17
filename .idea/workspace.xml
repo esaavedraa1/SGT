@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -697,14 +696,7 @@
       <workItem from="1489425468013" duration="4828000" />
       <workItem from="1489495624046" duration="983000" />
       <workItem from="1489583323375" duration="7975000" />
-      <workItem from="1489668091870" duration="6724000" />
-    </task>
-    <task id="LOCAL-00558" summary="30701">
-      <created>1488380006859</created>
-      <option name="number" value="00558" />
-      <option name="presentableId" value="LOCAL-00558" />
-      <option name="project" value="LOCAL" />
-      <updated>1488380006859</updated>
+      <workItem from="1489668091870" duration="6739000" />
     </task>
     <task id="LOCAL-00559" summary="30702">
       <created>1488380743742</created>
@@ -1042,11 +1034,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489776726668</updated>
     </task>
-    <option name="localTasksCounter" value="607" />
+    <task id="LOCAL-00607" summary="20503">
+      <created>1489776836275</created>
+      <option name="number" value="00607" />
+      <option name="presentableId" value="LOCAL-00607" />
+      <option name="project" value="LOCAL" />
+      <updated>1489776836275</updated>
+    </task>
+    <option name="localTasksCounter" value="608" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299599000" />
+    <option name="totallyTimeSpent" value="299614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
