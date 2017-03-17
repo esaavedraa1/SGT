@@ -156,8 +156,8 @@
       <file leaf-file-name="boleta.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="184" column="81" selection-start-line="184" selection-start-column="81" selection-end-line="184" selection-end-column="81" />
+            <state relative-caret-position="493">
+              <caret line="197" column="54" selection-start-line="197" selection-start-column="54" selection-end-line="197" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -697,14 +697,7 @@
       <workItem from="1489425468013" duration="4828000" />
       <workItem from="1489495624046" duration="983000" />
       <workItem from="1489583323375" duration="7975000" />
-      <workItem from="1489668091870" duration="6614000" />
-    </task>
-    <task id="LOCAL-00557" summary="30701">
-      <created>1488379823683</created>
-      <option name="number" value="00557" />
-      <option name="presentableId" value="LOCAL-00557" />
-      <option name="project" value="LOCAL" />
-      <updated>1488379823686</updated>
+      <workItem from="1489668091870" duration="6724000" />
     </task>
     <task id="LOCAL-00558" summary="30701">
       <created>1488380006859</created>
@@ -1042,11 +1035,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489776606945</updated>
     </task>
-    <option name="localTasksCounter" value="606" />
+    <task id="LOCAL-00606" summary="20503">
+      <created>1489776726668</created>
+      <option name="number" value="00606" />
+      <option name="presentableId" value="LOCAL-00606" />
+      <option name="project" value="LOCAL" />
+      <updated>1489776726668</updated>
+    </task>
+    <option name="localTasksCounter" value="607" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299489000" />
+    <option name="totallyTimeSpent" value="299599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1583,8 +1583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="184" column="81" selection-start-line="184" selection-start-column="81" selection-end-line="184" selection-end-column="81" />
+        <state relative-caret-position="493">
+          <caret line="197" column="54" selection-start-line="197" selection-start-column="54" selection-end-line="197" selection-end-column="54" />
           <folding />
         </state>
       </provider>
