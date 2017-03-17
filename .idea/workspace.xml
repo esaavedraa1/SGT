@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fd5cd0-787b-4e97-83b9-452d25bc45f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" afterPath="$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html" />
     </list>
     <ignored path="SGT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,8 +156,8 @@
       <file leaf-file-name="boleta.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="197" column="54" selection-start-line="197" selection-start-column="54" selection-end-line="197" selection-end-column="54" />
+            <state relative-caret-position="272">
+              <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -696,14 +697,7 @@
       <workItem from="1489425468013" duration="4828000" />
       <workItem from="1489495624046" duration="983000" />
       <workItem from="1489583323375" duration="7975000" />
-      <workItem from="1489668091870" duration="6739000" />
-    </task>
-    <task id="LOCAL-00559" summary="30702">
-      <created>1488380743742</created>
-      <option name="number" value="00559" />
-      <option name="presentableId" value="LOCAL-00559" />
-      <option name="project" value="LOCAL" />
-      <updated>1488380743742</updated>
+      <workItem from="1489668091870" duration="6803000" />
     </task>
     <task id="LOCAL-00560" summary="30702">
       <created>1488380796851</created>
@@ -1041,11 +1035,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489776836275</updated>
     </task>
-    <option name="localTasksCounter" value="608" />
+    <task id="LOCAL-00608" summary="20503">
+      <created>1489776851004</created>
+      <option name="number" value="00608" />
+      <option name="presentableId" value="LOCAL-00608" />
+      <option name="project" value="LOCAL" />
+      <updated>1489776851004</updated>
+    </task>
+    <option name="localTasksCounter" value="609" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299614000" />
+    <option name="totallyTimeSpent" value="299678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1582,8 +1583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="197" column="54" selection-start-line="197" selection-start-column="54" selection-end-line="197" selection-end-column="54" />
+        <state relative-caret-position="272">
+          <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
           <folding />
         </state>
       </provider>
