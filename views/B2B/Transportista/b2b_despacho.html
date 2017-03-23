@@ -1,4 +1,4 @@
-<div ng-controller="tablaManifiestoDefaultController">
+<div ng-controller="B2B_Fact_Obje_Resp_Controller">
     <!-- begin breadcrumb -->
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
@@ -33,7 +33,17 @@
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="200021" />
                             </div>
-
+							<label class="col-md-2 control-label">Tipo Viaje</label>
+                            <div class="col-md-2">
+                                <select class="form-control">
+                                   
+                                    <option>TRN</option>
+                                    <option>UM</option>
+									<option>DDC</option>
+									<option>SEV</option>
+									<option>MOD</option>
+                                </select>
+                            </div>
                         </div>
 
                         <div class="form-group">
@@ -61,6 +71,16 @@
                                     <span class="input-group-addon">a</span>
                                     <input type="text" class="form-control" name="end" placeholder="Termino" />
                                 </div>
+                            </div>
+                        </div>
+						 <div class="form-group">
+                            <label class="col-md-3 control-label">ND</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="100" />
+                            </div>
+							<label class="col-md-2 control-label">Boleta</label>
+                             <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="65000" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -93,86 +113,72 @@
                         <thead>
                         <tr>
                             <th>N° Despacho</th>
-                            <th>Tipo Despacho</th>
-                            <th>Tipo de Cobro</th>
+                            <th>Proveedor</th>
                             <th>Tipo de Camión</th>
                             <th>Origen</th>
                             <th>Destino</th>
-                            <th>Fecha</th>
-                            <td>Estado</td>
+                            <th>Estado</th>
                             <th>Tarifa</th>
                             <th>Seleccionar</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214222</a></td>
-                            <td>TRONCAL</td>
-                            <td>CARGA COMPLETA</td>
+                            <td><a href="../../carga_todos.html">214222</a></td>.
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
-                            <td>55 CD-SANTIAGO</td>
+                            <td>00 CD-SANTIAGO</td>
                             <td>45 CONCEPCIÓN</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>360,500</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214222</a></td>
-                            <td>TRONCAL</td>
-                            <td>CARGA COMPLETA</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>17 TI-TALCA</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>490,500</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214223</a></td>
-                            <td>TRONCAL</td>
-                            <td>CARGA COMPLETA</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>15 ARICA</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>550,500</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214223</a></td>
-                            <td>TRONCAL</td>
-                            <td>CARGA COMPLETA</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>14 PUERTO MONTT</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>680,000</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214224</a></td>
-                            <td>DESPACHO DIRECTO</td>
-                            <td>CARGA COMPLETA</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>36 ANTOFAGASTA</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>705,000</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
                             <td><a href="../../carga_todos.html">214225</a></td>
-                            <td>ULTIMA MILLA</td>
-                            <td>CARGA COMPLETA</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
                             <td>CM40</td>
                             <td>00 CD-SANTIAGO</td>
                             <td>19 LA FLORIDA</td>
-                            <td>12/02/17 15:01:59</td>
                             <td>CERRADO</td>
                             <td>90,500</td>
                             <td><input type="checkbox" value="es"> </td>
@@ -186,9 +192,9 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-                            <button class="btn btn-success " >Agregar</button>
-
-                            <button class="btn btn-inverse" >Objetar</button>
+							<button class="btn btn-success " ng-click="PRO_ACEP_OBJ()" >Aceptar</button>
+                            <button class="btn btn-danger " ng-click="PRO_RECH_OBJ()">Objetar Nivel Servicio</button>
+							<button class="btn btn-danger " ng-click="PRO_RECH_OBJ()">Objetar ND</button>
                             <button class="btn btn-info" >Cancelar</button>
                         </p>
                     </div>

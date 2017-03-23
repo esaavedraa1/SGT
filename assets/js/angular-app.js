@@ -650,6 +650,36 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+	 //2010X : APRUEBA RECHAZA ORDEN DE FACTURACION
+        .state('app.facturacion.aprobacion.aprueba_sev', {
+            url: '/aprueba_sev',
+            data: { pageTitle: 'Facturación - Aprobacion OF SEV' },
+            templateUrl: 'views/Facturacion/Aprobacion/aprueba_sev.html',
+            resolve: {
+                service: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css',
+                            'assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.css',
+                            'assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css',
+                            'assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.css',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css',
+                            'assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                            'assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js',
+                            'assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
+                            'assets/plugins/bootstrap-daterangepicker/moment.js',
+                            'assets/plugins/bootstrap-daterangepicker/daterangepicker.js',
+                            'assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
         //20102 : DETALLE VIAJES TRONCALES
         .state('app.facturacion.aprobacion.troncal', {
             url: '/troncal',
@@ -2177,6 +2207,7 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+        //XXXXX : Pantalla solicitud detalle
         .state('app.b2b.transportista.despacho', {
             url: '/despacho',
             data: { pageTitle: 'Despachos Realizados' },

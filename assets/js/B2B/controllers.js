@@ -60,7 +60,7 @@ colorAdminApp.controller('B2B_Fact_Obje_Resp_Controller', function($scope, $root
     }
     $scope.PRO_RECHA_OBJ=function()
     {
-        bootbox.prompt("Ingrese un Comentario para la Objeción",function (result) {
+        bootbox.prompt("Ingrese un Comentario para la ObjeciÃ³n",function (result) {
             console.log(result);
         });
     }
