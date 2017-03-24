@@ -39,57 +39,12 @@
       <file leaf-file-name="angular-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23698">
-              <caret line="2178" column="10" selection-start-line="2178" selection-start-column="10" selection-end-line="2178" selection-end-column="10" />
+            <state relative-caret-position="37468">
+              <caret line="2209" column="10" selection-start-line="2209" selection-start-column="10" selection-end-line="2209" selection-end-column="10" />
               <folding>
-                <element signature="e#83725#83837#0" expanded="false" />
-                <element signature="e#83935#86149#0" expanded="false" />
-                <element signature="e#86237#88449#0" expanded="false" />
-                <element signature="e#88517#88627#0" expanded="false" />
-                <element signature="e#88709#90921#0" expanded="false" />
-                <element signature="e#91002#91119#0" expanded="false" />
-                <element signature="e#91216#93438#0" expanded="false" />
-                <element signature="e#93541#93713#0" expanded="false" />
-                <element signature="e#93808#96038#0" expanded="false" />
-                <element signature="e#96116#96232#0" expanded="false" />
-                <element signature="e#96322#98537#0" expanded="false" />
-                <element signature="e#98611#98724#0" expanded="false" />
-                <element signature="e#98823#101037#0" expanded="false" />
-                <element signature="e#101084#103292#0" expanded="false" />
-                <element signature="e#103359#103469#0" expanded="false" />
-                <element signature="e#103553#105758#0" expanded="false" />
-                <element signature="e#105842#108047#0" expanded="false" />
-                <element signature="e#108118#108232#0" expanded="false" />
-                <element signature="e#108285#108400#0" expanded="false" />
-                <element signature="e#108497#110727#0" expanded="false" />
-                <element signature="e#110823#113050#0" expanded="false" />
-                <element signature="e#113102#113216#0" expanded="false" />
-                <element signature="e#113310#115534#0" expanded="false" />
-                <element signature="e#115629#117856#0" expanded="false" />
-                <element signature="e#118068#118185#0" expanded="false" />
-                <element signature="e#118234#118350#0" expanded="false" />
-                <element signature="e#118407#118945#0" expanded="false" />
-                <element signature="e#119002#119541#0" expanded="false" />
-                <element signature="e#119598#120141#0" expanded="false" />
-                <element signature="e#120197#120733#0" expanded="false" />
-                <element signature="e#120791#121332#0" expanded="false" />
-                <element signature="e#121407#121518#0" expanded="false" />
-                <element signature="e#121610#121722#0" expanded="false" />
-                <element signature="e#121831#122379#0" expanded="false" />
-                <element signature="e#122509#123063#0" expanded="false" />
-                <element signature="e#123171#123711#0" expanded="false" />
-                <element signature="e#123945#124053#0" expanded="false" />
-                <element signature="e#124111#124229#0" expanded="false" />
-                <element signature="e#124290#124397#0" expanded="false" />
-                <element signature="e#124450#128310#0" expanded="false" />
-                <element signature="e#128363#128477#0" expanded="false" />
-                <element signature="e#128537#132415#0" expanded="false" />
-                <element signature="e#128722#132405#0" expanded="false" />
-                <element signature="e#132521#136399#0" expanded="false" />
-                <element signature="e#132888#136332#0" expanded="false" />
-                <element signature="e#136450#140323#0" expanded="false" />
-                <element signature="e#140368#144226#0" expanded="false" />
-                <element signature="e#144276#148144#0" expanded="false" />
+                <element signature="e#138422#142295#0" expanded="false" />
+                <element signature="e#142340#146198#0" expanded="false" />
+                <element signature="e#146248#150116#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,7 +53,7 @@
       <file leaf-file-name="ns.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="969">
               <caret line="57" column="30" selection-start-line="52" selection-start-column="23" selection-end-line="57" selection-end-column="30" />
               <folding />
             </state>
@@ -108,9 +63,11 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Facturacion/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="765">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <folding>
+                <marker date="1490299299691" expanded="true" signature="1942:1944" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +75,8 @@
       <file leaf-file-name="boleta.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+            <state relative-caret-position="-119">
+              <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -257,6 +214,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,7 +343,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,14 +498,8 @@
       <workItem from="1489495624046" duration="983000" />
       <workItem from="1489583323375" duration="7975000" />
       <workItem from="1489668091870" duration="7445000" />
-      <workItem from="1490298565572" duration="709000" />
-    </task>
-    <task id="LOCAL-00563" summary="30702">
-      <created>1488380952006</created>
-      <option name="number" value="00563" />
-      <option name="presentableId" value="LOCAL-00563" />
-      <option name="project" value="LOCAL" />
-      <updated>1488380952006</updated>
+      <workItem from="1490298565572" duration="1096000" />
+      <workItem from="1490365989074" duration="14000" />
     </task>
     <task id="LOCAL-00564" summary="30702">
       <created>1488381018461</created>
@@ -886,11 +837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490299175881</updated>
     </task>
-    <option name="localTasksCounter" value="612" />
+    <task id="LOCAL-00612" summary="20503">
+      <created>1490299286793</created>
+      <option name="number" value="00612" />
+      <option name="presentableId" value="LOCAL-00612" />
+      <option name="project" value="LOCAL" />
+      <updated>1490299286793</updated>
+    </task>
+    <option name="localTasksCounter" value="613" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301029000" />
+    <option name="totallyTimeSpent" value="301430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,11 +863,11 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.49630412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16156283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16156283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25237593" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
@@ -1301,66 +1259,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/angular-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23698">
-          <caret line="2178" column="10" selection-start-line="2178" selection-start-column="10" selection-end-line="2178" selection-end-column="10" />
+        <state relative-caret-position="37468">
+          <caret line="2209" column="10" selection-start-line="2209" selection-start-column="10" selection-end-line="2209" selection-end-column="10" />
           <folding>
-            <element signature="e#83725#83837#0" expanded="false" />
-            <element signature="e#83935#86149#0" expanded="false" />
-            <element signature="e#86237#88449#0" expanded="false" />
-            <element signature="e#88517#88627#0" expanded="false" />
-            <element signature="e#88709#90921#0" expanded="false" />
-            <element signature="e#91002#91119#0" expanded="false" />
-            <element signature="e#91216#93438#0" expanded="false" />
-            <element signature="e#93541#93713#0" expanded="false" />
-            <element signature="e#93808#96038#0" expanded="false" />
-            <element signature="e#96116#96232#0" expanded="false" />
-            <element signature="e#96322#98537#0" expanded="false" />
-            <element signature="e#98611#98724#0" expanded="false" />
-            <element signature="e#98823#101037#0" expanded="false" />
-            <element signature="e#101084#103292#0" expanded="false" />
-            <element signature="e#103359#103469#0" expanded="false" />
-            <element signature="e#103553#105758#0" expanded="false" />
-            <element signature="e#105842#108047#0" expanded="false" />
-            <element signature="e#108118#108232#0" expanded="false" />
-            <element signature="e#108285#108400#0" expanded="false" />
-            <element signature="e#108497#110727#0" expanded="false" />
-            <element signature="e#110823#113050#0" expanded="false" />
-            <element signature="e#113102#113216#0" expanded="false" />
-            <element signature="e#113310#115534#0" expanded="false" />
-            <element signature="e#115629#117856#0" expanded="false" />
-            <element signature="e#118068#118185#0" expanded="false" />
-            <element signature="e#118234#118350#0" expanded="false" />
-            <element signature="e#118407#118945#0" expanded="false" />
-            <element signature="e#119002#119541#0" expanded="false" />
-            <element signature="e#119598#120141#0" expanded="false" />
-            <element signature="e#120197#120733#0" expanded="false" />
-            <element signature="e#120791#121332#0" expanded="false" />
-            <element signature="e#121407#121518#0" expanded="false" />
-            <element signature="e#121610#121722#0" expanded="false" />
-            <element signature="e#121831#122379#0" expanded="false" />
-            <element signature="e#122509#123063#0" expanded="false" />
-            <element signature="e#123171#123711#0" expanded="false" />
-            <element signature="e#123945#124053#0" expanded="false" />
-            <element signature="e#124111#124229#0" expanded="false" />
-            <element signature="e#124290#124397#0" expanded="false" />
-            <element signature="e#124450#128310#0" expanded="false" />
-            <element signature="e#128363#128477#0" expanded="false" />
-            <element signature="e#128537#132415#0" expanded="false" />
-            <element signature="e#128722#132405#0" expanded="false" />
-            <element signature="e#132521#136399#0" expanded="false" />
-            <element signature="e#132888#136332#0" expanded="false" />
-            <element signature="e#136450#140323#0" expanded="false" />
-            <element signature="e#140368#144226#0" expanded="false" />
-            <element signature="e#144276#148144#0" expanded="false" />
+            <element signature="e#138422#142295#0" expanded="false" />
+            <element signature="e#142340#146198#0" expanded="false" />
+            <element signature="e#146248#150116#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Facturacion/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="765">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <marker date="1490299299691" expanded="true" signature="1942:1944" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1374,7 +1289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/ns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="969">
           <caret line="57" column="30" selection-start-line="52" selection-start-column="23" selection-end-line="57" selection-end-column="30" />
           <folding />
         </state>
@@ -1382,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Facturacion/Modifica/boleta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+        <state relative-caret-position="-119">
+          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
           <folding />
         </state>
       </provider>
