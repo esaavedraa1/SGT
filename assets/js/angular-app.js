@@ -1996,6 +1996,23 @@ colorAdminApp.config(['$stateProvider', '$urlRouterProvider', function($statePro
                 }]
             }
         })
+	//4050X : UM/DDC - sin menu directo dado que no tengo tiempo
+        .state('app.mantenedores.tarifa.troncal.consulta', {
+            url: '/consulta',
+            data: { pageTitle: 'Mantenedor de Tarifas UM/DDC - Tarificar' },
+            templateUrl: 'views/Mantenedores/Tarifa/Troncal/consulta.html',
+            resolve: {
+                service: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        serie: true,
+                        files: [
+                            'assets/plugins/bootbox/bootbox.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
         //40502 : tarificar ruta - sin menu directo veiene de 40501
         .state('app.mantenedores.tarifa.troncal.tarificar', {
             url: '/tarificar',

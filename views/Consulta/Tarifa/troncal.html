@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-3 control-label">Estado</label>
+                            <label class="col-md-3 control-label">Estado </label>
                             <div class="col-md-2">
                                 <select class="form-control">
                                     <option>Todos</option>
@@ -67,8 +67,35 @@
                                     <option>Suspendido</option>
                                 </select>
                             </div>
+							<label class="col-md-2 control-label">Tipo Veh&iacute;culo</label>
+                            <div class="col-md-2">
+                                <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>Cargando</option>
+                                    <option>Recibido</option>
+                                </select>
+                            </div>
                         </div>
-
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Proveedor</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="TRANSPORTES DEL PACIFICO" />
+                            </div>
+							<label class="col-md-2 control-label">Tipo Cobro</label>
+                            <div class="col-md-2">
+                                <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>Cargando</option>
+                                    <option>Recibido</option>
+                                </select>
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Acciones:</label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success">Buscar</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
 
@@ -98,8 +125,10 @@
                             <th>Fecha Termino</th>
                             <th>Origen</th>
                             <th>Destino</th>
-                            <th>Tipo de Camión</th>
+                            <th>Tipo de Veh&iacute;culo</th>
                             <th>Estado</th>
+							<th>Tipo Cobro</th>
+							<th>M3</th>
                             <th>Tarifa</th>
                         </tr>
                         </thead>
@@ -113,6 +142,8 @@
                             <td>45 CONCEPCIÓN</td>
                             <td>CM40</td>
                             <td>HABILITADA</td>
+							<td>Carg Completa</td>
+							<td>0</td>
                             <td>360,500</td>
 
                         </tr>
@@ -125,6 +156,8 @@
                             <td>17 TI-TALCA</td>
                             <td>CM50</td>
                             <td>HABILITADO</td>
+							<td>Carg Completa</td>
+							<td>0</td>
                             <td>490,500</td>
 
                         </tr>
@@ -137,6 +170,8 @@
                             <td>15 ARICA</td>
                             <td>CM40</td>
                             <td>VENCIDO</td>
+							<td>Carg Completa</td>
+							<td>0</td>
                             <td>550,500</td>
 
                         </tr>
@@ -149,6 +184,8 @@
                             <td>14 PUERTO MONTT</td>
                             <td>CM40</td>
                             <td>HABILITADO</td>
+							<td>Carg Completa</td>
+							<td>0</td>
                             <td>680,000</td>
 
                         </tr>
@@ -161,6 +198,8 @@
                             <td>36 ANTOFAGASTA</td>
                             <td>CM40</td>
                             <td>HABILITADO</td>
+							<td>Carg Completa</td>
+							<td>0</td>
                             <td>705,000</td>
 
                         </tr>
