@@ -1,1 +1,143 @@
-umilla
+<div ng-controller="B2B_Fact_Obje_Resp_Controller">
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;">Consulta</a></li>
+        <li><a href="javascript:;">Viajes</a></li>
+        <li class="active">10201 - Viajes Troncal</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">Consulta  <small>Gestión de Consultas</small></h1>
+    <!-- end page-header -->
+
+    <!-- begin row -->
+    <div class="row">
+
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Filtros de Busqueda </h4>
+                </div>
+
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Numero Boleta</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="10021" />
+                            </div>
+                            <label class="col-md-2 control-label">Transportista</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="10021" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo Viaje</label>
+                            <div class="col-md-2">
+                                <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>00 CD- SANTIAGO</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Fecha Compromiso</label>
+                            <div class="col-md-6">
+                                <div class="input-group input-daterange">
+                                    <input type="text" class="form-control" name="start" placeholder="Inicio" />
+                                    <span class="input-group-addon">a</span>
+                                    <input type="text" class="form-control" name="end" placeholder="Termino" />
+                                </div>
+                            </div>
+                        </div>
+                       
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Acciones:</label>
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-sm btn-success">Consultar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <!-- end panel -->
+        </div>
+        <div class="col-md-12">
+            <!-- begin panel -->
+            <div class="panel panel-inverse">
+                <div class="panel-heading">
+                    <div class="panel-heading-btn">
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                    </div>
+                    <h4 class="panel-title">Solicitudes Registradas </h4>
+                </div>
+
+                <div class="panel-body">
+                    <table id="data-table" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+							<th>N° Viaje</th>
+							<th>Tipo viaje</th>
+							<th>Patente</th>
+							<th>Transportista</th>
+							<th>Manifiesto de carga</th>
+							<th>N° Boleta</th>
+							<th>N° ND</th>
+							<th>Fecha salida</th>
+							<th>Fecha compromiso</th>
+							<th>Fecha entrega</th>
+							<th>Estado viaje</th>
+							<th>Estado ND</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="odd gradeX">
+                            <td><a href="#">214222</a></td>
+                            <td>TRONCAL</td>
+                            <td>CPPL-54</td>
+                            <td>151651</td>
+                            <td>26500</td>
+                            <td>456000</td>
+                            <td>50550</td>
+							<td>20/03/2017</td>
+							<td>20/03/2017</td>
+							<td>20/03/2017</td>
+							<td>CERRADO</td>
+							<td>ENTREGADO</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-md-1">
+                        <p>
+                            Acciones :
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <button class="btn btn-info" >Cancelar</button>
+							<button class="btn btn-info" >Descargar Excel</button>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end panel -->
+        </div>
+    </div>
+    <!-- end row -->
+</div>

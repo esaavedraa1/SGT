@@ -4,12 +4,12 @@
         <li><a ui-sref="app.dashboard">Home</a></li>
         <li><a href="javascript:;">Mantenedores</a></li>
         <li><a href="javascript:;">Tarifa</a></li>
-        <li><a href="javascript:;">UM/DDC</a></li>
+        <li><a href="javascript:;">SEV</a></li>
         <li class="active">40501 - Crear</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Tarifa UM/DDC<small> Gestión de Mantenedores</small></h1>
+    <h1 class="page-header">Tarifa SEV<small> Gestión de Mantenedores</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -34,27 +34,14 @@
                             <label class="col-md-3 control-label">Tipo Viaje</label>
                             <div class="col-md-2">
                                 <select class="form-control">
-                                    <option>UM</option>
-                                    <option>DDC</option>
+                                    <option>SEV</option>
+                                    <option>sadfasdf</option>
                                 </select>
                             </div>
-                        </div>
-						
-						<div class="form-group">
-                            <label class="col-md-3 control-label">Origen</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>55 - CD - SANTIAGO</option>
-                                    <option>59 - CD - ANTOFAGASTA</option>
-                                </select>
-                            </div>
-							<label class="col-md-3 control-label">Destino</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>13 - TI - TALCA</option>
-                                    <option>15 - TI - PUERTO MONTT</option>
-                                </select>
-                            </div>
+                        
+                           
+						   
+							
                         </div>
 						
 						<div class="form-group">
@@ -67,36 +54,55 @@
                                     <option>Otro</option>
                                 </select>
                             </div>
-							 <label class="col-md-3 control-label">Metodo</label>
+							
+							
+                        </div>
+						
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Tipo de Servicio</label>
                             <div class="col-md-2">
                                 <select class="form-control">
-                                    <option>12 Transportes Montes</option>
-                                    <option>2 Transportes Pipau</option>
-                                    <option>3 Transportes del Pacifico</option>
-                                    <option>Otro</option>
+									<option>GRU - Grua</option>
+                                    <option>SOB - Sobre Estadia</option>
                                 </select>
+                            </div>
+		
+                        </div>
+						
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Fecha de Inicio</label>
+                            <div class="col-md-2">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
+                            </div>
+                        
+                            <label class="col-md-3 control-label">Fecha de Termino</label>
+                            <div class="col-md-2">
+                                <p class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                                    <span class="input-group-btn">
+                                         <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                                </p>
                             </div>
                         </div>
 						
-						
-                        
-						
 						<div class="form-group">
-							<label class="col-md-3 control-label">Categoria</label>
+							<label class="col-md-3 control-label">Valor</label>
+                            <div class="col-md-2">
+                                <input type="number" class="form-control" placeholder="" />
+                            </div>
+                            <label class="col-md-3 control-label">Estado</label>
                             <div class="col-md-2">
                                 <select class="form-control">
-                                    <option>12 Transportes Montes</option>
+                                    <option>HABILITADA</option>
                                     <option>2 Transportes Pipau</option>
                                     <option>3 Transportes del Pacifico</option>
                                     <option>Otro</option>
-                                </select>
-                            </div>
-							<label class="col-md-3 control-label">NS</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Si</option>
-                                    <option>No</option>
-
                                 </select>
                             </div>
                         </div>
@@ -129,13 +135,13 @@
                     <table id="data-table" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th>N° Viaje</th>
-                            <th>Origen</th>
-                            <th>Destino</th>
-                            <th>Categoria</th>
-							<th>Metodo</th>
+                            <th>Tipo Servicio</th>
+                            <!-- <th>Origen</th> -->
+                            <!-- <th>Destino</th> -->
+                            <!-- <th>Tipo Vehiculo</th> -->
+							<!-- <th>Metodo</th> -->
 							<th>Transportista</th>
-							<th>NS</th>
+							<!-- <th>NS</th> -->
                             <th>Valor</th>
 							
                             <th>Modificar</th>
@@ -143,36 +149,23 @@
                         </thead>
                         <tbody>
                         <tr class="odd gradeX">
-                            <td>UM</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>45 CONCEPCIÓN</td>
-                            <td>TM</td>
-							<td>1</td>
-							<td>TRANSPORTES DEL PACIFICO</td>
-							<td>0.95</td>
-                            <td>360,500</td>
+                            <td>Grua</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
+							<!-- <td>0.95</td> -->
+                            <td>60,500</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
-                       <tr class="odd gradeX">
-                            <td>UM</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>45 CONCEPCIÓN</td>
-                            <td>TM</td>
-							<td>1</td>
-							<td>TRANSPORTES DEL PACIFICO 2</td>
-							<td>0.95</td>
-                            <td>360,500</td>
+                        <tr class="odd gradeX">
+                            <td>Sobre-Estadia</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
+							<!-- <td>0.95</td> -->
+                            <td>60,500</td>
                             <td><input type="checkbox" value="es"> </td>
-                        </tr>
-						<tr class="odd gradeX">
-                            <td>UM</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>45 CONCEPCIÓN</td>
-                            <td>TM</td>
-							<td>1</td>
-							<td>TRANSPORTES DEL PACIFICO 3</td>
-							<td>0.95</td>
-                            <td>360,500</td>
+                        </tr><tr class="odd gradeX">
+                            <td>Escolta</td>
+                            <td>TRANSPORTES DEL PACIFICO</td>
+							<!-- <td>0.95</td> -->
+                            <td>30,500</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         </tbody>

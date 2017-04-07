@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </div>
-						 <div class="form-group">
+						<div class="form-group">
                             <label class="col-md-3 control-label">ND</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="100" />
@@ -81,6 +81,12 @@
 							<label class="col-md-2 control-label">Boleta</label>
                              <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="65000" />
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">Patente</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="CPPL-54" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -104,6 +110,7 @@
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+						
                     </div>
                     <h4 class="panel-title">Solicitudes Registradas </h4>
                 </div>
@@ -119,6 +126,8 @@
                             <th>Destino</th>
                             <th>Estado</th>
                             <th>Tarifa</th>
+							<th>Patente</th>
+							<th>Fecha Viaje</th>
                             <th>Seleccionar</th>
                         </tr>
                         </thead>
@@ -131,6 +140,8 @@
                             <td>45 CONCEPCIÓN</td>
                             <td>CERRADO</td>
                             <td>360,500</td>
+							<td>CPPL-54</td>
+							<td>20/03/2017</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
@@ -141,6 +152,8 @@
                             <td>17 TI-TALCA</td>
                             <td>CERRADO</td>
                             <td>490,500</td>
+							<td>CPPL-54</td>
+							<td>20/03/2017</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
@@ -151,6 +164,8 @@
                             <td>15 ARICA</td>
                             <td>CERRADO</td>
                             <td>550,500</td>
+							<td>CPPL-54</td>
+							<td>17/03/2017</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
                         <tr class="odd gradeX">
@@ -161,28 +176,11 @@
                             <td>14 PUERTO MONTT</td>
                             <td>CERRADO</td>
                             <td>680,000</td>
+							<td>CPPL-54</td>
+							<td>17/03/2017</td>
                             <td><input type="checkbox" value="es"> </td>
                         </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214224</a></td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
-                            <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>36 ANTOFAGASTA</td>
-                            <td>CERRADO</td>
-                            <td>705,000</td>
-                            <td><input type="checkbox" value="es"> </td>
-                        </tr>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214225</a></td>
-                            <td>TRANSPORTES DEL PACIFICO</td>
-                            <td>CM40</td>
-                            <td>00 CD-SANTIAGO</td>
-                            <td>19 LA FLORIDA</td>
-                            <td>CERRADO</td>
-                            <td>90,500</td>
-                            <td><input type="checkbox" value="es"> </td>
-                        </tr>
+                      
                         </tbody>
                     </table>
                     <div class="col-md-1">
@@ -192,10 +190,11 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-							<button class="btn btn-success " ng-click="PRO_ACEP_OBJ()" >Aceptar</button>
+							<button class="btn btn-success " ng-click="PRO_ACEP_OBJ()" >Agregar</button>
                             <button class="btn btn-danger " ng-click="PRO_RECH_OBJ()">Objetar Nivel Servicio</button>
 							<button class="btn btn-danger " ng-click="PRO_RECH_OBJ()">Objetar ND</button>
                             <button class="btn btn-info" >Cancelar</button>
+							<button class="btn btn-warning" >Exportal Excel</button>
                         </p>
                     </div>
                 </div>

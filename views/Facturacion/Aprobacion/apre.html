@@ -5,12 +5,12 @@
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
         <li><a href="javascript:;">Facturación</a></li>
-        <li><a href="javascript:;">Aprueba OF</a></li>
+        <li><a href="javascript:;">Aprueba Orden de Facturación</a></li>
         <li class="active">20101 - Aprueba Orden de Facturación SEV</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <!-- <h1 class="page-header">Aprueba OF <small>Gestión de Facturación</small></h1> -->
+    <!-- <h1 class="page-header">Aprueba Orden de Facturación <small>Gestión de Facturación</small></h1> -->
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -24,13 +24,13 @@
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <h4 class="panel-title">Aprueba / Rechaza  OF</h4>
+                    <h4 class="panel-title">Aprueba / Rechaza  Orden de Facturación</h4>
                 </div>
 
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-md-3 control-label">N&uacute;mero de OF</label>
+                            <label class="col-md-3 control-label">N&uacute;mero de Orden de Facturación</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10000" readonly="readonly"/>
                             </div>
@@ -52,6 +52,8 @@
                                 <input type="text" class="form-control" placeholder="SEV" readonly="readonly" />
                             </div>
                         </div>
+						
+						
 
                          <div class="form-group">
 							
@@ -64,6 +66,9 @@
 										<th>Viaje</th>
 										<th>Tipo SEV</th>
 										<th>Viaje Asociado</th>
+										<th>Tipo Cobro</th>
+										<th>Fecha Viaje</th>
+										<th>Fecha Cierre</th>
 										<th>Responsable</th>
 										<th>Unidades</th>		
 										<th>Tarifa</th>
@@ -74,6 +79,9 @@
 										<td><a href="../../carga_todos.html">21365</a></td>
 										<td>ESCOLTA</td>
 										<td>21360</td>
+										<td>CARGA COMPLETA</td>
+										<td>20/03/2017</td>
+										<td>20/03/2017</td>
 										<td>Bartolomeo Murdock</td>
 										<td>1</td>
 										<td>10.990</td>
@@ -85,7 +93,7 @@
                         </div>
 						
 						<div class="form-group">
-                            <label class="col-md-3 control-label">Monto de OF</label>
+                            <label class="col-md-3 control-label">Monto de Orden de Facturación</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="360.500" readonly="readonly"/>
                             </div>
@@ -98,7 +106,7 @@
                                 <button type="submit" class="btn btn-sm btn-success">Aprobar</button>
 								&nbsp;
 								<!-- <button type="submit" class="btn btn-sm btn-info" ng-click="bootbox.prompt('This is the default prompt!', function(result){ console.log(result); });" >Rechazar</button>	 -->
-								<button class="btn btn-sm btn-danger " ng-click="PRO_RECHA_OF_OBJ()">Rechazar</button>
+								<button class="btn btn-sm btn-danger " ng-click="PRO_RECHA_Orden de Facturación_OBJ()">Rechazar</button>
 &nbsp;
 								<!-- <button type="submit" class="btn btn-sm btn-info">Cancelar</button>								 -->
 								<a ui-sref="app.facturacion.aprobacion.aprueba" class="btn btn-sm btn-info">Cancelar</a>								
