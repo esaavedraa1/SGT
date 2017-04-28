@@ -2,13 +2,13 @@
     <!-- begin breadcrumb -->
     <ol class="breadcrumb pull-right">
         <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">Facturación</a></li>
-        <li><a href="javascript:;">Consulta Facturación</a></li>
-        <li class="active">20401 - Detalle Troncal</li>
+        <li><a href="javascript:;">B2B</a></li>
+        <!-- <li><a href="javascript:;">Consulta Facturación</a></li> -->
+        <li class="active">20401 - Facturación</li>
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Detalle Facturación Ultima Milla <small>Gestión de Facturación</small></h1>
+    <h1 class="page-header">Facturación <small>Gestión de B2B</small></h1>
     <!-- end page-header -->
 
     <!-- begin row -->
@@ -30,20 +30,28 @@
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-md-3 control-label">N&uacute;mero de Viaje</label>
+                            <label class="col-md-3 control-label">N&uacute;mero de OF</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="54" />
+                            </div>
+							<label class="col-md-2 control-label">N&uacute;mero de Viaje</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="10021" />
                             </div>
-							<label class="col-md-2 control-label">Tipo Viaje</label>
+                        </div>
+						<div class="form-group">
+                            <label class="col-md-3 control-label">N&uacute;mero de Patente</label>
                             <div class="col-md-2">
-                                 <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>45 CONCEPCION</option>
-                                    <option>41 TALCA</option>
-                                </select>
+                                <input type="text" class="form-control" placeholder="CPPL-54" />
+                            </div>
+							<label class="col-md-2 control-label">N&uacute;mero de Boleta</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="3590" />
                             </div>
                         </div>
-						 <div class="form-group">
+						
+						
+                        <div class="form-group">
                             <label class="col-md-3 control-label">Origen</label>
                             <div class="col-md-2">
                                 <select class="form-control">
@@ -60,7 +68,7 @@
                                 </select>
                             </div>
                         </div>
-						<div class="form-group">
+                        <div class="form-group">
                             <label class="col-md-3 control-label">Fecha</label>
                             <div class="col-md-6">
                                 <div class="input-group input-daterange">
@@ -72,57 +80,15 @@
                         </div>
 						
 						<div class="form-group">
-                            <label class="col-md-3 control-label">Estado Boleta</label>
+							<label class="col-md-3 control-label">N&uacute;mero de ND</label>
                             <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="Cerrada" />
+                                <input type="text" class="form-control" placeholder="80540" />
                             </div>
-                           <label class="col-md-2 control-label">N&uacute;mero Boleta</label>
+							<label class="col-md-2 control-label">N&uacute;mero de Manifiesto de Carga</label>
                             <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="69" />
-                            </div>
-                        </div>
-                       
-                        
-						<div class="form-group">
-							<label class="col-md-3 control-label">N&uacute;mero de Manifiesto de Carga</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="222015" />
-                            </div>
-							<label class="col-md-2 control-label">N&uacute;mero de ND</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="1000" />
+                                <input type="text" class="form-control" placeholder="135050" />
                             </div>
 						</div>
-                        <div class="form-group">
-						
-							<label class="col-md-3 control-label">N&uacute;mero de OF</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="1000" />
-                            </div>
-                            <label class="col-md-2 control-label">OC</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="10550" />
-                            </div>
-                            
-                        </div>
-						
-						<div class="form-group">
-						
-							<label class="col-md-3 control-label">Estado Facturacion</label>
-                            <div class="col-md-2">
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>Facturado</option>
-                                    <option>Recibido</option>
-                                </select>
-                            </div>
-                            <label class="col-md-2 control-label">N&uacute;mero Factura</label>
-                            <div class="col-md-2">
-                                <input type="text" class="form-control" placeholder="16900" />
-                            </div>
-                            
-                        </div>
-						
 
                         <div class="form-group">
                             <label class="col-md-3 control-label">Acciones:</label>
@@ -153,70 +119,57 @@
                     <table id="data-table" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th>N° Viaje</th>
-							<th>Tipo Viaje</th>
-                            <th>Origen</th>
-                            <th>Destino</th>
-                            <th>Fec.Desde</th>
-                            <th>Fec.Hasta</th>
-							<th>MC</th>
-							<th>Boleta</th>
-							<th>Estado Boleta</th>
-							<th>ND</th>
-                            <th>Estado ND</th>
-							<th>Destino ND</th>
-                            <th>Metodo.</th>
-                            <th>Tamaño</th>
-							<th>OF</th>
-                            <th>OC</th>
-                            <th>Estado Fac.</th>
-                            <th>N° Factura</th>
+                            <th>N° OF</th>
+                            <th>Fecha</th>
+							<th>Valor OF</th>
+                            <th>Estado OF</th>
+							<th>N° OC</th>
+							<th>N° Factura</th>
+							<th>Estado Factura</th>
+							
                         </tr>
                         </thead>
                         <tbody>
-                        <tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214222</a></td>
-                            <td>CARGA SUELTA</td>
-							<td>00 CD-SANTIAGO</td>
-                            <td>45 TALCA</td>
-                            <td>09/02/17</td>
-                            <td>10/02/17</td>
-                            							
-                            <td>45000</td>
-							<td>69</td>
-							<td>Cerrada</td>
-							<td>5500</td>
-                            <td>Entregado</td>
-							<td>Asturias 830, Talca</td>
-							<td>Normal</td>
-							<td>Mediano</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
-                        </tr>
-						<tr class="odd gradeX">
-                            <td><a href="../../carga_todos.html">214223</a></td>
-                            <td>CARGA SUELTA</td>
-							<td>00 CD-SANTIAGO</td>
-                            <td>45 TALCA</td>
-                            <td>09/02/17</td>
-                            <td>10/02/17</td>
-                            							
-                            <td>45001</td>
-							<td>69</td>
-							<td>Cerrada</td>
-							<td>5501</td>
-                            <td>Entregado</td>
-							<td>Asturias 830, Talca</td>
-							<td>Normal</td>
-							<td>Mediano</td>
-							<td>1000</td>
-							<td>10550</td>
-							<td>APROBADA</td>
-                            <td>45850</td>
-                        </tr>
-                        
+							<tr class="odd gradeX">
+								<td><a ui-sref="app.b2b.transportista.facturadetalle">150350</a></td>
+								<td>20/03/17</td>
+								<td>350.990</td>
+								<td>VALIDADA</td>
+								<td>10556</td>
+								<td> </td>
+								<td> </td>
+								<td><input type="checkbox" value="es"> </td>
+							</tr>
+							<tr class="odd gradeX">
+								<td><a ui-sref="app.b2b.transportista.facturadetalle">150351</a></td>
+								<td>20/03/17</td>
+								<td>350.990</td>
+								<td>VALIDADA</td>
+								<td>10557</td>
+								<td> </td>
+								<td> </td>
+								<td><input type="checkbox" value="es"> </td>
+							</tr>
+							<tr class="odd gradeX">
+								<td><a ui-sref="app.b2b.transportista.facturadetalle">150352</a></td>
+								<td>20/03/17</td>
+								<td>350.990</td>
+								<td>VALIDADA</td>
+								<td>10558</td>
+								<td> </td>
+								<td> </td>
+								<td><input type="checkbox" value="es"> </td>
+							</tr>
+							<tr class="odd gradeX">
+								<td><a ui-sref="app.b2b.transportista.facturadetalle">150353</a></td>
+								<td>20/03/17</td>
+								<td>350.990</td>
+								<td>VALIDADA</td>
+								<td>10559</td>
+								<td> </td>
+								<td> </td>
+								<td><input type="checkbox" value="es"> </td>
+							</tr>
                         </tbody>
                     </table>
                     <div class="col-md-1">
@@ -226,7 +179,9 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-                            <button class="btn btn-info" >Cancelar</button>
+                            <button class="btn btn-success" ui-sref="app.b2b.transportista.edita_of">Editar</button>
+							<button class="btn btn-danger" >Anular</button>
+							<button class="btn btn-info"  ui-sref="app.b2b.transportista.factura" >Cancelar</button>
                         </p>
                     </div>
                 </div>

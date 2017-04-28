@@ -56,9 +56,25 @@
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="20/03/2017" />
                             </div>
+							
+							<label class="col-md-2 control-label">Estado Viaje</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="ESPERANDO CARGA" />
+                            </div>
                         </div>
 						
 						<div class="form-group">
+							<label class="col-md-3 control-label">Patente</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="CPPL-54" />
+                            </div>
+                            <label class="col-md-2 control-label">Tipo Viaje</label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" placeholder="MOD" />
+                            </div>
+                        </div>
+						
+						<div class="form-group" style="display:none;" >
                             <label class="col-md-3 control-label">Usuario Objeta</label>
                             <div class="col-md-2">
                                 <input type="text" class="form-control" placeholder="José Pérez" />
@@ -69,7 +85,7 @@
                             </div>
                         </div>
 
-						<div class="form-group">
+						<div class="form-group" style="display:none;" >
                             <label class="col-md-3 control-label">Observaci&oacute;n Objeci&oacute;n</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" placeholder="Se obejeto porque sí, autoriza E.Saavedra." />
@@ -104,8 +120,12 @@
                             <th>Estado Boleta</th>
                             <th>ND</th>
                             <th>Estado ND</th>
-                            <th>Tarifa</th>
-							<th>&nbsp;</th>
+                            <th>Tarifa Base</th>
+							<th>MC</th>
+							<th>NS</th>
+							<th>Categoria</th>
+							<th>Localidad</th>
+							<th>Guia</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -115,7 +135,12 @@
 							<td>5050</td>
                             <td>Entregado</td>
                             <td><input type="text" class="form-control" placeholder="5.990" /></td>
-							<td><input type="checkbox" value="es"> </td>
+							
+							<td>50021</td>
+                            <td>1</td>
+                            <td>Pequeño</td>
+							<td>45 Concepcion</td>
+                            <td>50001</td>
                         </tr>
 						<tr class="odd gradeX">
                             <td>10022</td>
@@ -123,7 +148,12 @@
 							<td>5051</td>
                             <td>Entregado</td>
                             <td><input type="text" class="form-control" placeholder="3.990" /></td>
-							<td><input type="checkbox" value="es"> </td>
+							
+							<td>50022</td>
+                            <td>1</td>
+                            <td>Pequeño</td>
+							<td>45 Concepcion</td>
+                            <td>50002</td>
                         </tr>
 						<tr class="odd gradeX">
                             <td>10023</td>
@@ -131,7 +161,12 @@
 							<td>5052</td>
                             <td>Entregado</td>
                             <td><input type="text" class="form-control" placeholder="5.990" /></td>
-							<td><input type="checkbox" value="es"> </td>
+							
+							<td>50023</td>
+                            <td>1</td>
+                            <td>Pequeño</td>
+							<td>45 Concepcion</td>
+                            <td>50003</td>
                         </tr>
 						<tr class="odd gradeX">
                             <td>10024</td>
@@ -139,7 +174,12 @@
 							<td>5053</td>
                             <td>Entregado</td>
                             <td><input type="text" class="form-control" placeholder="3.990" /></td>
-							<td><input type="checkbox" value="es"> </td>
+
+							<td>50024</td>
+                            <td>1</td>
+                            <td>Pequeño</td>
+							<td>45 Concepcion</td>
+                            <td>50004</td>
                         </tr>
                         
                         </tbody>
@@ -151,8 +191,7 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-                            <button class="btn btn-success" >Aprobar</button>
-							<button class="btn btn-danger" >Rechazar</button>
+
 							<button class="btn btn-info" >Cancelar</button>
                         </p>
                     </div>
